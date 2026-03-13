@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexScry — AI-powered intelligence layer for builders</title>
+  <meta name="description" content="NexScry scrapes the open internet, cross-references signals across Reddit, Hacker News, GitHub, ArXiv, and Product Hunt, then distills them into actionable intelligence — updated daily, powered by Groq.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="NexScry — Daily Intelligence Brief">
+  <meta property="og:description" content="Processing complete.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nexscry.xyz">
+  <link rel="canonical" href="https://nexscry.xyz">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@300;400;600;700;800&display=swap');
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #111118;
+  --bg-card: #16161f;
+  --bg-card-hover: #1c1c28;
+  --border: #2a2a3a;
+  --border-accent: #3d3d55;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a0;
+  --text-muted: #55556a;
+  --accent-blue: #4d7cff;
+  --accent-cyan: #22d3ee;
+  --accent-green: #34d399;
+  --accent-orange: #fb923c;
+  --accent-pink: #f472b6;
+  --accent-purple: #a78bfa;
+  --accent-red: #ef4444;
+  --glow-blue: rgba(77, 124, 255, 0.15);
+  --glow-cyan: rgba(34, 211, 238, 0.1);
+  --font-display: 'Outfit', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── HEADER ─── */
+.site-header {
+  padding: 32px 0 24px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.logo span {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.header-meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: right;
+}
+
+.header-meta .live-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  margin-right: 6px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* ─── HERO / DAILY BRIEF ─── */
+.daily-brief {
+  margin: 40px 0;
+  padding: 32px;
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(77, 124, 255, 0.05) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+}
+
+.daily-brief::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue), var(--accent-purple));
+}
+
+.brief-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--accent-cyan);
+  margin-bottom: 12px;
+}
+
+.brief-headline {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brief-tldr {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin-bottom: 24px;
+}
+
+.brief-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.brief-card {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.brief-card-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 8px;
+}
+
+.brief-card-label.opportunity { color: var(--accent-green); }
+.brief-card-label.trend { color: var(--accent-purple); }
+.brief-card-label.contrarian { color: var(--accent-orange); }
+
+.brief-card-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ─── CROSS SIGNALS (the killer section) ─── */
+.cross-signals {
+  margin: 40px 0;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.section-badge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.badge-ai { background: var(--glow-blue); color: var(--accent-blue); border: 1px solid rgba(77, 124, 255, 0.3); }
+.badge-live { background: rgba(34, 211, 238, 0.1); color: var(--accent-cyan); border: 1px solid rgba(34, 211, 238, 0.3); }
+
+.signal-card {
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.signal-card:hover {
+  border-color: var(--border-accent);
+  background: var(--bg-card-hover);
+}
+
+.signal-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.signal-keyword {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-cyan);
+}
+
+.signal-sources {
+  display: flex;
+  gap: 6px;
+}
+
+.source-pill {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  padding: 2px 8px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.src-reddit { background: rgba(255, 69, 0, 0.15); color: #ff6b35; }
+.src-hackernews { background: rgba(255, 102, 0, 0.15); color: #ff8c42; }
+.src-github { background: rgba(110, 84, 148, 0.2); color: #a78bfa; }
+.src-arxiv { background: rgba(180, 30, 30, 0.15); color: #ef6b6b; }
+.src-producthunt { background: rgba(218, 85, 47, 0.15); color: #e8824a; }
+.src-devto { background: rgba(0, 0, 0, 0.15); color: #aaa; }
+
+.signal-narrative {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.signal-opportunity {
+  font-size: 0.85rem;
+  padding: 12px 16px;
+  background: rgba(52, 211, 153, 0.06);
+  border-left: 3px solid var(--accent-green);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--accent-green);
+}
+
+.signal-confidence {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ─── SOURCE SECTIONS ─── */
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.item-card {
+  padding: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.item-card:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.item-source {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.item-ai-insight {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: var(--glow-blue);
+  border-radius: var(--radius-sm);
+  border-left: 2px solid var(--accent-blue);
+}
+
+.item-meta {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.item-score {
+  color: var(--accent-orange);
+}
+
+.item-keywords {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.keyword-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  padding: 2px 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  color: var(--text-muted);
+}
+
+/* ─── STATS BAR ─── */
+.stats-bar {
+  display: flex;
+  gap: 24px;
+  padding: 16px 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.stat {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.stat-value {
+  color: var(--accent-cyan);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ─── NAV TABS ─── */
+.source-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.tab {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.tab:hover, .tab.active {
+  background: var(--glow-blue);
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+/* ─── FOOTER ─── */
+.site-footer {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.footer-text a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .brief-headline { font-size: 1.3rem; }
+  .source-grid { grid-template-columns: 1fr; }
+  .stats-bar { gap: 16px; }
+  .container { padding: 0 16px; }
+  .daily-brief { padding: 20px; }
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.daily-brief { animation: fadeInUp 0.6s ease-out; }
+.signal-card { animation: fadeInUp 0.6s ease-out; }
+.item-card { animation: fadeInUp 0.4s ease-out; }
+
+/* Pain signal highlight */
+.pain-flag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  padding: 2px 8px;
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--accent-red);
+  border-radius: 100px;
+  margin-left: 8px;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="logo">NexScry<span>.xyz</span></a>
+        <div class="header-meta">
+          <span class="live-dot"></span>updated 2026-03-13 17:08 UTC
+        </div>
+      </div>
+    </header>
+
+    <!-- DAILY BRIEF -->
+    <section class="daily-brief">
+      <div class="brief-label">📡 Daily Intelligence Brief</div>
+      <h1 class="brief-headline">Daily Intelligence Brief</h1>
+      <p class="brief-tldr">Processing complete.</p>
+      <div class="brief-cards">
+        
+        
+        
+      </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-value">270</div><div class="stat-label">Items Scraped</div></div>
+      <div class="stat"><div class="stat-value">6</div><div class="stat-label">Sources</div></div>
+      <div class="stat"><div class="stat-value">0</div><div class="stat-label">Cross-Signals</div></div>
+      <div class="stat"><div class="stat-value">0</div><div class="stat-label">Pain Points</div></div>
+    </div>
+
+    <!-- CROSS-SOURCE INTELLIGENCE -->
+    
+
+    <!-- SOURCE TABS -->
+    <div class="source-tabs"><button class="tab active" onclick="showAll()">All Sources</button><button class="tab" onclick="filterSource('hackernews')">Hacker News</button><button class="tab" onclick="filterSource('github')">GitHub Trending</button><button class="tab" onclick="filterSource('arxiv')">ArXiv Papers</button><button class="tab" onclick="filterSource('devto')">DEV.to</button></div>
+
+    <!-- SOURCE SECTIONS -->
+    
+        <div class="source-section" id="source-hackernews">
+          <div class="section-header">
+            <h2 class="section-title">Hacker News</h2>
+            <span class="section-badge badge-live">57 items</span>
+          </div>
+          <div class="source-grid">
+            <a href="https://news.ycombinator.com/item?id=37392676" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Ask HN: I’m an FCC Commissioner proposing regulation of IoT security updates</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 3387</span> <span>💬 925</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=22918980" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Ask HN: I&#39;m a software engineer going blind, how should I prepare?</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 3270</span> <span>💬 473</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=23366546" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Ask HN: Am I the longest-serving programmer – 57 years and counting?</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2634</span> <span>💬 531</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=13755673" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Ask HN: Is S3 down?</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2589</span> <span>💬 1055</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=44226145" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Tell HN: Help restore the tax deduction for software dev in the US (Section 174)</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2439</span> <span>💬 907</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=22050802" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Thank HN: You helped me get a new job</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2425</span> <span>💬 193</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=12073675" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Tell HN: New features and a moderator</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2381</span> <span>💬 451</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=25225775" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Tell HN: Thank You Dang</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2363</span> <span>💬 249</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=25415989" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Google outage – resolved</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2316</span> <span>💬 827</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://news.ycombinator.com/item?id=42806247" target="_blank" rel="noopener" class="item-card" data-source="hackernews">
+              <div class="item-source">hackernews</div>
+              <div class="item-title">Thank HN: My bootstrapped startup got acquired today</div>
+              
+              
+              <div class="item-meta"><span class="item-score">⬆ 2246</span> <span>💬 396</span></div>
+              <div class="item-keywords"></div>
+            </a></div>
+        </div>
+        <div class="source-section" id="source-github">
+          <div class="section-header">
+            <h2 class="section-title">GitHub Trending</h2>
+            <span class="section-badge badge-live">83 items</span>
+          </div>
+          <div class="source-grid">
+            <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">sindresorhus/awesome</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 445203</span> <span>+63600.4★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">freeCodeCamp/freeCodeCamp</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 438081</span> <span>TypeScript</span> <span>+62583.0★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">EbookFoundation/free-programming-books</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 383946</span> <span>Python</span> <span>+54849.4★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">kamranahmedse/developer-roadmap</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 350827</span> <span>TypeScript</span> <span>+50118.1★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">donnemartin/system-design-primer</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 338711</span> <span>Python</span> <span>+48387.3★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/openclaw/openclaw" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">openclaw/openclaw</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 310350</span> <span>TypeScript</span> <span>+44335.7★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">vinta/awesome-python</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 286944</span> <span>Python</span> <span>+40992.0★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">awesome-selfhosted/awesome-selfhosted</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 279710</span> <span>+39958.6★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/facebook/react" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">facebook/react</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 243896</span> <span>JavaScript</span> <span>+34842.3★/day</span></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://github.com/torvalds/linux" target="_blank" rel="noopener" class="item-card" data-source="github">
+              <div class="item-source">github</div>
+              <div class="item-title">torvalds/linux</div>
+              
+              
+              <div class="item-meta"><span class="item-score">★ 222547</span> <span>C</span> <span>+31792.4★/day</span></div>
+              <div class="item-keywords"></div>
+            </a></div>
+        </div>
+        <div class="source-section" id="source-arxiv">
+          <div class="section-header">
+            <h2 class="section-title">ArXiv Papers</h2>
+            <span class="section-badge badge-live">100 items</span>
+          </div>
+          <div class="source-grid">
+            <a href="https://arxiv.org/abs/2603.12261v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">The Latent Color Subspace: Emergent Order in High-Dimensional Chaos</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12255v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12252v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12249v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12248v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12246v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12244v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">Separable neural architectures as a primitive for unified predictive and generative intelligence</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12240v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">BiGain: Unified Token Compression for Joint Generation and Classification</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12237v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">STAMP: Selective Task-Aware Mechanism for Text Privacy</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://arxiv.org/abs/2603.12232v1" target="_blank" rel="noopener" class="item-card" data-source="arxiv">
+              <div class="item-source">arxiv</div>
+              <div class="item-title">Incremental Neural Network Verification via Learned Conflicts</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a></div>
+        </div>
+        <div class="source-section" id="source-devto">
+          <div class="section-header">
+            <h2 class="section-title">DEV.to</h2>
+            <span class="section-badge badge-live">30 items</span>
+          </div>
+          <div class="source-grid">
+            <a href="https://dev.to/devteam/congrats-to-the-github-copilot-cli-challenge-winners-2240" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">Congrats to the GitHub Copilot CLI Challenge Winners!</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/grahamthedev/3-words-worth-a-billion-dollars-drift-to-determinism-dride-dej" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">3 words worth a billion dollars: Drift to Determinism (DriDe)</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/devteam/revamped-rss-feed-imports-3j1e" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">Revamped RSS Feed Imports</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/ujja/the-enablers-who-helped-me-code-forward-cai" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">The Enablers Who Helped Me Code Forward</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/theoriginalbpc/advice-id-send-back-in-time-technology-in-2026-and-four-lessons-for-my-high-school-self-2elj" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">Advice I’d Send Back in Time: Technology in 2026 and Four Lessons for My High School Self</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/subhrangsu90/when-ai-writes-the-code-who-takes-responsibility-19fc" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">When AI Writes the Code… Who Takes Responsibility?</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/konark_13/what-quitting-my-job-taught-me-about-tech-3no0" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">What Quitting My Job Taught Me About Tech</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/dumebii/gemini-25-flash-vs-claude-37-sonnet-4-production-constraints-that-made-the-decision-for-me-bib" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">Gemini 2.5 Flash vs Claude 3.7 Sonnet: 4 Production Constraints That Made the Decision for Me</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/eevajonnapanula/about-invisibility-propaganda-and-assumptions-of-incompetence-4ce0" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">About Invisibility, Propaganda, and Assumptions of Incompetence</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a>
+            <a href="https://dev.to/pascal_cescato_692b7a8a20/unboxable-in-tech-2knm" target="_blank" rel="noopener" class="item-card" data-source="devto">
+              <div class="item-source">devto</div>
+              <div class="item-title">Unboxable in Tech</div>
+              
+              
+              <div class="item-meta"></div>
+              <div class="item-keywords"></div>
+            </a></div>
+        </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p class="footer-text">
+        NexScry — auto-generated daily by Groq AI · 
+        Data from Reddit, HN, GitHub, ArXiv, Product Hunt, DEV.to · 
+        <a href="https://github.com/nexscry">GitHub</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function showAll() {
+      document.querySelectorAll('.source-section').forEach(s => s.style.display = '');
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('.tab').classList.add('active');
+    }
+    function filterSource(src) {
+      document.querySelectorAll('.source-section').forEach(s => {
+        s.style.display = s.id === 'source-' + src ? '' : 'none';
+      });
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
