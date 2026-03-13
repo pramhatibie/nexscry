@@ -11,6 +11,7 @@ import json
 import time
 import urllib.request
 import urllib.error
+from datetime import datetime, timezone
 from config import GROQ_API_KEY, GROQ_MODEL, GROQ_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
 
 
@@ -175,6 +176,31 @@ Return JSON:
     except json.JSONDecodeError:
         paper["ai"] = {"eli5": result[:200], "novelty_score": 0}
     return paper
+
+
+def enrich_devto_article(article: dict) -> dict:
+    """Add AI analysis to a DEV.to article."""
+    prompt = f"""Analyze this DEV.to article for builders:
+
+Title: {article['title']}
+Description: {article.get('description', '')}
+Tags: {article.get('tags', [])}
+Reactions: {article.get('reactions', 0)} | Comments: {article.get('comments', 0)}
+
+Return JSON:
+{{
+  "category": "tutorial|opinion|project|news|career|other",
+  "relevance": 1-10,
+  "one_liner": "what builders should know from this article in one sentence",
+  "builder_takeaway": "one concrete action or insight a builder should take from this",
+  "keywords": ["3-5 topic keywords"]
+}}"""
+    result = call_groq(prompt, ENRICHMENT_SYSTEM)
+    try:
+        article["ai"] = json.loads(result)
+    except json.JSONDecodeError:
+        article["ai"] = {"one_liner": result[:200], "category": "unknown", "relevance": 0}
+    return article
 
 
 def enrich_producthunt_launch(launch: dict) -> dict:
@@ -350,6 +376,7 @@ def process_all(all_data: dict) -> dict:
         "github": enrich_github_repo,
         "arxiv": enrich_arxiv_paper,
         "producthunt": enrich_producthunt_launch,
+        "devto": enrich_devto_article,
     }
 
     # Enrich items per source (with rate limit protection)
@@ -375,9 +402,5 @@ def process_all(all_data: dict) -> dict:
         "data": all_data,
         "cross_signals": cross_signals,
         "daily_summary": daily_summary,
-        "processed_at": datetime.now(timezone.utc).isoformat() if 'datetime' in dir() else "",
+        "processed_at": datetime.now(timezone.utc).isoformat(),
     }
-
-
-# Need datetime for timestamp
-from datetime import datetime, timezone
