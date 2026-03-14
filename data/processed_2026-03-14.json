@@ -12,9 +12,9 @@
         "points": 3387,
         "num_comments": 925,
         "created_at": "2023-09-05T15:07:21Z",
-        "scraped_at": "2026-03-14T03:57:14.410302+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968680+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -27,9 +27,9 @@
         "points": 3270,
         "num_comments": 473,
         "created_at": "2020-04-19T21:33:46Z",
-        "scraped_at": "2026-03-14T03:57:14.410313+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968700+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -42,9 +42,9 @@
         "points": 2634,
         "num_comments": 531,
         "created_at": "2020-05-31T01:53:44Z",
-        "scraped_at": "2026-03-14T03:57:14.410317+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968704+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -57,9 +57,9 @@
         "points": 2589,
         "num_comments": 1055,
         "created_at": "2017-02-28T17:45:58Z",
-        "scraped_at": "2026-03-14T03:57:14.410320+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968708+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -72,9 +72,9 @@
         "points": 2439,
         "num_comments": 907,
         "created_at": "2025-06-09T16:28:51Z",
-        "scraped_at": "2026-03-14T03:57:14.410323+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968711+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -87,9 +87,9 @@
         "points": 2425,
         "num_comments": 193,
         "created_at": "2020-01-15T00:51:29Z",
-        "scraped_at": "2026-03-14T03:57:14.410326+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968714+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -102,9 +102,9 @@
         "points": 2381,
         "num_comments": 451,
         "created_at": "2016-07-11T19:34:57Z",
-        "scraped_at": "2026-03-14T03:57:14.410328+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968717+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -117,9 +117,9 @@
         "points": 2363,
         "num_comments": 249,
         "created_at": "2020-11-27T05:35:27Z",
-        "scraped_at": "2026-03-14T03:57:14.410331+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968719+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -132,9 +132,9 @@
         "points": 2316,
         "num_comments": 827,
         "created_at": "2020-12-14T11:51:30Z",
-        "scraped_at": "2026-03-14T03:57:14.410333+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968722+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -147,9 +147,9 @@
         "points": 2246,
         "num_comments": 396,
         "created_at": "2025-01-23T17:58:05Z",
-        "scraped_at": "2026-03-14T03:57:14.410335+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968724+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -162,9 +162,9 @@
         "points": 2090,
         "num_comments": 217,
         "created_at": "2023-04-05T17:11:56Z",
-        "scraped_at": "2026-03-14T03:57:14.410338+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968727+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -177,9 +177,9 @@
         "points": 2051,
         "num_comments": 753,
         "created_at": "2022-07-21T22:50:29Z",
-        "scraped_at": "2026-03-14T03:57:14.410340+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968729+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -192,9 +192,9 @@
         "points": 2022,
         "num_comments": 1091,
         "created_at": "2021-04-07T08:41:03Z",
-        "scraped_at": "2026-03-14T03:57:14.410342+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968734+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -207,9 +207,9 @@
         "points": 2009,
         "num_comments": 1165,
         "created_at": "2019-02-05T17:31:45Z",
-        "scraped_at": "2026-03-14T03:57:14.410344+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968737+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -222,9 +222,9 @@
         "points": 1958,
         "num_comments": 429,
         "created_at": "2025-12-24T22:56:00Z",
-        "scraped_at": "2026-03-14T03:57:14.410350+00:00",
+        "scraped_at": "2026-03-14T04:32:08.968753+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -237,7 +237,7 @@
         "points": 1901,
         "num_comments": 1792,
         "created_at": "2023-04-27T15:04:56Z",
-        "scraped_at": "2026-03-14T03:57:14.410352+00:00"
+        "scraped_at": "2026-03-14T04:32:08.968756+00:00"
       },
       {
         "source": "hackernews",
@@ -249,7 +249,7 @@
         "points": 1831,
         "num_comments": 390,
         "created_at": "2019-09-01T19:27:00Z",
-        "scraped_at": "2026-03-14T03:57:14.410354+00:00"
+        "scraped_at": "2026-03-14T04:32:08.968758+00:00"
       },
       {
         "source": "hackernews",
@@ -261,7 +261,7 @@
         "points": 1825,
         "num_comments": 462,
         "created_at": "2025-04-02T16:49:56Z",
-        "scraped_at": "2026-03-14T03:57:14.410357+00:00"
+        "scraped_at": "2026-03-14T04:32:08.968760+00:00"
       },
       {
         "source": "hackernews",
@@ -273,7 +273,7 @@
         "points": 1741,
         "num_comments": 1069,
         "created_at": "2019-06-24T16:02:25Z",
-        "scraped_at": "2026-03-14T03:57:14.410359+00:00"
+        "scraped_at": "2026-03-14T04:32:08.968763+00:00"
       },
       {
         "source": "hackernews",
@@ -285,7 +285,7 @@
         "points": 1735,
         "num_comments": 1825,
         "created_at": "2022-02-28T20:38:16Z",
-        "scraped_at": "2026-03-14T03:57:14.410361+00:00"
+        "scraped_at": "2026-03-14T04:32:08.968765+00:00"
       },
       {
         "source": "hackernews",
@@ -293,11 +293,23 @@
         "title": "Can I run AI locally?",
         "url": "https://www.canirun.ai/",
         "hn_url": "https://news.ycombinator.com/item?id=47363754",
-        "points": 1018,
-        "num_comments": 266,
+        "points": 1043,
+        "num_comments": 270,
         "author": "ricardbejarano",
         "created_at": "2026-03-13T12:46:10Z",
-        "scraped_at": "2026-03-14T03:57:14.135333+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685738+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47362613",
+        "title": "TUI Studio – visual terminal UI design tool",
+        "url": "https://tui.studio/",
+        "hn_url": "https://news.ycombinator.com/item?id=47362613",
+        "points": 573,
+        "num_comments": 276,
+        "author": "mipselaer",
+        "created_at": "2026-03-13T10:32:45Z",
+        "scraped_at": "2026-03-14T04:32:08.685759+00:00"
       },
       {
         "source": "hackernews",
@@ -305,11 +317,11 @@
         "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
         "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
         "hn_url": "https://news.ycombinator.com/item?id=47363584",
-        "points": 470,
-        "num_comments": 429,
+        "points": 480,
+        "num_comments": 432,
         "author": "johnbarron",
         "created_at": "2026-03-13T12:31:09Z",
-        "scraped_at": "2026-03-14T03:57:14.135349+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685765+00:00"
       },
       {
         "source": "hackernews",
@@ -317,23 +329,11 @@
         "title": "Show HN: Channel Surfer – Watch YouTube like it’s cable TV",
         "url": "https://channelsurfer.tv",
         "hn_url": "https://news.ycombinator.com/item?id=47336100",
-        "points": 436,
-        "num_comments": 139,
+        "points": 438,
+        "num_comments": 140,
         "author": "kilroy123",
         "created_at": "2026-03-11T14:34:57Z",
-        "scraped_at": "2026-03-14T03:57:14.135353+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47366374",
-        "title": "The Wyden Siren Goes Off Again: We'll Be \"Stunned\" by NSA Under Section 702",
-        "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/",
-        "hn_url": "https://news.ycombinator.com/item?id=47366374",
-        "points": 403,
-        "num_comments": 122,
-        "author": "cf100clunk",
-        "created_at": "2026-03-13T16:13:30Z",
-        "scraped_at": "2026-03-14T03:57:14.135359+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685768+00:00"
       },
       {
         "source": "hackernews",
@@ -341,11 +341,23 @@
         "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
         "url": "https://claude.com/blog/1m-context-ga",
         "hn_url": "https://news.ycombinator.com/item?id=47367129",
-        "points": 381,
-        "num_comments": 124,
+        "points": 423,
+        "num_comments": 145,
         "author": "meetpateltech",
         "created_at": "2026-03-13T17:19:01Z",
-        "scraped_at": "2026-03-14T03:57:14.135362+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685771+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47366374",
+        "title": "The Wyden Siren Goes Off Again: We'll Be \"Stunned\" by NSA Under Section 702",
+        "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/",
+        "hn_url": "https://news.ycombinator.com/item?id=47366374",
+        "points": 408,
+        "num_comments": 123,
+        "author": "cf100clunk",
+        "created_at": "2026-03-13T16:13:30Z",
+        "scraped_at": "2026-03-14T04:32:08.685773+00:00"
       },
       {
         "source": "hackernews",
@@ -353,11 +365,11 @@
         "title": "Elon Musk pushes out more xAI founders as AI coding effort falters",
         "url": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
         "hn_url": "https://news.ycombinator.com/item?id=47366666",
-        "points": 355,
-        "num_comments": 552,
+        "points": 366,
+        "num_comments": 568,
         "author": "merksittich",
         "created_at": "2026-03-13T16:40:42Z",
-        "scraped_at": "2026-03-14T03:57:14.135364+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685777+00:00"
       },
       {
         "source": "hackernews",
@@ -365,11 +377,11 @@
         "title": "Your phone is an entire computer",
         "url": "https://medhir.com/blog/your-phone-is-an-entire-computer",
         "hn_url": "https://news.ycombinator.com/item?id=47367568",
-        "points": 268,
-        "num_comments": 252,
+        "points": 272,
+        "num_comments": 253,
         "author": "medhir",
         "created_at": "2026-03-13T18:02:32Z",
-        "scraped_at": "2026-03-14T03:57:14.135366+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685780+00:00"
       },
       {
         "source": "hackernews",
@@ -377,11 +389,11 @@
         "title": "John Carmack about open source and anti-AI activists",
         "url": "https://twitter.com/id_aa_carmack/status/2032460578669691171",
         "hn_url": "https://news.ycombinator.com/item?id=47367463",
-        "points": 256,
-        "num_comments": 362,
+        "points": 264,
+        "num_comments": 373,
         "author": "tzury",
         "created_at": "2026-03-13T17:51:34Z",
-        "scraped_at": "2026-03-14T03:57:14.135368+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685782+00:00"
       },
       {
         "source": "hackernews",
@@ -389,11 +401,11 @@
         "title": "Lost Doctor Who episodes found",
         "url": "https://www.bbc.co.uk/news/articles/c4g7kwq1k11o",
         "hn_url": "https://news.ycombinator.com/item?id=47360978",
-        "points": 244,
-        "num_comments": 80,
+        "points": 254,
+        "num_comments": 83,
         "author": "edent",
         "created_at": "2026-03-13T05:18:01Z",
-        "scraped_at": "2026-03-14T03:57:14.135370+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685784+00:00"
       },
       {
         "source": "hackernews",
@@ -401,11 +413,11 @@
         "title": "Hammerspoon",
         "url": "https://github.com/Hammerspoon/hammerspoon",
         "hn_url": "https://news.ycombinator.com/item?id=47367932",
-        "points": 235,
+        "points": 242,
         "num_comments": 87,
         "author": "tosh",
         "created_at": "2026-03-13T18:34:12Z",
-        "scraped_at": "2026-03-14T03:57:14.135372+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685786+00:00"
       },
       {
         "source": "hackernews",
@@ -413,11 +425,11 @@
         "title": "Mouser: An open source alternative to Logi-Plus mouse software",
         "url": "https://github.com/TomBadash/MouseControl",
         "hn_url": "https://news.ycombinator.com/item?id=47368033",
-        "points": 231,
-        "num_comments": 71,
+        "points": 241,
+        "num_comments": 74,
         "author": "avionics-guy",
         "created_at": "2026-03-13T18:42:54Z",
-        "scraped_at": "2026-03-14T03:57:14.135375+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685789+00:00"
       },
       {
         "source": "hackernews",
@@ -425,11 +437,11 @@
         "title": "Parallels confirms MacBook Neo can run Windows in a virtual machine",
         "url": "https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/",
         "hn_url": "https://news.ycombinator.com/item?id=47364729",
-        "points": 214,
-        "num_comments": 296,
+        "points": 221,
+        "num_comments": 302,
         "author": "tosh",
         "created_at": "2026-03-13T14:11:36Z",
-        "scraped_at": "2026-03-14T03:57:14.135377+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685791+00:00"
       },
       {
         "source": "hackernews",
@@ -437,11 +449,11 @@
         "title": "Source code of Swedish e-government services has been leaked",
         "url": "https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/",
         "hn_url": "https://news.ycombinator.com/item?id=47362350",
-        "points": 210,
+        "points": 211,
         "num_comments": 206,
         "author": "tavro",
         "created_at": "2026-03-13T09:45:30Z",
-        "scraped_at": "2026-03-14T03:57:14.135379+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685793+00:00"
       },
       {
         "source": "hackernews",
@@ -449,11 +461,11 @@
         "title": "An investigation of the forces behind the age-verification bills",
         "url": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
         "hn_url": "https://news.ycombinator.com/item?id=47372290",
-        "points": 107,
-        "num_comments": 15,
+        "points": 116,
+        "num_comments": 18,
         "author": "pabs3",
         "created_at": "2026-03-14T01:19:18Z",
-        "scraped_at": "2026-03-14T03:57:14.135381+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685795+00:00"
       },
       {
         "source": "hackernews",
@@ -461,35 +473,11 @@
         "title": "I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites",
         "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
         "hn_url": "https://news.ycombinator.com/item?id=47371064",
-        "points": 92,
-        "num_comments": 22,
+        "points": 98,
+        "num_comments": 24,
         "author": "kernelrocks",
         "created_at": "2026-03-13T22:52:05Z",
-        "scraped_at": "2026-03-14T03:57:14.135383+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47364116",
-        "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
-        "url": "https://www.getspine.ai/",
-        "hn_url": "https://news.ycombinator.com/item?id=47364116",
-        "points": 88,
-        "num_comments": 66,
-        "author": "a24venka",
-        "created_at": "2026-03-13T13:22:40Z",
-        "scraped_at": "2026-03-14T03:57:14.135389+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47360383",
-        "title": "Hyperlinks in terminal emulators",
-        "url": "https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda",
-        "hn_url": "https://news.ycombinator.com/item?id=47360383",
-        "points": 86,
-        "num_comments": 58,
-        "author": "nvahalik",
-        "created_at": "2026-03-13T03:32:18Z",
-        "scraped_at": "2026-03-14T03:57:14.135391+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685797+00:00"
       },
       {
         "source": "hackernews",
@@ -497,11 +485,35 @@
         "title": "Games with loot boxes to get minimum 16 age rating across Europe",
         "url": "https://www.bbc.com/news/articles/cge84xqjg5lo",
         "hn_url": "https://news.ycombinator.com/item?id=47371692",
-        "points": 79,
-        "num_comments": 28,
+        "points": 95,
+        "num_comments": 34,
         "author": "gostsamo",
         "created_at": "2026-03-14T00:02:37Z",
-        "scraped_at": "2026-03-14T03:57:14.135394+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685800+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47364116",
+        "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
+        "url": "https://www.getspine.ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=47364116",
+        "points": 89,
+        "num_comments": 66,
+        "author": "a24venka",
+        "created_at": "2026-03-13T13:22:40Z",
+        "scraped_at": "2026-03-14T04:32:08.685802+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47360383",
+        "title": "Hyperlinks in terminal emulators",
+        "url": "https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda",
+        "hn_url": "https://news.ycombinator.com/item?id=47360383",
+        "points": 87,
+        "num_comments": 58,
+        "author": "nvahalik",
+        "created_at": "2026-03-13T03:32:18Z",
+        "scraped_at": "2026-03-14T04:32:08.685804+00:00"
       },
       {
         "source": "hackernews",
@@ -509,11 +521,11 @@
         "title": "Using Thunderbird for RSS",
         "url": "https://rubenerd.com/using-thunderbird-for-rss/",
         "hn_url": "https://news.ycombinator.com/item?id=47320158",
-        "points": 79,
-        "num_comments": 19,
+        "points": 82,
+        "num_comments": 20,
         "author": "ingve",
         "created_at": "2026-03-10T07:38:59Z",
-        "scraped_at": "2026-03-14T03:57:14.135396+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685806+00:00"
       },
       {
         "source": "hackernews",
@@ -521,11 +533,11 @@
         "title": "New 'negative light' technology hides data transfers in plain sight",
         "url": "https://www.unsw.edu.au/newsroom/news/2026/03/New-negative-light-technology-hides-data-transfers-in-plain-sight",
         "hn_url": "https://news.ycombinator.com/item?id=47341432",
-        "points": 72,
-        "num_comments": 45,
+        "points": 76,
+        "num_comments": 46,
         "author": "wjSgoWPm5bWAhXB",
         "created_at": "2026-03-11T20:46:24Z",
-        "scraped_at": "2026-03-14T03:57:14.135398+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685809+00:00"
       },
       {
         "source": "hackernews",
@@ -537,7 +549,7 @@
         "num_comments": 45,
         "author": "ivzak",
         "created_at": "2026-03-13T17:58:22Z",
-        "scraped_at": "2026-03-14T03:57:14.135400+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685811+00:00"
       },
       {
         "source": "hackernews",
@@ -545,35 +557,11 @@
         "title": "Stanford researchers report first recording of a blue whale's heart rate (2019)",
         "url": "https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate",
         "hn_url": "https://news.ycombinator.com/item?id=47368430",
-        "points": 61,
-        "num_comments": 38,
+        "points": 63,
+        "num_comments": 39,
         "author": "eatonphil",
         "created_at": "2026-03-13T19:15:06Z",
-        "scraped_at": "2026-03-14T03:57:14.135402+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47310815",
-        "title": "Coding My Handwriting",
-        "url": "https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript",
-        "hn_url": "https://news.ycombinator.com/item?id=47310815",
-        "points": 58,
-        "num_comments": 5,
-        "author": "bwoah",
-        "created_at": "2026-03-09T16:01:23Z",
-        "scraped_at": "2026-03-14T03:57:14.135404+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47366011",
-        "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
-        "url": "https://www.runcaptain.com/",
-        "hn_url": "https://news.ycombinator.com/item?id=47366011",
-        "points": 45,
-        "num_comments": 30,
-        "author": "CMLewis",
-        "created_at": "2026-03-13T15:45:33Z",
-        "scraped_at": "2026-03-14T03:57:14.135406+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685813+00:00"
       },
       {
         "source": "hackernews",
@@ -581,11 +569,23 @@
         "title": "OpenTelemetry for Rust Developers",
         "url": "https://signoz.io/blog/opentelemetry-rust/",
         "hn_url": "https://news.ycombinator.com/item?id=47321579",
-        "points": 42,
-        "num_comments": 6,
+        "points": 47,
+        "num_comments": 9,
         "author": "dhruv_ahuja",
         "created_at": "2026-03-10T10:57:57Z",
-        "scraped_at": "2026-03-14T03:57:14.135408+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685815+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47366011",
+        "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+        "url": "https://www.runcaptain.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=47366011",
+        "points": 46,
+        "num_comments": 32,
+        "author": "CMLewis",
+        "created_at": "2026-03-13T15:45:33Z",
+        "scraped_at": "2026-03-14T04:32:08.685817+00:00"
       },
       {
         "source": "hackernews",
@@ -593,23 +593,11 @@
         "title": "Our Experience with I-Ready",
         "url": "https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/",
         "hn_url": "https://news.ycombinator.com/item?id=47371922",
-        "points": 30,
-        "num_comments": 9,
+        "points": 39,
+        "num_comments": 11,
         "author": "barry-cotter",
         "created_at": "2026-03-14T00:29:50Z",
-        "scraped_at": "2026-03-14T03:57:14.135410+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47321850",
-        "title": "Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation",
-        "url": "https://vertexclique.com/blog/kovan-from-prod-to-mr/",
-        "hn_url": "https://news.ycombinator.com/item?id=47321850",
-        "points": 11,
-        "num_comments": 0,
-        "author": "EvgeniyZh",
-        "created_at": "2026-03-10T11:33:36Z",
-        "scraped_at": "2026-03-14T03:57:14.135412+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685824+00:00"
       },
       {
         "source": "hackernews",
@@ -617,11 +605,35 @@
         "title": "Optimizing Content for Agents",
         "url": "https://cra.mr/optimizing-content-for-agents/",
         "hn_url": "https://news.ycombinator.com/item?id=47372672",
-        "points": 10,
-        "num_comments": 5,
+        "points": 16,
+        "num_comments": 8,
         "author": "vinhnx",
         "created_at": "2026-03-14T02:27:00Z",
-        "scraped_at": "2026-03-14T03:57:14.135414+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685826+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47319071",
+        "title": "Emacs and Vim in the Age of AI",
+        "url": "https://batsov.com/articles/2026/03/09/emacs-and-vim-in-the-age-of-ai/",
+        "hn_url": "https://news.ycombinator.com/item?id=47319071",
+        "points": 15,
+        "num_comments": 3,
+        "author": "psibi",
+        "created_at": "2026-03-10T04:21:32Z",
+        "scraped_at": "2026-03-14T04:32:08.685829+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47321850",
+        "title": "Kovan: From Production MVCC Systems to Wait-Free Memory Reclamation",
+        "url": "https://vertexclique.com/blog/kovan-from-prod-to-mr/",
+        "hn_url": "https://news.ycombinator.com/item?id=47321850",
+        "points": 12,
+        "num_comments": 0,
+        "author": "EvgeniyZh",
+        "created_at": "2026-03-10T11:33:36Z",
+        "scraped_at": "2026-03-14T04:32:08.685831+00:00"
       },
       {
         "source": "hackernews",
@@ -629,23 +641,11 @@
         "title": "Shipping Grayscale Photos at Small Scale",
         "url": "https://underjord.io/shipping-grayscale-photos-at-small-scale.html",
         "hn_url": "https://news.ycombinator.com/item?id=47316592",
-        "points": 9,
-        "num_comments": 0,
+        "points": 10,
+        "num_comments": 1,
         "author": "zdw",
         "created_at": "2026-03-09T22:29:57Z",
-        "scraped_at": "2026-03-14T03:57:14.135416+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47310591",
-        "title": "Show HN: Robotics runtime in the browser (flight controller, WebAssembly)",
-        "url": "https://cdn.copper-robotics.com/demo/flight-controller/index.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47310591",
-        "points": 5,
-        "num_comments": 2,
-        "author": "gbin",
-        "created_at": "2026-03-09T15:46:11Z",
-        "scraped_at": "2026-03-14T03:57:14.135418+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685833+00:00"
       },
       {
         "source": "hackernews",
@@ -657,7 +657,7 @@
         "num_comments": 0,
         "author": "thomashlvt",
         "created_at": "2026-03-12T17:01:46Z",
-        "scraped_at": "2026-03-14T03:57:14.135421+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685835+00:00"
       },
       {
         "source": "hackernews",
@@ -669,7 +669,7 @@
         "num_comments": 0,
         "author": "patman_h",
         "created_at": "2026-03-12T14:32:46Z",
-        "scraped_at": "2026-03-14T03:57:14.135423+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685837+00:00"
       },
       {
         "source": "hackernews",
@@ -681,7 +681,7 @@
         "num_comments": 0,
         "author": "Gabriel_h",
         "created_at": "2026-03-11T21:01:42Z",
-        "scraped_at": "2026-03-14T03:57:14.135425+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685839+00:00"
       },
       {
         "source": "hackernews",
@@ -693,7 +693,7 @@
         "num_comments": 0,
         "author": "multifactor",
         "created_at": "2026-03-06T17:00:38Z",
-        "scraped_at": "2026-03-14T03:57:14.135427+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685842+00:00"
       },
       {
         "source": "hackernews",
@@ -705,7 +705,7 @@
         "num_comments": 0,
         "author": "sanketc",
         "created_at": "2026-03-06T07:02:08Z",
-        "scraped_at": "2026-03-14T03:57:14.135431+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685844+00:00"
       },
       {
         "source": "hackernews",
@@ -717,7 +717,7 @@
         "num_comments": 0,
         "author": "issygreenslade",
         "created_at": "2026-03-05T21:01:30Z",
-        "scraped_at": "2026-03-14T03:57:14.135433+00:00"
+        "scraped_at": "2026-03-14T04:32:08.685846+00:00"
       }
     ],
     "github": [
@@ -726,8 +726,8 @@
         "name": "sindresorhus/awesome",
         "description": "😎 Awesome lists about all kinds of interesting topics",
         "url": "https://github.com/sindresorhus/awesome",
-        "stars": 445297,
-        "forks": 33528,
+        "stars": 445304,
+        "forks": 33527,
         "language": null,
         "topics": [
           "awesome",
@@ -738,13 +738,13 @@
         ],
         "open_issues": 80,
         "created_at": "2014-07-11T13:42:37Z",
-        "updated_at": "2026-03-14T03:53:07Z",
+        "updated_at": "2026-03-14T04:29:12Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 63613.9,
-        "scraped_at": "2026-03-14T03:57:15.803740+00:00",
+        "star_velocity": 63614.9,
+        "scraped_at": "2026-03-14T04:32:10.501372+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -752,7 +752,7 @@
         "name": "freeCodeCamp/freeCodeCamp",
         "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
         "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-        "stars": 438092,
+        "stars": 438093,
         "forks": 43600,
         "language": "TypeScript",
         "topics": [
@@ -774,13 +774,13 @@
         ],
         "open_issues": 263,
         "created_at": "2014-12-24T17:49:19Z",
-        "updated_at": "2026-03-14T03:34:52Z",
+        "updated_at": "2026-03-14T04:05:22Z",
         "owner_type": "Organization",
         "hiring_signal": true,
-        "star_velocity": 62584.6,
-        "scraped_at": "2026-03-14T03:57:15.803761+00:00",
+        "star_velocity": 62584.7,
+        "scraped_at": "2026-03-14T04:32:10.501398+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -788,8 +788,8 @@
         "name": "EbookFoundation/free-programming-books",
         "description": ":books: Freely available programming books",
         "url": "https://github.com/EbookFoundation/free-programming-books",
-        "stars": 383964,
-        "forks": 66011,
+        "stars": 383965,
+        "forks": 66012,
         "language": "Python",
         "topics": [
           "books",
@@ -800,13 +800,13 @@
         ],
         "open_issues": 69,
         "created_at": "2013-10-11T06:50:37Z",
-        "updated_at": "2026-03-14T03:13:21Z",
+        "updated_at": "2026-03-14T04:17:42Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 54852.0,
-        "scraped_at": "2026-03-14T03:57:15.803770+00:00",
+        "star_velocity": 54852.1,
+        "scraped_at": "2026-03-14T04:32:10.501407+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -814,7 +814,7 @@
         "name": "kamranahmedse/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
         "url": "https://github.com/kamranahmedse/developer-roadmap",
-        "stars": 350857,
+        "stars": 350859,
         "forks": 43780,
         "language": "TypeScript",
         "topics": [
@@ -839,13 +839,13 @@
         ],
         "open_issues": 18,
         "created_at": "2017-03-15T13:45:52Z",
-        "updated_at": "2026-03-14T03:38:34Z",
+        "updated_at": "2026-03-14T04:28:18Z",
         "owner_type": "User",
         "hiring_signal": true,
-        "star_velocity": 50122.4,
-        "scraped_at": "2026-03-14T03:57:15.803779+00:00",
+        "star_velocity": 50122.7,
+        "scraped_at": "2026-03-14T04:32:10.501416+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -853,7 +853,7 @@
         "name": "donnemartin/system-design-primer",
         "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
         "url": "https://github.com/donnemartin/system-design-primer",
-        "stars": 338760,
+        "stars": 338765,
         "forks": 54874,
         "language": "Python",
         "topics": [
@@ -873,13 +873,13 @@
         ],
         "open_issues": 518,
         "created_at": "2017-02-26T16:15:28Z",
-        "updated_at": "2026-03-14T03:55:19Z",
+        "updated_at": "2026-03-14T04:29:01Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 48394.3,
-        "scraped_at": "2026-03-14T03:57:15.803787+00:00",
+        "star_velocity": 48395.0,
+        "scraped_at": "2026-03-14T04:32:10.501425+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -887,8 +887,8 @@
         "name": "openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
         "url": "https://github.com/openclaw/openclaw",
-        "stars": 311094,
-        "forks": 59168,
+        "stars": 311156,
+        "forks": 59193,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -899,15 +899,15 @@
           "own-your-data",
           "personal"
         ],
-        "open_issues": 13261,
+        "open_issues": 13082,
         "created_at": "2025-11-24T10:16:47Z",
-        "updated_at": "2026-03-14T03:56:49Z",
+        "updated_at": "2026-03-14T04:31:55Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 44442.0,
-        "scraped_at": "2026-03-14T03:57:15.803795+00:00",
+        "star_velocity": 44450.9,
+        "scraped_at": "2026-03-14T04:32:10.501433+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -915,7 +915,7 @@
         "name": "vinta/awesome-python",
         "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
         "url": "https://github.com/vinta/awesome-python",
-        "stars": 287011,
+        "stars": 287014,
         "forks": 27381,
         "language": "Python",
         "topics": [
@@ -928,13 +928,13 @@
         ],
         "open_issues": 21,
         "created_at": "2014-06-27T21:00:06Z",
-        "updated_at": "2026-03-14T03:54:48Z",
+        "updated_at": "2026-03-14T04:28:46Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 41001.6,
-        "scraped_at": "2026-03-14T03:57:15.803802+00:00",
+        "star_velocity": 41002.0,
+        "scraped_at": "2026-03-14T04:32:10.501440+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -942,7 +942,7 @@
         "name": "awesome-selfhosted/awesome-selfhosted",
         "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
         "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "stars": 279785,
+        "stars": 279788,
         "forks": 12842,
         "language": null,
         "topics": [
@@ -957,13 +957,13 @@
         ],
         "open_issues": 0,
         "created_at": "2015-06-01T02:33:17Z",
-        "updated_at": "2026-03-14T03:51:16Z",
+        "updated_at": "2026-03-14T04:23:29Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 39969.3,
-        "scraped_at": "2026-03-14T03:57:15.803808+00:00",
+        "star_velocity": 39969.7,
+        "scraped_at": "2026-03-14T04:32:10.501447+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -988,9 +988,9 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 34843.7,
-        "scraped_at": "2026-03-14T03:57:15.803814+00:00",
+        "scraped_at": "2026-03-14T04:32:10.501453+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -998,19 +998,19 @@
         "name": "torvalds/linux",
         "description": "Linux kernel source tree",
         "url": "https://github.com/torvalds/linux",
-        "stars": 222596,
-        "forks": 60965,
+        "stars": 222597,
+        "forks": 60967,
         "language": "C",
         "topics": [],
         "open_issues": 3,
         "created_at": "2011-09-04T22:48:12Z",
-        "updated_at": "2026-03-14T03:53:55Z",
+        "updated_at": "2026-03-14T04:26:03Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 31799.4,
-        "scraped_at": "2026-03-14T03:57:15.803819+00:00",
+        "star_velocity": 31799.6,
+        "scraped_at": "2026-03-14T04:32:10.501457+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1018,7 +1018,7 @@
         "name": "TheAlgorithms/Python",
         "description": "All Algorithms implemented in Python",
         "url": "https://github.com/TheAlgorithms/Python",
-        "stars": 218599,
+        "stars": 218602,
         "forks": 50178,
         "language": "Python",
         "topics": [
@@ -1039,13 +1039,13 @@
         ],
         "open_issues": 880,
         "created_at": "2016-07-16T09:44:01Z",
-        "updated_at": "2026-03-14T03:45:13Z",
+        "updated_at": "2026-03-14T04:30:29Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 31228.4,
-        "scraped_at": "2026-03-14T03:57:15.803826+00:00",
+        "star_velocity": 31228.9,
+        "scraped_at": "2026-03-14T04:32:10.501465+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1053,8 +1053,8 @@
         "name": "tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
         "url": "https://github.com/tensorflow/tensorflow",
-        "stars": 194125,
-        "forks": 75248,
+        "stars": 194127,
+        "forks": 75249,
         "language": "C++",
         "topics": [
           "deep-learning",
@@ -1068,13 +1068,13 @@
         ],
         "open_issues": 3707,
         "created_at": "2015-11-07T01:19:20Z",
-        "updated_at": "2026-03-14T03:27:03Z",
+        "updated_at": "2026-03-14T04:28:11Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 27732.1,
-        "scraped_at": "2026-03-14T03:57:15.803836+00:00",
+        "star_velocity": 27732.4,
+        "scraped_at": "2026-03-14T04:32:10.501491+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1082,7 +1082,7 @@
         "name": "ohmyzsh/ohmyzsh",
         "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
         "url": "https://github.com/ohmyzsh/ohmyzsh",
-        "stars": 185313,
+        "stars": 185314,
         "forks": 26315,
         "language": "Shell",
         "topics": [
@@ -1104,13 +1104,13 @@
         ],
         "open_issues": 527,
         "created_at": "2009-08-28T18:15:37Z",
-        "updated_at": "2026-03-14T00:38:21Z",
+        "updated_at": "2026-03-14T04:06:42Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 26473.3,
-        "scraped_at": "2026-03-14T03:57:15.803847+00:00",
+        "star_velocity": 26473.4,
+        "scraped_at": "2026-03-14T04:32:10.501504+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1118,7 +1118,7 @@
         "name": "microsoft/vscode",
         "description": "Visual Studio Code",
         "url": "https://github.com/microsoft/vscode",
-        "stars": 182611,
+        "stars": 182612,
         "forks": 38486,
         "language": "TypeScript",
         "topics": [
@@ -1130,13 +1130,13 @@
         ],
         "open_issues": 15175,
         "created_at": "2015-09-03T20:23:38Z",
-        "updated_at": "2026-03-14T03:53:34Z",
+        "updated_at": "2026-03-14T04:12:46Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 26087.3,
-        "scraped_at": "2026-03-14T03:57:15.803853+00:00",
+        "star_velocity": 26087.4,
+        "scraped_at": "2026-03-14T04:32:10.501510+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1144,8 +1144,8 @@
         "name": "Significant-Gravitas/AutoGPT",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
-        "stars": 182443,
-        "forks": 46231,
+        "stars": 182441,
+        "forks": 46232,
         "language": "Python",
         "topics": [
           "ai",
@@ -1158,13 +1158,13 @@
         ],
         "open_issues": 365,
         "created_at": "2023-03-16T09:21:07Z",
-        "updated_at": "2026-03-14T02:33:13Z",
+        "updated_at": "2026-03-14T04:14:39Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 26063.3,
-        "scraped_at": "2026-03-14T03:57:15.803859+00:00",
+        "star_velocity": 26063.0,
+        "scraped_at": "2026-03-14T04:32:10.501516+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -1172,8 +1172,8 @@
         "name": "n8n-io/n8n",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
         "url": "https://github.com/n8n-io/n8n",
-        "stars": 179016,
-        "forks": 55768,
+        "stars": 179025,
+        "forks": 55769,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1197,20 +1197,20 @@
           "workflow",
           "workflow-automation"
         ],
-        "open_issues": 1427,
+        "open_issues": 1424,
         "created_at": "2019-06-22T09:24:21Z",
-        "updated_at": "2026-03-14T03:54:14Z",
+        "updated_at": "2026-03-14T04:28:55Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 25573.7,
-        "scraped_at": "2026-03-14T03:57:15.803867+00:00"
+        "star_velocity": 25575.0,
+        "scraped_at": "2026-03-14T04:32:10.501524+00:00"
       },
       {
         "source": "github",
         "name": "flutter/flutter",
         "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
         "url": "https://github.com/flutter/flutter",
-        "stars": 175550,
+        "stars": 175549,
         "forks": 30123,
         "language": "Dart",
         "topics": [
@@ -1234,13 +1234,13 @@
           "web-framework",
           "windows"
         ],
-        "open_issues": 12478,
+        "open_issues": 12477,
         "created_at": "2015-03-06T22:54:58Z",
-        "updated_at": "2026-03-14T03:09:17Z",
+        "updated_at": "2026-03-14T04:09:43Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 25078.6,
-        "scraped_at": "2026-03-14T03:57:15.803875+00:00"
+        "star_velocity": 25078.4,
+        "scraped_at": "2026-03-14T04:32:10.501533+00:00"
       },
       {
         "source": "github",
@@ -1259,20 +1259,20 @@
           "sass",
           "scss"
         ],
-        "open_issues": 477,
+        "open_issues": 478,
         "created_at": "2011-07-29T21:19:00Z",
         "updated_at": "2026-03-14T01:56:03Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 24866.4,
-        "scraped_at": "2026-03-14T03:57:15.803881+00:00"
+        "scraped_at": "2026-03-14T04:32:10.501539+00:00"
       },
       {
         "source": "github",
         "name": "massgravel/Microsoft-Activation-Scripts",
         "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
         "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-        "stars": 168682,
+        "stars": 168684,
         "forks": 16225,
         "language": "Batchfile",
         "topics": [
@@ -1295,18 +1295,18 @@
         ],
         "open_issues": 1,
         "created_at": "2020-01-12T23:03:34Z",
-        "updated_at": "2026-03-14T03:39:01Z",
+        "updated_at": "2026-03-14T04:24:15Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 24097.4,
-        "scraped_at": "2026-03-14T03:57:15.803888+00:00"
+        "star_velocity": 24097.7,
+        "scraped_at": "2026-03-14T04:32:10.501549+00:00"
       },
       {
         "source": "github",
         "name": "avelino/awesome-go",
         "description": "A curated list of awesome Go frameworks, libraries and software",
         "url": "https://github.com/avelino/awesome-go",
-        "stars": 167296,
+        "stars": 167298,
         "forks": 13048,
         "language": "Go",
         "topics": [
@@ -1319,18 +1319,18 @@
         ],
         "open_issues": 172,
         "created_at": "2014-07-06T13:42:15Z",
-        "updated_at": "2026-03-14T03:51:27Z",
+        "updated_at": "2026-03-14T04:18:07Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 23899.4,
-        "scraped_at": "2026-03-14T03:57:15.803894+00:00"
+        "star_velocity": 23899.7,
+        "scraped_at": "2026-03-14T04:32:10.501555+00:00"
       },
       {
         "source": "github",
         "name": "ollama/ollama",
         "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
         "url": "https://github.com/ollama/ollama",
-        "stars": 164991,
+        "stars": 164992,
         "forks": 14962,
         "language": "Go",
         "topics": [
@@ -1352,19 +1352,19 @@
         ],
         "open_issues": 2636,
         "created_at": "2023-06-26T19:39:32Z",
-        "updated_at": "2026-03-14T03:55:33Z",
+        "updated_at": "2026-03-14T04:14:59Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 23570.1,
-        "scraped_at": "2026-03-14T03:57:17.281914+00:00"
+        "star_velocity": 23570.3,
+        "scraped_at": "2026-03-14T04:32:12.212549+00:00"
       },
       {
         "source": "github",
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 157776,
-        "forks": 32464,
+        "stars": 157777,
+        "forks": 32465,
         "language": "Python",
         "topics": [
           "audio",
@@ -1387,20 +1387,20 @@
           "transformer",
           "vlm"
         ],
-        "open_issues": 2282,
+        "open_issues": 2284,
         "created_at": "2018-10-29T13:56:00Z",
-        "updated_at": "2026-03-14T03:39:48Z",
+        "updated_at": "2026-03-14T04:28:39Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 22539.4,
-        "scraped_at": "2026-03-14T03:57:16.186891+00:00"
+        "star_velocity": 22539.6,
+        "scraped_at": "2026-03-14T04:32:10.981958+00:00"
       },
       {
         "source": "github",
         "name": "yt-dlp/yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
         "url": "https://github.com/yt-dlp/yt-dlp",
-        "stars": 151065,
+        "stars": 151070,
         "forks": 12247,
         "language": "Python",
         "topics": [
@@ -1414,19 +1414,19 @@
         ],
         "open_issues": 2364,
         "created_at": "2020-10-26T04:22:55Z",
-        "updated_at": "2026-03-14T03:56:57Z",
+        "updated_at": "2026-03-14T04:30:51Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 21580.7,
-        "scraped_at": "2026-03-14T03:57:16.186898+00:00"
+        "star_velocity": 21581.4,
+        "scraped_at": "2026-03-14T04:32:10.981966+00:00"
       },
       {
         "source": "github",
         "name": "langflow-ai/langflow",
         "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
         "url": "https://github.com/langflow-ai/langflow",
-        "stars": 145625,
-        "forks": 8583,
+        "stars": 145626,
+        "forks": 8582,
         "language": "Python",
         "topics": [
           "agents",
@@ -1438,11 +1438,11 @@
         ],
         "open_issues": 891,
         "created_at": "2023-02-08T22:28:03Z",
-        "updated_at": "2026-03-14T03:07:20Z",
+        "updated_at": "2026-03-14T04:08:11Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 20803.6,
-        "scraped_at": "2026-03-14T03:57:16.186905+00:00"
+        "star_velocity": 20803.7,
+        "scraped_at": "2026-03-14T04:32:10.981972+00:00"
       },
       {
         "source": "github",
@@ -1474,7 +1474,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 19755.1,
-        "scraped_at": "2026-03-14T03:57:17.656632+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553716+00:00"
       },
       {
         "source": "github",
@@ -1490,20 +1490,20 @@
           "language",
           "programming-language"
         ],
-        "open_issues": 9865,
+        "open_issues": 9866,
         "created_at": "2014-08-19T04:33:40Z",
-        "updated_at": "2026-03-14T01:34:21Z",
+        "updated_at": "2026-03-14T04:05:53Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 19004.7,
-        "scraped_at": "2026-03-14T03:57:17.281922+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212557+00:00"
       },
       {
         "source": "github",
         "name": "langgenius/dify",
         "description": "Production-ready platform for agentic workflow development.",
         "url": "https://github.com/langgenius/dify",
-        "stars": 132710,
+        "stars": 132711,
         "forks": 20687,
         "language": "TypeScript",
         "topics": [
@@ -1530,18 +1530,18 @@
         ],
         "open_issues": 792,
         "created_at": "2023-04-12T07:40:24Z",
-        "updated_at": "2026-03-14T03:55:21Z",
+        "updated_at": "2026-03-14T04:01:03Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 18958.6,
-        "scraped_at": "2026-03-14T03:57:16.521286+00:00"
+        "star_velocity": 18958.7,
+        "scraped_at": "2026-03-14T04:32:11.489445+00:00"
       },
       {
         "source": "github",
         "name": "langchain-ai/langchain",
         "description": "The agent engineering platform",
         "url": "https://github.com/langchain-ai/langchain",
-        "stars": 129388,
+        "stars": 129392,
         "forks": 21320,
         "language": "Python",
         "topics": [
@@ -1567,18 +1567,18 @@
         ],
         "open_issues": 501,
         "created_at": "2022-10-17T02:58:36Z",
-        "updated_at": "2026-03-14T03:51:04Z",
+        "updated_at": "2026-03-14T04:31:57Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 18484.0,
-        "scraped_at": "2026-03-14T03:57:16.186913+00:00"
+        "star_velocity": 18484.6,
+        "scraped_at": "2026-03-14T04:32:10.981983+00:00"
       },
       {
         "source": "github",
         "name": "open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
         "url": "https://github.com/open-webui/open-webui",
-        "stars": 127086,
+        "stars": 127090,
         "forks": 17971,
         "language": "Python",
         "topics": [
@@ -1600,11 +1600,11 @@
         ],
         "open_issues": 289,
         "created_at": "2023-10-06T22:08:27Z",
-        "updated_at": "2026-03-14T03:39:27Z",
+        "updated_at": "2026-03-14T04:27:50Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 18155.1,
-        "scraped_at": "2026-03-14T03:57:16.186920+00:00"
+        "star_velocity": 18155.7,
+        "scraped_at": "2026-03-14T04:32:10.981995+00:00"
       },
       {
         "source": "github",
@@ -1635,31 +1635,31 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 18153.3,
-        "scraped_at": "2026-03-14T03:57:17.656642+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553725+00:00"
       },
       {
         "source": "github",
         "name": "anomalyco/opencode",
         "description": "The open source coding agent.",
         "url": "https://github.com/anomalyco/opencode",
-        "stars": 121760,
-        "forks": 12607,
+        "stars": 121776,
+        "forks": 12611,
         "language": "TypeScript",
         "topics": [],
-        "open_issues": 6839,
+        "open_issues": 6844,
         "created_at": "2025-04-30T20:08:00Z",
-        "updated_at": "2026-03-14T03:57:02Z",
+        "updated_at": "2026-03-14T04:30:06Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 17394.3,
-        "scraped_at": "2026-03-14T03:57:16.521291+00:00"
+        "star_velocity": 17396.6,
+        "scraped_at": "2026-03-14T04:32:11.489450+00:00"
       },
       {
         "source": "github",
         "name": "kubernetes/kubernetes",
         "description": "Production-Grade Container Scheduling and Management",
         "url": "https://github.com/kubernetes/kubernetes",
-        "stars": 121114,
+        "stars": 121112,
         "forks": 42675,
         "language": "Go",
         "topics": [
@@ -1670,11 +1670,11 @@
         ],
         "open_issues": 2638,
         "created_at": "2014-06-06T22:56:04Z",
-        "updated_at": "2026-03-14T03:15:45Z",
+        "updated_at": "2026-03-14T04:11:22Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 17302.0,
-        "scraped_at": "2026-03-14T03:57:17.281931+00:00"
+        "star_velocity": 17301.7,
+        "scraped_at": "2026-03-14T04:32:12.212563+00:00"
       },
       {
         "source": "github",
@@ -1699,7 +1699,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 16956.1,
-        "scraped_at": "2026-03-14T03:57:16.521297+00:00"
+        "scraped_at": "2026-03-14T04:32:11.489456+00:00"
       },
       {
         "source": "github",
@@ -1726,14 +1726,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 16605.4,
-        "scraped_at": "2026-03-14T03:57:17.656650+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553736+00:00"
       },
       {
         "source": "github",
         "name": "iptv-org/iptv",
         "description": "Collection of publicly available IPTV channels from all over the world",
         "url": "https://github.com/iptv-org/iptv",
-        "stars": 112851,
+        "stars": 112852,
         "forks": 5715,
         "language": "TypeScript",
         "topics": [
@@ -1745,11 +1745,11 @@
         ],
         "open_issues": 290,
         "created_at": "2018-11-14T22:00:57Z",
-        "updated_at": "2026-03-14T03:49:13Z",
+        "updated_at": "2026-03-14T04:07:33Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 16121.6,
-        "scraped_at": "2026-03-14T03:57:16.521303+00:00"
+        "star_velocity": 16121.7,
+        "scraped_at": "2026-03-14T04:32:11.489462+00:00"
       },
       {
         "source": "github",
@@ -1779,7 +1779,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 15906.6,
-        "scraped_at": "2026-03-14T03:57:17.656657+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553743+00:00"
       },
       {
         "source": "github",
@@ -1800,7 +1800,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15882.4,
-        "scraped_at": "2026-03-14T03:57:16.942358+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877060+00:00"
       },
       {
         "source": "github",
@@ -1808,7 +1808,7 @@
         "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
         "url": "https://github.com/shadcn-ui/ui",
         "stars": 109457,
-        "forks": 8171,
+        "forks": 8173,
         "language": "TypeScript",
         "topics": [
           "base-ui",
@@ -1829,14 +1829,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15636.7,
-        "scraped_at": "2026-03-14T03:57:16.521309+00:00"
+        "scraped_at": "2026-03-14T04:32:11.489469+00:00"
       },
       {
         "source": "github",
         "name": "rustdesk/rustdesk",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
         "url": "https://github.com/rustdesk/rustdesk",
-        "stars": 109257,
+        "stars": 109258,
         "forks": 16279,
         "language": "Rust",
         "topics": [
@@ -1862,11 +1862,11 @@
         ],
         "open_issues": 102,
         "created_at": "2020-09-28T15:36:08Z",
-        "updated_at": "2026-03-14T03:48:03Z",
+        "updated_at": "2026-03-14T04:01:16Z",
         "owner_type": "User",
         "hiring_signal": true,
-        "star_velocity": 15608.1,
-        "scraped_at": "2026-03-14T03:57:16.942375+00:00"
+        "star_velocity": 15608.3,
+        "scraped_at": "2026-03-14T04:32:11.877086+00:00"
       },
       {
         "source": "github",
@@ -1889,14 +1889,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15521.0,
-        "scraped_at": "2026-03-14T03:57:17.656663+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553753+00:00"
       },
       {
         "source": "github",
         "name": "microsoft/TypeScript",
         "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
         "url": "https://github.com/microsoft/TypeScript",
-        "stars": 108148,
+        "stars": 108149,
         "forks": 13295,
         "language": "TypeScript",
         "topics": [
@@ -1907,11 +1907,11 @@
         ],
         "open_issues": 5485,
         "created_at": "2014-06-17T15:28:39Z",
-        "updated_at": "2026-03-14T03:43:06Z",
+        "updated_at": "2026-03-14T04:16:18Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 15449.7,
-        "scraped_at": "2026-03-14T03:57:16.521315+00:00"
+        "star_velocity": 15449.9,
+        "scraped_at": "2026-03-14T04:32:11.489514+00:00"
       },
       {
         "source": "github",
@@ -1933,14 +1933,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15191.7,
-        "scraped_at": "2026-03-14T03:57:16.942383+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877096+00:00"
       },
       {
         "source": "github",
         "name": "Comfy-Org/ComfyUI",
         "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
         "url": "https://github.com/Comfy-Org/ComfyUI",
-        "stars": 105781,
+        "stars": 105784,
         "forks": 12151,
         "language": "Python",
         "topics": [
@@ -1951,20 +1951,20 @@
           "pytorch",
           "stable-diffusion"
         ],
-        "open_issues": 3813,
+        "open_issues": 3814,
         "created_at": "2023-01-17T03:15:56Z",
-        "updated_at": "2026-03-14T03:49:55Z",
+        "updated_at": "2026-03-14T04:13:53Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 15111.6,
-        "scraped_at": "2026-03-14T03:57:16.186926+00:00"
+        "star_velocity": 15112.0,
+        "scraped_at": "2026-03-14T04:32:10.982001+00:00"
       },
       {
         "source": "github",
         "name": "fatedier/frp",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
         "url": "https://github.com/fatedier/frp",
-        "stars": 105183,
+        "stars": 105185,
         "forks": 14945,
         "language": "Go",
         "topics": [
@@ -1981,18 +1981,18 @@
         ],
         "open_issues": 43,
         "created_at": "2015-12-21T15:24:59Z",
-        "updated_at": "2026-03-14T03:53:04Z",
+        "updated_at": "2026-03-14T04:13:12Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 15026.1,
-        "scraped_at": "2026-03-14T03:57:17.281940+00:00"
+        "star_velocity": 15026.4,
+        "scraped_at": "2026-03-14T04:32:12.212570+00:00"
       },
       {
         "source": "github",
         "name": "tauri-apps/tauri",
         "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
         "url": "https://github.com/tauri-apps/tauri",
-        "stars": 104044,
+        "stars": 104047,
         "forks": 3441,
         "language": "Rust",
         "topics": [
@@ -2006,19 +2006,19 @@
         ],
         "open_issues": 1382,
         "created_at": "2019-07-13T09:09:37Z",
-        "updated_at": "2026-03-14T03:13:20Z",
+        "updated_at": "2026-03-14T04:23:38Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14863.4,
-        "scraped_at": "2026-03-14T03:57:16.942390+00:00"
+        "star_velocity": 14863.9,
+        "scraped_at": "2026-03-14T04:32:11.877105+00:00"
       },
       {
         "source": "github",
         "name": "clash-verge-rev/clash-verge-rev",
         "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
         "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-        "stars": 102580,
-        "forks": 7467,
+        "stars": 102585,
+        "forks": 7468,
         "language": "TypeScript",
         "topics": [
           "clash",
@@ -2032,19 +2032,19 @@
         ],
         "open_issues": 178,
         "created_at": "2023-11-21T18:24:03Z",
-        "updated_at": "2026-03-14T03:54:01Z",
+        "updated_at": "2026-03-14T04:29:55Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14654.3,
-        "scraped_at": "2026-03-14T03:57:16.521321+00:00"
+        "star_velocity": 14655.0,
+        "scraped_at": "2026-03-14T04:32:11.489531+00:00"
       },
       {
         "source": "github",
         "name": "Shubhamsaboo/awesome-llm-apps",
         "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "stars": 102000,
-        "forks": 14835,
+        "stars": 102003,
+        "forks": 14836,
         "language": "Python",
         "topics": [
           "agents",
@@ -2054,18 +2054,18 @@
         ],
         "open_issues": 4,
         "created_at": "2024-04-29T05:30:25Z",
-        "updated_at": "2026-03-14T03:56:33Z",
+        "updated_at": "2026-03-14T04:19:17Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 14571.4,
-        "scraped_at": "2026-03-14T03:57:16.186931+00:00"
+        "star_velocity": 14571.9,
+        "scraped_at": "2026-03-14T04:32:10.982006+00:00"
       },
       {
         "source": "github",
         "name": "jaywcjlove/awesome-mac",
         "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
         "url": "https://github.com/jaywcjlove/awesome-mac",
-        "stars": 100134,
+        "stars": 100137,
         "forks": 7490,
         "language": "JavaScript",
         "topics": [
@@ -2091,18 +2091,18 @@
         ],
         "open_issues": 219,
         "created_at": "2016-07-17T15:33:47Z",
-        "updated_at": "2026-03-14T03:56:15Z",
+        "updated_at": "2026-03-14T04:18:32Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 14304.9,
-        "scraped_at": "2026-03-14T03:57:17.656677+00:00"
+        "star_velocity": 14305.3,
+        "scraped_at": "2026-03-14T04:32:12.553763+00:00"
       },
       {
         "source": "github",
         "name": "angular/angular",
         "description": "Deliver web apps with confidence 🚀",
         "url": "https://github.com/angular/angular",
-        "stars": 100080,
+        "stars": 100079,
         "forks": 27121,
         "language": "TypeScript",
         "topics": [
@@ -2116,11 +2116,11 @@
         ],
         "open_issues": 1127,
         "created_at": "2014-09-18T16:12:01Z",
-        "updated_at": "2026-03-14T02:49:58Z",
+        "updated_at": "2026-03-14T04:31:56Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14297.1,
-        "scraped_at": "2026-03-14T03:57:16.521335+00:00"
+        "star_velocity": 14297.0,
+        "scraped_at": "2026-03-14T04:32:11.489539+00:00"
       },
       {
         "source": "github",
@@ -2128,7 +2128,7 @@
         "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
         "url": "https://github.com/supabase/supabase",
         "stars": 98933,
-        "forks": 11790,
+        "forks": 11789,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -2157,15 +2157,15 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 14133.3,
-        "scraped_at": "2026-03-14T03:57:16.521344+00:00"
+        "scraped_at": "2026-03-14T04:32:11.489547+00:00"
       },
       {
         "source": "github",
         "name": "pytorch/pytorch",
         "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
         "url": "https://github.com/pytorch/pytorch",
-        "stars": 98220,
-        "forks": 27195,
+        "stars": 98221,
+        "forks": 27196,
         "language": "Python",
         "topics": [
           "autograd",
@@ -2177,13 +2177,13 @@
           "python",
           "tensor"
         ],
-        "open_issues": 18052,
+        "open_issues": 18051,
         "created_at": "2016-08-13T05:26:41Z",
-        "updated_at": "2026-03-14T03:42:17Z",
+        "updated_at": "2026-03-14T04:27:58Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14031.4,
-        "scraped_at": "2026-03-14T03:57:16.186937+00:00"
+        "star_velocity": 14031.6,
+        "scraped_at": "2026-03-14T04:32:10.982012+00:00"
       },
       {
         "source": "github",
@@ -2206,7 +2206,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 14001.0,
-        "scraped_at": "2026-03-14T03:57:17.656684+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553770+00:00"
       },
       {
         "source": "github",
@@ -2214,7 +2214,7 @@
         "description": "An enterprise-class UI design language and React UI library",
         "url": "https://github.com/ant-design/ant-design",
         "stars": 97696,
-        "forks": 54557,
+        "forks": 54558,
         "language": "TypeScript",
         "topics": [
           "ant-design",
@@ -2225,21 +2225,21 @@
           "ui-kit",
           "ui-library"
         ],
-        "open_issues": 1365,
+        "open_issues": 1362,
         "created_at": "2015-04-24T15:37:24Z",
-        "updated_at": "2026-03-14T03:52:13Z",
+        "updated_at": "2026-03-14T04:16:29Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 13956.6,
-        "scraped_at": "2026-03-14T03:57:16.521350+00:00"
+        "scraped_at": "2026-03-14T04:32:11.489552+00:00"
       },
       {
         "source": "github",
         "name": "fastapi/fastapi",
         "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
         "url": "https://github.com/fastapi/fastapi",
-        "stars": 96185,
-        "forks": 8852,
+        "stars": 96186,
+        "forks": 8853,
         "language": "Python",
         "topics": [
           "api",
@@ -2265,11 +2265,11 @@
         ],
         "open_issues": 159,
         "created_at": "2018-12-08T08:21:47Z",
-        "updated_at": "2026-03-14T03:35:27Z",
+        "updated_at": "2026-03-14T04:07:19Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 13740.7,
-        "scraped_at": "2026-03-14T03:57:16.186945+00:00"
+        "star_velocity": 13740.9,
+        "scraped_at": "2026-03-14T04:32:10.982020+00:00"
       },
       {
         "source": "github",
@@ -2295,14 +2295,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 13631.0,
-        "scraped_at": "2026-03-14T03:57:17.656694+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553776+00:00"
       },
       {
         "source": "github",
         "name": "microsoft/markitdown",
         "description": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "stars": 90713,
+        "stars": 90715,
         "forks": 5360,
         "language": "Python",
         "topics": [
@@ -2316,11 +2316,11 @@
         ],
         "open_issues": 470,
         "created_at": "2024-11-13T19:56:40Z",
-        "updated_at": "2026-03-14T03:55:35Z",
+        "updated_at": "2026-03-14T04:04:27Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 12959.0,
-        "scraped_at": "2026-03-14T03:57:16.186951+00:00"
+        "star_velocity": 12959.3,
+        "scraped_at": "2026-03-14T04:32:10.982026+00:00"
       },
       {
         "source": "github",
@@ -2345,7 +2345,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12603.7,
-        "scraped_at": "2026-03-14T03:57:17.281950+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212582+00:00"
       },
       {
         "source": "github",
@@ -2370,7 +2370,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12438.9,
-        "scraped_at": "2026-03-14T03:57:17.281958+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212593+00:00"
       },
       {
         "source": "github",
@@ -2391,7 +2391,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12292.7,
-        "scraped_at": "2026-03-14T03:57:17.656700+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553781+00:00"
       },
       {
         "source": "github",
@@ -2421,14 +2421,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 12004.6,
-        "scraped_at": "2026-03-14T03:57:17.656706+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553788+00:00"
       },
       {
         "source": "github",
         "name": "astral-sh/uv",
         "description": "An extremely fast Python package and project manager, written in Rust.",
         "url": "https://github.com/astral-sh/uv",
-        "stars": 80910,
+        "stars": 80911,
         "forks": 2682,
         "language": "Rust",
         "topics": [
@@ -2439,11 +2439,11 @@
         ],
         "open_issues": 2702,
         "created_at": "2023-10-02T20:24:11Z",
-        "updated_at": "2026-03-14T03:45:01Z",
+        "updated_at": "2026-03-14T04:27:07Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 11558.6,
-        "scraped_at": "2026-03-14T03:57:16.942396+00:00"
+        "star_velocity": 11558.7,
+        "scraped_at": "2026-03-14T04:32:11.877112+00:00"
       },
       {
         "source": "github",
@@ -2465,7 +2465,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 11541.7,
-        "scraped_at": "2026-03-14T03:57:17.281963+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212599+00:00"
       },
       {
         "source": "github",
@@ -2488,14 +2488,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 11245.0,
-        "scraped_at": "2026-03-14T03:57:17.656714+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553793+00:00"
       },
       {
         "source": "github",
         "name": "junegunn/fzf",
         "description": ":cherry_blossom: A command-line fuzzy finder",
         "url": "https://github.com/junegunn/fzf",
-        "stars": 78575,
+        "stars": 78576,
         "forks": 2723,
         "language": "Go",
         "topics": [
@@ -2512,18 +2512,18 @@
         ],
         "open_issues": 319,
         "created_at": "2013-10-23T16:04:23Z",
-        "updated_at": "2026-03-14T03:35:51Z",
+        "updated_at": "2026-03-14T04:26:48Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 11225.0,
-        "scraped_at": "2026-03-14T03:57:17.281969+00:00"
+        "star_velocity": 11225.1,
+        "scraped_at": "2026-03-14T04:32:12.212604+00:00"
       },
       {
         "source": "github",
         "name": "zed-industries/zed",
         "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
         "url": "https://github.com/zed-industries/zed",
-        "stars": 77096,
+        "stars": 77095,
         "forks": 7365,
         "language": "Rust",
         "topics": [
@@ -2532,13 +2532,13 @@
           "text-editor",
           "zed"
         ],
-        "open_issues": 3180,
+        "open_issues": 3181,
         "created_at": "2021-02-20T03:01:06Z",
-        "updated_at": "2026-03-14T03:50:32Z",
+        "updated_at": "2026-03-14T03:57:36Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 11013.7,
-        "scraped_at": "2026-03-14T03:57:16.942405+00:00"
+        "star_velocity": 11013.6,
+        "scraped_at": "2026-03-14T04:32:11.877127+00:00"
       },
       {
         "source": "github",
@@ -2563,15 +2563,15 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 10807.6,
-        "scraped_at": "2026-03-14T03:57:17.656720+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553799+00:00"
       },
       {
         "source": "github",
         "name": "affaan-m/everything-claude-code",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "url": "https://github.com/affaan-m/everything-claude-code",
-        "stars": 74971,
-        "forks": 9385,
+        "stars": 74992,
+        "forks": 9396,
         "language": "JavaScript",
         "topics": [
           "ai-agents",
@@ -2585,18 +2585,18 @@
         ],
         "open_issues": 13,
         "created_at": "2026-01-18T00:51:51Z",
-        "updated_at": "2026-03-14T03:56:59Z",
+        "updated_at": "2026-03-14T04:31:57Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 10710.1,
-        "scraped_at": "2026-03-14T03:57:17.656729+00:00"
+        "star_velocity": 10713.1,
+        "scraped_at": "2026-03-14T04:32:12.553805+00:00"
       },
       {
         "source": "github",
         "name": "jesseduffield/lazygit",
         "description": "simple terminal UI for git commands",
         "url": "https://github.com/jesseduffield/lazygit",
-        "stars": 74148,
+        "stars": 74150,
         "forks": 2594,
         "language": "Go",
         "topics": [
@@ -2606,11 +2606,11 @@
         ],
         "open_issues": 926,
         "created_at": "2018-05-19T00:53:06Z",
-        "updated_at": "2026-03-14T03:52:16Z",
+        "updated_at": "2026-03-14T04:02:31Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 10592.6,
-        "scraped_at": "2026-03-14T03:57:17.281974+00:00"
+        "star_velocity": 10592.9,
+        "scraped_at": "2026-03-14T04:32:12.212610+00:00"
       },
       {
         "source": "github",
@@ -2632,7 +2632,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 10217.0,
-        "scraped_at": "2026-03-14T03:57:17.281980+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212633+00:00"
       },
       {
         "source": "github",
@@ -2665,7 +2665,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 10110.4,
-        "scraped_at": "2026-03-14T03:57:17.281990+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212640+00:00"
       },
       {
         "source": "github",
@@ -2686,7 +2686,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 10103.4,
-        "scraped_at": "2026-03-14T03:57:17.656734+00:00"
+        "scraped_at": "2026-03-14T04:32:12.553810+00:00"
       },
       {
         "source": "github",
@@ -2703,24 +2703,24 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 9813.4,
-        "scraped_at": "2026-03-14T03:57:17.281995+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212644+00:00"
       },
       {
         "source": "github",
         "name": "openai/codex",
         "description": "Lightweight coding agent that runs in your terminal",
         "url": "https://github.com/openai/codex",
-        "stars": 65143,
+        "stars": 65148,
         "forks": 8706,
         "language": "Rust",
         "topics": [],
-        "open_issues": 1927,
+        "open_issues": 1917,
         "created_at": "2025-04-13T05:37:54Z",
-        "updated_at": "2026-03-14T03:54:20Z",
+        "updated_at": "2026-03-14T04:25:19Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 9306.1,
-        "scraped_at": "2026-03-14T03:57:16.942410+00:00"
+        "star_velocity": 9306.9,
+        "scraped_at": "2026-03-14T04:32:11.877134+00:00"
       },
       {
         "source": "github",
@@ -2728,7 +2728,7 @@
         "description": "The Prometheus monitoring system and time series database.",
         "url": "https://github.com/prometheus/prometheus",
         "stars": 63165,
-        "forks": 10240,
+        "forks": 10241,
         "language": "Go",
         "topics": [
           "alerting",
@@ -2745,14 +2745,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 9023.6,
-        "scraped_at": "2026-03-14T03:57:17.282001+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212650+00:00"
       },
       {
         "source": "github",
         "name": "alacritty/alacritty",
         "description": "A cross-platform, OpenGL terminal emulator.",
         "url": "https://github.com/alacritty/alacritty",
-        "stars": 62929,
+        "stars": 62930,
         "forks": 3341,
         "language": "Rust",
         "topics": [
@@ -2769,11 +2769,11 @@
         ],
         "open_issues": 336,
         "created_at": "2016-02-18T05:02:30Z",
-        "updated_at": "2026-03-14T03:56:05Z",
+        "updated_at": "2026-03-14T04:12:53Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 8989.9,
-        "scraped_at": "2026-03-14T03:57:16.942416+00:00"
+        "star_velocity": 8990.0,
+        "scraped_at": "2026-03-14T04:32:11.877143+00:00"
       },
       {
         "source": "github",
@@ -2805,7 +2805,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8879.9,
-        "scraped_at": "2026-03-14T03:57:17.282008+00:00"
+        "scraped_at": "2026-03-14T04:32:12.212657+00:00"
       },
       {
         "source": "github",
@@ -2827,7 +2827,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8840.3,
-        "scraped_at": "2026-03-14T03:57:16.942427+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877152+00:00"
       },
       {
         "source": "github",
@@ -2844,7 +2844,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 8465.4,
-        "scraped_at": "2026-03-14T03:57:16.942432+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877158+00:00"
       },
       {
         "source": "github",
@@ -2870,7 +2870,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 8232.4,
-        "scraped_at": "2026-03-14T03:57:16.942438+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877166+00:00"
       },
       {
         "source": "github",
@@ -2890,14 +2890,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8185.3,
-        "scraped_at": "2026-03-14T03:57:16.942443+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877173+00:00"
       },
       {
         "source": "github",
         "name": "dani-garcia/vaultwarden",
         "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
         "url": "https://github.com/dani-garcia/vaultwarden",
-        "stars": 56724,
+        "stars": 56726,
         "forks": 2623,
         "language": "Rust",
         "topics": [
@@ -2910,11 +2910,11 @@
         ],
         "open_issues": 40,
         "created_at": "2018-02-17T22:40:20Z",
-        "updated_at": "2026-03-14T03:39:01Z",
+        "updated_at": "2026-03-14T04:22:25Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 8103.4,
-        "scraped_at": "2026-03-14T03:57:16.942449+00:00"
+        "star_velocity": 8103.7,
+        "scraped_at": "2026-03-14T04:32:11.877181+00:00"
       },
       {
         "source": "github",
@@ -2952,14 +2952,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8055.3,
-        "scraped_at": "2026-03-14T03:57:16.942457+00:00"
+        "scraped_at": "2026-03-14T04:32:11.877191+00:00"
       },
       {
         "source": "github",
         "name": "rust-unofficial/awesome-rust",
         "description": "A curated list of Rust code and resources.",
         "url": "https://github.com/rust-unofficial/awesome-rust",
-        "stars": 56140,
+        "stars": 56141,
         "forks": 3218,
         "language": "Rust",
         "topics": [
@@ -2968,15 +2968,301 @@
         ],
         "open_issues": 11,
         "created_at": "2014-07-17T10:45:10Z",
-        "updated_at": "2026-03-14T02:16:57Z",
+        "updated_at": "2026-03-14T04:15:41Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 8020.0,
-        "scraped_at": "2026-03-14T03:57:16.942463+00:00"
+        "star_velocity": 8020.1,
+        "scraped_at": "2026-03-14T04:32:11.877198+00:00"
       }
     ],
     "arxiv": [],
-    "producthunt": [],
+    "producthunt": [
+      {
+        "source": "producthunt",
+        "title": "Solo Voice",
+        "description": "",
+        "url": "",
+        "published": "2026-02-27T13:09:40-08:00",
+        "scraped_at": "2026-03-14T04:32:15.872414+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "ReplylessAI",
+        "description": "",
+        "url": "",
+        "published": "2026-03-11T12:25:44-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872465+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "GStack",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T01:56:03-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872517+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Perplexity Computer Skills",
+        "description": "",
+        "url": "",
+        "published": "2026-03-04T07:42:18-08:00",
+        "scraped_at": "2026-03-14T04:32:15.872561+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Perfectly",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:08:51-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872595+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "WPCursor",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T19:53:18-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872628+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "doXmind",
+        "description": "",
+        "url": "",
+        "published": "2026-03-11T20:19:04-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872666+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Window View",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T19:36:47-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872699+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Pre",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:32:44-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872732+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "KingCoding",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T16:55:30-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872765+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "GhostDesk",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T07:37:46-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872798+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Pinnacle",
+        "description": "",
+        "url": "",
+        "published": "2026-02-25T07:43:33-08:00",
+        "scraped_at": "2026-03-14T04:32:15.872830+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "GradPipe",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T12:39:15-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872863+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Scindo",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T14:59:39-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872895+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "SitSense",
+        "description": "",
+        "url": "",
+        "published": "2026-03-10T12:35:04-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872928+00:00",
+        "ai": {
+          "error": "http_403"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "MascotVibe",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T05:59:59-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872961+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Mozzie",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T16:41:10-07:00",
+        "scraped_at": "2026-03-14T04:32:15.872994+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Manus Agents for Telegram",
+        "description": "",
+        "url": "",
+        "published": "2026-02-20T07:36:58-08:00",
+        "scraped_at": "2026-03-14T04:32:15.873028+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Atlasly",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T08:23:41-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873061+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Parker by Perfectly",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:20:12-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873094+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "MTIA 300",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T23:38:27-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873127+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Ask Maps by Google",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T05:53:18-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873160+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Brutal Verdict",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T05:18:03-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873193+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "ClawMote",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T13:43:36-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873227+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Hyper",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:11:21-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873259+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "deepidv",
+        "description": "",
+        "url": "",
+        "published": "2026-03-01T10:07:13-08:00",
+        "scraped_at": "2026-03-14T04:32:15.873292+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "LocalPDF.io",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T02:19:12-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873328+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Fowel by Hackmamba",
+        "description": "",
+        "url": "",
+        "published": "2026-03-10T16:16:21-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873362+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Saturn",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T00:02:58-07:00",
+        "scraped_at": "2026-03-14T04:32:15.873395+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Mockphine",
+        "description": "",
+        "url": "",
+        "published": "2026-02-24T19:24:59-08:00",
+        "scraped_at": "2026-03-14T04:32:15.873428+00:00"
+      }
+    ],
     "devto": [
       {
         "source": "devto",
@@ -2991,13 +3277,13 @@
           "ai"
         ],
         "reactions": 168,
-        "comments": 77,
+        "comments": 78,
         "reading_time": 4,
         "author": "jess",
         "published_at": "2026-03-09T18:28:59Z",
-        "scraped_at": "2026-03-14T03:57:52.408050+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013815+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3017,9 +3303,9 @@
         "reading_time": 7,
         "author": "grahamthedev",
         "published_at": "2026-03-07T10:44:43Z",
-        "scraped_at": "2026-03-14T03:57:52.408067+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013831+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3038,9 +3324,9 @@
         "reading_time": 2,
         "author": "jonmarkgo",
         "published_at": "2026-03-09T13:22:11Z",
-        "scraped_at": "2026-03-14T03:57:52.408073+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013835+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3060,9 +3346,9 @@
         "reading_time": 4,
         "author": "ujja",
         "published_at": "2026-03-10T03:31:44Z",
-        "scraped_at": "2026-03-14T03:57:52.408076+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013838+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3082,9 +3368,9 @@
         "reading_time": 4,
         "author": "subhrangsu90",
         "published_at": "2026-03-10T22:39:46Z",
-        "scraped_at": "2026-03-14T03:57:52.408080+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013841+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3104,9 +3390,9 @@
         "reading_time": 7,
         "author": "konark_13",
         "published_at": "2026-03-11T11:04:06Z",
-        "scraped_at": "2026-03-14T03:57:52.408084+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013844+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3126,9 +3412,9 @@
         "reading_time": 11,
         "author": "dumebii",
         "published_at": "2026-03-10T13:00:34Z",
-        "scraped_at": "2026-03-14T03:57:52.408087+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013846+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3148,9 +3434,9 @@
         "reading_time": 6,
         "author": "eevajonnapanula",
         "published_at": "2026-03-07T09:17:39Z",
-        "scraped_at": "2026-03-14T03:57:52.408091+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013849+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3170,9 +3456,9 @@
         "reading_time": 7,
         "author": "pascal_cescato_692b7a8a20",
         "published_at": "2026-03-10T22:11:35Z",
-        "scraped_at": "2026-03-14T03:57:52.408094+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013851+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3190,9 +3476,9 @@
         "reading_time": 3,
         "author": "jess",
         "published_at": "2026-03-10T15:05:07Z",
-        "scraped_at": "2026-03-14T03:57:52.408097+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013854+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3212,9 +3498,9 @@
         "reading_time": 2,
         "author": "the_nortern_dev",
         "published_at": "2026-03-08T09:02:53Z",
-        "scraped_at": "2026-03-14T03:57:52.408100+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013856+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3234,9 +3520,9 @@
         "reading_time": 4,
         "author": "dev-in-progress",
         "published_at": "2026-03-13T05:30:00Z",
-        "scraped_at": "2026-03-14T03:57:52.408103+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013858+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3249,14 +3535,14 @@
           "weeklyretro",
           "discuss"
         ],
-        "reactions": 30,
+        "reactions": 31,
         "comments": 52,
         "reading_time": 1,
         "author": "jess",
         "published_at": "2026-03-13T04:00:00Z",
-        "scraped_at": "2026-03-14T03:57:52.408106+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013860+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3276,9 +3562,9 @@
         "reading_time": 7,
         "author": "_vjk",
         "published_at": "2026-03-10T15:52:17Z",
-        "scraped_at": "2026-03-14T03:57:52.408109+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013863+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3298,9 +3584,9 @@
         "reading_time": 5,
         "author": "earlgreyhot1701d",
         "published_at": "2026-03-09T03:37:29Z",
-        "scraped_at": "2026-03-14T03:57:52.408112+00:00",
+        "scraped_at": "2026-03-14T04:32:17.013865+00:00",
         "ai": {
-          "error": "API call failed"
+          "error": "http_403"
         }
       },
       {
@@ -3320,7 +3606,26 @@
         "reading_time": 4,
         "author": "jagostoni",
         "published_at": "2026-03-10T13:09:37Z",
-        "scraped_at": "2026-03-14T03:57:52.408115+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013867+00:00"
+      },
+      {
+        "source": "devto",
+        "id": 3344810,
+        "title": "Two React Design Choices Developers Don’t Like—But Can’t Avoid",
+        "description": "Developers have never been shy about disliking certain React APIs. They feel awkward, restrictive, or...",
+        "url": "https://dev.to/playfulprogramming/two-react-design-choices-developers-dont-like-but-cant-avoid-d6g",
+        "tags": [
+          "javascript",
+          "webdev",
+          "solidjs",
+          "react"
+        ],
+        "reactions": 19,
+        "comments": 5,
+        "reading_time": 9,
+        "author": "ryansolid",
+        "published_at": "2026-03-13T15:39:54Z",
+        "scraped_at": "2026-03-14T04:32:17.013869+00:00"
       },
       {
         "source": "devto",
@@ -3339,7 +3644,7 @@
         "reading_time": 6,
         "author": "mahinshanazeer",
         "published_at": "2026-03-09T06:50:36Z",
-        "scraped_at": "2026-03-14T03:57:52.408118+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013872+00:00"
       },
       {
         "source": "devto",
@@ -3358,7 +3663,7 @@
         "reading_time": 5,
         "author": "konark_13",
         "published_at": "2026-03-08T08:20:47Z",
-        "scraped_at": "2026-03-14T03:57:52.408121+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013874+00:00"
       },
       {
         "source": "devto",
@@ -3377,7 +3682,7 @@
         "reading_time": 7,
         "author": "vivek-aws",
         "published_at": "2026-03-07T05:43:11Z",
-        "scraped_at": "2026-03-14T03:57:52.408123+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013876+00:00"
       },
       {
         "source": "devto",
@@ -3396,7 +3701,7 @@
         "reading_time": 5,
         "author": "sag1v",
         "published_at": "2026-03-12T22:48:44Z",
-        "scraped_at": "2026-03-14T03:57:52.408127+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013879+00:00"
       },
       {
         "source": "devto",
@@ -3415,7 +3720,7 @@
         "reading_time": 2,
         "author": "francistrdev",
         "published_at": "2026-03-09T19:26:46Z",
-        "scraped_at": "2026-03-14T03:57:52.408129+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013881+00:00"
       },
       {
         "source": "devto",
@@ -3434,26 +3739,7 @@
         "reading_time": 12,
         "author": "kimmaida",
         "published_at": "2026-03-11T19:19:14Z",
-        "scraped_at": "2026-03-14T03:57:52.408132+00:00"
-      },
-      {
-        "source": "devto",
-        "id": 3344810,
-        "title": "Two React Design Choices Developers Don’t Like—But Can’t Avoid",
-        "description": "Developers have never been shy about disliking certain React APIs. They feel awkward, restrictive, or...",
-        "url": "https://dev.to/playfulprogramming/two-react-design-choices-developers-dont-like-but-cant-avoid-d6g",
-        "tags": [
-          "javascript",
-          "webdev",
-          "solidjs",
-          "react"
-        ],
-        "reactions": 17,
-        "comments": 4,
-        "reading_time": 9,
-        "author": "ryansolid",
-        "published_at": "2026-03-13T15:39:54Z",
-        "scraped_at": "2026-03-14T03:57:52.408135+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013883+00:00"
       },
       {
         "source": "devto",
@@ -3472,7 +3758,7 @@
         "reading_time": 5,
         "author": "adamthedeveloper",
         "published_at": "2026-03-12T04:21:42Z",
-        "scraped_at": "2026-03-14T03:57:52.408138+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013886+00:00"
       },
       {
         "source": "devto",
@@ -3491,7 +3777,7 @@
         "reading_time": 6,
         "author": "sylwia-lask",
         "published_at": "2026-03-12T10:51:33Z",
-        "scraped_at": "2026-03-14T03:57:52.408141+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013888+00:00"
       },
       {
         "source": "devto",
@@ -3510,7 +3796,7 @@
         "reading_time": 2,
         "author": "danishmk1286",
         "published_at": "2026-03-09T13:20:00Z",
-        "scraped_at": "2026-03-14T03:57:52.408148+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013890+00:00"
       },
       {
         "source": "devto",
@@ -3529,7 +3815,7 @@
         "reading_time": 3,
         "author": "nickytonline",
         "published_at": "2026-03-08T18:16:29Z",
-        "scraped_at": "2026-03-14T03:57:52.408151+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013893+00:00"
       },
       {
         "source": "devto",
@@ -3548,7 +3834,7 @@
         "reading_time": 5,
         "author": "dannwaneri",
         "published_at": "2026-03-08T02:46:18Z",
-        "scraped_at": "2026-03-14T03:57:52.408154+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013895+00:00"
       },
       {
         "source": "devto",
@@ -3565,7 +3851,7 @@
         "reading_time": 2,
         "author": "jess",
         "published_at": "2026-03-12T17:37:04Z",
-        "scraped_at": "2026-03-14T03:57:52.408157+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013897+00:00"
       },
       {
         "source": "devto",
@@ -3583,14 +3869,14 @@
         "reading_time": 7,
         "author": "clintonrocha98",
         "published_at": "2026-03-09T04:37:00Z",
-        "scraped_at": "2026-03-14T03:57:52.408159+00:00"
+        "scraped_at": "2026-03-14T04:32:17.013899+00:00"
       }
     ]
   },
   "cross_signals": [],
   "build_opportunities": [],
   "daily_summary": {
-    "error": "API call failed"
+    "error": "http_403"
   },
-  "processed_at": "2026-03-14T03:58:11.090481+00:00"
+  "processed_at": "2026-03-14T04:32:42.657249+00:00"
 }
