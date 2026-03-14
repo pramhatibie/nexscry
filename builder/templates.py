@@ -28,6 +28,79 @@ FAVICON_SVG = """\
 </svg>"""
 
 # 1200×630 OG image — shown when shared on Twitter/LinkedIn
+FEED_XSL = """\
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="/">
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title><xsl:value-of select="/rss/channel/title"/></title>
+        <style>
+          :root{--bg:#0a0a0f;--card:#16161f;--border:#2a2a3a;--cyan:#22d3ee;--blue:#4d7cff;--green:#34d399;--text:#e8e8f0;--muted:#8888a0;--dim:#55556a;--radius:12px}
+          *{box-sizing:border-box;margin:0;padding:0}
+          body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;min-height:100vh}
+          .wrap{max-width:860px;margin:0 auto;padding:40px 24px}
+          .rss-hero{padding:32px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:32px;position:relative;overflow:hidden}
+          .rss-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue))}
+          .rss-hero h1{font-size:1.5rem;font-weight:800;margin-bottom:8px}
+          .rss-hero h1 span{color:var(--cyan)}
+          .rss-hero p{color:var(--muted);font-size:0.9rem;margin-bottom:16px;max-width:560px}
+          .rss-copy{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+          .rss-url{font-family:monospace;font-size:0.8rem;padding:8px 14px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:8px;color:var(--muted);word-break:break-all}
+          .btn{display:inline-block;padding:8px 18px;border-radius:100px;font-size:0.8rem;text-decoration:none;transition:opacity .2s}
+          .btn-primary{background:var(--cyan);color:#0a0a0f;font-weight:700}
+          .btn-primary:hover{opacity:.85}
+          .btn-back{background:transparent;border:1px solid var(--border);color:var(--muted)}
+          .btn-back:hover{border-color:var(--cyan);color:var(--cyan)}
+          .items-label{font-family:monospace;font-size:0.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(--dim);margin-bottom:16px}
+          .item{padding:20px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:12px;transition:border-color .2s}
+          .item:hover{border-color:#3d3d55}
+          .item-cat{font-family:monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin-bottom:6px}
+          .item-title{font-size:1rem;font-weight:600;margin-bottom:8px}
+          .item-title a{color:var(--text);text-decoration:none}
+          .item-title a:hover{color:var(--cyan)}
+          .item-desc{font-size:0.85rem;color:var(--muted);line-height:1.5}
+          .item-date{font-family:monospace;font-size:0.65rem;color:var(--dim);margin-top:8px}
+          .footer{text-align:center;padding:32px 0;font-family:monospace;font-size:0.7rem;color:var(--dim)}
+          .footer a{color:var(--cyan);text-decoration:none}
+          @media(max-width:600px){.wrap{padding:20px 16px}.rss-copy{flex-direction:column}}
+        </style>
+      </head>
+      <body>
+        <div class="wrap">
+          <div class="rss-hero">
+            <h1><span>NexScry</span> RSS Feed</h1>
+            <p>You&#39;re viewing a live RSS feed. Paste the URL below into your RSS reader (Feedly, Readwise Reader, Reeder, NetNewsWire) to subscribe and get the daily brief automatically.</p>
+            <div class="rss-copy">
+              <span class="rss-url">https://nexscry.xyz/feed.xml</span>
+              <a href="https://nexscry.xyz" class="btn btn-back">&#8592; Back to NexScry</a>
+            </div>
+          </div>
+          <div class="items-label"><xsl:value-of select="count(/rss/channel/item)"/> items in this feed</div>
+          <xsl:for-each select="/rss/channel/item">
+            <div class="item">
+              <div class="item-cat"><xsl:value-of select="category"/></div>
+              <div class="item-title">
+                <a href="{link}" target="_blank" rel="noopener"><xsl:value-of select="title"/></a>
+              </div>
+              <xsl:if test="string-length(description) &gt; 10">
+                <div class="item-desc"><xsl:value-of select="description" disable-output-escaping="yes"/></div>
+              </xsl:if>
+              <div class="item-date"><xsl:value-of select="pubDate"/></div>
+            </div>
+          </xsl:for-each>
+          <div class="footer">
+            <a href="https://nexscry.xyz">nexscry.xyz</a> &#183; AI-powered intelligence for builders &#183; updated daily
+          </div>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>"""
+
 OG_IMAGE_SVG = """\
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
   <defs>
@@ -643,6 +716,156 @@ body::before {
   margin-left: 8px;
 }
 
+/* ─── BUILD OPPORTUNITIES (hero section) ─── */
+.build-opps {
+  margin: 40px 0;
+}
+
+.build-opps .section-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: -16px 0 24px;
+  font-family: var(--font-mono);
+}
+
+.opp-card {
+  padding: 28px 28px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.opp-card:hover {
+  border-color: var(--border-accent);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+}
+
+.opp-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: linear-gradient(180deg, var(--accent-green), var(--accent-cyan));
+}
+
+.opp-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 200px; height: 200px;
+  background: radial-gradient(circle, rgba(52,211,153,0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.opp-num {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 10px;
+}
+
+.opp-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.opp-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.opp-field-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.opp-field-value {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.opp-why-now .opp-field-value { color: var(--accent-orange); }
+.opp-users .opp-field-value { color: var(--accent-cyan); }
+
+.opp-footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.opp-score-wrap { flex: 1; min-width: 160px; }
+
+.opp-score-track {
+  height: 5px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.opp-score-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.score-high  { background: linear-gradient(90deg, var(--accent-cyan), var(--accent-green)); }
+.score-med   { background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan)); }
+.score-low   { background: linear-gradient(90deg, var(--accent-orange), var(--accent-blue)); }
+
+.opp-score-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.opp-score-label strong { color: var(--accent-cyan); }
+
+.complexity-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  padding: 4px 12px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.c-weekend { background: rgba(52,211,153,0.1); color: var(--accent-green); border: 1px solid rgba(52,211,153,0.3); }
+.c-short   { background: rgba(77,124,255,0.1);  color: var(--accent-blue);  border: 1px solid rgba(77,124,255,0.3);  }
+.c-medium  { background: rgba(167,139,250,0.1); color: var(--accent-purple);border: 1px solid rgba(167,139,250,0.3); }
+
+.opp-mono  { background: rgba(251,146,60,0.1); color: var(--accent-orange); border: 1px solid rgba(251,146,60,0.3); }
+
+.opp-no-data {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
 /* ─── READING PROGRESS BAR ─── */
 .progress-bar {
   position: fixed;
@@ -896,10 +1119,91 @@ def _source_pill(source: str) -> str:
     return f'<span class="source-pill src-{source}">{source}</span>'
 
 
+def _build_opportunities_html(opportunities: list, total_items: int) -> str:
+    """Render the Build Opportunities hero section."""
+    if not opportunities:
+        return """<section class="build-opps">
+  <div class="section-header">
+    <h2 class="section-title">Today's Build Opportunities</h2>
+    <span class="section-badge badge-ai">AI-Synthesized</span>
+  </div>
+  <div class="opp-no-data">
+    Opportunities will appear after the full pipeline runs with a GROQ_API_KEY.
+    <br>Set your key in GitHub Secrets → run the Actions workflow.
+  </div>
+</section>"""
+
+    cards = ""
+    for i, opp in enumerate(opportunities[:5], 1):
+        score = opp.get("opportunity_score", 0)
+        try:
+            score = float(score)
+        except (TypeError, ValueError):
+            score = 0
+        score_class = "score-high" if score >= 7 else ("score-med" if score >= 4 else "score-low")
+        score_pct = min(score * 10, 100)
+
+        complexity_raw = opp.get("build_complexity", "").lower()
+        if "weekend" in complexity_raw:
+            c_class, c_label = "c-weekend", "Weekend Hack"
+        elif "2-week" in complexity_raw or "2 week" in complexity_raw:
+            c_class, c_label = "c-short", "2-Week MVP"
+        elif "1-month" in complexity_raw or "month" in complexity_raw:
+            c_class, c_label = "c-medium", "1-Month Launch"
+        else:
+            c_class, c_label = "c-short", complexity_raw[:20] or "Quick Build"
+
+        mono = opp.get("monetization_hint", "")
+
+        cards += f"""
+  <div class="opp-card">
+    <div class="opp-num">Opportunity {i:02d} of {len(opportunities)}</div>
+    <div class="opp-title">{_escape_html(opp.get("title", ""))}</div>
+    <div class="opp-body">
+      <div class="opp-field">
+        <div class="opp-field-label">📍 Problem</div>
+        <div class="opp-field-value">{_escape_html(opp.get("problem", ""))}</div>
+      </div>
+      <div class="opp-field">
+        <div class="opp-field-label">📊 Market Evidence</div>
+        <div class="opp-field-value">{_escape_html(opp.get("evidence", ""))}</div>
+      </div>
+      <div class="opp-field opp-why-now">
+        <div class="opp-field-label">⚡ Why Now</div>
+        <div class="opp-field-value">{_escape_html(opp.get("why_now", ""))}</div>
+      </div>
+      <div class="opp-field opp-users">
+        <div class="opp-field-label">🎯 Find First 100 Users</div>
+        <div class="opp-field-value">{_escape_html(opp.get("where_to_find_users", ""))}</div>
+      </div>
+      {"<div class='opp-field'><div class='opp-field-label'>💰 Monetization</div><div class='opp-field-value'>" + _escape_html(mono) + "</div></div>" if mono else ""}
+    </div>
+    <div class="opp-footer">
+      <div class="opp-score-wrap">
+        <div class="opp-score-track">
+          <div class="opp-score-fill {score_class}" style="width:{score_pct:.0f}%"></div>
+        </div>
+        <span class="opp-score-label">Signal strength: <strong>{score:.0f}/10</strong></span>
+      </div>
+      <span class="complexity-badge {c_class}">{c_label}</span>
+    </div>
+  </div>"""
+
+    return f"""<section class="build-opps">
+  <div class="section-header">
+    <h2 class="section-title">Today's Build Opportunities</h2>
+    <span class="section-badge badge-ai">AI-Synthesized · {len(opportunities)} found</span>
+  </div>
+  <p class="build-opps section-desc">Cross-referenced from {total_items} data points · updated daily · specific enough to act on today</p>
+  {cards}
+</section>"""
+
+
 def build_index_page(processed_data: dict) -> str:
     """Build the main index.html page."""
     all_data = processed_data.get("data", {})
     cross_signals = processed_data.get("cross_signals", [])
+    build_opportunities = processed_data.get("build_opportunities", [])
     summary = processed_data.get("daily_summary", {})
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -934,6 +1238,9 @@ def build_index_page(processed_data: dict) -> str:
           {"<div class='signal-opportunity'>" + opportunity + "</div>" if opportunity else ""}
           {"<p class='signal-confidence'>confidence: " + confidence + "</p>" if confidence else ""}
         </div>"""
+
+    # Build Opportunities section HTML
+    build_opps_html = _build_opportunities_html(build_opportunities, total_items)
 
     # Trending topics cloud
     trending_topics = _extract_trending_topics(all_data)
@@ -1160,6 +1467,9 @@ def build_index_page(processed_data: dict) -> str:
       <div class="stat"><div class="stat-value">{len(cross_signals)}</div><div class="stat-label">Cross-Signals</div></div>
       <div class="stat"><div class="stat-value">{pain_count}</div><div class="stat-label">Pain Points</div></div>
     </div>
+
+    <!-- BUILD OPPORTUNITIES (HERO) -->
+    {build_opps_html}
 
     <!-- CROSS-SOURCE INTELLIGENCE -->
     {"<section class='cross-signals'><div class='section-header'><h2 class='section-title'>Cross-Source Intelligence</h2><span class='section-badge badge-ai'>AI-Detected</span></div>" + cross_html + "</section>" if cross_html else ""}
@@ -1490,6 +1800,7 @@ def build_rss_feed(processed_data: dict) -> str:
     </item>"""
 
     return f"""<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{_escape_xml(SITE_NAME)} — Daily Intelligence Brief</title>
@@ -1554,6 +1865,10 @@ def build_site(processed_data: dict):
     with open(os.path.join(api_dir, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(processed_data, f, ensure_ascii=False, indent=2)
     print(f"  ✅ Built {BUILD_DIR}/api/latest.json")
+
+    # RSS XSL stylesheet (makes RSS beautiful in browsers)
+    with open(os.path.join(BUILD_DIR, "feed.xsl"), "w", encoding="utf-8") as f:
+        f.write(FEED_XSL)
 
     # Favicon SVG
     with open(os.path.join(BUILD_DIR, "favicon.svg"), "w", encoding="utf-8") as f:

@@ -70,29 +70,31 @@ def call_groq(
 # 1. PER-ITEM ENRICHMENT
 # ─────────────────────────────────────────────
 
-ENRICHMENT_SYSTEM = """You are NexScry, an AI intelligence layer for builders (developers, founders, indie hackers).
-Your job: extract actionable signal from raw internet data.
+ENRICHMENT_SYSTEM = """You are NexScry — the sharpest AI intelligence layer for solo builders, indie hackers, and startup founders.
+Your job: extract SPECIFIC, ACTIONABLE signal from raw internet data.
+Be precise. Name real problems, real communities, real monetization paths.
 Always respond in valid JSON. No markdown, no backticks, just JSON."""
 
 
 def enrich_reddit_post(post: dict) -> dict:
     """Add AI analysis to a Reddit post."""
-    prompt = f"""Analyze this Reddit post for builder intelligence:
+    prompt = f"""Analyze this Reddit post as a market signal for builders:
 
 Title: {post['title']}
 Subreddit: r/{post['sub']}
-Text: {post.get('selftext', '')[:500]}
+Text: {post.get('selftext', '')[:600]}
 Score: {post['score']} | Comments: {post['num_comments']}
 Pain signals detected: {post.get('pain_signals', [])}
 
-Return JSON:
+Return JSON (be SPECIFIC — no vague generalities):
 {{
   "category": "pain_point|tool_request|market_signal|discussion|showcase",
-  "opportunity_score": 1-10,
-  "one_liner": "one sentence: what this means for builders",
-  "build_idea": "if opportunity_score > 6, suggest what to build. else null",
-  "keywords": ["3-5 topic keywords"],
-  "audience": "who would care about this"
+  "opportunity_score": <integer 1-10>,
+  "one_liner": "one punchy sentence: what exact problem this reveals for builders",
+  "build_idea": "if opportunity_score >= 7: describe a specific product/tool/feature that would solve this. Be concrete: what it does, how it makes money. Otherwise null.",
+  "market_size_hint": "small niche | growing niche | mass market",
+  "keywords": ["3-5 specific topic keywords"],
+  "audience": "exact type of person who has this problem"
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
@@ -104,19 +106,21 @@ Return JSON:
 
 def enrich_hn_story(story: dict) -> dict:
     """Add AI analysis to a HN story."""
-    prompt = f"""Analyze this Hacker News story for builders:
+    prompt = f"""Analyze this Hacker News story as a signal for builders:
 
 Title: {story['title']}
 Points: {story.get('points', 0)} | Comments: {story.get('num_comments', 0)}
 URL: {story.get('url', 'N/A')}
+Type: {story.get('type', 'story')}
 
-Return JSON:
+Return JSON (translate tech jargon into business reality):
 {{
-  "category": "launch|tool|essay|research|hiring|drama|tutorial",
-  "relevance": 1-10,
-  "one_liner": "what this means — translated from HN jargon to plain business English",
-  "builder_takeaway": "one concrete action a builder should take based on this",
-  "keywords": ["3-5 topic keywords"]
+  "category": "launch|tool|essay|research|hiring|discussion|tutorial",
+  "relevance": <integer 1-10>,
+  "one_liner": "what this means for builders — in plain English, not HN-speak",
+  "builder_takeaway": "one specific action: what should a builder DO with this information right now?",
+  "signal_type": "opportunity|threat|trend|noise",
+  "keywords": ["3-5 specific topic keywords"]
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
@@ -128,23 +132,23 @@ Return JSON:
 
 def enrich_github_repo(repo: dict) -> dict:
     """Add AI analysis to a GitHub repo."""
-    prompt = f"""Analyze this trending GitHub repo for builders:
+    prompt = f"""Analyze this trending GitHub repo as a market signal:
 
 Repo: {repo['name']}
 Description: {repo.get('description', '')}
 Language: {repo.get('language', 'N/A')}
-Stars: {repo['stars']} | Star velocity: {repo.get('star_velocity', 0)}/day
+Stars: {repo['stars']} | Gaining {repo.get('star_velocity', 0)} stars/day
 Topics: {repo.get('topics', [])}
-Hiring signal: {repo.get('hiring_signal', False)}
 
-Return JSON:
+Return JSON (explain the business reality, not just the tech):
 {{
   "category": "framework|tool|library|ai_model|devops|data|other",
-  "hype_vs_substance": 1-10,
-  "one_liner": "what this repo does in plain English",
-  "why_trending": "why this is gaining stars now",
-  "builder_action": "how a builder could use or learn from this",
-  "keywords": ["3-5 topic keywords"]
+  "hype_vs_substance": <integer 1-10>,
+  "one_liner": "what problem this repo actually solves, in one sentence",
+  "why_trending": "the real reason this is gaining attention NOW — what changed in the ecosystem?",
+  "builder_action": "specific way a builder could use, fork, build on top of, or compete with this",
+  "adjacent_opportunity": "a gap this repo does NOT cover that someone could build",
+  "keywords": ["3-5 specific topic keywords"]
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
@@ -156,19 +160,20 @@ Return JSON:
 
 def enrich_arxiv_paper(paper: dict) -> dict:
     """ELI5 an ArXiv paper for practitioners."""
-    prompt = f"""Explain this ArXiv paper for a software developer who doesn't read academic papers:
+    prompt = f"""Explain this ArXiv paper to a software developer who wants to know if it changes what they should build:
 
 Title: {paper['title']}
-Abstract: {paper['summary'][:600]}
+Abstract: {paper['summary'][:700]}
 Categories: {paper.get('categories', [])}
 
-Return JSON:
+Return JSON (developer-first, not academic):
 {{
-  "eli5": "explain like I'm a developer, not a PhD. 2-3 sentences max",
-  "practical_use": "one real-world application of this research",
-  "who_cares": "which type of builder should pay attention to this",
-  "novelty_score": 1-10,
-  "keywords": ["3-5 topic keywords"]
+  "eli5": "2 sentences: what this research does and why it matters. Use plain English. No jargon.",
+  "practical_use": "the most concrete near-term application of this — what product could use this in 6 months?",
+  "who_cares": "which specific type of developer/builder should bookmark this and why",
+  "novelty_score": <integer 1-10>,
+  "time_to_production": "months until this could realistically ship in a product",
+  "keywords": ["3-5 specific topic keywords"]
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
@@ -180,7 +185,7 @@ Return JSON:
 
 def enrich_devto_article(article: dict) -> dict:
     """Add AI analysis to a DEV.to article."""
-    prompt = f"""Analyze this DEV.to article for builders:
+    prompt = f"""Analyze this DEV.to article as a signal of what developers care about:
 
 Title: {article['title']}
 Description: {article.get('description', '')}
@@ -190,10 +195,10 @@ Reactions: {article.get('reactions', 0)} | Comments: {article.get('comments', 0)
 Return JSON:
 {{
   "category": "tutorial|opinion|project|news|career|other",
-  "relevance": 1-10,
-  "one_liner": "what builders should know from this article in one sentence",
-  "builder_takeaway": "one concrete action or insight a builder should take from this",
-  "keywords": ["3-5 topic keywords"]
+  "relevance": <integer 1-10>,
+  "one_liner": "what this tells builders about what the dev community is currently struggling with or excited about",
+  "builder_takeaway": "one specific action or insight a builder should extract from this article's popularity",
+  "keywords": ["3-5 specific topic keywords"]
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
@@ -306,7 +311,103 @@ Max 5 signals. Return valid JSON array only."""
 
 
 # ─────────────────────────────────────────────
-# 3. DAILY TREND SUMMARY
+# 3. BUILD OPPORTUNITIES — the killer feature
+# ─────────────────────────────────────────────
+
+def generate_build_opportunities(all_data: dict, cross_signals: list) -> list:
+    """
+    THE REASON PEOPLE COME BACK DAILY.
+
+    Synthesizes signals from ALL sources into specific, validated build
+    opportunities — each with a problem, evidence, timing, and where to
+    find first users. Solo devs should be able to act on these TODAY.
+    """
+    # Gather richest signals
+    pain_posts = [
+        {
+            "title": p.get("title", ""),
+            "sub": p.get("sub", ""),
+            "score": p.get("score", 0),
+            "comments": p.get("num_comments", 0),
+            "pain_signals": p.get("pain_signals", []),
+            "ai_build_idea": p.get("ai", {}).get("build_idea", ""),
+        }
+        for p in all_data.get("reddit", [])
+        if p.get("has_pain") and p.get("score", 0) > 5
+    ][:12]
+
+    ask_hn = [
+        {"title": s.get("title", ""), "points": s.get("points", 0), "comments": s.get("num_comments", 0)}
+        for s in all_data.get("hackernews", [])
+        if s.get("type") == "ask_hn"
+    ][:6]
+
+    hot_repos = [
+        {
+            "name": r.get("name", ""),
+            "desc": r.get("description", ""),
+            "velocity": r.get("star_velocity", 0),
+            "adjacent_opportunity": r.get("ai", {}).get("adjacent_opportunity", ""),
+        }
+        for r in sorted(all_data.get("github", []), key=lambda x: x.get("star_velocity", 0), reverse=True)
+    ][:6]
+
+    ph_launches = [
+        {"title": l.get("title", ""), "desc": l.get("description", "")[:150], "gap": l.get("ai", {}).get("competitive_gap", "")}
+        for l in all_data.get("producthunt", [])
+    ][:5]
+
+    context = {
+        "reddit_pain_signals": pain_posts,
+        "ask_hn_questions": ask_hn,
+        "hot_github_repos": hot_repos,
+        "product_hunt_launches": ph_launches,
+        "cross_source_signals": cross_signals[:5],
+    }
+
+    prompt = f"""You are NexScry's opportunity engine. Today's real internet data:
+
+{json.dumps(context, indent=2)[:4500]}
+
+Identify the TOP 3-5 SPECIFIC business opportunities for a solo developer right now.
+
+RULES:
+- SPECIFIC beats vague. "CLI tool for managing Ollama model context windows" > "AI tool"
+- Each opportunity must have at least 2 independent signals from the data above
+- Must be buildable by 1 person within weeks, not months
+- Focus on EMERGING gaps (not already saturated markets)
+
+Return a JSON array ONLY. No text outside the JSON:
+[
+  {{
+    "title": "5-8 word specific opportunity title",
+    "problem": "Exactly what pain exists. Reference specific signals from the data. 2-3 sentences.",
+    "evidence": "How many signals, which platforms, what engagement numbers support this",
+    "why_now": "What specific recent shift (new model, API change, regulation, trend) makes this the RIGHT moment",
+    "opportunity_score": <integer 1-10>,
+    "where_to_find_users": "Specific communities: r/xyz, HN thread about X, specific Discord/Slack",
+    "build_complexity": "weekend hack|2-week MVP|1-month launch",
+    "monetization_hint": "How this makes money: SaaS $X/mo, one-time, API pricing, etc."
+  }}
+]"""
+
+    result = call_groq(prompt, ENRICHMENT_SYSTEM, max_tokens=2500, temperature=0.35)
+    try:
+        opps = json.loads(result)
+        return opps if isinstance(opps, list) else []
+    except json.JSONDecodeError:
+        # Try extracting JSON array from response
+        match = __import__('re').search(r'\[.*\]', result, __import__('re').DOTALL)
+        if match:
+            try:
+                return json.loads(match.group())
+            except json.JSONDecodeError:
+                pass
+        return []
+
+
+# ─────────────────────────────────────────────
+# 4. DAILY TREND SUMMARY
 # ─────────────────────────────────────────────
 
 def generate_daily_summary(all_data: dict, cross_signals: list) -> dict:
@@ -395,12 +496,16 @@ def process_all(all_data: dict) -> dict:
     print("  🔗 Running cross-source intelligence...")
     cross_signals = extract_cross_signals(all_data)
 
+    print("  🏗 Generating build opportunities...")
+    build_opportunities = generate_build_opportunities(all_data, cross_signals)
+
     print("  📊 Generating daily summary...")
     daily_summary = generate_daily_summary(all_data, cross_signals)
 
     return {
         "data": all_data,
         "cross_signals": cross_signals,
+        "build_opportunities": build_opportunities,
         "daily_summary": daily_summary,
         "processed_at": datetime.now(timezone.utc).isoformat(),
     }
