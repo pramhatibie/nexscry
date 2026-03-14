@@ -25,6 +25,7 @@ def call_groq(
 ) -> str:
     """Call Groq API. Falls back to smaller model if rate-limited."""
     if not GROQ_API_KEY:
+        print("  ❌ GROQ_API_KEY is not set — add it as a GitHub Secret named GROQ_API_KEY")
         return '{"error": "No GROQ_API_KEY set"}'
 
     messages = []
@@ -50,20 +51,51 @@ def call_groq(
     )
 
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=45) as resp:
             data = json.loads(resp.read().decode())
             return data["choices"][0]["message"]["content"]
     except urllib.error.HTTPError as e:
-        if e.code == 429 and retry:
-            print(f"    ⏳ Rate limited, waiting 10s then using fallback model...")
-            time.sleep(10)
-            return call_groq(prompt, system, GROQ_FALLBACK_MODEL, max_tokens, temperature, retry=False)
-        body = e.read().decode() if hasattr(e, 'read') else str(e)
-        print(f"    ⚠ Groq API error {e.code}: {body[:200]}")
-        return '{"error": "API call failed"}'
+        body = ""
+        try:
+            body = e.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = str(e)
+
+        if e.code == 401:
+            print(f"  ❌ Groq 401 UNAUTHORIZED — API key is wrong or expired. Check your GROQ_API_KEY secret.")
+            return '{"error": "invalid_api_key"}'
+        if e.code == 429:
+            if retry:
+                print(f"  ⏳ Groq rate-limited (429) — waiting 20s then retrying with fallback model...")
+                time.sleep(20)
+                return call_groq(prompt, system, GROQ_FALLBACK_MODEL, max_tokens, temperature, retry=False)
+            print(f"  ⚠ Groq still rate-limited after retry — skipping this item")
+            return '{"error": "rate_limited"}'
+        if e.code == 400:
+            print(f"  ⚠ Groq 400 BAD REQUEST — model '{model}' may be unavailable. Body: {body[:300]}")
+            if retry and model != GROQ_FALLBACK_MODEL:
+                print(f"  🔄 Retrying with fallback model {GROQ_FALLBACK_MODEL}...")
+                return call_groq(prompt, system, GROQ_FALLBACK_MODEL, max_tokens, temperature, retry=False)
+            return '{"error": "bad_request"}'
+        print(f"  ⚠ Groq HTTP {e.code}: {body[:300]}")
+        return f'{{"error": "http_{e.code}"}}'
     except Exception as e:
-        print(f"    ⚠ Groq error: {e}")
-        return '{"error": "Connection failed"}'
+        print(f"  ⚠ Groq connection error: {e}")
+        return '{"error": "connection_failed"}'
+
+
+def test_groq_connection() -> bool:
+    """Quick check that the API key is valid before running the full pipeline."""
+    if not GROQ_API_KEY:
+        print("  ❌ GROQ_API_KEY not set — AI features will be disabled")
+        return False
+    result = call_groq("Reply with the single word: ok", max_tokens=5, retry=False)
+    ok = "ok" in result.lower() and "error" not in result
+    if ok:
+        print(f"  ✅ Groq API key valid (model: {GROQ_MODEL})")
+    else:
+        print(f"  ❌ Groq API key test failed. Response: {result[:200]}")
+    return ok
 
 
 # ─────────────────────────────────────────────

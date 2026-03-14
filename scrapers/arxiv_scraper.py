@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from config import ARXIV_CATEGORIES, ARXIV_MAX_PAPERS
 
 
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
 
 
 def _parse_atom_entries(xml_text: str) -> list[dict]:

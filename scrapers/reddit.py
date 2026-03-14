@@ -11,19 +11,48 @@ from datetime import datetime, timezone
 from config import REDDIT_SUBS, REDDIT_SORT, REDDIT_LIMIT, REDDIT_PAIN_KEYWORDS
 
 
-USER_AGENT = "NexScry/1.0 (builder intelligence bot)"
+# Reddit requires a descriptive User-Agent to avoid 429/403
+USER_AGENT = "Mozilla/5.0 (compatible; NexScry/1.0; +https://github.com/pramhatibie/nexscry)"
 
 
 def fetch_subreddit(sub: str, sort: str = REDDIT_SORT, limit: int = REDDIT_LIMIT) -> list[dict]:
     """Fetch posts from a subreddit's public JSON feed."""
     url = f"https://www.reddit.com/r/{sub}/{sort}.json?limit={limit}&raw_json=1"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    })
 
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
-        print(f"  ⚠ r/{sub}: {e}")
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                raw = resp.read().decode("utf-8", errors="replace")
+                data = json.loads(raw)
+                break
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                print(f"  ⏳ r/{sub}: rate-limited (429) — waiting 15s...")
+                time.sleep(15)
+                continue
+            if e.code == 403:
+                print(f"  ⚠ r/{sub}: 403 Forbidden — Reddit may be blocking this IP. Trying old.reddit.com...")
+                # Fallback to old.reddit.com which is less aggressive
+                url = f"https://old.reddit.com/r/{sub}/{sort}.json?limit={limit}&raw_json=1"
+                req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+                try:
+                    with urllib.request.urlopen(req, timeout=20) as resp2:
+                        data = json.loads(resp2.read().decode("utf-8", errors="replace"))
+                    break
+                except Exception as e2:
+                    print(f"  ⚠ r/{sub} old.reddit fallback failed: {e2}")
+                    return []
+            print(f"  ⚠ r/{sub}: HTTP {e.code} — {e}")
+            return []
+        except (urllib.error.URLError, json.JSONDecodeError) as e:
+            print(f"  ⚠ r/{sub}: {e}")
+            return []
+    else:
+        print(f"  ⚠ r/{sub}: all attempts failed")
         return []
 
     posts = []

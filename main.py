@@ -150,6 +150,13 @@ def main():
         run_builder(processed_data)
 
     else:  # --full (default)
+        # Validate Groq API key upfront so we catch problems early
+        from processor.groq_client import test_groq_connection
+        api_ok = test_groq_connection()
+        if not api_ok:
+            print("\n  ⚠ AI enrichment will be skipped — set GROQ_API_KEY as a GitHub Secret")
+            print("  ℹ  Scraped data will still be collected and the site will be built\n")
+
         all_data = run_scrapers()
         save_raw_data(all_data)
         processed_data = run_processor(all_data)
