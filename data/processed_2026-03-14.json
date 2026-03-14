@@ -12,9 +12,9 @@
         "points": 3387,
         "num_comments": 925,
         "created_at": "2023-09-05T15:07:21Z",
-        "scraped_at": "2026-03-14T06:33:19.860517+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338913+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"The FCC is considering regulating security updates for IoT devices, potentially creating both opportunities and challenges for h",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"The FCC is considering regulating IoT security updates, potentially creating new compliance burdens and market opportunities for",
           "category": "unknown",
           "relevance": 0
         }
@@ -29,7 +29,7 @@
         "points": 3270,
         "num_comments": 473,
         "created_at": "2020-04-19T21:33:46Z",
-        "scraped_at": "2026-03-14T06:33:19.860535+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338931+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A software engineer's impending blindness highlights a critical need for accessible tools and inclusive design, creating opportu",
           "category": "unknown",
@@ -46,9 +46,9 @@
         "points": 2634,
         "num_comments": 531,
         "created_at": "2020-05-31T01:53:44Z",
-        "scraped_at": "2026-03-14T06:33:19.860540+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338935+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"A highly upvoted and commented HN post about a programmer with 57 years of experience indicates strong interest in the history, ",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"A programmer with 57 years of experience sparks a discussion about the evolution of technology and the value of experience in th",
           "category": "unknown",
           "relevance": 0
         }
@@ -63,9 +63,9 @@
         "points": 2589,
         "num_comments": 1055,
         "created_at": "2017-02-28T17:45:58Z",
-        "scraped_at": "2026-03-14T06:33:19.860543+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338938+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A widespread S3 outage highlights the risk of relying solely on a single cloud provider for critical infrastructure, impacting c",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A widespread S3 outage indicates a critical dependency risk for countless online services, highlighting the need for robust redu",
           "category": "unknown",
           "relevance": 0
         }
@@ -80,9 +80,9 @@
         "points": 2439,
         "num_comments": 907,
         "created_at": "2025-06-09T16:28:51Z",
-        "scraped_at": "2026-03-14T06:33:19.860547+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338941+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"US tax law changes (Section 174) now require amortizing software development costs over 5-15 years instead of immediate deductio",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"US tax law changes (Section 174) now require software development costs to be amortized over 5 years instead of being immediatel",
           "category": "unknown",
           "relevance": 0
         }
@@ -97,9 +97,9 @@
         "points": 2425,
         "num_comments": 193,
         "created_at": "2020-01-15T00:51:29Z",
-        "scraped_at": "2026-03-14T06:33:19.860550+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338945+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"hiring\",\n  \"relevance\": 9,\n  \"one_liner\": \"People are successfully leveraging the Hacker News community to find employment, indicating a strong network effect and potential fo",
+          "one_liner": "```json\n{\n  \"category\": \"hiring\",\n  \"relevance\": 9,\n  \"one_liner\": \"People are successfully leveraging the Hacker News community to find employment, indicating a strong, active network for career adva",
           "category": "unknown",
           "relevance": 0
         }
@@ -114,9 +114,9 @@
         "points": 2381,
         "num_comments": 451,
         "created_at": "2016-07-11T19:34:57Z",
-        "scraped_at": "2026-03-14T06:33:19.860553+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338948+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Hacker News is evolving its community management, indicating a need for better community tools and moderation solutions.\",\n  \"bu",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"Hacker News is evolving its community management and feature set, indicating a need for better tools and experiences for online ",
           "category": "unknown",
           "relevance": 0
         }
@@ -131,9 +131,9 @@
         "points": 2363,
         "num_comments": 249,
         "created_at": "2020-11-27T05:35:27Z",
-        "scraped_at": "2026-03-14T06:33:19.860555+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338950+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"A heartfelt thank you to Dang (Hacker News moderator) indicates a strong sense of community and appreciation for fair moderation",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"A massive outpouring of gratitude towards Dang (Hacker News moderator) indicates a strong sense of community and appreciation fo",
           "category": "unknown",
           "relevance": 0
         }
@@ -148,7 +148,7 @@
         "points": 2316,
         "num_comments": 827,
         "created_at": "2020-12-14T11:51:30Z",
-        "scraped_at": "2026-03-14T06:33:19.860558+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338952+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"A major Google outage highlights the risk of relying on single providers and the need for robust backup and redundancy strategie",
           "category": "unknown",
@@ -165,9 +165,9 @@
         "points": 2246,
         "num_comments": 396,
         "created_at": "2025-01-23T17:58:05Z",
-        "scraped_at": "2026-03-14T06:33:19.860561+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338955+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A solo founder successfully built and sold their company, highlighting the viability of the indie/bootstrapped path and providin",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A solo founder successfully built and sold their company, highlighting the viability of bootstrapping and the potential for sign",
           "category": "unknown",
           "relevance": 0
         }
@@ -182,9 +182,9 @@
         "points": 2090,
         "num_comments": 217,
         "created_at": "2023-04-05T17:11:56Z",
-        "scraped_at": "2026-03-14T06:33:19.860563+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338957+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 3,\n  \"one_liner\": \"The tech community is mourning the loss of a prominent figure, Bob Lee (Cash App's former CTO). This highlights the importance o",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 3,\n  \"one_liner\": \"The tragic death of Bob Lee, a prominent figure in the tech community, sparks reflection on safety in San Francisco and the broa",
           "category": "unknown",
           "relevance": 0
         }
@@ -199,9 +199,9 @@
         "points": 2051,
         "num_comments": 753,
         "created_at": "2022-07-21T22:50:29Z",
-        "scraped_at": "2026-03-14T06:33:19.860566+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338960+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Experienced developers are sharing their favorite, less-known data structures, revealing potential gaps in common software devel",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Experienced developers are sharing their favorite niche data structures, revealing potential gaps in existing tooling and librar",
           "category": "unknown",
           "relevance": 0
         }
@@ -216,9 +216,9 @@
         "points": 2022,
         "num_comments": 1091,
         "created_at": "2021-04-07T08:41:03Z",
-        "scraped_at": "2026-03-14T06:33:19.860568+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338962+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"A large number of tech workers are actively seeking low-effort, high-paying jobs, indicating potential dissatisfaction and ineff",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"A large number of tech workers are actively seeking low-effort, high-paying jobs, indicating potential inefficiencies and dissat",
           "category": "unknown",
           "relevance": 0
         }
@@ -233,9 +233,9 @@
         "points": 2009,
         "num_comments": 1165,
         "created_at": "2019-02-05T17:31:45Z",
-        "scraped_at": "2026-03-14T06:33:19.860574+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338964+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 9,\n  \"one_liner\": \"A massive, curated list of books that profoundly impacted thinkers; a goldmine for understanding shifts in perspective and ident",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 8,\n  \"one_liner\": \"A highly engaged Hacker News thread reveals books that profoundly impacted people's thinking, indicating potential demand for co",
           "category": "unknown",
           "relevance": 0
         }
@@ -250,9 +250,9 @@
         "points": 1958,
         "num_comments": 429,
         "created_at": "2025-12-24T22:56:00Z",
-        "scraped_at": "2026-03-14T06:33:19.860576+00:00",
+        "scraped_at": "2026-03-14T06:43:35.338969+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 2,\n  \"one_liner\": \"A popular, feel-good post on Hacker News signals a time for reflection and community connection, but offers little direct busine",
+          "one_liner": "```json\n{\n  \"category\": \"discussion\",\n  \"relevance\": 2,\n  \"one_liner\": \"A popular, feel-good post on Hacker News signals an opportunity to connect with users on a human level, but offers little direct",
           "category": "unknown",
           "relevance": 0
         }
@@ -267,7 +267,7 @@
         "points": 1901,
         "num_comments": 1792,
         "created_at": "2023-04-27T15:04:56Z",
-        "scraped_at": "2026-03-14T06:33:19.860579+00:00"
+        "scraped_at": "2026-03-14T06:43:35.338971+00:00"
       },
       {
         "source": "hackernews",
@@ -279,7 +279,7 @@
         "points": 1831,
         "num_comments": 390,
         "created_at": "2019-09-01T19:27:00Z",
-        "scraped_at": "2026-03-14T06:33:19.860581+00:00"
+        "scraped_at": "2026-03-14T06:43:35.338974+00:00"
       },
       {
         "source": "hackernews",
@@ -291,7 +291,7 @@
         "points": 1825,
         "num_comments": 462,
         "created_at": "2025-04-02T16:49:56Z",
-        "scraped_at": "2026-03-14T06:33:19.860584+00:00"
+        "scraped_at": "2026-03-14T06:43:35.338977+00:00"
       },
       {
         "source": "hackernews",
@@ -303,7 +303,7 @@
         "points": 1741,
         "num_comments": 1069,
         "created_at": "2019-06-24T16:02:25Z",
-        "scraped_at": "2026-03-14T06:33:19.860588+00:00"
+        "scraped_at": "2026-03-14T06:43:35.338979+00:00"
       },
       {
         "source": "hackernews",
@@ -315,7 +315,7 @@
         "points": 1735,
         "num_comments": 1825,
         "created_at": "2022-02-28T20:38:16Z",
-        "scraped_at": "2026-03-14T06:33:19.860591+00:00"
+        "scraped_at": "2026-03-14T06:43:35.338985+00:00"
       },
       {
         "source": "hackernews",
@@ -323,11 +323,11 @@
         "title": "Can I run AI locally?",
         "url": "https://www.canirun.ai/",
         "hn_url": "https://news.ycombinator.com/item?id=47363754",
-        "points": 1121,
-        "num_comments": 277,
+        "points": 1130,
+        "num_comments": 278,
         "author": "ricardbejarano",
         "created_at": "2026-03-13T12:46:10Z",
-        "scraped_at": "2026-03-14T06:33:19.514820+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029839+00:00"
       },
       {
         "source": "hackernews",
@@ -335,11 +335,11 @@
         "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
         "url": "https://claude.com/blog/1m-context-ga",
         "hn_url": "https://news.ycombinator.com/item?id=47367129",
-        "points": 540,
-        "num_comments": 220,
+        "points": 546,
+        "num_comments": 221,
         "author": "meetpateltech",
         "created_at": "2026-03-13T17:19:01Z",
-        "scraped_at": "2026-03-14T06:33:19.514842+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029858+00:00"
       },
       {
         "source": "hackernews",
@@ -347,11 +347,11 @@
         "title": "Qatar helium shutdown puts chip supply chain on a two-week clock",
         "url": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
         "hn_url": "https://news.ycombinator.com/item?id=47363584",
-        "points": 504,
-        "num_comments": 452,
+        "points": 507,
+        "num_comments": 455,
         "author": "johnbarron",
         "created_at": "2026-03-13T12:31:09Z",
-        "scraped_at": "2026-03-14T06:33:19.514868+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029862+00:00"
       },
       {
         "source": "hackernews",
@@ -359,23 +359,11 @@
         "title": "Show HN: Channel Surfer – Watch YouTube like it’s cable TV",
         "url": "https://channelsurfer.tv",
         "hn_url": "https://news.ycombinator.com/item?id=47336100",
-        "points": 460,
+        "points": 461,
         "num_comments": 144,
         "author": "kilroy123",
         "created_at": "2026-03-11T14:34:57Z",
-        "scraped_at": "2026-03-14T06:33:19.514873+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47366374",
-        "title": "The Wyden Siren Goes Off Again: We’ll Be “Stunned” By What the NSA Is Doing",
-        "url": "https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/",
-        "hn_url": "https://news.ycombinator.com/item?id=47366374",
-        "points": 434,
-        "num_comments": 127,
-        "author": "cf100clunk",
-        "created_at": "2026-03-13T16:13:30Z",
-        "scraped_at": "2026-03-14T06:33:19.514879+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029865+00:00"
       },
       {
         "source": "hackernews",
@@ -383,11 +371,11 @@
         "title": "Elon Musk pushes out more xAI founders as AI coding effort falters",
         "url": "https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5",
         "hn_url": "https://news.ycombinator.com/item?id=47366666",
-        "points": 391,
-        "num_comments": 602,
+        "points": 392,
+        "num_comments": 603,
         "author": "merksittich",
         "created_at": "2026-03-13T16:40:42Z",
-        "scraped_at": "2026-03-14T06:33:19.514882+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029867+00:00"
       },
       {
         "source": "hackernews",
@@ -395,11 +383,11 @@
         "title": "Your phone is an entire computer",
         "url": "https://medhir.com/blog/your-phone-is-an-entire-computer",
         "hn_url": "https://news.ycombinator.com/item?id=47367568",
-        "points": 289,
+        "points": 290,
         "num_comments": 261,
         "author": "medhir",
         "created_at": "2026-03-13T18:02:32Z",
-        "scraped_at": "2026-03-14T06:33:19.514885+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029870+00:00"
       },
       {
         "source": "hackernews",
@@ -411,7 +399,7 @@
         "num_comments": 387,
         "author": "tzury",
         "created_at": "2026-03-13T17:51:34Z",
-        "scraped_at": "2026-03-14T06:33:19.514889+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029872+00:00"
       },
       {
         "source": "hackernews",
@@ -420,10 +408,10 @@
         "url": "https://www.bbc.co.uk/news/articles/c4g7kwq1k11o",
         "hn_url": "https://news.ycombinator.com/item?id=47360978",
         "points": 273,
-        "num_comments": 88,
+        "num_comments": 89,
         "author": "edent",
         "created_at": "2026-03-13T05:18:01Z",
-        "scraped_at": "2026-03-14T06:33:19.514892+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029877+00:00"
       },
       {
         "source": "hackernews",
@@ -431,11 +419,11 @@
         "title": "Mouser: An open source alternative to Logi-Plus mouse software",
         "url": "https://github.com/TomBadash/MouseControl",
         "hn_url": "https://news.ycombinator.com/item?id=47368033",
-        "points": 261,
-        "num_comments": 77,
+        "points": 262,
+        "num_comments": 78,
         "author": "avionics-guy",
         "created_at": "2026-03-13T18:42:54Z",
-        "scraped_at": "2026-03-14T06:33:19.514894+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029879+00:00"
       },
       {
         "source": "hackernews",
@@ -443,11 +431,11 @@
         "title": "Hammerspoon",
         "url": "https://github.com/Hammerspoon/hammerspoon",
         "hn_url": "https://news.ycombinator.com/item?id=47367932",
-        "points": 257,
-        "num_comments": 93,
+        "points": 258,
+        "num_comments": 94,
         "author": "tosh",
         "created_at": "2026-03-13T18:34:12Z",
-        "scraped_at": "2026-03-14T06:33:19.514898+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029881+00:00"
       },
       {
         "source": "hackernews",
@@ -455,11 +443,23 @@
         "title": "Parallels confirms MacBook Neo can run Windows in a virtual machine",
         "url": "https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/",
         "hn_url": "https://news.ycombinator.com/item?id=47364729",
-        "points": 238,
-        "num_comments": 324,
+        "points": 239,
+        "num_comments": 325,
         "author": "tosh",
         "created_at": "2026-03-13T14:11:36Z",
-        "scraped_at": "2026-03-14T06:33:19.514900+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029886+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47371692",
+        "title": "Games with loot boxes to get minimum 16 age rating across Europe",
+        "url": "https://www.bbc.com/news/articles/cge84xqjg5lo",
+        "hn_url": "https://news.ycombinator.com/item?id=47371692",
+        "points": 128,
+        "num_comments": 46,
+        "author": "gostsamo",
+        "created_at": "2026-03-14T00:02:37Z",
+        "scraped_at": "2026-03-14T06:43:35.029888+00:00"
       },
       {
         "source": "hackernews",
@@ -471,19 +471,7 @@
         "num_comments": 101,
         "author": "hammerbrostime",
         "created_at": "2026-03-13T18:52:17Z",
-        "scraped_at": "2026-03-14T06:33:19.514902+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47371692",
-        "title": "Games with loot boxes to get minimum 16 age rating across Europe",
-        "url": "https://www.bbc.com/news/articles/cge84xqjg5lo",
-        "hn_url": "https://news.ycombinator.com/item?id=47371692",
-        "points": 127,
-        "num_comments": 44,
-        "author": "gostsamo",
-        "created_at": "2026-03-14T00:02:37Z",
-        "scraped_at": "2026-03-14T06:33:19.514905+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029890+00:00"
       },
       {
         "source": "hackernews",
@@ -491,11 +479,11 @@
         "title": "I found 39 Algolia admin keys exposed across open source documentation sites",
         "url": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
         "hn_url": "https://news.ycombinator.com/item?id=47371064",
-        "points": 109,
+        "points": 112,
         "num_comments": 24,
         "author": "kernelrocks",
         "created_at": "2026-03-13T22:52:05Z",
-        "scraped_at": "2026-03-14T06:33:19.514907+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029893+00:00"
       },
       {
         "source": "hackernews",
@@ -504,10 +492,10 @@
         "url": "https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?smid=url-share",
         "hn_url": "https://news.ycombinator.com/item?id=47348733",
         "points": 106,
-        "num_comments": 86,
+        "num_comments": 90,
         "author": "angst",
         "created_at": "2026-03-12T10:29:45Z",
-        "scraped_at": "2026-03-14T06:33:19.514909+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029895+00:00"
       },
       {
         "source": "hackernews",
@@ -519,7 +507,7 @@
         "num_comments": 66,
         "author": "a24venka",
         "created_at": "2026-03-13T13:22:40Z",
-        "scraped_at": "2026-03-14T06:33:19.514911+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029897+00:00"
       },
       {
         "source": "hackernews",
@@ -531,7 +519,7 @@
         "num_comments": 60,
         "author": "nvahalik",
         "created_at": "2026-03-13T03:32:18Z",
-        "scraped_at": "2026-03-14T06:33:19.514913+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029899+00:00"
       },
       {
         "source": "hackernews",
@@ -543,7 +531,7 @@
         "num_comments": 22,
         "author": "ingve",
         "created_at": "2026-03-10T07:38:59Z",
-        "scraped_at": "2026-03-14T06:33:19.514915+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029901+00:00"
       },
       {
         "source": "hackernews",
@@ -555,7 +543,7 @@
         "num_comments": 48,
         "author": "wjSgoWPm5bWAhXB",
         "created_at": "2026-03-11T20:46:24Z",
-        "scraped_at": "2026-03-14T06:33:19.514917+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029903+00:00"
       },
       {
         "source": "hackernews",
@@ -563,11 +551,11 @@
         "title": "Emacs and Vim in the Age of AI",
         "url": "https://batsov.com/articles/2026/03/09/emacs-and-vim-in-the-age-of-ai/",
         "hn_url": "https://news.ycombinator.com/item?id=47319071",
-        "points": 71,
-        "num_comments": 12,
+        "points": 72,
+        "num_comments": 14,
         "author": "psibi",
         "created_at": "2026-03-10T04:21:32Z",
-        "scraped_at": "2026-03-14T06:33:19.514919+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029905+00:00"
       },
       {
         "source": "hackernews",
@@ -579,7 +567,7 @@
         "num_comments": 46,
         "author": "ivzak",
         "created_at": "2026-03-13T17:58:22Z",
-        "scraped_at": "2026-03-14T06:33:19.514921+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029907+00:00"
       },
       {
         "source": "hackernews",
@@ -587,11 +575,11 @@
         "title": "Stanford researchers report first recording of a blue whale's heart rate (2019)",
         "url": "https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate",
         "hn_url": "https://news.ycombinator.com/item?id=47368430",
-        "points": 66,
+        "points": 67,
         "num_comments": 39,
         "author": "eatonphil",
         "created_at": "2026-03-13T19:15:06Z",
-        "scraped_at": "2026-03-14T06:33:19.514923+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029909+00:00"
       },
       {
         "source": "hackernews",
@@ -599,11 +587,11 @@
         "title": "Wired headphone sales are exploding",
         "url": "https://www.bbc.com/future/article/20260310-wired-headphones-are-better-than-bluetooth",
         "hn_url": "https://news.ycombinator.com/item?id=47340203",
-        "points": 61,
-        "num_comments": 97,
+        "points": 63,
+        "num_comments": 100,
         "author": "billybuckwheat",
         "created_at": "2026-03-11T19:37:46Z",
-        "scraped_at": "2026-03-14T06:33:19.514925+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029911+00:00"
       },
       {
         "source": "hackernews",
@@ -611,11 +599,11 @@
         "title": "Our Experience with I-Ready",
         "url": "https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/",
         "hn_url": "https://news.ycombinator.com/item?id=47371922",
-        "points": 56,
+        "points": 58,
         "num_comments": 18,
         "author": "barry-cotter",
         "created_at": "2026-03-14T00:29:50Z",
-        "scraped_at": "2026-03-14T06:33:19.514927+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029913+00:00"
       },
       {
         "source": "hackernews",
@@ -623,11 +611,11 @@
         "title": "I beg you to follow Crocker's Rules, even if you will be rude to me",
         "url": "https://lr0.org/blog/p/crocker/",
         "hn_url": "https://news.ycombinator.com/item?id=47371275",
-        "points": 51,
-        "num_comments": 75,
+        "points": 52,
+        "num_comments": 78,
         "author": "ghd_",
         "created_at": "2026-03-13T23:14:37Z",
-        "scraped_at": "2026-03-14T06:33:19.514929+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029915+00:00"
       },
       {
         "source": "hackernews",
@@ -635,11 +623,11 @@
         "title": "A Survival Guide to a PhD (2016)",
         "url": "http://karpathy.github.io/2016/09/07/phd/",
         "hn_url": "https://news.ycombinator.com/item?id=47318386",
-        "points": 30,
+        "points": 33,
         "num_comments": 6,
         "author": "vismit2000",
         "created_at": "2026-03-10T02:16:51Z",
-        "scraped_at": "2026-03-14T06:33:19.514934+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029917+00:00"
       },
       {
         "source": "hackernews",
@@ -651,7 +639,19 @@
         "num_comments": 15,
         "author": "vinhnx",
         "created_at": "2026-03-14T02:27:00Z",
-        "scraped_at": "2026-03-14T06:33:19.514936+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029921+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47339403",
+        "title": "Atari 2600 BASIC Programming (2015)",
+        "url": "https://huguesjohnson.com/programming/atari-2600-basic/",
+        "hn_url": "https://news.ycombinator.com/item?id=47339403",
+        "points": 13,
+        "num_comments": 1,
+        "author": "mondobe",
+        "created_at": "2026-03-11T18:35:39Z",
+        "scraped_at": "2026-03-14T06:43:35.029923+00:00"
       },
       {
         "source": "hackernews",
@@ -663,7 +663,19 @@
         "num_comments": 0,
         "author": "itsankur",
         "created_at": "2026-03-13T23:15:22Z",
-        "scraped_at": "2026-03-14T06:33:19.514938+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029925+00:00"
+      },
+      {
+        "source": "hackernews",
+        "id": "47323625",
+        "title": "You gotta think outside the hypercube",
+        "url": "https://lcamtuf.substack.com/p/you-gotta-think-outside-the-hypercube",
+        "hn_url": "https://news.ycombinator.com/item?id=47323625",
+        "points": 12,
+        "num_comments": 1,
+        "author": "surprisetalk",
+        "created_at": "2026-03-10T14:18:21Z",
+        "scraped_at": "2026-03-14T06:43:35.029928+00:00"
       },
       {
         "source": "hackernews",
@@ -675,31 +687,7 @@
         "num_comments": 0,
         "author": "EvgeniyZh",
         "created_at": "2026-03-10T11:33:36Z",
-        "scraped_at": "2026-03-14T06:33:19.514940+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47323625",
-        "title": "You gotta think outside the hypercube",
-        "url": "https://lcamtuf.substack.com/p/you-gotta-think-outside-the-hypercube",
-        "hn_url": "https://news.ycombinator.com/item?id=47323625",
-        "points": 11,
-        "num_comments": 1,
-        "author": "surprisetalk",
-        "created_at": "2026-03-10T14:18:21Z",
-        "scraped_at": "2026-03-14T06:33:19.514942+00:00"
-      },
-      {
-        "source": "hackernews",
-        "id": "47339403",
-        "title": "Atari 2600 BASIC Programming (2015)",
-        "url": "https://huguesjohnson.com/programming/atari-2600-basic/",
-        "hn_url": "https://news.ycombinator.com/item?id=47339403",
-        "points": 10,
-        "num_comments": 1,
-        "author": "mondobe",
-        "created_at": "2026-03-11T18:35:39Z",
-        "scraped_at": "2026-03-14T06:33:19.514944+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029930+00:00"
       },
       {
         "source": "hackernews",
@@ -711,7 +699,7 @@
         "num_comments": 0,
         "author": "thomashlvt",
         "created_at": "2026-03-12T17:01:46Z",
-        "scraped_at": "2026-03-14T06:33:19.514946+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029932+00:00"
       },
       {
         "source": "hackernews",
@@ -723,7 +711,7 @@
         "num_comments": 0,
         "author": "patman_h",
         "created_at": "2026-03-12T14:32:46Z",
-        "scraped_at": "2026-03-14T06:33:19.514948+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029934+00:00"
       },
       {
         "source": "hackernews",
@@ -735,7 +723,7 @@
         "num_comments": 0,
         "author": "Gabriel_h",
         "created_at": "2026-03-11T21:01:42Z",
-        "scraped_at": "2026-03-14T06:33:19.514952+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029936+00:00"
       },
       {
         "source": "hackernews",
@@ -747,7 +735,7 @@
         "num_comments": 0,
         "author": "multifactor",
         "created_at": "2026-03-06T17:00:38Z",
-        "scraped_at": "2026-03-14T06:33:19.514955+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029938+00:00"
       },
       {
         "source": "hackernews",
@@ -759,7 +747,7 @@
         "num_comments": 0,
         "author": "sanketc",
         "created_at": "2026-03-06T07:02:08Z",
-        "scraped_at": "2026-03-14T06:33:19.514958+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029940+00:00"
       },
       {
         "source": "hackernews",
@@ -771,7 +759,7 @@
         "num_comments": 0,
         "author": "issygreenslade",
         "created_at": "2026-03-05T21:01:30Z",
-        "scraped_at": "2026-03-14T06:33:19.514960+00:00"
+        "scraped_at": "2026-03-14T06:43:35.029942+00:00"
       }
     ],
     "github": [
@@ -780,8 +768,8 @@
         "name": "sindresorhus/awesome",
         "description": "😎 Awesome lists about all kinds of interesting topics",
         "url": "https://github.com/sindresorhus/awesome",
-        "stars": 445326,
-        "forks": 33529,
+        "stars": 445325,
+        "forks": 33528,
         "language": null,
         "topics": [
           "awesome",
@@ -792,13 +780,13 @@
         ],
         "open_issues": 80,
         "created_at": "2014-07-11T13:42:37Z",
-        "updated_at": "2026-03-14T06:29:43Z",
+        "updated_at": "2026-03-14T06:43:29Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 63618.0,
-        "scraped_at": "2026-03-14T06:33:21.557190+00:00",
+        "star_velocity": 63617.9,
+        "scraped_at": "2026-03-14T06:43:36.789963+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 3,\n  \"one_liner\": \"A curated directory of categorized resource lists, saving users time finding relevant tools and information across various do",
+          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 3,\n  \"one_liner\": \"Provides curated lists of resources across a vast range of topics, saving users time in discovering tools and information.\",\n",
           "category": "unknown"
         }
       },
@@ -833,9 +821,9 @@
         "owner_type": "Organization",
         "hiring_signal": true,
         "star_velocity": 62584.9,
-        "scraped_at": "2026-03-14T06:33:21.557218+00:00",
+        "scraped_at": "2026-03-14T06:43:36.789992+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"education\",\n  \"hype_vs_substance\": 9,\n  \"one_liner\": \"Provides a free, comprehensive, and community-supported platform for learning software development skills.\",\n  \"why_trend",
+          "one_liner": "```json\n{\n  \"category\": \"education\",\n  \"hype_vs_substance\": 9,\n  \"one_liner\": \"Provides a free, comprehensive, and community-driven platform for learning software development skills, lowering the barr",
           "category": "unknown"
         }
       },
@@ -844,7 +832,7 @@
         "name": "EbookFoundation/free-programming-books",
         "description": ":books: Freely available programming books",
         "url": "https://github.com/EbookFoundation/free-programming-books",
-        "stars": 383967,
+        "stars": 383969,
         "forks": 66017,
         "language": "Python",
         "topics": [
@@ -856,13 +844,13 @@
         ],
         "open_issues": 69,
         "created_at": "2013-10-11T06:50:37Z",
-        "updated_at": "2026-03-14T06:33:07Z",
+        "updated_at": "2026-03-14T06:41:38Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 54852.4,
-        "scraped_at": "2026-03-14T06:33:21.557232+00:00",
+        "star_velocity": 54852.7,
+        "scraped_at": "2026-03-14T06:43:36.790006+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"education\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"Provides a curated list of freely available programming books, lowering the barrier to entry for aspiring developers.\",\n ",
+          "one_liner": "```json\n{\n  \"category\": \"education\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"Provides a comprehensive, curated list of free programming books for learners of all levels.\",\n  \"why_trending\": \"Continu",
           "category": "unknown"
         }
       },
@@ -871,7 +859,7 @@
         "name": "kamranahmedse/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
         "url": "https://github.com/kamranahmedse/developer-roadmap",
-        "stars": 350870,
+        "stars": 350871,
         "forks": 43781,
         "language": "TypeScript",
         "topics": [
@@ -896,13 +884,13 @@
         ],
         "open_issues": 18,
         "created_at": "2017-03-15T13:45:52Z",
-        "updated_at": "2026-03-14T06:22:23Z",
+        "updated_at": "2026-03-14T06:35:22Z",
         "owner_type": "User",
         "hiring_signal": true,
-        "star_velocity": 50124.3,
-        "scraped_at": "2026-03-14T06:33:21.557241+00:00",
+        "star_velocity": 50124.4,
+        "scraped_at": "2026-03-14T06:43:36.790016+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Provides structured learning paths for developers to navigate the complex landscape of technologies and skills required for v",
+          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Provides structured learning paths for developers to navigate the complex landscape of software development technologies and ",
           "category": "unknown"
         }
       },
@@ -911,7 +899,7 @@
         "name": "donnemartin/system-design-primer",
         "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
         "url": "https://github.com/donnemartin/system-design-primer",
-        "stars": 338776,
+        "stars": 338777,
         "forks": 54875,
         "language": "Python",
         "topics": [
@@ -931,13 +919,13 @@
         ],
         "open_issues": 519,
         "created_at": "2017-02-26T16:15:28Z",
-        "updated_at": "2026-03-14T06:28:15Z",
+        "updated_at": "2026-03-14T06:33:39Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 48396.6,
-        "scraped_at": "2026-03-14T06:33:21.557249+00:00",
+        "star_velocity": 48396.7,
+        "scraped_at": "2026-03-14T06:43:36.790026+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"Provides a comprehensive resource for learning and practicing system design principles, primarily aimed at software engineers",
+          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"Provides a comprehensive resource for learning and practicing system design principles, primarily aimed at acing technical in",
           "category": "unknown"
         }
       },
@@ -946,8 +934,8 @@
         "name": "openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
         "url": "https://github.com/openclaw/openclaw",
-        "stars": 311366,
-        "forks": 59236,
+        "stars": 311385,
+        "forks": 59242,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -958,15 +946,15 @@
           "own-your-data",
           "personal"
         ],
-        "open_issues": 13105,
+        "open_issues": 13108,
         "created_at": "2025-11-24T10:16:47Z",
-        "updated_at": "2026-03-14T06:33:00Z",
+        "updated_at": "2026-03-14T06:43:20Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 44480.9,
-        "scraped_at": "2026-03-14T06:33:21.557258+00:00",
+        "star_velocity": 44483.6,
+        "scraped_at": "2026-03-14T06:43:36.790040+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"tool\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Provides a framework for building personalized AI assistants that prioritize data ownership and cross-platform compatibility.\"",
+          "one_liner": "```json\n{\n  \"category\": \"framework\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Provides a framework for building personalized AI assistants that run locally and allow users to own their data.\",\n  \"why",
           "category": "unknown"
         }
       },
@@ -975,7 +963,7 @@
         "name": "vinta/awesome-python",
         "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
         "url": "https://github.com/vinta/awesome-python",
-        "stars": 287029,
+        "stars": 287034,
         "forks": 27382,
         "language": "Python",
         "topics": [
@@ -988,13 +976,13 @@
         ],
         "open_issues": 21,
         "created_at": "2014-06-27T21:00:06Z",
-        "updated_at": "2026-03-14T06:29:28Z",
+        "updated_at": "2026-03-14T06:42:28Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 41004.1,
-        "scraped_at": "2026-03-14T06:33:21.557265+00:00",
+        "star_velocity": 41004.9,
+        "scraped_at": "2026-03-14T06:43:36.790048+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"A curated list that helps Python developers discover useful tools and libraries, saving them time and effort in finding the r",
+          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Provides a curated list of Python resources, saving developers time and effort in discovering useful tools and libraries.\",\n ",
           "category": "unknown"
         }
       },
@@ -1003,7 +991,7 @@
         "name": "awesome-selfhosted/awesome-selfhosted",
         "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
         "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-        "stars": 279807,
+        "stars": 279809,
         "forks": 12842,
         "language": null,
         "topics": [
@@ -1018,13 +1006,13 @@
         ],
         "open_issues": 0,
         "created_at": "2015-06-01T02:33:17Z",
-        "updated_at": "2026-03-14T06:25:52Z",
+        "updated_at": "2026-03-14T06:41:33Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 39972.4,
-        "scraped_at": "2026-03-14T06:33:21.557271+00:00",
+        "star_velocity": 39972.7,
+        "scraped_at": "2026-03-14T06:43:36.790056+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"devops\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"Provides a curated list of open-source software that empowers users to control their data and services by hosting them indep",
+          "one_liner": "```json\n{\n  \"category\": \"devops\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"A curated list empowering users to reclaim control over their data and services by self-hosting open-source alternatives to ",
           "category": "unknown"
         }
       },
@@ -1033,7 +1021,7 @@
         "name": "facebook/react",
         "description": "The library for web and native user interfaces.",
         "url": "https://github.com/facebook/react",
-        "stars": 243906,
+        "stars": 243907,
         "forks": 50774,
         "language": "JavaScript",
         "topics": [
@@ -1046,13 +1034,13 @@
         ],
         "open_issues": 1171,
         "created_at": "2013-05-24T16:15:54Z",
-        "updated_at": "2026-03-14T06:17:57Z",
+        "updated_at": "2026-03-14T06:37:25Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 34843.7,
-        "scraped_at": "2026-03-14T06:33:21.557277+00:00",
+        "star_velocity": 34843.9,
+        "scraped_at": "2026-03-14T06:43:36.790062+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"library\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"React simplifies UI development by providing a component-based and declarative approach to building interactive user interf",
+          "one_liner": "```json\n{\n  \"category\": \"library\",\n  \"hype_vs_substance\": 8,\n  \"one_liner\": \"React simplifies UI development by providing a component-based, declarative approach for building interactive web and nativ",
           "category": "unknown"
         }
       },
@@ -1061,19 +1049,19 @@
         "name": "torvalds/linux",
         "description": "Linux kernel source tree",
         "url": "https://github.com/torvalds/linux",
-        "stars": 222604,
-        "forks": 60969,
+        "stars": 222605,
+        "forks": 60970,
         "language": "C",
         "topics": [],
         "open_issues": 3,
         "created_at": "2011-09-04T22:48:12Z",
-        "updated_at": "2026-03-14T06:15:12Z",
+        "updated_at": "2026-03-14T06:37:45Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 31800.6,
-        "scraped_at": "2026-03-14T06:33:21.557282+00:00",
+        "star_velocity": 31800.7,
+        "scraped_at": "2026-03-14T06:43:36.790068+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 10,\n  \"one_liner\": \"The Linux kernel provides the foundational operating system functionality for a vast range of computing devices, from embedd",
+          "one_liner": "```json\n{\n  \"category\": \"other\",\n  \"hype_vs_substance\": 10,\n  \"one_liner\": \"The Linux kernel provides the foundational operating system functionality for a vast range of devices, from embedded systems",
           "category": "unknown"
         }
       },
@@ -1107,7 +1095,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 31229.1,
-        "scraped_at": "2026-03-14T06:33:21.557289+00:00",
+        "scraped_at": "2026-03-14T06:43:36.790075+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"library\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"A comprehensive collection of algorithm implementations in Python, serving as a learning resource and interview preparation",
           "category": "unknown"
@@ -1131,15 +1119,15 @@
           "python",
           "tensorflow"
         ],
-        "open_issues": 3714,
+        "open_issues": 3715,
         "created_at": "2015-11-07T01:19:20Z",
         "updated_at": "2026-03-14T05:57:34Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 27732.6,
-        "scraped_at": "2026-03-14T06:33:21.557296+00:00",
+        "scraped_at": "2026-03-14T06:43:36.790083+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"framework\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"TensorFlow provides a comprehensive ecosystem for building and deploying machine learning models, from research to produc",
+          "one_liner": "```json\n{\n  \"category\": \"framework\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"TensorFlow provides a comprehensive ecosystem for building, training, and deploying machine learning models, enabling dev",
           "category": "unknown"
         }
       },
@@ -1148,7 +1136,7 @@
         "name": "ohmyzsh/ohmyzsh",
         "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
         "url": "https://github.com/ohmyzsh/ohmyzsh",
-        "stars": 185317,
+        "stars": 185318,
         "forks": 26315,
         "language": "Shell",
         "topics": [
@@ -1170,13 +1158,13 @@
         ],
         "open_issues": 527,
         "created_at": "2009-08-28T18:15:37Z",
-        "updated_at": "2026-03-14T06:16:52Z",
+        "updated_at": "2026-03-14T06:40:15Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 26473.9,
-        "scraped_at": "2026-03-14T06:33:21.557310+00:00",
+        "star_velocity": 26474.0,
+        "scraped_at": "2026-03-14T06:43:36.790098+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"devops\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"OhMyZsh streamlines and personalizes the Zsh shell experience, making it more productive and visually appealing for develope",
+          "one_liner": "```json\n{\n  \"category\": \"devops\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"Oh My Zsh streamlines and personalizes the Zsh shell experience with plugins and themes, boosting developer productivity and",
           "category": "unknown"
         }
       },
@@ -1195,15 +1183,15 @@
           "typescript",
           "visual-studio-code"
         ],
-        "open_issues": 15180,
+        "open_issues": 15181,
         "created_at": "2015-09-03T20:23:38Z",
         "updated_at": "2026-03-14T04:12:46Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 26087.4,
-        "scraped_at": "2026-03-14T06:33:21.557317+00:00",
+        "scraped_at": "2026-03-14T06:43:36.790105+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"tool\",\n  \"hype_vs_substance\": 9,\n  \"one_liner\": \"Visual Studio Code provides a customizable and extensible code editor for developers across various programming languages and ",
+          "one_liner": "```json\n{\n  \"category\": \"tool\",\n  \"hype_vs_substance\": 9,\n  \"one_liner\": \"Visual Studio Code provides a customizable and extensible code editor for developers to write, debug, and manage software proj",
           "category": "unknown"
         }
       },
@@ -1230,9 +1218,9 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 26063.1,
-        "scraped_at": "2026-03-14T06:33:21.557323+00:00",
+        "scraped_at": "2026-03-14T06:43:36.790112+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"framework\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"AutoGPT allows users to create autonomous AI agents that can perform tasks without constant human supervision, but requir",
+          "one_liner": "```json\n{\n  \"category\": \"framework\",\n  \"hype_vs_substance\": 7,\n  \"one_liner\": \"AutoGPT provides a framework for building autonomous AI agents that can perform tasks with minimal human intervention, ta",
           "category": "unknown"
         }
       },
@@ -1242,7 +1230,7 @@
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
         "url": "https://github.com/n8n-io/n8n",
         "stars": 179041,
-        "forks": 55769,
+        "forks": 55771,
         "language": "TypeScript",
         "topics": [
           "ai",
@@ -1266,13 +1254,13 @@
           "workflow",
           "workflow-automation"
         ],
-        "open_issues": 1415,
+        "open_issues": 1416,
         "created_at": "2019-06-22T09:24:21Z",
         "updated_at": "2026-03-14T06:33:06Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 25577.3,
-        "scraped_at": "2026-03-14T06:33:21.557332+00:00"
+        "scraped_at": "2026-03-14T06:43:36.790120+00:00"
       },
       {
         "source": "github",
@@ -1309,7 +1297,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 25078.6,
-        "scraped_at": "2026-03-14T06:33:21.557340+00:00"
+        "scraped_at": "2026-03-14T06:43:36.790130+00:00"
       },
       {
         "source": "github",
@@ -1334,14 +1322,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 24866.6,
-        "scraped_at": "2026-03-14T06:33:21.557346+00:00"
+        "scraped_at": "2026-03-14T06:43:36.790137+00:00"
       },
       {
         "source": "github",
         "name": "massgravel/Microsoft-Activation-Scripts",
         "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
         "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
-        "stars": 168696,
+        "stars": 168697,
         "forks": 16228,
         "language": "Batchfile",
         "topics": [
@@ -1364,11 +1352,11 @@
         ],
         "open_issues": 1,
         "created_at": "2020-01-12T23:03:34Z",
-        "updated_at": "2026-03-14T06:22:56Z",
+        "updated_at": "2026-03-14T06:33:42Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 24099.4,
-        "scraped_at": "2026-03-14T06:33:21.557357+00:00"
+        "star_velocity": 24099.6,
+        "scraped_at": "2026-03-14T06:43:36.790148+00:00"
       },
       {
         "source": "github",
@@ -1392,14 +1380,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 23900.3,
-        "scraped_at": "2026-03-14T06:33:21.557363+00:00"
+        "scraped_at": "2026-03-14T06:43:36.790155+00:00"
       },
       {
         "source": "github",
         "name": "ollama/ollama",
         "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
         "url": "https://github.com/ollama/ollama",
-        "stars": 165000,
+        "stars": 165001,
         "forks": 14963,
         "language": "Go",
         "topics": [
@@ -1419,20 +1407,20 @@
           "ollama",
           "qwen"
         ],
-        "open_issues": 2636,
+        "open_issues": 2637,
         "created_at": "2023-06-26T19:39:32Z",
-        "updated_at": "2026-03-14T06:18:02Z",
+        "updated_at": "2026-03-14T06:36:50Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 23571.4,
-        "scraped_at": "2026-03-14T06:33:24.119243+00:00"
+        "star_velocity": 23571.6,
+        "scraped_at": "2026-03-14T06:43:38.192021+00:00"
       },
       {
         "source": "github",
         "name": "huggingface/transformers",
         "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 157782,
+        "stars": 157783,
         "forks": 32465,
         "language": "Python",
         "topics": [
@@ -1456,20 +1444,20 @@
           "transformer",
           "vlm"
         ],
-        "open_issues": 2285,
+        "open_issues": 2286,
         "created_at": "2018-10-29T13:56:00Z",
-        "updated_at": "2026-03-14T06:18:08Z",
+        "updated_at": "2026-03-14T06:43:13Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 22540.3,
-        "scraped_at": "2026-03-14T06:33:22.135135+00:00"
+        "star_velocity": 22540.4,
+        "scraped_at": "2026-03-14T06:43:37.125082+00:00"
       },
       {
         "source": "github",
         "name": "yt-dlp/yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
         "url": "https://github.com/yt-dlp/yt-dlp",
-        "stars": 151078,
+        "stars": 151080,
         "forks": 12247,
         "language": "Python",
         "topics": [
@@ -1483,11 +1471,11 @@
         ],
         "open_issues": 2364,
         "created_at": "2020-10-26T04:22:55Z",
-        "updated_at": "2026-03-14T06:00:24Z",
+        "updated_at": "2026-03-14T06:37:33Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 21582.6,
-        "scraped_at": "2026-03-14T06:33:22.135142+00:00"
+        "star_velocity": 21582.9,
+        "scraped_at": "2026-03-14T06:43:37.125090+00:00"
       },
       {
         "source": "github",
@@ -1511,7 +1499,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 20803.9,
-        "scraped_at": "2026-03-14T06:33:22.135149+00:00"
+        "scraped_at": "2026-03-14T06:43:37.125096+00:00"
       },
       {
         "source": "github",
@@ -1543,14 +1531,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 19755.4,
-        "scraped_at": "2026-03-14T06:33:24.783596+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505561+00:00"
       },
       {
         "source": "github",
         "name": "golang/go",
         "description": "The Go programming language",
         "url": "https://github.com/golang/go",
-        "stars": 133033,
+        "stars": 133034,
         "forks": 18857,
         "language": "Go",
         "topics": [
@@ -1559,13 +1547,13 @@
           "language",
           "programming-language"
         ],
-        "open_issues": 9866,
+        "open_issues": 9865,
         "created_at": "2014-08-19T04:33:40Z",
-        "updated_at": "2026-03-14T04:05:53Z",
+        "updated_at": "2026-03-14T06:36:39Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 19004.7,
-        "scraped_at": "2026-03-14T06:33:24.119254+00:00"
+        "star_velocity": 19004.9,
+        "scraped_at": "2026-03-14T06:43:38.192032+00:00"
       },
       {
         "source": "github",
@@ -1603,14 +1591,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 18959.6,
-        "scraped_at": "2026-03-14T06:33:22.789901+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474450+00:00"
       },
       {
         "source": "github",
         "name": "langchain-ai/langchain",
         "description": "The agent engineering platform",
         "url": "https://github.com/langchain-ai/langchain",
-        "stars": 129404,
+        "stars": 129406,
         "forks": 21326,
         "language": "Python",
         "topics": [
@@ -1636,18 +1624,18 @@
         ],
         "open_issues": 501,
         "created_at": "2022-10-17T02:58:36Z",
-        "updated_at": "2026-03-14T06:28:01Z",
+        "updated_at": "2026-03-14T06:40:45Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 18486.3,
-        "scraped_at": "2026-03-14T06:33:22.135157+00:00"
+        "star_velocity": 18486.6,
+        "scraped_at": "2026-03-14T06:43:37.125104+00:00"
       },
       {
         "source": "github",
         "name": "open-webui/open-webui",
         "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
         "url": "https://github.com/open-webui/open-webui",
-        "stars": 127100,
+        "stars": 127102,
         "forks": 17973,
         "language": "Python",
         "topics": [
@@ -1669,11 +1657,11 @@
         ],
         "open_issues": 291,
         "created_at": "2023-10-06T22:08:27Z",
-        "updated_at": "2026-03-14T06:33:21Z",
+        "updated_at": "2026-03-14T06:39:50Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 18157.1,
-        "scraped_at": "2026-03-14T06:33:22.135164+00:00"
+        "star_velocity": 18157.4,
+        "scraped_at": "2026-03-14T06:43:37.125111+00:00"
       },
       {
         "source": "github",
@@ -1704,24 +1692,24 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 18153.3,
-        "scraped_at": "2026-03-14T06:33:24.783605+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505574+00:00"
       },
       {
         "source": "github",
         "name": "anomalyco/opencode",
         "description": "The open source coding agent.",
         "url": "https://github.com/anomalyco/opencode",
-        "stars": 121804,
+        "stars": 121810,
         "forks": 12621,
         "language": "TypeScript",
         "topics": [],
         "open_issues": 6829,
         "created_at": "2025-04-30T20:08:00Z",
-        "updated_at": "2026-03-14T06:31:01Z",
+        "updated_at": "2026-03-14T06:43:29Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 17400.6,
-        "scraped_at": "2026-03-14T06:33:22.789905+00:00"
+        "star_velocity": 17401.4,
+        "scraped_at": "2026-03-14T06:43:37.474455+00:00"
       },
       {
         "source": "github",
@@ -1737,13 +1725,13 @@
           "go",
           "kubernetes"
         ],
-        "open_issues": 2639,
+        "open_issues": 2638,
         "created_at": "2014-06-06T22:56:04Z",
-        "updated_at": "2026-03-14T04:43:16Z",
+        "updated_at": "2026-03-14T06:41:42Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 17301.9,
-        "scraped_at": "2026-03-14T06:33:24.119261+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192038+00:00"
       },
       {
         "source": "github",
@@ -1768,7 +1756,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 16956.6,
-        "scraped_at": "2026-03-14T06:33:22.789912+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474461+00:00"
       },
       {
         "source": "github",
@@ -1795,7 +1783,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 16605.4,
-        "scraped_at": "2026-03-14T06:33:24.783620+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505591+00:00"
       },
       {
         "source": "github",
@@ -1818,7 +1806,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 16121.9,
-        "scraped_at": "2026-03-14T06:33:22.789917+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474466+00:00"
       },
       {
         "source": "github",
@@ -1848,14 +1836,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 15906.7,
-        "scraped_at": "2026-03-14T06:33:24.783627+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505598+00:00"
       },
       {
         "source": "github",
         "name": "rust-lang/rust",
         "description": "Empowering everyone to build reliable and efficient software.",
         "url": "https://github.com/rust-lang/rust",
-        "stars": 111179,
+        "stars": 111180,
         "forks": 14619,
         "language": "Rust",
         "topics": [
@@ -1865,11 +1853,11 @@
         ],
         "open_issues": 12208,
         "created_at": "2010-06-16T20:39:03Z",
-        "updated_at": "2026-03-14T06:28:15Z",
+        "updated_at": "2026-03-14T06:43:32Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 15882.7,
-        "scraped_at": "2026-03-14T06:33:23.409210+00:00"
+        "star_velocity": 15882.9,
+        "scraped_at": "2026-03-14T06:43:37.803402+00:00"
       },
       {
         "source": "github",
@@ -1898,14 +1886,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15637.6,
-        "scraped_at": "2026-03-14T06:33:22.789924+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474473+00:00"
       },
       {
         "source": "github",
         "name": "rustdesk/rustdesk",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
         "url": "https://github.com/rustdesk/rustdesk",
-        "stars": 109264,
+        "stars": 109265,
         "forks": 16283,
         "language": "Rust",
         "topics": [
@@ -1931,11 +1919,11 @@
         ],
         "open_issues": 102,
         "created_at": "2020-09-28T15:36:08Z",
-        "updated_at": "2026-03-14T06:08:35Z",
+        "updated_at": "2026-03-14T06:40:42Z",
         "owner_type": "User",
         "hiring_signal": true,
-        "star_velocity": 15609.1,
-        "scraped_at": "2026-03-14T06:33:23.409236+00:00"
+        "star_velocity": 15609.3,
+        "scraped_at": "2026-03-14T06:43:37.803426+00:00"
       },
       {
         "source": "github",
@@ -1958,7 +1946,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15521.1,
-        "scraped_at": "2026-03-14T06:33:24.783637+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505604+00:00"
       },
       {
         "source": "github",
@@ -1980,7 +1968,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15449.7,
-        "scraped_at": "2026-03-14T06:33:22.789930+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474478+00:00"
       },
       {
         "source": "github",
@@ -2002,7 +1990,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15191.9,
-        "scraped_at": "2026-03-14T06:33:23.409244+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803434+00:00"
       },
       {
         "source": "github",
@@ -2026,7 +2014,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 15113.3,
-        "scraped_at": "2026-03-14T06:33:22.135171+00:00"
+        "scraped_at": "2026-03-14T06:43:37.125116+00:00"
       },
       {
         "source": "github",
@@ -2054,14 +2042,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 15026.6,
-        "scraped_at": "2026-03-14T06:33:24.119268+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192045+00:00"
       },
       {
         "source": "github",
         "name": "tauri-apps/tauri",
         "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
         "url": "https://github.com/tauri-apps/tauri",
-        "stars": 104051,
+        "stars": 104053,
         "forks": 3441,
         "language": "Rust",
         "topics": [
@@ -2075,18 +2063,18 @@
         ],
         "open_issues": 1382,
         "created_at": "2019-07-13T09:09:37Z",
-        "updated_at": "2026-03-14T05:48:11Z",
+        "updated_at": "2026-03-14T06:42:34Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14864.4,
-        "scraped_at": "2026-03-14T06:33:23.409251+00:00"
+        "star_velocity": 14864.7,
+        "scraped_at": "2026-03-14T06:43:37.803441+00:00"
       },
       {
         "source": "github",
         "name": "clash-verge-rev/clash-verge-rev",
         "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
         "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-        "stars": 102610,
+        "stars": 102612,
         "forks": 7470,
         "language": "TypeScript",
         "topics": [
@@ -2101,18 +2089,18 @@
         ],
         "open_issues": 178,
         "created_at": "2023-11-21T18:24:03Z",
-        "updated_at": "2026-03-14T06:33:21Z",
+        "updated_at": "2026-03-14T06:42:40Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14658.6,
-        "scraped_at": "2026-03-14T06:33:22.789936+00:00"
+        "star_velocity": 14658.9,
+        "scraped_at": "2026-03-14T06:43:37.474484+00:00"
       },
       {
         "source": "github",
         "name": "Shubhamsaboo/awesome-llm-apps",
         "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "stars": 102013,
+        "stars": 102014,
         "forks": 14840,
         "language": "Python",
         "topics": [
@@ -2123,11 +2111,11 @@
         ],
         "open_issues": 4,
         "created_at": "2024-04-29T05:30:25Z",
-        "updated_at": "2026-03-14T05:52:32Z",
+        "updated_at": "2026-03-14T06:37:34Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 14573.3,
-        "scraped_at": "2026-03-14T06:33:22.135176+00:00"
+        "star_velocity": 14573.4,
+        "scraped_at": "2026-03-14T06:43:37.125122+00:00"
       },
       {
         "source": "github",
@@ -2164,7 +2152,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 14306.0,
-        "scraped_at": "2026-03-14T06:33:24.783648+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505616+00:00"
       },
       {
         "source": "github",
@@ -2189,14 +2177,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 14297.1,
-        "scraped_at": "2026-03-14T06:33:22.789946+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474515+00:00"
       },
       {
         "source": "github",
         "name": "supabase/supabase",
         "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
         "url": "https://github.com/supabase/supabase",
-        "stars": 98935,
+        "stars": 98936,
         "forks": 11789,
         "language": "TypeScript",
         "topics": [
@@ -2222,11 +2210,11 @@
         ],
         "open_issues": 941,
         "created_at": "2019-10-12T05:56:49Z",
-        "updated_at": "2026-03-14T06:31:56Z",
+        "updated_at": "2026-03-14T06:34:13Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 14133.6,
-        "scraped_at": "2026-03-14T06:33:22.789954+00:00"
+        "star_velocity": 14133.7,
+        "scraped_at": "2026-03-14T06:43:37.474524+00:00"
       },
       {
         "source": "github",
@@ -2252,7 +2240,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 14032.1,
-        "scraped_at": "2026-03-14T06:33:22.135182+00:00"
+        "scraped_at": "2026-03-14T06:43:37.125128+00:00"
       },
       {
         "source": "github",
@@ -2275,7 +2263,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 14001.0,
-        "scraped_at": "2026-03-14T06:33:24.783658+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505625+00:00"
       },
       {
         "source": "github",
@@ -2300,7 +2288,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 13956.9,
-        "scraped_at": "2026-03-14T06:33:22.789961+00:00"
+        "scraped_at": "2026-03-14T06:43:37.474531+00:00"
       },
       {
         "source": "github",
@@ -2332,13 +2320,13 @@
           "uvicorn",
           "web"
         ],
-        "open_issues": 161,
+        "open_issues": 160,
         "created_at": "2018-12-08T08:21:47Z",
         "updated_at": "2026-03-14T06:17:58Z",
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 13741.3,
-        "scraped_at": "2026-03-14T06:33:22.135190+00:00"
+        "scraped_at": "2026-03-14T06:43:37.125135+00:00"
       },
       {
         "source": "github",
@@ -2364,7 +2352,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 13631.1,
-        "scraped_at": "2026-03-14T06:33:24.783666+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505631+00:00"
       },
       {
         "source": "github",
@@ -2389,7 +2377,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12959.9,
-        "scraped_at": "2026-03-14T06:33:22.135196+00:00"
+        "scraped_at": "2026-03-14T06:43:37.125141+00:00"
       },
       {
         "source": "github",
@@ -2414,14 +2402,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12604.0,
-        "scraped_at": "2026-03-14T06:33:24.119280+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192057+00:00"
       },
       {
         "source": "github",
         "name": "gohugoio/hugo",
         "description": "The world’s fastest framework for building websites.",
         "url": "https://github.com/gohugoio/hugo",
-        "stars": 87073,
+        "stars": 87074,
         "forks": 8205,
         "language": "Go",
         "topics": [
@@ -2435,11 +2423,11 @@
         ],
         "open_issues": 266,
         "created_at": "2013-07-04T15:26:26Z",
-        "updated_at": "2026-03-14T04:38:09Z",
+        "updated_at": "2026-03-14T06:34:58Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 12439.0,
-        "scraped_at": "2026-03-14T06:33:24.119287+00:00"
+        "star_velocity": 12439.1,
+        "scraped_at": "2026-03-14T06:43:38.192065+00:00"
       },
       {
         "source": "github",
@@ -2460,7 +2448,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 12292.9,
-        "scraped_at": "2026-03-14T06:33:24.783672+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505637+00:00"
       },
       {
         "source": "github",
@@ -2490,14 +2478,14 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 12004.6,
-        "scraped_at": "2026-03-14T06:33:24.783679+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505644+00:00"
       },
       {
         "source": "github",
         "name": "astral-sh/uv",
         "description": "An extremely fast Python package and project manager, written in Rust.",
         "url": "https://github.com/astral-sh/uv",
-        "stars": 80916,
+        "stars": 80917,
         "forks": 2682,
         "language": "Rust",
         "topics": [
@@ -2508,11 +2496,11 @@
         ],
         "open_issues": 2706,
         "created_at": "2023-10-02T20:24:11Z",
-        "updated_at": "2026-03-14T06:25:50Z",
+        "updated_at": "2026-03-14T06:36:37Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 11559.4,
-        "scraped_at": "2026-03-14T06:33:23.409258+00:00"
+        "star_velocity": 11559.6,
+        "scraped_at": "2026-03-14T06:43:37.803447+00:00"
       },
       {
         "source": "github",
@@ -2534,7 +2522,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 11542.3,
-        "scraped_at": "2026-03-14T06:33:24.119293+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192071+00:00"
       },
       {
         "source": "github",
@@ -2542,7 +2530,7 @@
         "description": ":zap: Dynamically generated stats for your github readmes",
         "url": "https://github.com/anuraghazra/github-readme-stats",
         "stars": 78715,
-        "forks": 31518,
+        "forks": 31520,
         "language": "JavaScript",
         "topics": [
           "dynamic",
@@ -2557,7 +2545,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 11245.0,
-        "scraped_at": "2026-03-14T06:33:24.783685+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505650+00:00"
       },
       {
         "source": "github",
@@ -2565,7 +2553,7 @@
         "description": ":cherry_blossom: A command-line fuzzy finder",
         "url": "https://github.com/junegunn/fzf",
         "stars": 78578,
-        "forks": 2723,
+        "forks": 2724,
         "language": "Go",
         "topics": [
           "bash",
@@ -2585,7 +2573,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 11225.4,
-        "scraped_at": "2026-03-14T06:33:24.119299+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192077+00:00"
       },
       {
         "source": "github",
@@ -2607,14 +2595,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 11014.3,
-        "scraped_at": "2026-03-14T06:33:23.409268+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803457+00:00"
       },
       {
         "source": "github",
         "name": "typicode/json-server",
         "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
         "url": "https://github.com/typicode/json-server",
-        "stars": 75654,
+        "stars": 75653,
         "forks": 7271,
         "language": "JavaScript",
         "topics": [
@@ -2628,19 +2616,19 @@
         ],
         "open_issues": 709,
         "created_at": "2013-11-27T13:21:13Z",
-        "updated_at": "2026-03-14T05:40:56Z",
+        "updated_at": "2026-03-14T06:41:16Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 10807.7,
-        "scraped_at": "2026-03-14T06:33:24.783691+00:00"
+        "star_velocity": 10807.6,
+        "scraped_at": "2026-03-14T06:43:38.505655+00:00"
       },
       {
         "source": "github",
         "name": "affaan-m/everything-claude-code",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "url": "https://github.com/affaan-m/everything-claude-code",
-        "stars": 75107,
-        "forks": 9405,
+        "stars": 75118,
+        "forks": 9408,
         "language": "JavaScript",
         "topics": [
           "ai-agents",
@@ -2654,11 +2642,11 @@
         ],
         "open_issues": 15,
         "created_at": "2026-01-18T00:51:51Z",
-        "updated_at": "2026-03-14T06:31:49Z",
+        "updated_at": "2026-03-14T06:42:50Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 10729.6,
-        "scraped_at": "2026-03-14T06:33:24.783698+00:00"
+        "star_velocity": 10731.1,
+        "scraped_at": "2026-03-14T06:43:38.505662+00:00"
       },
       {
         "source": "github",
@@ -2679,7 +2667,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 10593.9,
-        "scraped_at": "2026-03-14T06:33:24.119304+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192082+00:00"
       },
       {
         "source": "github",
@@ -2701,14 +2689,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 10217.0,
-        "scraped_at": "2026-03-14T06:33:24.119310+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192088+00:00"
       },
       {
         "source": "github",
         "name": "caddyserver/caddy",
         "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
         "url": "https://github.com/caddyserver/caddy",
-        "stars": 70775,
+        "stars": 70777,
         "forks": 4675,
         "language": "Go",
         "topics": [
@@ -2730,11 +2718,11 @@
         ],
         "open_issues": 242,
         "created_at": "2015-01-13T19:45:03Z",
-        "updated_at": "2026-03-14T06:17:51Z",
+        "updated_at": "2026-03-14T06:35:54Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 10110.7,
-        "scraped_at": "2026-03-14T06:33:24.119317+00:00"
+        "star_velocity": 10111.0,
+        "scraped_at": "2026-03-14T06:43:38.192095+00:00"
       },
       {
         "source": "github",
@@ -2755,7 +2743,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 10103.4,
-        "scraped_at": "2026-03-14T06:33:24.783703+00:00"
+        "scraped_at": "2026-03-14T06:43:38.505667+00:00"
       },
       {
         "source": "github",
@@ -2772,24 +2760,24 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 9813.4,
-        "scraped_at": "2026-03-14T06:33:24.119324+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192103+00:00"
       },
       {
         "source": "github",
         "name": "openai/codex",
         "description": "Lightweight coding agent that runs in your terminal",
         "url": "https://github.com/openai/codex",
-        "stars": 65163,
+        "stars": 65164,
         "forks": 8707,
         "language": "Rust",
         "topics": [],
         "open_issues": 1915,
         "created_at": "2025-04-13T05:37:54Z",
-        "updated_at": "2026-03-14T06:31:35Z",
+        "updated_at": "2026-03-14T06:38:06Z",
         "owner_type": "Organization",
         "hiring_signal": false,
-        "star_velocity": 9309.0,
-        "scraped_at": "2026-03-14T06:33:23.409274+00:00"
+        "star_velocity": 9309.1,
+        "scraped_at": "2026-03-14T06:43:37.803462+00:00"
       },
       {
         "source": "github",
@@ -2814,7 +2802,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 9023.7,
-        "scraped_at": "2026-03-14T06:33:24.119330+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192110+00:00"
       },
       {
         "source": "github",
@@ -2842,7 +2830,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8990.4,
-        "scraped_at": "2026-03-14T06:33:23.409285+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803472+00:00"
       },
       {
         "source": "github",
@@ -2874,7 +2862,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8880.0,
-        "scraped_at": "2026-03-14T06:33:24.119337+00:00"
+        "scraped_at": "2026-03-14T06:43:38.192117+00:00"
       },
       {
         "source": "github",
@@ -2896,24 +2884,24 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8840.3,
-        "scraped_at": "2026-03-14T06:33:23.409293+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803481+00:00"
       },
       {
         "source": "github",
         "name": "topjohnwu/Magisk",
         "description": "The Magic Mask for Android",
         "url": "https://github.com/topjohnwu/Magisk",
-        "stars": 59262,
+        "stars": 59261,
         "forks": 16964,
         "language": "Rust",
         "topics": [],
         "open_issues": 44,
         "created_at": "2016-09-08T12:42:53Z",
-        "updated_at": "2026-03-14T06:15:48Z",
+        "updated_at": "2026-03-14T06:40:32Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 8466.0,
-        "scraped_at": "2026-03-14T06:33:23.409298+00:00"
+        "star_velocity": 8465.9,
+        "scraped_at": "2026-03-14T06:43:37.803485+00:00"
       },
       {
         "source": "github",
@@ -2939,7 +2927,7 @@
         "owner_type": "User",
         "hiring_signal": false,
         "star_velocity": 8232.4,
-        "scraped_at": "2026-03-14T06:33:23.409304+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803529+00:00"
       },
       {
         "source": "github",
@@ -2959,14 +2947,14 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8185.3,
-        "scraped_at": "2026-03-14T06:33:23.409310+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803540+00:00"
       },
       {
         "source": "github",
         "name": "dani-garcia/vaultwarden",
         "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
         "url": "https://github.com/dani-garcia/vaultwarden",
-        "stars": 56729,
+        "stars": 56731,
         "forks": 2623,
         "language": "Rust",
         "topics": [
@@ -2979,11 +2967,11 @@
         ],
         "open_issues": 40,
         "created_at": "2018-02-17T22:40:20Z",
-        "updated_at": "2026-03-14T06:20:30Z",
+        "updated_at": "2026-03-14T06:42:36Z",
         "owner_type": "User",
         "hiring_signal": false,
-        "star_velocity": 8104.1,
-        "scraped_at": "2026-03-14T06:33:23.409316+00:00"
+        "star_velocity": 8104.4,
+        "scraped_at": "2026-03-14T06:43:37.803546+00:00"
       },
       {
         "source": "github",
@@ -3021,7 +3009,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8055.4,
-        "scraped_at": "2026-03-14T06:33:23.409324+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803555+00:00"
       },
       {
         "source": "github",
@@ -3041,7 +3029,7 @@
         "owner_type": "Organization",
         "hiring_signal": false,
         "star_velocity": 8020.1,
-        "scraped_at": "2026-03-14T06:33:23.409329+00:00"
+        "scraped_at": "2026-03-14T06:43:37.803561+00:00"
       }
     ],
     "arxiv": [
@@ -3067,9 +3055,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12261v1",
         "published": "2026-03-12T17:59:48Z",
         "updated": "2026-03-12T17:59:48Z",
-        "scraped_at": "2026-03-14T06:33:27.330511+00:00",
+        "scraped_at": "2026-03-14T06:43:40.665864+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper reverse-engineers how a specific text-to-image model (FLUX) represents color internally. By understanding this representation, they can directly manipulate the color of",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper reverse-engineers how the FLUX text-to-image model represents color, finding a clear structure related to hue, saturation, and lightness within its latent space. This a",
           "novelty_score": 0
         }
       },
@@ -3094,9 +3082,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12255v1",
         "published": "2026-03-12T17:58:58Z",
         "updated": "2026-03-12T17:58:58Z",
-        "scraped_at": "2026-03-14T06:33:27.330619+00:00",
+        "scraped_at": "2026-03-14T06:43:40.665968+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper presents a method for AI to understand and remember spatial information from video streams, like a robot navigating a building. It allows the AI to adapt its understand",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a method called Spatial-TTT that allows AI to understand and remember spatial information from video streams over long periods by selectively updating its pa",
           "novelty_score": 0
         }
       },
@@ -3121,9 +3109,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12252v1",
         "published": "2026-03-12T17:58:48Z",
         "updated": "2026-03-12T17:58:48Z",
-        "scraped_at": "2026-03-14T06:33:27.330707+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666057+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a technique called EndoCoT that improves how diffusion models (like those used for image generation) interpret and act on complex text instructions. It enhan",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a way to make image generation models (diffusion models) better at following complex instructions by improving how they 'think' through the steps needed to c",
           "novelty_score": 0
         }
       },
@@ -3149,9 +3137,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12249v1",
         "published": "2026-03-12T17:57:52Z",
         "updated": "2026-03-12T17:57:52Z",
-        "scraped_at": "2026-03-14T06:33:27.330771+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666121+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new dataset (SciMDR) and method for training AI models to understand scientific documents that combine text and images. It matters because it could lead to",
+          "eli5": "```json\n{\n  \"eli5\": \"This research introduces a new dataset (SciMDR) and method for training AI models to understand scientific documents that combine text and images. It matters because it aims to im",
           "novelty_score": 0
         }
       },
@@ -3175,9 +3163,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12248v1",
         "published": "2026-03-12T17:57:50Z",
         "updated": "2026-03-12T17:57:50Z",
-        "scraped_at": "2026-03-14T06:33:27.330836+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666186+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new way to fine-tune language models by focusing on matching the overall characteristics (features) of generated text, rather than just predicting the next",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new way to fine-tune language models by focusing on matching the overall characteristics of generated text, rather than just predicting the next word. This",
           "novelty_score": 0
         }
       },
@@ -3203,9 +3191,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12246v1",
         "published": "2026-03-12T17:57:06Z",
         "updated": "2026-03-12T17:57:06Z",
-        "scraped_at": "2026-03-14T06:33:27.330937+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666265+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper investigates whether using large language models (LLMs) as 'judges' to evaluate and improve other LLMs actually works in practice, especially when there's no easy way t",
+          "eli5": "```json\n{\n  \"eli5\": \"This research investigates whether using large language models (LLMs) to judge the quality of other LLMs' outputs actually improves training, especially when there's no easy way t",
           "novelty_score": 0
         }
       },
@@ -3230,9 +3218,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12244v1",
         "published": "2026-03-12T17:56:54Z",
         "updated": "2026-03-12T17:56:54Z",
-        "scraped_at": "2026-03-14T06:33:27.331021+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666351+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new neural network architecture called SNA that breaks down complex problems into smaller, more manageable parts. This approach can improve efficiency and ",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new type of neural network architecture called a Separable Neural Architecture (SNA) that breaks down complex problems into smaller, more manageable parts.",
           "novelty_score": 0
         }
       },
@@ -3257,9 +3245,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12240v1",
         "published": "2026-03-12T17:55:53Z",
         "updated": "2026-03-12T17:55:53Z",
-        "scraped_at": "2026-03-14T06:33:27.331114+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666446+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new way to compress the data inside image generation models (specifically diffusion models) so they run faster without losing image quality or the ability ",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new technique called BiGain that makes diffusion models (like those used for image generation) faster and better at understanding images. It does this by c",
           "novelty_score": 0
         }
       },
@@ -3285,9 +3273,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12237v1",
         "published": "2026-03-12T17:55:07Z",
         "updated": "2026-03-12T17:55:07Z",
-        "scraped_at": "2026-03-14T06:33:27.331186+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666544+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new method (STAMP) for protecting privacy in text data used for machine learning. It selectively adds noise to different parts of the text, focusing on sen",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper introduces a new way to protect privacy in text data by adding noise selectively, focusing on sensitive parts relevant to a specific task. It aims to improve the balanc",
           "novelty_score": 0
         }
       },
@@ -3311,9 +3299,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12232v1",
         "published": "2026-03-12T17:52:12Z",
         "updated": "2026-03-12T17:52:12Z",
-        "scraped_at": "2026-03-14T06:33:27.331268+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666630+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This research speeds up neural network verification by reusing information learned from previous, similar verification attempts. This reduces redundant computations, making the ve",
+          "eli5": "```json\n{\n  \"eli5\": \"This research makes neural network verification faster by reusing information learned from previous, similar verification attempts. This is important because verifying neural netw",
           "novelty_score": 0
         }
       },
@@ -3337,9 +3325,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12231v1",
         "published": "2026-03-12T17:49:47Z",
         "updated": "2026-03-12T17:49:47Z",
-        "scraped_at": "2026-03-14T06:33:27.331326+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666690+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This research makes AI agents plan better by teaching them to create more organized internal representations of the world. It's like giving the agent a clearer mental map, so it c",
+          "eli5": "```json\n{\n  \"eli5\": \"This research makes AI agents plan better by teaching them to create more direct, less curvy paths in their internal 'world model'. Straighter paths in the AI's mind lead to more ",
           "novelty_score": 0
         }
       },
@@ -3364,9 +3352,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12230v1",
         "published": "2026-03-12T17:49:39Z",
         "updated": "2026-03-12T17:49:39Z",
-        "scraped_at": "2026-03-14T06:33:27.331401+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666760+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper outlines new security risks that arise when AI agents can autonomously use tools and access data. It matters because these agents break traditional security assumptions",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper outlines new security risks that arise when AI agents interact with the real world through tools and APIs. It matters because traditional security models don't fully ad",
           "novelty_score": 0
         }
       },
@@ -3388,9 +3376,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12228v1",
         "published": "2026-03-12T17:49:30Z",
         "updated": "2026-03-12T17:49:30Z",
-        "scraped_at": "2026-03-14T06:33:27.331467+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666825+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper suggests that large, pre-trained models already contain many specialized solutions within their parameters. Instead of fine-tuning from a single starting point, we can ",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper suggests that large, pre-trained models already contain the solutions (weights) for many specific tasks within their existing parameters. Instead of fine-tuning, you mi",
           "novelty_score": 0
         }
       },
@@ -3413,9 +3401,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12227v1",
         "published": "2026-03-12T17:49:25Z",
         "updated": "2026-03-12T17:49:25Z",
-        "scraped_at": "2026-03-14T06:33:27.331540+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666900+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper explores how to understand and interpret the embeddings generated by CLIP (Contrastive Language-Image Pre-training) models, especially when applied to specific domains ",
+          "eli5": "```json\n{\n  \"eli5\": \"This paper explores how to better understand and use CLIP embeddings (text-to-vector representations) in specific fields like law or medicine. It aims to make these embeddings mor",
           "novelty_score": 0
         }
       },
@@ -3439,9 +3427,9 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12226v1",
         "published": "2026-03-12T17:48:34Z",
         "updated": "2026-03-12T17:48:34Z",
-        "scraped_at": "2026-03-14T06:33:27.331638+00:00",
+        "scraped_at": "2026-03-14T06:43:40.666999+00:00",
         "ai": {
-          "eli5": "```json\n{\n  \"eli5\": \"This paper explores using LLMs to generate novel research ideas by combining insights from different scientific fields. It aims to inspire researchers, not just automate experimen",
+          "eli5": "```json\n{\n  \"eli5\": \"This research explores using LLMs to help scientists generate new research ideas by connecting concepts across different fields. It aims to augment human creativity, not replace i",
           "novelty_score": 0
         }
       },
@@ -3461,7 +3449,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12224v1",
         "published": "2026-03-12T17:48:14Z",
         "updated": "2026-03-12T17:48:14Z",
-        "scraped_at": "2026-03-14T06:33:27.331715+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667076+00:00"
       },
       {
         "source": "arxiv",
@@ -3483,7 +3471,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12222v1",
         "published": "2026-03-12T17:45:38Z",
         "updated": "2026-03-12T17:45:38Z",
-        "scraped_at": "2026-03-14T06:33:27.331792+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667155+00:00"
       },
       {
         "source": "arxiv",
@@ -3506,7 +3494,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12215v1",
         "published": "2026-03-12T17:34:29Z",
         "updated": "2026-03-12T17:34:29Z",
-        "scraped_at": "2026-03-14T06:33:27.331883+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667235+00:00"
       },
       {
         "source": "arxiv",
@@ -3526,7 +3514,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12214v1",
         "published": "2026-03-12T17:34:04Z",
         "updated": "2026-03-12T17:34:04Z",
-        "scraped_at": "2026-03-14T06:33:27.331947+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667299+00:00"
       },
       {
         "source": "arxiv",
@@ -3546,7 +3534,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12206v1",
         "published": "2026-03-12T17:29:55Z",
         "updated": "2026-03-12T17:29:55Z",
-        "scraped_at": "2026-03-14T06:33:27.332043+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667398+00:00"
       },
       {
         "source": "arxiv",
@@ -3569,7 +3557,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12201v1",
         "published": "2026-03-12T17:27:21Z",
         "updated": "2026-03-12T17:27:21Z",
-        "scraped_at": "2026-03-14T06:33:27.332135+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667504+00:00"
       },
       {
         "source": "arxiv",
@@ -3591,7 +3579,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12191v1",
         "published": "2026-03-12T17:21:45Z",
         "updated": "2026-03-12T17:21:45Z",
-        "scraped_at": "2026-03-14T06:33:27.332212+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667582+00:00"
       },
       {
         "source": "arxiv",
@@ -3611,7 +3599,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12188v1",
         "published": "2026-03-12T17:19:30Z",
         "updated": "2026-03-12T17:19:30Z",
-        "scraped_at": "2026-03-14T06:33:27.332259+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667629+00:00"
       },
       {
         "source": "arxiv",
@@ -3633,7 +3621,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12183v1",
         "published": "2026-03-12T17:13:25Z",
         "updated": "2026-03-12T17:13:25Z",
-        "scraped_at": "2026-03-14T06:33:27.332327+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667699+00:00"
       },
       {
         "source": "arxiv",
@@ -3656,7 +3644,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12180v1",
         "published": "2026-03-12T17:11:22Z",
         "updated": "2026-03-12T17:11:22Z",
-        "scraped_at": "2026-03-14T06:33:27.332405+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667777+00:00"
       },
       {
         "source": "arxiv",
@@ -3679,7 +3667,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12176v1",
         "published": "2026-03-12T17:09:20Z",
         "updated": "2026-03-12T17:09:20Z",
-        "scraped_at": "2026-03-14T06:33:27.332486+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667860+00:00"
       },
       {
         "source": "arxiv",
@@ -3701,7 +3689,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12165v1",
         "published": "2026-03-12T17:01:22Z",
         "updated": "2026-03-12T17:01:22Z",
-        "scraped_at": "2026-03-14T06:33:27.332569+00:00"
+        "scraped_at": "2026-03-14T06:43:40.667945+00:00"
       },
       {
         "source": "arxiv",
@@ -3723,7 +3711,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12163v1",
         "published": "2026-03-12T17:00:16Z",
         "updated": "2026-03-12T17:00:16Z",
-        "scraped_at": "2026-03-14T06:33:27.332661+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668037+00:00"
       },
       {
         "source": "arxiv",
@@ -3746,7 +3734,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12155v1",
         "published": "2026-03-12T16:53:06Z",
         "updated": "2026-03-12T16:53:06Z",
-        "scraped_at": "2026-03-14T06:33:27.332730+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668105+00:00"
       },
       {
         "source": "arxiv",
@@ -3766,7 +3754,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12152v1",
         "published": "2026-03-12T16:49:34Z",
         "updated": "2026-03-12T16:49:34Z",
-        "scraped_at": "2026-03-14T06:33:27.332794+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668169+00:00"
       },
       {
         "source": "arxiv",
@@ -3789,7 +3777,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12151v1",
         "published": "2026-03-12T16:49:21Z",
         "updated": "2026-03-12T16:49:21Z",
-        "scraped_at": "2026-03-14T06:33:27.332878+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668242+00:00"
       },
       {
         "source": "arxiv",
@@ -3812,7 +3800,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12149v1",
         "published": "2026-03-12T16:47:42Z",
         "updated": "2026-03-12T16:47:42Z",
-        "scraped_at": "2026-03-14T06:33:27.332947+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668312+00:00"
       },
       {
         "source": "arxiv",
@@ -3837,7 +3825,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12146v1",
         "published": "2026-03-12T16:45:53Z",
         "updated": "2026-03-12T16:45:53Z",
-        "scraped_at": "2026-03-14T06:33:27.333030+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668395+00:00"
       },
       {
         "source": "arxiv",
@@ -3859,7 +3847,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12145v1",
         "published": "2026-03-12T16:45:47Z",
         "updated": "2026-03-12T16:45:47Z",
-        "scraped_at": "2026-03-14T06:33:27.333117+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668486+00:00"
       },
       {
         "source": "arxiv",
@@ -3882,7 +3870,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12133v1",
         "published": "2026-03-12T16:37:21Z",
         "updated": "2026-03-12T16:37:21Z",
-        "scraped_at": "2026-03-14T06:33:27.333194+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668577+00:00"
       },
       {
         "source": "arxiv",
@@ -3904,7 +3892,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12129v1",
         "published": "2026-03-12T16:31:28Z",
         "updated": "2026-03-12T16:31:28Z",
-        "scraped_at": "2026-03-14T06:33:27.333274+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668660+00:00"
       },
       {
         "source": "arxiv",
@@ -3927,7 +3915,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12126v1",
         "published": "2026-03-12T16:27:35Z",
         "updated": "2026-03-12T16:27:35Z",
-        "scraped_at": "2026-03-14T06:33:27.333332+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668718+00:00"
       },
       {
         "source": "arxiv",
@@ -3945,7 +3933,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12123v1",
         "published": "2026-03-12T16:26:38Z",
         "updated": "2026-03-12T16:26:38Z",
-        "scraped_at": "2026-03-14T06:33:27.333395+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668784+00:00"
       },
       {
         "source": "arxiv",
@@ -3969,7 +3957,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12120v1",
         "published": "2026-03-12T16:23:19Z",
         "updated": "2026-03-12T16:23:19Z",
-        "scraped_at": "2026-03-14T06:33:27.333455+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668845+00:00"
       },
       {
         "source": "arxiv",
@@ -3992,7 +3980,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12118v1",
         "published": "2026-03-12T16:20:35Z",
         "updated": "2026-03-12T16:20:35Z",
-        "scraped_at": "2026-03-14T06:33:27.333525+00:00"
+        "scraped_at": "2026-03-14T06:43:40.668916+00:00"
       },
       {
         "source": "arxiv",
@@ -4015,7 +4003,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12117v1",
         "published": "2026-03-12T16:19:04Z",
         "updated": "2026-03-12T16:19:04Z",
-        "scraped_at": "2026-03-14T06:33:27.333635+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669024+00:00"
       },
       {
         "source": "arxiv",
@@ -4035,7 +4023,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12110v1",
         "published": "2026-03-12T16:15:06Z",
         "updated": "2026-03-12T16:15:06Z",
-        "scraped_at": "2026-03-14T06:33:27.333704+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669095+00:00"
       },
       {
         "source": "arxiv",
@@ -4057,7 +4045,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12109v1",
         "published": "2026-03-12T16:14:14Z",
         "updated": "2026-03-12T16:14:14Z",
-        "scraped_at": "2026-03-14T06:33:27.333779+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669171+00:00"
       },
       {
         "source": "arxiv",
@@ -4079,7 +4067,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12105v1",
         "published": "2026-03-12T16:10:27Z",
         "updated": "2026-03-12T16:10:27Z",
-        "scraped_at": "2026-03-14T06:33:27.333861+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669243+00:00"
       },
       {
         "source": "arxiv",
@@ -4100,7 +4088,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12102v1",
         "published": "2026-03-12T16:08:18Z",
         "updated": "2026-03-12T16:08:18Z",
-        "scraped_at": "2026-03-14T06:33:27.333960+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669342+00:00"
       },
       {
         "source": "arxiv",
@@ -4122,7 +4110,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12096v1",
         "published": "2026-03-12T16:02:28Z",
         "updated": "2026-03-12T16:02:28Z",
-        "scraped_at": "2026-03-14T06:33:27.334036+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669417+00:00"
       },
       {
         "source": "arxiv",
@@ -4146,7 +4134,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12094v1",
         "published": "2026-03-12T16:01:01Z",
         "updated": "2026-03-12T16:01:01Z",
-        "scraped_at": "2026-03-14T06:33:27.334110+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669507+00:00"
       },
       {
         "source": "arxiv",
@@ -4167,7 +4155,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12091v1",
         "published": "2026-03-12T16:00:22Z",
         "updated": "2026-03-12T16:00:22Z",
-        "scraped_at": "2026-03-14T06:33:27.334200+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669599+00:00"
       },
       {
         "source": "arxiv",
@@ -4189,7 +4177,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12087v1",
         "published": "2026-03-12T15:54:58Z",
         "updated": "2026-03-12T15:54:58Z",
-        "scraped_at": "2026-03-14T06:33:27.334284+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669690+00:00"
       },
       {
         "source": "arxiv",
@@ -4212,7 +4200,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12073v1",
         "published": "2026-03-12T15:42:37Z",
         "updated": "2026-03-12T15:42:37Z",
-        "scraped_at": "2026-03-14T06:33:27.334352+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669755+00:00"
       },
       {
         "source": "arxiv",
@@ -4235,7 +4223,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12071v1",
         "published": "2026-03-12T15:40:59Z",
         "updated": "2026-03-12T15:40:59Z",
-        "scraped_at": "2026-03-14T06:33:27.334445+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669845+00:00"
       },
       {
         "source": "arxiv",
@@ -4254,7 +4242,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12067v1",
         "published": "2026-03-12T15:35:15Z",
         "updated": "2026-03-12T15:35:15Z",
-        "scraped_at": "2026-03-14T06:33:27.334530+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669932+00:00"
       },
       {
         "source": "arxiv",
@@ -4276,7 +4264,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12060v1",
         "published": "2026-03-12T15:27:33Z",
         "updated": "2026-03-12T15:27:33Z",
-        "scraped_at": "2026-03-14T06:33:27.334595+00:00"
+        "scraped_at": "2026-03-14T06:43:40.669998+00:00"
       },
       {
         "source": "arxiv",
@@ -4298,7 +4286,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12057v1",
         "published": "2026-03-12T15:26:19Z",
         "updated": "2026-03-12T15:26:19Z",
-        "scraped_at": "2026-03-14T06:33:27.334669+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670074+00:00"
       },
       {
         "source": "arxiv",
@@ -4321,7 +4309,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12056v1",
         "published": "2026-03-12T15:25:57Z",
         "updated": "2026-03-12T15:25:57Z",
-        "scraped_at": "2026-03-14T06:33:27.334747+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670152+00:00"
       },
       {
         "source": "arxiv",
@@ -4344,7 +4332,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12055v1",
         "published": "2026-03-12T15:25:53Z",
         "updated": "2026-03-12T15:25:53Z",
-        "scraped_at": "2026-03-14T06:33:27.334828+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670235+00:00"
       },
       {
         "source": "arxiv",
@@ -4362,7 +4350,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12050v1",
         "published": "2026-03-12T15:24:00Z",
         "updated": "2026-03-12T15:24:00Z",
-        "scraped_at": "2026-03-14T06:33:27.334922+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670313+00:00"
       },
       {
         "source": "arxiv",
@@ -4385,7 +4373,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12038v1",
         "published": "2026-03-12T15:14:48Z",
         "updated": "2026-03-12T15:14:48Z",
-        "scraped_at": "2026-03-14T06:33:27.334993+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670384+00:00"
       },
       {
         "source": "arxiv",
@@ -4406,7 +4394,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12037v1",
         "published": "2026-03-12T15:14:35Z",
         "updated": "2026-03-12T15:14:35Z",
-        "scraped_at": "2026-03-14T06:33:27.335074+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670467+00:00"
       },
       {
         "source": "arxiv",
@@ -4426,7 +4414,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12031v1",
         "published": "2026-03-12T15:09:48Z",
         "updated": "2026-03-12T15:09:48Z",
-        "scraped_at": "2026-03-14T06:33:27.335171+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670582+00:00"
       },
       {
         "source": "arxiv",
@@ -4446,7 +4434,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12026v1",
         "published": "2026-03-12T15:05:03Z",
         "updated": "2026-03-12T15:05:03Z",
-        "scraped_at": "2026-03-14T06:33:27.335231+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670645+00:00"
       },
       {
         "source": "arxiv",
@@ -4469,7 +4457,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12023v1",
         "published": "2026-03-12T15:03:51Z",
         "updated": "2026-03-12T15:03:51Z",
-        "scraped_at": "2026-03-14T06:33:27.335335+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670738+00:00"
       },
       {
         "source": "arxiv",
@@ -4490,7 +4478,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12021v1",
         "published": "2026-03-12T15:01:47Z",
         "updated": "2026-03-12T15:01:47Z",
-        "scraped_at": "2026-03-14T06:33:27.335397+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670801+00:00"
       },
       {
         "source": "arxiv",
@@ -4511,7 +4499,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12020v1",
         "published": "2026-03-12T15:01:25Z",
         "updated": "2026-03-12T15:01:25Z",
-        "scraped_at": "2026-03-14T06:33:27.335471+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670877+00:00"
       },
       {
         "source": "arxiv",
@@ -4535,7 +4523,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12018v1",
         "published": "2026-03-12T15:00:18Z",
         "updated": "2026-03-12T15:00:18Z",
-        "scraped_at": "2026-03-14T06:33:27.335553+00:00"
+        "scraped_at": "2026-03-14T06:43:40.670964+00:00"
       },
       {
         "source": "arxiv",
@@ -4558,7 +4546,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12015v1",
         "published": "2026-03-12T14:57:50Z",
         "updated": "2026-03-12T14:57:50Z",
-        "scraped_at": "2026-03-14T06:33:27.335610+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671022+00:00"
       },
       {
         "source": "arxiv",
@@ -4577,7 +4565,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12012v1",
         "published": "2026-03-12T14:56:04Z",
         "updated": "2026-03-12T14:56:04Z",
-        "scraped_at": "2026-03-14T06:33:27.335694+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671105+00:00"
       },
       {
         "source": "arxiv",
@@ -4599,7 +4587,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12011v1",
         "published": "2026-03-12T14:54:59Z",
         "updated": "2026-03-12T14:54:59Z",
-        "scraped_at": "2026-03-14T06:33:27.335766+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671181+00:00"
       },
       {
         "source": "arxiv",
@@ -4622,7 +4610,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.12001v1",
         "published": "2026-03-12T14:49:12Z",
         "updated": "2026-03-12T14:49:12Z",
-        "scraped_at": "2026-03-14T06:33:27.335860+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671263+00:00"
       },
       {
         "source": "arxiv",
@@ -4645,7 +4633,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11992v1",
         "published": "2026-03-12T14:43:46Z",
         "updated": "2026-03-12T14:43:46Z",
-        "scraped_at": "2026-03-14T06:33:27.335945+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671349+00:00"
       },
       {
         "source": "arxiv",
@@ -4666,7 +4654,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11991v1",
         "published": "2026-03-12T14:43:20Z",
         "updated": "2026-03-12T14:43:20Z",
-        "scraped_at": "2026-03-14T06:33:27.336037+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671443+00:00"
       },
       {
         "source": "arxiv",
@@ -4689,7 +4677,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11989v1",
         "published": "2026-03-12T14:41:44Z",
         "updated": "2026-03-12T14:41:44Z",
-        "scraped_at": "2026-03-14T06:33:27.336112+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671533+00:00"
       },
       {
         "source": "arxiv",
@@ -4711,7 +4699,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11987v1",
         "published": "2026-03-12T14:38:13Z",
         "updated": "2026-03-12T14:38:13Z",
-        "scraped_at": "2026-03-14T06:33:27.336194+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671618+00:00"
       },
       {
         "source": "arxiv",
@@ -4735,7 +4723,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11975v1",
         "published": "2026-03-12T14:25:44Z",
         "updated": "2026-03-12T14:25:44Z",
-        "scraped_at": "2026-03-14T06:33:27.336273+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671699+00:00"
       },
       {
         "source": "arxiv",
@@ -4756,7 +4744,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11974v1",
         "published": "2026-03-12T14:24:29Z",
         "updated": "2026-03-12T14:24:29Z",
-        "scraped_at": "2026-03-14T06:33:27.336361+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671792+00:00"
       },
       {
         "source": "arxiv",
@@ -4776,7 +4764,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11972v1",
         "published": "2026-03-12T14:23:35Z",
         "updated": "2026-03-12T14:23:35Z",
-        "scraped_at": "2026-03-14T06:33:27.336432+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671865+00:00"
       },
       {
         "source": "arxiv",
@@ -4797,7 +4785,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11971v1",
         "published": "2026-03-12T14:20:29Z",
         "updated": "2026-03-12T14:20:29Z",
-        "scraped_at": "2026-03-14T06:33:27.336520+00:00"
+        "scraped_at": "2026-03-14T06:43:40.671952+00:00"
       },
       {
         "source": "arxiv",
@@ -4818,7 +4806,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11970v1",
         "published": "2026-03-12T14:19:58Z",
         "updated": "2026-03-12T14:19:58Z",
-        "scraped_at": "2026-03-14T06:33:27.336628+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672060+00:00"
       },
       {
         "source": "arxiv",
@@ -4840,7 +4828,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11965v1",
         "published": "2026-03-12T14:10:55Z",
         "updated": "2026-03-12T14:10:55Z",
-        "scraped_at": "2026-03-14T06:33:27.336698+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672133+00:00"
       },
       {
         "source": "arxiv",
@@ -4862,7 +4850,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11957v1",
         "published": "2026-03-12T14:04:58Z",
         "updated": "2026-03-12T14:04:58Z",
-        "scraped_at": "2026-03-14T06:33:27.336763+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672202+00:00"
       },
       {
         "source": "arxiv",
@@ -4884,7 +4872,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11955v1",
         "published": "2026-03-12T14:02:24Z",
         "updated": "2026-03-12T14:02:24Z",
-        "scraped_at": "2026-03-14T06:33:27.336821+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672263+00:00"
       },
       {
         "source": "arxiv",
@@ -4907,7 +4895,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11950v1",
         "published": "2026-03-12T13:59:13Z",
         "updated": "2026-03-12T13:59:13Z",
-        "scraped_at": "2026-03-14T06:33:27.336923+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672350+00:00"
       },
       {
         "source": "arxiv",
@@ -4930,7 +4918,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11949v1",
         "published": "2026-03-12T13:57:11Z",
         "updated": "2026-03-12T13:57:11Z",
-        "scraped_at": "2026-03-14T06:33:27.337015+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672442+00:00"
       },
       {
         "source": "arxiv",
@@ -4955,7 +4943,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11947v1",
         "published": "2026-03-12T13:56:42Z",
         "updated": "2026-03-12T13:56:42Z",
-        "scraped_at": "2026-03-14T06:33:27.337074+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672514+00:00"
       },
       {
         "source": "arxiv",
@@ -4975,7 +4963,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11946v1",
         "published": "2026-03-12T13:56:35Z",
         "updated": "2026-03-12T13:56:35Z",
-        "scraped_at": "2026-03-14T06:33:27.337130+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672572+00:00"
       },
       {
         "source": "arxiv",
@@ -4997,7 +4985,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11944v1",
         "published": "2026-03-12T13:55:48Z",
         "updated": "2026-03-12T13:55:48Z",
-        "scraped_at": "2026-03-14T06:33:27.337227+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672671+00:00"
       },
       {
         "source": "arxiv",
@@ -5016,7 +5004,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11942v1",
         "published": "2026-03-12T13:53:37Z",
         "updated": "2026-03-12T13:53:37Z",
-        "scraped_at": "2026-03-14T06:33:27.337281+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672727+00:00"
       },
       {
         "source": "arxiv",
@@ -5034,7 +5022,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11940v1",
         "published": "2026-03-12T13:53:20Z",
         "updated": "2026-03-12T13:53:20Z",
-        "scraped_at": "2026-03-14T06:33:27.337368+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672818+00:00"
       },
       {
         "source": "arxiv",
@@ -5058,7 +5046,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11938v1",
         "published": "2026-03-12T13:51:13Z",
         "updated": "2026-03-12T13:51:13Z",
-        "scraped_at": "2026-03-14T06:33:27.337443+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672896+00:00"
       },
       {
         "source": "arxiv",
@@ -5077,7 +5065,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11936v1",
         "published": "2026-03-12T13:48:29Z",
         "updated": "2026-03-12T13:48:29Z",
-        "scraped_at": "2026-03-14T06:33:27.337497+00:00"
+        "scraped_at": "2026-03-14T06:43:40.672953+00:00"
       },
       {
         "source": "arxiv",
@@ -5100,7 +5088,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11935v1",
         "published": "2026-03-12T13:48:11Z",
         "updated": "2026-03-12T13:48:11Z",
-        "scraped_at": "2026-03-14T06:33:27.337577+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673033+00:00"
       },
       {
         "source": "arxiv",
@@ -5123,7 +5111,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11924v1",
         "published": "2026-03-12T13:36:58Z",
         "updated": "2026-03-12T13:36:58Z",
-        "scraped_at": "2026-03-14T06:33:27.337646+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673104+00:00"
       },
       {
         "source": "arxiv",
@@ -5144,7 +5132,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11915v1",
         "published": "2026-03-12T13:29:42Z",
         "updated": "2026-03-12T13:29:42Z",
-        "scraped_at": "2026-03-14T06:33:27.337712+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673172+00:00"
       },
       {
         "source": "arxiv",
@@ -5167,7 +5155,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11914v1",
         "published": "2026-03-12T13:29:38Z",
         "updated": "2026-03-12T13:29:38Z",
-        "scraped_at": "2026-03-14T06:33:27.337808+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673270+00:00"
       },
       {
         "source": "arxiv",
@@ -5191,7 +5179,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11909v1",
         "published": "2026-03-12T13:25:21Z",
         "updated": "2026-03-12T13:25:21Z",
-        "scraped_at": "2026-03-14T06:33:27.337900+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673353+00:00"
       },
       {
         "source": "arxiv",
@@ -5212,7 +5200,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11907v1",
         "published": "2026-03-12T13:20:18Z",
         "updated": "2026-03-12T13:20:18Z",
-        "scraped_at": "2026-03-14T06:33:27.337976+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673426+00:00"
       },
       {
         "source": "arxiv",
@@ -5232,7 +5220,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11904v1",
         "published": "2026-03-12T13:18:13Z",
         "updated": "2026-03-12T13:18:13Z",
-        "scraped_at": "2026-03-14T06:33:27.338064+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673531+00:00"
       },
       {
         "source": "arxiv",
@@ -5254,7 +5242,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11901v1",
         "published": "2026-03-12T13:14:57Z",
         "updated": "2026-03-12T13:14:57Z",
-        "scraped_at": "2026-03-14T06:33:27.338151+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673619+00:00"
       },
       {
         "source": "arxiv",
@@ -5278,7 +5266,7 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11896v1",
         "published": "2026-03-12T13:13:50Z",
         "updated": "2026-03-12T13:13:50Z",
-        "scraped_at": "2026-03-14T06:33:27.338231+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673706+00:00"
       },
       {
         "source": "arxiv",
@@ -5300,52 +5288,30 @@
         "pdf_url": "https://arxiv.org/pdf/2603.11890v1",
         "published": "2026-03-12T13:03:01Z",
         "updated": "2026-03-12T13:03:01Z",
-        "scraped_at": "2026-03-14T06:33:27.338317+00:00"
+        "scraped_at": "2026-03-14T06:43:40.673797+00:00"
       }
     ],
     "producthunt": [
-      {
-        "source": "producthunt",
-        "title": "Manus Agents for Telegram",
-        "description": "",
-        "url": "",
-        "published": "2026-02-20T07:36:58-08:00",
-        "scraped_at": "2026-03-14T06:33:28.437171+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand exists for AI-powered automation and task management within Telegram, indicating users want to leverage AI directly within their messaging"
-        }
-      },
       {
         "source": "producthunt",
         "title": "Brutal Verdict",
         "description": "",
         "url": "",
         "published": "2026-03-12T05:18:03-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437228+00:00",
+        "scraped_at": "2026-03-14T06:43:41.776767+00:00",
         "ai": {
           "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand for AI-powered feedback tools is growing, particularly those offering direct, unfiltered assessments. Users are seeking efficiency and hon"
         }
       },
       {
         "source": "producthunt",
-        "title": "LocalPDF.io",
+        "title": "Manus Agents for Telegram",
         "description": "",
         "url": "",
-        "published": "2026-03-12T02:19:12-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437269+00:00",
+        "published": "2026-02-20T07:36:58-08:00",
+        "scraped_at": "2026-03-14T06:43:41.776819+00:00",
         "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"There's strong interest in AI-powered tools that simplify document interaction and analysis. Users are actively seeking solutio"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "Scindo",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T14:59:39-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437319+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"There's strong interest in AI-powered tools that streamline content repurposing and creation workflows. Users are actively seeking solutions that"
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand for AI-powered automation and task management within messaging platforms like Telegram is growing. Users are seeking ways to streamline wo"
         }
       },
       {
@@ -5354,97 +5320,20 @@
         "description": "",
         "url": "",
         "published": "2026-03-12T16:41:10-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437356+00:00",
+        "scraped_at": "2026-03-14T06:43:41.776856+00:00",
         "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Indicates growing interest in AI-powered tools that simplify complex tasks for non-technical users. Specifically, there's a demand for tools that"
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Indicates strong interest in AI-powered tools that simplify complex tasks. Positive reception suggests a demand for solutions that enhance produc"
         }
       },
       {
         "source": "producthunt",
-        "title": "Pinnacle",
+        "title": "Atlasly",
         "description": "",
         "url": "",
-        "published": "2026-02-25T07:43:33-08:00",
-        "scraped_at": "2026-03-14T06:33:28.437389+00:00",
+        "published": "2026-03-12T08:23:41-07:00",
+        "scraped_at": "2026-03-14T06:43:41.776892+00:00",
         "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"productivity\",\n  \"market_signal\": \"Strong interest in AI-powered tools that streamline project management and task execution. Users are actively seeking solutions that reduce "
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "GStack",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T01:56:03-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437422+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"devtool\",\n  \"market_signal\": \"Demand for streamlined development workflows and AI-powered code generation is strong. Developers are actively seeking tools that reduce boilerpl"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "Perplexity Computer Skills",
-        "description": "",
-        "url": "",
-        "published": "2026-03-04T07:42:18-08:00",
-        "scraped_at": "2026-03-14T06:33:28.437467+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered tools that enhance or automate computer skills. Users are actively seeking ways to improve their efficiency and kno"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "Fowel by Hackmamba",
-        "description": "",
-        "url": "",
-        "published": "2026-03-10T16:16:21-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437501+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"Strong interest in AI-powered writing and content creation tools, especially those that focus on improving writing quality and "
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "SitSense",
-        "description": "",
-        "url": "",
-        "published": "2026-03-10T12:35:04-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437533+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool|productivity\",\n  \"market_signal\": \"Indicates interest in AI-powered tools that improve posture and well-being, especially for remote workers or those spending long hou"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "doXmind",
-        "description": "",
-        "url": "",
-        "published": "2026-03-11T20:19:04-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437566+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"productivity|ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered mind mapping tools that enhance brainstorming and project planning. Users are actively seeking solutio"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "Hyper",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T15:11:21-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437598+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered tools that streamline workflows and enhance productivity, particularly those that offer personalized experiences or"
-        }
-      },
-      {
-        "source": "producthunt",
-        "title": "Ask Maps by Google",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T05:53:18-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437633+00:00",
-        "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand for AI-powered tools that simplify complex data interaction and provide quick, accessible answers from large datasets like Google Maps. Us"
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"Strong interest in AI-powered tools that streamline complex workflows and improve team collaboration. Demand for solutions that"
         }
       },
       {
@@ -5453,133 +5342,21 @@
         "description": "",
         "url": "",
         "published": "2026-03-12T19:53:18-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437667+00:00",
+        "scraped_at": "2026-03-14T06:43:41.776933+00:00",
         "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"productivity|design|devtool\",\n  \"market_signal\": \"Interest in tools that simplify WordPress development and design workflows, especially those leveraging AI to automate repeti"
+          "market_signal": "```json\n{\n  \"category\": \"productivity|design|devtool\",\n  \"market_signal\": \"Interest in tools that streamline WordPress development workflows and improve design efficiency. Demand for solutions that re"
         }
       },
       {
         "source": "producthunt",
-        "title": "Solo Voice",
+        "title": "LocalPDF.io",
         "description": "",
         "url": "",
-        "published": "2026-02-27T13:09:40-08:00",
-        "scraped_at": "2026-03-14T06:33:28.437701+00:00",
+        "published": "2026-03-12T02:19:12-07:00",
+        "scraped_at": "2026-03-14T06:43:41.776968+00:00",
         "ai": {
-          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered tools that streamline content creation and repurposing for solo creators and small teams. Demand for solutions that"
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"There's strong interest in local, privacy-focused AI tools, especially those that leverage local compute for tasks like documen"
         }
-      },
-      {
-        "source": "producthunt",
-        "title": "GhostDesk",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T07:37:46-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437734+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Window View",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T19:36:47-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437768+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "ReplylessAI",
-        "description": "",
-        "url": "",
-        "published": "2026-03-11T12:25:44-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437801+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Atlasly",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T08:23:41-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437833+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "KingCoding",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T16:55:30-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437881+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Parker by Perfectly",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T15:20:12-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437915+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "ClawMote",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T13:43:36-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437948+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "GradPipe",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T12:39:15-07:00",
-        "scraped_at": "2026-03-14T06:33:28.437981+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "MascotVibe",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T05:59:59-07:00",
-        "scraped_at": "2026-03-14T06:33:28.438018+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Pre",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T15:32:44-07:00",
-        "scraped_at": "2026-03-14T06:33:28.438050+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Perfectly",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T15:08:51-07:00",
-        "scraped_at": "2026-03-14T06:33:28.438083+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Mockphine",
-        "description": "",
-        "url": "",
-        "published": "2026-02-24T19:24:59-08:00",
-        "scraped_at": "2026-03-14T06:33:28.438116+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "Saturn",
-        "description": "",
-        "url": "",
-        "published": "2026-03-12T00:02:58-07:00",
-        "scraped_at": "2026-03-14T06:33:28.438149+00:00"
-      },
-      {
-        "source": "producthunt",
-        "title": "BurnLink",
-        "description": "",
-        "url": "",
-        "published": "2026-03-05T11:07:04-08:00",
-        "scraped_at": "2026-03-14T06:33:28.438182+00:00"
       },
       {
         "source": "producthunt",
@@ -5587,7 +5364,218 @@
         "description": "",
         "url": "",
         "published": "2026-03-01T10:07:13-08:00",
-        "scraped_at": "2026-03-14T06:33:28.438215+00:00"
+        "scraped_at": "2026-03-14T06:43:41.777002+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand for AI-powered tools that simplify complex data identification and manipulation tasks. Interest in solutions that can be integrated into e"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Fowel by Hackmamba",
+        "description": "",
+        "url": "",
+        "published": "2026-03-10T16:16:21-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777037+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"Demand for AI-powered writing assistants and content creation tools remains strong, particularly those that focus on streamlini"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "KingCoding",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T16:55:30-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777071+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Demand for AI-powered coding assistance is high, but users are discerning and expect tangible productivity gains. Success hinges on demonstrable "
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "ClawMote",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T13:43:36-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777106+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"devtool\",\n  \"market_signal\": \"Interest in tools that simplify API interactions and automate workflows. Potential demand for solutions that reduce the complexity of managing mu"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Ask Maps by Google",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T05:53:18-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777142+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered tools that simplify complex data interaction. Specifically, there's a demand for tools that can translate natural l"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Parker by Perfectly",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:20:12-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777177+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"Demand for AI-powered tools that streamline content creation and repurposing workflows is increasing. Users are looking for sol"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "ReplylessAI",
+        "description": "",
+        "url": "",
+        "published": "2026-03-11T12:25:44-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777212+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|saas|productivity\",\n  \"market_signal\": \"Strong interest in AI-powered tools that automate email management and improve response rates. Demand exists for solutions that"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "SitSense",
+        "description": "",
+        "url": "",
+        "published": "2026-03-10T12:35:04-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777246+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"ai_tool|productivity\",\n  \"market_signal\": \"Indicates growing interest in AI-powered tools that improve posture and well-being, particularly for remote workers or those spendin"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "doXmind",
+        "description": "",
+        "url": "",
+        "published": "2026-03-11T20:19:04-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777280+00:00",
+        "ai": {
+          "market_signal": "```json\n{\n  \"category\": \"productivity|ai_tool\",\n  \"market_signal\": \"Strong interest in AI-powered mind mapping tools that streamline brainstorming and knowledge organization. Users are actively seekin"
+        }
+      },
+      {
+        "source": "producthunt",
+        "title": "Hyper",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:11:21-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777314+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Pinnacle",
+        "description": "",
+        "url": "",
+        "published": "2026-02-25T07:43:33-08:00",
+        "scraped_at": "2026-03-14T06:43:41.777348+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Solo Voice",
+        "description": "",
+        "url": "",
+        "published": "2026-02-27T13:09:40-08:00",
+        "scraped_at": "2026-03-14T06:43:41.777382+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Window View",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T19:36:47-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777416+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "GradPipe",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T12:39:15-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777451+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Mockphine",
+        "description": "",
+        "url": "",
+        "published": "2026-02-24T19:24:59-08:00",
+        "scraped_at": "2026-03-14T06:43:41.777485+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Perplexity Computer Skills",
+        "description": "",
+        "url": "",
+        "published": "2026-03-04T07:42:18-08:00",
+        "scraped_at": "2026-03-14T06:43:41.777546+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Pre",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:32:44-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777581+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Saturn",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T00:02:58-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777615+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "BurnLink",
+        "description": "",
+        "url": "",
+        "published": "2026-03-05T11:07:04-08:00",
+        "scraped_at": "2026-03-14T06:43:41.777653+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Scindo",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T14:59:39-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777687+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "Perfectly",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T15:08:51-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777721+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "GStack",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T01:56:03-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777755+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "MTIA 300",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T23:38:27-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777788+00:00"
+      },
+      {
+        "source": "producthunt",
+        "title": "MascotVibe",
+        "description": "",
+        "url": "",
+        "published": "2026-03-12T05:59:59-07:00",
+        "scraped_at": "2026-03-14T06:43:41.777823+00:00"
       }
     ],
     "devto": [
@@ -5604,13 +5592,13 @@
           "ai"
         ],
         "reactions": 168,
-        "comments": 82,
+        "comments": 83,
         "reading_time": 4,
         "author": "jess",
         "published_at": "2026-03-09T18:28:59Z",
-        "scraped_at": "2026-03-14T06:33:29.626239+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117817+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with AI-powered CLI tools and challenges that showcase their capabilities, indicating a strong interest ",
+          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with AI-powered CLI tools and challenges, indicating a strong interest in improving developer workflows ",
           "category": "unknown",
           "relevance": 0
         }
@@ -5628,13 +5616,13 @@
           "architecture"
         ],
         "reactions": 65,
-        "comments": 49,
+        "comments": 50,
         "reading_time": 7,
         "author": "grahamthedev",
         "published_at": "2026-03-07T10:44:43Z",
-        "scraped_at": "2026-03-14T06:33:29.626258+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117836+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are interested in strategies for managing complexity and ensuring predictable behavior in increasingly complex systems, ",
+          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are actively seeking strategies to manage complexity and ensure predictable outcomes in increasingly automated and AI-dr",
           "category": "unknown",
           "relevance": 0
         }
@@ -5651,13 +5639,13 @@
           "rss"
         ],
         "reactions": 51,
-        "comments": 11,
+        "comments": 13,
         "reading_time": 2,
         "author": "jonmarkgo",
         "published_at": "2026-03-09T13:22:11Z",
-        "scraped_at": "2026-03-14T06:33:29.626263+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117840+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 6,\n  \"one_liner\": \"Developers appreciate improvements to content aggregation and automation within the DEV.to platform, suggesting a desire for streamlin",
+          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 6,\n  \"one_liner\": \"Developers appreciate improvements to content aggregation and automation on platforms like DEV.to, indicating a desire for streamlined",
           "category": "unknown",
           "relevance": 0
         }
@@ -5679,9 +5667,9 @@
         "reading_time": 4,
         "author": "ujja",
         "published_at": "2026-03-10T03:31:44Z",
-        "scraped_at": "2026-03-14T06:33:29.626266+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117843+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 6,\n  \"one_liner\": \"Developers value stories about mentorship, support, and overcoming challenges in their coding journeys, especially those highlightin",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 6,\n  \"one_liner\": \"Developers are interested in stories about career progression, mentorship, and overcoming obstacles in the tech industry, particular",
           "category": "unknown",
           "relevance": 0
         }
@@ -5703,7 +5691,7 @@
         "reading_time": 4,
         "author": "subhrangsu90",
         "published_at": "2026-03-10T22:39:46Z",
-        "scraped_at": "2026-03-14T06:33:29.626268+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117846+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 8,\n  \"one_liner\": \"Developers are deeply concerned about the ethical and practical implications of AI code generation, particularly regarding accounta",
           "category": "unknown",
@@ -5727,9 +5715,9 @@
         "reading_time": 7,
         "author": "konark_13",
         "published_at": "2026-03-11T11:04:06Z",
-        "scraped_at": "2026-03-14T06:33:29.626271+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117848+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with content about career transitions, self-reflection on work experiences, and the tech industry's im",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with content about career transitions, especially the lessons learned from leaving a job, indicating a",
           "category": "unknown",
           "relevance": 0
         }
@@ -5751,9 +5739,9 @@
         "reading_time": 11,
         "author": "dumebii",
         "published_at": "2026-03-10T13:00:34Z",
-        "scraped_at": "2026-03-14T06:33:29.626276+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117853+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 8,\n  \"one_liner\": \"Developers are actively evaluating and comparing different LLMs (Gemini 2.5 Flash and Claude 3.7 Sonnet) for production use in agen",
+          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 8,\n  \"one_liner\": \"Developers are actively comparing and contrasting different LLMs (Gemini 2.5 Flash and Claude 3.7 Sonnet) based on practical, produ",
           "category": "unknown",
           "relevance": 0
         }
@@ -5775,9 +5763,9 @@
         "reading_time": 6,
         "author": "eevajonnapanula",
         "published_at": "2026-03-07T09:17:39Z",
-        "scraped_at": "2026-03-14T06:33:29.626279+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117856+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are engaging with content discussing diversity, equity, and inclusion (DEI) issues, particularly around perceived incomp",
+          "one_liner": "```json\n{\n  \"category\": \"opinion\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are engaging with content discussing diversity, equity, and inclusion (DEI) issues, particularly focusing on the challen",
           "category": "unknown",
           "relevance": 0
         }
@@ -5799,9 +5787,9 @@
         "reading_time": 7,
         "author": "pascal_cescato_692b7a8a20",
         "published_at": "2026-03-10T22:11:35Z",
-        "scraped_at": "2026-03-14T06:33:29.626281+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117858+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are engaging with content discussing career limitations and the desire to break free from predefined roles and expectatio",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are engaging with content discussing career navigation and breaking free from limiting expectations within the tech indus",
           "category": "unknown",
           "relevance": 0
         }
@@ -5821,9 +5809,9 @@
         "reading_time": 3,
         "author": "jess",
         "published_at": "2026-03-10T15:05:07Z",
-        "scraped_at": "2026-03-14T06:33:29.626283+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117861+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 3,\n  \"one_liner\": \"A curated list of popular DEV.to posts indicates interest in diverse topics, but doesn't reveal specific pain points.\",\n  \"builder_tak",
+          "one_liner": "```json\n{\n  \"category\": \"news\",\n  \"relevance\": 3,\n  \"one_liner\": \"A curated list of popular DEV.to posts indicates general interests but lacks specific problem identification.\",\n  \"builder_takeaway\": ",
           "category": "unknown",
           "relevance": 0
         }
@@ -5845,9 +5833,9 @@
         "reading_time": 2,
         "author": "the_nortern_dev",
         "published_at": "2026-03-08T09:02:53Z",
-        "scraped_at": "2026-03-14T06:33:29.626285+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117863+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are concerned about the unequal playing field and barriers to entry for underrepresented groups in tech, even at the begi",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are concerned about the unequal playing field and barriers to entry for underrepresented groups in tech, particularly the",
           "category": "unknown",
           "relevance": 0
         }
@@ -5865,13 +5853,13 @@
           "career"
         ],
         "reactions": 44,
-        "comments": 21,
+        "comments": 22,
         "reading_time": 4,
         "author": "dev-in-progress",
         "published_at": "2026-03-13T05:30:00Z",
-        "scraped_at": "2026-03-14T06:33:29.626288+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117866+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with stories of career struggles and unexpected positive turning points, especially those emphasizing ",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly engaged with stories of career struggles and unexpected positive turning points, especially those related to d",
           "category": "unknown",
           "relevance": 0
         }
@@ -5891,7 +5879,7 @@
         "reading_time": 1,
         "author": "jess",
         "published_at": "2026-03-13T04:00:00Z",
-        "scraped_at": "2026-03-14T06:33:29.626290+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117868+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are actively seeking validation and community support for their accomplishments, both big and small, indicating a need fo",
           "category": "unknown",
@@ -5915,7 +5903,7 @@
         "reading_time": 7,
         "author": "_vjk",
         "published_at": "2026-03-10T15:52:17Z",
-        "scraped_at": "2026-03-14T06:33:29.626292+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117870+00:00",
         "ai": {
           "one_liner": "```json\n{\n  \"category\": \"tutorial\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are highly interested in leveraging AI, specifically Claude, to improve coding speed and implement Test-Driven Developm",
           "category": "unknown",
@@ -5939,9 +5927,9 @@
         "reading_time": 5,
         "author": "earlgreyhot1701d",
         "published_at": "2026-03-09T03:37:29Z",
-        "scraped_at": "2026-03-14T06:33:29.626295+00:00",
+        "scraped_at": "2026-03-14T06:43:43.117873+00:00",
         "ai": {
-          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are interested in discussions around career planning, especially the emotional and personal aspects of staying in a job l",
+          "one_liner": "```json\n{\n  \"category\": \"career\",\n  \"relevance\": 7,\n  \"one_liner\": \"Developers are interested in honest reflections on career planning, especially regarding diversity, equity, and inclusion (DEI) with",
           "category": "unknown",
           "relevance": 0
         }
@@ -5963,7 +5951,7 @@
         "reading_time": 4,
         "author": "jagostoni",
         "published_at": "2026-03-10T13:09:37Z",
-        "scraped_at": "2026-03-14T06:33:29.626297+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117875+00:00"
       },
       {
         "source": "devto",
@@ -5982,7 +5970,7 @@
         "reading_time": 9,
         "author": "ryansolid",
         "published_at": "2026-03-13T15:39:54Z",
-        "scraped_at": "2026-03-14T06:33:29.626302+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117880+00:00"
       },
       {
         "source": "devto",
@@ -6001,7 +5989,7 @@
         "reading_time": 6,
         "author": "mahinshanazeer",
         "published_at": "2026-03-09T06:50:36Z",
-        "scraped_at": "2026-03-14T06:33:29.626304+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117883+00:00"
       },
       {
         "source": "devto",
@@ -6020,7 +6008,7 @@
         "reading_time": 5,
         "author": "konark_13",
         "published_at": "2026-03-08T08:20:47Z",
-        "scraped_at": "2026-03-14T06:33:29.626306+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117885+00:00"
       },
       {
         "source": "devto",
@@ -6039,7 +6027,7 @@
         "reading_time": 2,
         "author": "francistrdev",
         "published_at": "2026-03-09T19:26:46Z",
-        "scraped_at": "2026-03-14T06:33:29.626309+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117887+00:00"
       },
       {
         "source": "devto",
@@ -6058,7 +6046,7 @@
         "reading_time": 5,
         "author": "sag1v",
         "published_at": "2026-03-12T22:48:44Z",
-        "scraped_at": "2026-03-14T06:33:29.626311+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117890+00:00"
       },
       {
         "source": "devto",
@@ -6077,7 +6065,7 @@
         "reading_time": 12,
         "author": "kimmaida",
         "published_at": "2026-03-11T19:19:14Z",
-        "scraped_at": "2026-03-14T06:33:29.626313+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117892+00:00"
       },
       {
         "source": "devto",
@@ -6096,7 +6084,7 @@
         "reading_time": 5,
         "author": "adamthedeveloper",
         "published_at": "2026-03-12T04:21:42Z",
-        "scraped_at": "2026-03-14T06:33:29.626315+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117895+00:00"
       },
       {
         "source": "devto",
@@ -6115,7 +6103,7 @@
         "reading_time": 6,
         "author": "sylwia-lask",
         "published_at": "2026-03-12T10:51:33Z",
-        "scraped_at": "2026-03-14T06:33:29.626318+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117897+00:00"
       },
       {
         "source": "devto",
@@ -6134,7 +6122,7 @@
         "reading_time": 2,
         "author": "danishmk1286",
         "published_at": "2026-03-09T13:20:00Z",
-        "scraped_at": "2026-03-14T06:33:29.626320+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117900+00:00"
       },
       {
         "source": "devto",
@@ -6153,7 +6141,7 @@
         "reading_time": 3,
         "author": "nickytonline",
         "published_at": "2026-03-08T18:16:29Z",
-        "scraped_at": "2026-03-14T06:33:29.626322+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117902+00:00"
       },
       {
         "source": "devto",
@@ -6172,7 +6160,7 @@
         "reading_time": 5,
         "author": "dannwaneri",
         "published_at": "2026-03-08T02:46:18Z",
-        "scraped_at": "2026-03-14T06:33:29.626326+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117910+00:00"
       },
       {
         "source": "devto",
@@ -6189,7 +6177,7 @@
         "reading_time": 2,
         "author": "jess",
         "published_at": "2026-03-12T17:37:04Z",
-        "scraped_at": "2026-03-14T06:33:29.626329+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117913+00:00"
       },
       {
         "source": "devto",
@@ -6207,7 +6195,7 @@
         "reading_time": 7,
         "author": "clintonrocha98",
         "published_at": "2026-03-09T04:37:00Z",
-        "scraped_at": "2026-03-14T06:33:29.626331+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117915+00:00"
       },
       {
         "source": "devto",
@@ -6226,46 +6214,46 @@
         "reading_time": 3,
         "author": "gabizaor",
         "published_at": "2026-03-11T20:08:19Z",
-        "scraped_at": "2026-03-14T06:33:29.626334+00:00"
+        "scraped_at": "2026-03-14T06:43:43.117918+00:00"
       }
     ]
   },
   "cross_signals": [],
   "build_opportunities": [
     {
-      "title": "Accessible Coding Education Platform for Blind Engineers",
-      "problem": "Software engineers who are going blind need accessible resources and tools to continue their careers. Existing learning platforms are often not optimized for screen readers or other assistive technologies, creating a significant barrier to entry and continued learning. The 'Ask HN: I'm a software engineer going blind, how should I prepare?' thread highlights this urgent need.",
-      "evidence": "One high-engagement Ask HN thread (3270 points, 473 comments) directly addresses this problem.",
-      "why_now": "Increased awareness of accessibility issues and advancements in assistive technologies make it possible to create a truly inclusive learning experience. The rise of remote work also creates more opportunities for blind engineers.",
-      "opportunity_score": 8,
-      "where_to_find_users": "HN thread, accessibility-focused subreddits (r/blind, r/accessibility), organizations for the blind and visually impaired.",
-      "build_complexity": "2-week MVP",
-      "monetization_hint": "Subscription model with tiered pricing based on features and support. Partnerships with companies seeking to hire diverse talent."
-    },
-    {
-      "title": "Curated 'Awesome' List Discovery Tool",
-      "problem": "The 'sindresorhus/awesome' repo demonstrates massive interest in curated lists, but discovering relevant lists within the vast ecosystem is challenging. Users need a better way to search, filter, and explore these resources based on their specific interests and needs. The current GitHub interface is insufficient for this purpose.",
-      "evidence": "The 'sindresorhus/awesome' repo has extremely high velocity (63618.0).",
-      "why_now": "The number of 'awesome' lists continues to grow, making discovery increasingly difficult. A dedicated search and discovery tool would provide significant value to developers and other knowledge workers.",
-      "opportunity_score": 7,
-      "where_to_find_users": "GitHub, Reddit (r/programming, r/learnprogramming), Hacker News, Twitter.",
-      "build_complexity": "weekend hack",
-      "monetization_hint": "Affiliate links to products mentioned in the lists, premium features (e.g., advanced search filters, personalized recommendations), or a one-time purchase for a desktop application."
-    },
-    {
       "title": "IoT Security Update Compliance Checker",
-      "problem": "The Ask HN thread about IoT security regulation highlights the growing concern around insecure IoT devices. Manufacturers and consumers need a tool to easily assess the security update compliance of IoT devices and identify potential vulnerabilities. This is becoming increasingly important as regulations are being considered.",
-      "evidence": "The 'Ask HN: I’m an FCC Commissioner proposing regulation of IoT security updates' thread has very high engagement (3387 points, 925 comments).",
-      "why_now": "The increasing number of IoT devices and the growing awareness of security risks are driving demand for better security practices. Potential regulations will further incentivize compliance.",
+      "problem": "FCC is proposing regulation of IoT security updates, creating a need for manufacturers to ensure compliance.  Many smaller manufacturers lack the expertise or resources to navigate these regulations effectively. This creates a demand for tools that simplify the compliance process.",
+      "evidence": "One strong signal: Ask HN question with 3387 points and 925 comments indicates high interest in IoT regulation.",
+      "why_now": "The FCC's active consideration of IoT security regulations makes this a timely opportunity.",
+      "opportunity_score": 7,
+      "where_to_find_users": "IoT-focused subreddits, hardware manufacturer forums, industry conferences, and potentially directly engaging with FCC open comment periods.",
+      "build_complexity": "2-week MVP",
+      "monetization_hint": "SaaS subscription for ongoing compliance monitoring and reporting, tiered based on device volume."
+    },
+    {
+      "title": "Accessible Dev Tooling Guides",
+      "problem": "A software engineer going blind is seeking advice on how to prepare, highlighting a gap in accessible development resources. Many developers with disabilities struggle to find tailored guidance and tools to maintain their careers.",
+      "evidence": "One strong signal: Ask HN question with 3270 points and 473 comments indicates a significant need for resources for developers with disabilities.",
+      "why_now": "Increased awareness and focus on inclusivity in tech create a favorable environment for accessible tooling.",
       "opportunity_score": 6,
-      "where_to_find_users": "IoT device manufacturers, security professionals, consumers concerned about IoT security, relevant industry forums and conferences.",
+      "where_to_find_users": "Disability-focused tech communities, accessibility conferences, relevant subreddits (e.g., r/blind, r/accessibility).",
+      "build_complexity": "weekend hack",
+      "monetization_hint": "Freemium model with basic guides available for free and premium guides/tools available via subscription or one-time purchase."
+    },
+    {
+      "title": "S3 Outage Notification and Failover Tool",
+      "problem": "The 'Is S3 down?' Ask HN question with 2589 points and 1055 comments reveals a persistent anxiety about S3 reliability.  Businesses need rapid notification and automated failover solutions to minimize downtime during S3 incidents.",
+      "evidence": "One strong signal: Ask HN question with very high engagement indicates widespread concern about S3 availability.",
+      "why_now": "Cloud infrastructure is increasingly critical, making downtime more costly and unacceptable.",
+      "opportunity_score": 5,
+      "where_to_find_users": "AWS user groups, DevOps communities, serverfault.com, and monitoring service forums.",
       "build_complexity": "1-month launch",
-      "monetization_hint": "SaaS subscription for manufacturers, one-time purchase for consumers, API access for integration with other security tools."
+      "monetization_hint": "SaaS subscription for monitoring and automated failover, tiered based on data volume or number of applications."
     }
   ],
   "daily_summary": {
     "headline": "Daily Intelligence Brief",
-    "tldr": "```json\n{\n  \"headline\": \"IoT Security, Tax Law Changes, and Accessibility: Builder Intel\",\n  \"tldr\": \"The FCC is considering IoT security regulations, creating potential opportunities. US tax law changes impacting software development costs are gaining attention. A software engineer's story highligh"
+    "tldr": "```json\n{\n  \"headline\": \"IoT Security Regulation, S3 Outage, and Tax Law Changes Impact Builders\",\n  \"tldr\": \"The FCC is considering regulating IoT security, potentially increasing compliance costs and creating opportunities. An S3 outage highlights cloud dependency risks, urging builders to conside"
   },
-  "processed_at": "2026-03-14T06:41:33.296844+00:00"
+  "processed_at": "2026-03-14T06:51:35.589768+00:00"
 }
