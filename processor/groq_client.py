@@ -1,5 +1,5 @@
 """
-NexScry AI Processor — powered by Groq.
+NexScry AI Processor — powered by Together AI (Llama 3.3 70B).
 
 This is NOT just a summarizer. It does:
 1. Per-item enrichment (classify, extract insights)
@@ -12,21 +12,23 @@ import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
-from config import GROQ_API_KEY, GROQ_MODEL, GROQ_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
+from config import TOGETHER_API_KEY, TOGETHER_MODEL, TOGETHER_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
+
+TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completions"
 
 
 def call_groq(
     prompt: str,
     system: str = "",
-    model: str = GROQ_MODEL,
+    model: str = TOGETHER_MODEL,
     max_tokens: int = MAX_TOKENS_PER_ITEM,
     temperature: float = 0.3,
     retry: bool = True,
 ) -> str:
-    """Call Groq API. Falls back to smaller model if rate-limited."""
-    if not GROQ_API_KEY:
-        print("  ❌ GROQ_API_KEY is not set — add it as a GitHub Secret named GROQ_API_KEY")
-        return '{"error": "No GROQ_API_KEY set"}'
+    """Call Together AI API (OpenAI-compatible). Falls back to smaller model if rate-limited."""
+    if not TOGETHER_API_KEY:
+        print("  ❌ TOGETHER_API_KEY is not set — add it as a GitHub Secret named TOGETHER_API_KEY")
+        return '{"error": "No TOGETHER_API_KEY set"}'
 
     messages = []
     if system:
@@ -41,17 +43,17 @@ def call_groq(
     }).encode()
 
     req = urllib.request.Request(
-        "https://api.groq.com/openai/v1/chat/completions",
+        TOGETHER_API_URL,
         data=payload,
         headers={
-            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Authorization": f"Bearer {TOGETHER_API_KEY}",
             "Content-Type": "application/json",
         },
         method="POST",
     )
 
     try:
-        with urllib.request.urlopen(req, timeout=45) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode())
             return data["choices"][0]["message"]["content"]
     except urllib.error.HTTPError as e:
@@ -62,39 +64,39 @@ def call_groq(
             body = str(e)
 
         if e.code == 401:
-            print(f"  ❌ Groq 401 UNAUTHORIZED — API key is wrong or expired. Check your GROQ_API_KEY secret.")
+            print(f"  ❌ Together AI 401 UNAUTHORIZED — API key is wrong or expired. Check TOGETHER_API_KEY secret.")
             return '{"error": "invalid_api_key"}'
         if e.code == 429:
             if retry:
-                print(f"  ⏳ Groq rate-limited (429) — waiting 20s then retrying with fallback model...")
+                print(f"  ⏳ Together AI rate-limited (429) — waiting 20s then retrying with fallback model...")
                 time.sleep(20)
-                return call_groq(prompt, system, GROQ_FALLBACK_MODEL, max_tokens, temperature, retry=False)
-            print(f"  ⚠ Groq still rate-limited after retry — skipping this item")
+                return call_groq(prompt, system, TOGETHER_FALLBACK_MODEL, max_tokens, temperature, retry=False)
+            print(f"  ⚠ Together AI still rate-limited after retry — skipping this item")
             return '{"error": "rate_limited"}'
         if e.code == 400:
-            print(f"  ⚠ Groq 400 BAD REQUEST — model '{model}' may be unavailable. Body: {body[:300]}")
-            if retry and model != GROQ_FALLBACK_MODEL:
-                print(f"  🔄 Retrying with fallback model {GROQ_FALLBACK_MODEL}...")
-                return call_groq(prompt, system, GROQ_FALLBACK_MODEL, max_tokens, temperature, retry=False)
+            print(f"  ⚠ Together AI 400 BAD REQUEST — model '{model}' may be unavailable. Body: {body[:300]}")
+            if retry and model != TOGETHER_FALLBACK_MODEL:
+                print(f"  🔄 Retrying with fallback model {TOGETHER_FALLBACK_MODEL}...")
+                return call_groq(prompt, system, TOGETHER_FALLBACK_MODEL, max_tokens, temperature, retry=False)
             return '{"error": "bad_request"}'
-        print(f"  ⚠ Groq HTTP {e.code}: {body[:300]}")
+        print(f"  ⚠ Together AI HTTP {e.code}: {body[:300]}")
         return f'{{"error": "http_{e.code}"}}'
     except Exception as e:
-        print(f"  ⚠ Groq connection error: {e}")
+        print(f"  ⚠ Together AI connection error: {e}")
         return '{"error": "connection_failed"}'
 
 
 def test_groq_connection() -> bool:
     """Quick check that the API key is valid before running the full pipeline."""
-    if not GROQ_API_KEY:
-        print("  ❌ GROQ_API_KEY not set — AI features will be disabled")
+    if not TOGETHER_API_KEY:
+        print("  ❌ TOGETHER_API_KEY not set — AI features will be disabled")
         return False
     result = call_groq("Reply with the single word: ok", max_tokens=5, retry=False)
     ok = "ok" in result.lower() and "error" not in result
     if ok:
-        print(f"  ✅ Groq API key valid (model: {GROQ_MODEL})")
+        print(f"  ✅ Together AI key valid (model: {TOGETHER_MODEL})")
     else:
-        print(f"  ❌ Groq API key test failed. Response: {result[:200]}")
+        print(f"  ❌ Together AI key test failed. Response: {result[:200]}")
     return ok
 
 

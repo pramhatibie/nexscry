@@ -4,7 +4,9 @@ Fetches recent papers and extracts metadata for AI processing.
 """
 import json
 import re
+import time
 import urllib.request
+import urllib.error
 import urllib.parse
 from datetime import datetime, timezone
 from config import ARXIV_CATEGORIES, ARXIV_MAX_PAPERS
@@ -72,11 +74,24 @@ def fetch_papers(
     url = f"{ARXIV_API}?{params}"
     req = urllib.request.Request(url, headers={"User-Agent": "NexScry/1.0"})
 
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            xml_text = resp.read().decode("utf-8")
-    except Exception as e:
-        print(f"  ⚠ ArXiv: {e}")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                xml_text = resp.read().decode("utf-8")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = 15 * (attempt + 1)
+                print(f"  ⏳ ArXiv rate-limited (429) — waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            print(f"  ⚠ ArXiv HTTP {e.code}: {e}")
+            return []
+        except Exception as e:
+            print(f"  ⚠ ArXiv: {e}")
+            return []
+    else:
+        print(f"  ⚠ ArXiv: all attempts failed")
         return []
 
     papers = _parse_atom_entries(xml_text)

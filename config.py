@@ -7,9 +7,9 @@ import os
 # ─────────────────────────────────────────────
 # API Keys (set as GitHub Secrets)
 # ─────────────────────────────────────────────
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
-GROQ_FALLBACK_MODEL = "llama-3.1-8b-instant"  # if rate-limited
+TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY", "")
+TOGETHER_MODEL = os.environ.get("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo")
+TOGETHER_FALLBACK_MODEL = "meta-llama/Llama-3.1-8B-Instruct-Turbo"  # if rate-limited
 
 # ─────────────────────────────────────────────
 # Site Configuration

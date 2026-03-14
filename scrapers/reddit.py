@@ -1,9 +1,8 @@
 """
-Reddit Scraper — uses public JSON endpoints (no API key needed).
-Reddit exposes .json on every page. GitHub Actions runs from US servers,
-so no ISP blocks affect this.
+Reddit Scraper — uses public RSS feeds instead of JSON API.
+Reddit's RSS endpoints bypass the Cloudflare blocks that affect GitHub Actions IPs.
 """
-import json
+import re
 import time
 import urllib.request
 import urllib.error
@@ -11,107 +10,90 @@ from datetime import datetime, timezone
 from config import REDDIT_SUBS, REDDIT_SORT, REDDIT_LIMIT, REDDIT_PAIN_KEYWORDS
 
 
-# Reddit requires a descriptive User-Agent to avoid 429/403
-USER_AGENT = "Mozilla/5.0 (compatible; NexScry/1.0; +https://github.com/pramhatibie/nexscry)"
+USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"
 
 
-def fetch_subreddit(sub: str, sort: str = REDDIT_SORT, limit: int = REDDIT_LIMIT) -> list[dict]:
-    """Fetch posts from a subreddit's public JSON feed."""
-    url = f"https://www.reddit.com/r/{sub}/{sort}.json?limit={limit}&raw_json=1"
-    req = urllib.request.Request(url, headers={
-        "User-Agent": USER_AGENT,
-        "Accept": "application/json",
-    })
-
-    for attempt in range(2):
-        try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                raw = resp.read().decode("utf-8", errors="replace")
-                data = json.loads(raw)
-                break
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                print(f"  ⏳ r/{sub}: rate-limited (429) — waiting 15s...")
-                time.sleep(15)
-                continue
-            if e.code == 403:
-                print(f"  ⚠ r/{sub}: 403 Forbidden — Reddit may be blocking this IP. Trying old.reddit.com...")
-                # Fallback to old.reddit.com which is less aggressive
-                url = f"https://old.reddit.com/r/{sub}/{sort}.json?limit={limit}&raw_json=1"
-                req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
-                try:
-                    with urllib.request.urlopen(req, timeout=20) as resp2:
-                        data = json.loads(resp2.read().decode("utf-8", errors="replace"))
-                    break
-                except Exception as e2:
-                    print(f"  ⚠ r/{sub} old.reddit fallback failed: {e2}")
-                    return []
-            print(f"  ⚠ r/{sub}: HTTP {e.code} — {e}")
-            return []
-        except (urllib.error.URLError, json.JSONDecodeError) as e:
-            print(f"  ⚠ r/{sub}: {e}")
-            return []
-    else:
-        print(f"  ⚠ r/{sub}: all attempts failed")
-        return []
-
+def _parse_rss(xml: str, sub: str) -> list[dict]:
+    """Parse Reddit RSS feed into post dicts."""
     posts = []
-    for child in data.get("data", {}).get("children", []):
-        d = child.get("data", {})
-        if not d.get("title"):
+    items = re.findall(r"<item>(.*?)</item>", xml, re.DOTALL)
+
+    for raw in items:
+        def get_tag(tag, text=raw):
+            m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", text, re.DOTALL)
+            return m.group(1).strip() if m else ""
+
+        def get_cdata(tag, text=raw):
+            m = re.search(rf"<{tag}[^>]*><!\[CDATA\[(.*?)\]\]></{tag}>", text, re.DOTALL)
+            return m.group(1).strip() if m else get_tag(tag, text)
+
+        title = get_cdata("title") or get_tag("title")
+        # Skip "submitted by" meta titles
+        if not title or title.startswith("submitted by"):
             continue
 
-        # Extract pain signals from title + selftext
-        text_blob = f"{d.get('title', '')} {d.get('selftext', '')[:500]}".lower()
+        link = get_tag("link") or get_cdata("link")
+        # Clean up description/selftext
+        desc = get_cdata("description") or ""
+        desc = re.sub(r"<[^>]+>", " ", desc)
+        desc = re.sub(r"\s+", " ", desc).strip()[:1000]
+
+        text_blob = f"{title} {desc}".lower()
         pain_matches = [kw for kw in REDDIT_PAIN_KEYWORDS if kw.lower() in text_blob]
 
         posts.append({
             "source": "reddit",
             "sub": sub,
-            "id": d.get("id"),
-            "title": d.get("title", ""),
-            "selftext": (d.get("selftext", "") or "")[:1000],
-            "url": f"https://reddit.com{d.get('permalink', '')}",
-            "score": d.get("score", 0),
-            "num_comments": d.get("num_comments", 0),
-            "created_utc": d.get("created_utc", 0),
-            "author": d.get("author", "[deleted]"),
+            "id": "",
+            "title": title,
+            "selftext": desc,
+            "url": link,
+            "score": 0,  # RSS doesn't expose score
+            "num_comments": 0,
+            "created_utc": 0,
+            "author": "",
             "pain_signals": pain_matches,
             "has_pain": len(pain_matches) > 0,
-            "flair": d.get("link_flair_text", ""),
+            "flair": "",
             "scraped_at": datetime.now(timezone.utc).isoformat(),
         })
 
     return posts
 
 
-def fetch_comments_for_post(post_id: str, sub: str, limit: int = 20) -> list[dict]:
-    """Fetch top comments for a specific post (for deep analysis)."""
-    url = f"https://www.reddit.com/r/{sub}/comments/{post_id}.json?limit={limit}&raw_json=1"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch_subreddit(sub: str, sort: str = REDDIT_SORT, limit: int = REDDIT_LIMIT) -> list[dict]:
+    """Fetch posts from a subreddit via RSS (bypasses Cloudflare IP blocks)."""
+    # RSS URL — not affected by the JSON API's Cloudflare rules
+    url = f"https://www.reddit.com/r/{sub}/{sort}.rss?limit={min(limit, 100)}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    })
 
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-    except Exception:
-        return []
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                xml = resp.read().decode("utf-8", errors="replace")
+            posts = _parse_rss(xml, sub)
+            return posts
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                wait = 10 * (attempt + 1)
+                print(f"  ⏳ r/{sub} RSS rate-limited — waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            print(f"  ⚠ r/{sub} RSS HTTP {e.code}: {e}")
+            return []
+        except Exception as e:
+            print(f"  ⚠ r/{sub} RSS error: {e}")
+            return []
 
-    comments = []
-    if len(data) > 1:
-        for child in data[1].get("data", {}).get("children", []):
-            d = child.get("data", {})
-            body = d.get("body", "")
-            if body and d.get("author") != "AutoModerator":
-                comments.append({
-                    "body": body[:500],
-                    "score": d.get("score", 0),
-                    "author": d.get("author", ""),
-                })
-    return comments
+    print(f"  ⚠ r/{sub}: all RSS attempts failed")
+    return []
 
 
 def scrape_all() -> list[dict]:
-    """Scrape all configured subreddits. Returns flat list of posts."""
+    """Scrape all configured subreddits via RSS. Returns flat list of posts."""
     all_posts = []
     for sub in REDDIT_SUBS:
         print(f"  📡 Scraping r/{sub}...")
@@ -119,8 +101,8 @@ def scrape_all() -> list[dict]:
         all_posts.extend(posts)
         time.sleep(1.5)  # polite rate limiting
 
-    # Sort by engagement (score * comments gives weight to discussion)
-    all_posts.sort(key=lambda p: p["score"] * max(p["num_comments"], 1), reverse=True)
+    # Sort by pain signals first (most actionable), then by title length as proxy for substance
+    all_posts.sort(key=lambda p: (len(p["pain_signals"]), len(p["title"])), reverse=True)
 
     print(f"  ✅ Reddit: {len(all_posts)} posts from {len(REDDIT_SUBS)} subs")
     return all_posts
