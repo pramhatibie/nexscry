@@ -8,7 +8,7 @@ import time
 import urllib.request
 import urllib.error
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from config import ARXIV_CATEGORIES, ARXIV_MAX_PAPERS
 
 
@@ -94,8 +94,24 @@ def fetch_papers(
         print(f"  ⚠ ArXiv: all attempts failed")
         return []
 
-    papers = _parse_atom_entries(xml_text)
-    print(f"  ✅ ArXiv: {len(papers)} papers fetched")
+    all_papers = _parse_atom_entries(xml_text)
+
+    # Filter to papers published/updated within last 7 days
+    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    papers = []
+    for p in all_papers:
+        pub_str = p.get("published", "") or p.get("updated", "")
+        if pub_str:
+            try:
+                pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                if pub_dt >= cutoff:
+                    papers.append(p)
+                    continue
+            except ValueError:
+                pass
+        papers.append(p)  # include if date unparseable
+
+    print(f"  ✅ ArXiv: {len(papers)} papers (last 7 days, from {len(all_papers)} fetched)")
     return papers
 
 

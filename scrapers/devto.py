@@ -4,7 +4,7 @@ Captures what the dev community is writing & reading.
 """
 import json
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from config import DEVTO_LIMIT
 
 
@@ -12,8 +12,8 @@ DEVTO_API = "https://dev.to/api/articles"
 
 
 def fetch_articles(limit: int = DEVTO_LIMIT) -> list[dict]:
-    """Fetch top recent articles from DEV.to."""
-    url = f"{DEVTO_API}?per_page={limit}&top=7"  # top of last 7 days
+    """Fetch top recent articles from DEV.to — last 2 days only."""
+    url = f"{DEVTO_API}?per_page={limit}&top=2"  # top of last 2 days
     req = urllib.request.Request(url, headers={
         "User-Agent": "NexScry/1.0",
         "Accept": "application/json",
@@ -26,8 +26,18 @@ def fetch_articles(limit: int = DEVTO_LIMIT) -> list[dict]:
         print(f"  ⚠ DEV.to: {e}")
         return []
 
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
     articles = []
     for a in data:
+        # Filter to articles published within 48 hours
+        pub_str = a.get("published_at", "")
+        if pub_str:
+            try:
+                pub_dt = datetime.fromisoformat(pub_str.replace("Z", "+00:00"))
+                if pub_dt < cutoff:
+                    continue
+            except ValueError:
+                pass
         articles.append({
             "source": "devto",
             "id": a.get("id"),

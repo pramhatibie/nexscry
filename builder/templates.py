@@ -148,14 +148,14 @@ SITE_CSS = """
   --text-secondary: #8888a0;
   --text-muted: #55556a;
   --accent-blue: #4d7cff;
-  --accent-cyan: #22d3ee;
+  --accent-cyan: #00f0ff;
   --accent-green: #34d399;
   --accent-orange: #fb923c;
   --accent-pink: #f472b6;
   --accent-purple: #a78bfa;
   --accent-red: #ef4444;
   --glow-blue: rgba(77, 124, 255, 0.15);
-  --glow-cyan: rgba(34, 211, 238, 0.1);
+  --glow-cyan: rgba(0, 240, 255, 0.08);
   --font-display: 'Outfit', -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
   --radius: 12px;
@@ -163,6 +163,7 @@ SITE_CSS = """
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
 body {
   background: var(--bg-primary);
@@ -173,12 +174,31 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Noise texture overlay */
+/* Terminal grid background */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  background-image:
+    linear-gradient(rgba(0, 240, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.025) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Scanline overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 0, 0, 0.04) 3px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
   pointer-events: none;
   z-index: 0;
 }
@@ -271,6 +291,7 @@ body::before {
 }
 
 .brief-headline {
+  font-family: var(--font-mono);
   font-size: 1.75rem;
   font-weight: 800;
   line-height: 1.2;
@@ -332,6 +353,7 @@ body::before {
 }
 
 .section-title {
+  font-family: var(--font-mono);
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -358,8 +380,9 @@ body::before {
 }
 
 .signal-card:hover {
-  border-color: var(--border-accent);
+  border-color: rgba(0, 240, 255, 0.3);
   background: var(--bg-card-hover);
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.05);
 }
 
 .signal-header {
@@ -442,9 +465,9 @@ body::before {
 }
 
 .item-card:hover {
-  border-color: var(--accent-blue);
+  border-color: rgba(0, 240, 255, 0.35);
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.06), 0 8px 32px rgba(0, 0, 0, 0.35);
 }
 
 .item-source {
@@ -1128,8 +1151,8 @@ def _build_opportunities_html(opportunities: list, total_items: int) -> str:
     <span class="section-badge badge-ai">AI-Synthesized</span>
   </div>
   <div class="opp-no-data">
-    Opportunities will appear after the full pipeline runs with a GROQ_API_KEY.
-    <br>Set your key in GitHub Secrets → run the Actions workflow.
+    Opportunities will appear after the full pipeline runs with a GEMINI_API_KEY.
+    <br>Set your key in GitHub Secrets → re-run the Actions workflow.
   </div>
 </section>"""
 
@@ -1241,6 +1264,26 @@ def build_index_page(processed_data: dict) -> str:
 
     # Build Opportunities section HTML
     build_opps_html = _build_opportunities_html(build_opportunities, total_items)
+
+    # Pre-compute cross-signals section (always rendered, empty state if no signals)
+    if cross_html:
+        cross_section_html = f"""
+    <section class="cross-signals">
+      <div class="section-header">
+        <h2 class="section-title">Cross-Source Intelligence</h2>
+        <span class="section-badge badge-ai">AI-Detected · {len(cross_signals)} signals</span>
+      </div>
+      {cross_html}
+    </section>"""
+    else:
+        cross_section_html = """
+    <section class="cross-signals">
+      <div class="section-header">
+        <h2 class="section-title">Cross-Source Intelligence</h2>
+        <span class="section-badge badge-ai">AI-Detected</span>
+      </div>
+      <div class="opp-no-data">No convergence signals detected today — topics are not overlapping across 2+ platforms yet. Check back tomorrow.</div>
+    </section>"""
 
     # Trending topics cloud
     trending_topics = _extract_trending_topics(all_data)
@@ -1472,7 +1515,7 @@ def build_index_page(processed_data: dict) -> str:
     {build_opps_html}
 
     <!-- CROSS-SOURCE INTELLIGENCE -->
-    {"<section class='cross-signals'><div class='section-header'><h2 class='section-title'>Cross-Source Intelligence</h2><span class='section-badge badge-ai'>AI-Detected</span></div>" + cross_html + "</section>" if cross_html else ""}
+    {cross_section_html}
 
     <!-- TRENDING TOPICS CLOUD -->
     {"<section class='trending-section'><div class='section-header'><h2 class='section-title'>Trending Topics</h2><span class='section-badge badge-live'>Today — click to filter</span></div><div class='topics-cloud'>" + topics_html + "</div></section>" if topics_html else ""}
@@ -1509,18 +1552,18 @@ def build_index_page(processed_data: dict) -> str:
         <a href="/feed.xml" class="cta-btn cta-btn-primary" target="_blank">⬡ Subscribe via RSS</a>
         <a href="https://reddit.com/submit?url={SITE_URL}&title=NexScry+—+daily+AI+intelligence+for+builders" class="cta-btn cta-btn-secondary" target="_blank" rel="noopener">Share on Reddit</a>
         <a href="https://news.ycombinator.com/submitlink?u={SITE_URL}&t=NexScry+—+AI+intelligence+for+builders" class="cta-btn cta-btn-secondary" target="_blank" rel="noopener">Submit to HN</a>
-        <a href="https://github.com/nexscry/nexscry" class="cta-btn cta-btn-secondary" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+        <a href="https://github.com/pramhatibie/nexscry" class="cta-btn cta-btn-secondary" target="_blank" rel="noopener">⭐ Star on GitHub</a>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="site-footer">
       <p class="footer-text">
-        {SITE_NAME} — auto-generated daily · Powered by Groq AI ·
+        {SITE_NAME} — auto-generated daily · Powered by Gemini AI ·
         Data: Reddit, HN, GitHub, ArXiv, Product Hunt, DEV.to ·
         <a href="/archive/">Archive</a> ·
         <a href="/feed.xml">RSS</a> ·
-        <a href="https://github.com/nexscry/nexscry">GitHub</a>
+        <a href="https://github.com/pramhatibie/nexscry">GitHub</a>
       </p>
     </footer>
   </div>

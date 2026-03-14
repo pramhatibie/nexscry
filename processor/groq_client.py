@@ -8,11 +8,29 @@ This is NOT just a summarizer. It does:
 4. Builder-focused framing (every insight answers "so what should I build?")
 """
 import json
+import re
 import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 from config import GEMINI_API_KEY, GEMINI_MODEL, GEMINI_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
+
+
+def _extract_json(text: str) -> str:
+    """Strip markdown code fences that Gemini sometimes wraps around JSON."""
+    text = text.strip()
+    # Handle ```json ... ``` or ``` ... ```
+    m = re.search(r"```(?:json)?\s*([\s\S]*?)```", text)
+    if m:
+        return m.group(1).strip()
+    # If response starts with [ or { it's already raw JSON
+    if text.startswith(("{", "[")):
+        return text
+    # Try to find a JSON object/array anywhere in the response
+    m2 = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", text)
+    if m2:
+        return m2.group(1)
+    return text
 
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
 
@@ -145,9 +163,9 @@ Return JSON (be SPECIFIC — no vague generalities):
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        post["ai"] = json.loads(result)
+        post["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        post["ai"] = {"one_liner": result[:200], "category": "unknown", "opportunity_score": 0}
+        post["ai"] = {"one_liner": "", "category": "unknown", "opportunity_score": 0, "keywords": []}
     return post
 
 
@@ -171,9 +189,9 @@ Return JSON (translate tech jargon into business reality):
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        story["ai"] = json.loads(result)
+        story["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        story["ai"] = {"one_liner": result[:200], "category": "unknown", "relevance": 0}
+        story["ai"] = {"one_liner": "", "category": "unknown", "relevance": 0, "keywords": []}
     return story
 
 
@@ -199,9 +217,9 @@ Return JSON (explain the business reality, not just the tech):
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        repo["ai"] = json.loads(result)
+        repo["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        repo["ai"] = {"one_liner": result[:200], "category": "unknown"}
+        repo["ai"] = {"one_liner": "", "category": "unknown", "keywords": []}
     return repo
 
 
@@ -224,9 +242,9 @@ Return JSON (developer-first, not academic):
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        paper["ai"] = json.loads(result)
+        paper["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        paper["ai"] = {"eli5": result[:200], "novelty_score": 0}
+        paper["ai"] = {"eli5": "", "novelty_score": 0, "keywords": []}
     return paper
 
 
@@ -249,9 +267,9 @@ Return JSON:
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        article["ai"] = json.loads(result)
+        article["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        article["ai"] = {"one_liner": result[:200], "category": "unknown", "relevance": 0}
+        article["ai"] = {"one_liner": "", "category": "unknown", "relevance": 0, "keywords": []}
     return article
 
 
@@ -271,9 +289,9 @@ Return JSON:
 }}"""
     result = call_groq(prompt, ENRICHMENT_SYSTEM)
     try:
-        launch["ai"] = json.loads(result)
+        launch["ai"] = json.loads(_extract_json(result))
     except json.JSONDecodeError:
-        launch["ai"] = {"market_signal": result[:200]}
+        launch["ai"] = {"market_signal": "", "keywords": []}
     return launch
 
 
@@ -283,78 +301,100 @@ Return JSON:
 
 def extract_cross_signals(all_data: dict) -> list[dict]:
     """
-    THE FEATURE SONNET DIDN'T BUILD.
-    
-    Takes data from ALL sources and finds connections:
-    - Reddit user complains about X → GitHub repo solving X trending
-    - ArXiv paper about technique Y → HN discussion about Y's implications
-    - Product Hunt launch in niche Z → Reddit thread asking for Z
-    
-    This is what makes NexScry an intelligence platform, not just an aggregator.
+    Find topics/themes appearing across 2+ platforms simultaneously.
+    Uses direct AI analysis of raw item titles — works even without per-item enrichment.
+    Falls back to keyword frequency if AI call fails.
     """
-    # Collect all keywords from enriched items
-    keyword_map = {}  # keyword → list of items
+    # Build a compact per-source item list for Gemini to analyze
+    source_summaries: dict = {}
     for source_name, items in all_data.items():
-        for item in items:
-            ai_data = item.get("ai", {})
-            keywords = ai_data.get("keywords", [])
-            for kw in keywords:
-                kw_lower = kw.lower().strip()
-                if len(kw_lower) < 3:
-                    continue
-                if kw_lower not in keyword_map:
-                    keyword_map[kw_lower] = []
-                keyword_map[kw_lower].append({
-                    "source": source_name,
-                    "title": item.get("title", item.get("name", "")),
-                    "url": item.get("url", item.get("hn_url", "")),
-                    "ai_summary": ai_data.get("one_liner") or ai_data.get("eli5") or ai_data.get("market_signal", ""),
-                })
+        titles = []
+        for item in items[:20]:
+            title = item.get("title", item.get("name", "")).strip()
+            if not title:
+                continue
+            # Include AI keywords if available (bonus signal)
+            kws = item.get("ai", {}).get("keywords", [])
+            entry = title + (f" [{', '.join(kws[:3])}]" if kws else "")
+            titles.append(entry)
+        if titles:
+            source_summaries[source_name] = titles[:12]
 
-    # Find keywords that appear across multiple sources
-    cross_signals = []
-    for keyword, items in keyword_map.items():
-        sources = set(i["source"] for i in items)
-        if len(sources) >= 2:
-            cross_signals.append({
-                "keyword": keyword,
-                "num_sources": len(sources),
-                "sources": list(sources),
-                "items": items[:6],  # cap for readability
-            })
+    if len(source_summaries) < 2:
+        return []
 
-    cross_signals.sort(key=lambda x: x["num_sources"], reverse=True)
+    prompt = f"""Analyze these items scraped today from {len(source_summaries)} different tech platforms:
 
-    # Use Groq to synthesize the top cross-signals
-    if cross_signals[:10]:
-        top_signals_text = json.dumps(cross_signals[:10], indent=2)[:3000]
-        prompt = f"""You found these cross-source signals — topics appearing across multiple platforms simultaneously:
+{json.dumps(source_summaries, indent=2)[:3500]}
 
-{top_signals_text}
+Find 3-5 specific topics or themes that appear across 2 or more platforms.
+These are genuine convergence signals — things the builder/tech community is buzzing about simultaneously on multiple channels.
 
-For each meaningful signal, write a "NexScry Intelligence Brief":
-Return a JSON array of objects:
+Return a JSON array ONLY (no markdown, no explanation outside JSON):
 [
   {{
-    "signal": "topic name",
-    "sources_involved": ["reddit", "github", ...],
-    "narrative": "2-3 sentences: what's happening across these platforms and why it matters",
-    "builder_opportunity": "specific thing a builder could do right now based on this convergence",
+    "signal": "specific topic name (2-4 words)",
+    "sources_involved": ["platform1", "platform2"],
+    "narrative": "2 sentences: what is happening across these platforms simultaneously and why it matters for builders",
+    "builder_opportunity": "one concrete thing a solo developer could build or do based on this convergence right now",
     "confidence": "high|medium|low"
   }}
 ]
 
-Only include signals that represent genuine convergence (not just common words like 'python' or 'api').
-Max 5 signals. Return valid JSON array only."""
+Rules:
+- Exclude generic terms (AI, Python, GitHub, API, software, developer)
+- Focus on SPECIFIC emerging topics, not always-present noise
+- Max 5 signals
+- Return valid JSON array ONLY"""
 
-        result = call_groq(prompt, ENRICHMENT_SYSTEM, max_tokens=1500)
-        try:
-            synthesized = json.loads(result)
-            return synthesized if isinstance(synthesized, list) else cross_signals[:5]
-        except json.JSONDecodeError:
-            pass
+    result = call_groq(prompt, ENRICHMENT_SYSTEM, max_tokens=1500)
+    try:
+        synthesized = json.loads(_extract_json(result))
+        if isinstance(synthesized, list) and synthesized:
+            # Validate structure
+            valid = [
+                s for s in synthesized
+                if isinstance(s, dict) and s.get("signal") and s.get("sources_involved")
+            ]
+            if valid:
+                return valid[:5]
+    except (json.JSONDecodeError, TypeError):
+        pass
 
-    return cross_signals[:5]
+    # Fallback: keyword frequency across sources (works without AI)
+    stop_words = {
+        "that", "with", "from", "this", "have", "been", "will", "what", "your",
+        "more", "than", "they", "when", "some", "into", "then", "there", "these",
+        "their", "about", "using", "make", "build", "just", "like", "open",
+    }
+    keyword_map: dict = {}
+    for source_name, items in all_data.items():
+        for item in items:
+            text = " ".join([
+                item.get("title", item.get("name", "")),
+                item.get("description", ""),
+                " ".join(item.get("topics", [])),
+            ]).lower()
+            words = set(re.findall(r"\b[a-z]{4,}\b", text)) - stop_words
+            for w in words:
+                if w not in keyword_map:
+                    keyword_map[w] = set()
+                keyword_map[w].add(source_name)
+
+    fallback = [
+        {
+            "signal": kw,
+            "sources_involved": list(srcs),
+            "narrative": f"'{kw}' is mentioned across {', '.join(srcs)} today.",
+            "builder_opportunity": "",
+            "confidence": "low",
+            "num_sources": len(srcs),
+        }
+        for kw, srcs in keyword_map.items()
+        if len(srcs) >= 2
+    ]
+    fallback.sort(key=lambda x: x["num_sources"], reverse=True)
+    return fallback[:5]
 
 
 # ─────────────────────────────────────────────
@@ -440,16 +480,9 @@ Return a JSON array ONLY. No text outside the JSON:
 
     result = call_groq(prompt, ENRICHMENT_SYSTEM, max_tokens=2500, temperature=0.35)
     try:
-        opps = json.loads(result)
+        opps = json.loads(_extract_json(result))
         return opps if isinstance(opps, list) else []
     except json.JSONDecodeError:
-        # Try extracting JSON array from response
-        match = __import__('re').search(r'\[.*\]', result, __import__('re').DOTALL)
-        if match:
-            try:
-                return json.loads(match.group())
-            except json.JSONDecodeError:
-                pass
         return []
 
 
@@ -504,9 +537,12 @@ Write a JSON object:
 
     result = call_groq(prompt, ENRICHMENT_SYSTEM, max_tokens=800, temperature=0.5)
     try:
-        return json.loads(result)
-    except json.JSONDecodeError:
-        return {"headline": "Daily Intelligence Brief", "tldr": result[:300]}
+        parsed = json.loads(_extract_json(result))
+        if isinstance(parsed, dict) and parsed.get("headline"):
+            return parsed
+        return {"headline": "Daily Intelligence Brief", "tldr": str(parsed)[:300]}
+    except (json.JSONDecodeError, TypeError):
+        return {"headline": "Daily Intelligence Brief", "tldr": ""}
 
 
 # ─────────────────────────────────────────────

@@ -1,18 +1,24 @@
 """
 Hacker News Scraper — uses HN's Algolia API (fully open, no auth).
 Fetches front page stories + top comments for signal extraction.
+Filtered to items from the last 48 hours.
 """
 import json
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from config import HN_FRONT_PAGE_LIMIT
 
 
 ALGOLIA_BASE = "https://hn.algolia.com/api/v1"
 
 
+def _cutoff_ts(hours: int = 48) -> int:
+    return int((datetime.now(timezone.utc) - timedelta(hours=hours)).timestamp())
+
+
 def fetch_front_page(limit: int = HN_FRONT_PAGE_LIMIT) -> list[dict]:
     """Fetch current front page stories via Algolia."""
+    # tags=front_page is already the live front page, always fresh
     url = f"{ALGOLIA_BASE}/search?tags=front_page&hitsPerPage={limit}"
     req = urllib.request.Request(url)
 
@@ -27,6 +33,7 @@ def fetch_front_page(limit: int = HN_FRONT_PAGE_LIMIT) -> list[dict]:
     for hit in data.get("hits", []):
         stories.append({
             "source": "hackernews",
+            "type": "story",
             "id": hit.get("objectID"),
             "title": hit.get("title", ""),
             "url": hit.get("url", ""),
@@ -74,8 +81,11 @@ def fetch_story_comments(story_id: str, limit: int = 15) -> list[dict]:
 
 
 def fetch_ask_hn(limit: int = 20) -> list[dict]:
-    """Fetch recent Ask HN posts — gold mine for builder pain points."""
-    url = f"{ALGOLIA_BASE}/search?tags=ask_hn&hitsPerPage={limit}"
+    """Fetch recent Ask HN posts — gold mine for builder pain points.
+    Filtered to last 48 hours via Algolia numericFilters.
+    """
+    cutoff = _cutoff_ts(hours=48)
+    url = f"{ALGOLIA_BASE}/search?tags=ask_hn&hitsPerPage={limit}&numericFilters=created_at_i>{cutoff}"
     req = urllib.request.Request(url)
 
     try:
@@ -103,10 +113,10 @@ def fetch_ask_hn(limit: int = 20) -> list[dict]:
 
 
 def scrape_all() -> list[dict]:
-    """Fetch HN front page + Ask HN."""
+    """Fetch HN front page + Ask HN (last 48h)."""
     print("  📡 Scraping HN front page...")
     stories = fetch_front_page()
-    print("  📡 Scraping Ask HN...")
+    print("  📡 Scraping Ask HN (last 48h)...")
     ask_posts = fetch_ask_hn()
 
     all_items = stories + ask_posts
