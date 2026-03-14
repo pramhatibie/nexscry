@@ -1,5 +1,5 @@
 """
-NexScry AI Processor — powered by Together AI (Llama 3.3 70B).
+NexScry AI Processor — powered by Google Gemini 2.0 Flash (free tier).
 
 This is NOT just a summarizer. It does:
 1. Per-item enrichment (classify, extract insights)
@@ -12,91 +12,104 @@ import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
-from config import TOGETHER_API_KEY, TOGETHER_MODEL, TOGETHER_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
+from config import GEMINI_API_KEY, GEMINI_MODEL, GEMINI_FALLBACK_MODEL, MAX_TOKENS_PER_ITEM
 
-TOGETHER_API_URL = "https://api.together.xyz/v1/chat/completions"
+GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+
+# Gemini free tier: 15 requests/minute — enforce a gap between calls
+_GEMINI_MIN_INTERVAL = 4.5  # seconds between calls to stay under 15 RPM
+_last_call_time = 0.0
 
 
 def call_groq(
     prompt: str,
     system: str = "",
-    model: str = TOGETHER_MODEL,
+    model: str = GEMINI_MODEL,
     max_tokens: int = MAX_TOKENS_PER_ITEM,
     temperature: float = 0.3,
     retry: bool = True,
 ) -> str:
-    """Call Together AI API (OpenAI-compatible). Falls back to smaller model if rate-limited."""
-    if not TOGETHER_API_KEY:
-        print("  ❌ TOGETHER_API_KEY is not set — add it as a GitHub Secret named TOGETHER_API_KEY")
-        return '{"error": "No TOGETHER_API_KEY set"}'
+    """Call Google Gemini API. Respects free-tier rate limits automatically."""
+    global _last_call_time
 
-    messages = []
-    if system:
-        messages.append({"role": "system", "content": system})
-    messages.append({"role": "user", "content": prompt})
+    if not GEMINI_API_KEY:
+        print("  ❌ GEMINI_API_KEY is not set — add it as a GitHub Secret named GEMINI_API_KEY")
+        return '{"error": "no_api_key"}'
 
-    payload = json.dumps({
-        "model": model,
-        "messages": messages,
-        "max_tokens": max_tokens,
-        "temperature": temperature,
-    }).encode()
+    # Enforce minimum interval between calls (15 RPM free tier)
+    elapsed = time.time() - _last_call_time
+    if elapsed < _GEMINI_MIN_INTERVAL:
+        time.sleep(_GEMINI_MIN_INTERVAL - elapsed)
 
-    req = urllib.request.Request(
-        TOGETHER_API_URL,
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {TOGETHER_API_KEY}",
-            "Content-Type": "application/json",
+    url = f"{GEMINI_API_BASE}/{model}:generateContent?key={GEMINI_API_KEY}"
+
+    body: dict = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "maxOutputTokens": max_tokens,
+            "temperature": temperature,
         },
+    }
+    if system:
+        body["systemInstruction"] = {"parts": [{"text": system}]}
+
+    payload = json.dumps(body).encode()
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
         method="POST",
     )
 
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode())
-            return data["choices"][0]["message"]["content"]
+            _last_call_time = time.time()
+            return data["candidates"][0]["content"]["parts"][0]["text"]
     except urllib.error.HTTPError as e:
-        body = ""
+        _last_call_time = time.time()
+        err_body = ""
         try:
-            body = e.read().decode("utf-8", errors="replace")
+            err_body = e.read().decode("utf-8", errors="replace")
         except Exception:
-            body = str(e)
+            err_body = str(e)
 
-        if e.code == 401:
-            print(f"  ❌ Together AI 401 UNAUTHORIZED — API key is wrong or expired. Check TOGETHER_API_KEY secret.")
-            return '{"error": "invalid_api_key"}'
+        if e.code == 400:
+            print(f"  ⚠ Gemini 400 BAD REQUEST — model '{model}' may be unavailable. Body: {err_body[:200]}")
+            if retry and model != GEMINI_FALLBACK_MODEL:
+                print(f"  🔄 Retrying with fallback model {GEMINI_FALLBACK_MODEL}...")
+                return call_groq(prompt, system, GEMINI_FALLBACK_MODEL, max_tokens, temperature, retry=False)
+            return '{"error": "bad_request"}'
         if e.code == 429:
             if retry:
-                print(f"  ⏳ Together AI rate-limited (429) — waiting 20s then retrying with fallback model...")
-                time.sleep(20)
-                return call_groq(prompt, system, TOGETHER_FALLBACK_MODEL, max_tokens, temperature, retry=False)
-            print(f"  ⚠ Together AI still rate-limited after retry — skipping this item")
+                print(f"  ⏳ Gemini rate-limited (429) — waiting 30s...")
+                time.sleep(30)
+                return call_groq(prompt, system, model, max_tokens, temperature, retry=False)
+            print(f"  ⚠ Gemini still rate-limited — skipping this item")
             return '{"error": "rate_limited"}'
-        if e.code == 400:
-            print(f"  ⚠ Together AI 400 BAD REQUEST — model '{model}' may be unavailable. Body: {body[:300]}")
-            if retry and model != TOGETHER_FALLBACK_MODEL:
-                print(f"  🔄 Retrying with fallback model {TOGETHER_FALLBACK_MODEL}...")
-                return call_groq(prompt, system, TOGETHER_FALLBACK_MODEL, max_tokens, temperature, retry=False)
-            return '{"error": "bad_request"}'
-        print(f"  ⚠ Together AI HTTP {e.code}: {body[:300]}")
+        if e.code in (401, 403):
+            print(f"  ❌ Gemini {e.code} — API key invalid or expired. Check GEMINI_API_KEY secret. Body: {err_body[:200]}")
+            return '{"error": "invalid_api_key"}'
+        print(f"  ⚠ Gemini HTTP {e.code}: {err_body[:200]}")
         return f'{{"error": "http_{e.code}"}}'
     except Exception as e:
-        print(f"  ⚠ Together AI connection error: {e}")
+        _last_call_time = time.time()
+        print(f"  ⚠ Gemini connection error: {e}")
         return '{"error": "connection_failed"}'
 
 
 def test_groq_connection() -> bool:
     """Quick check that the API key is valid before running the full pipeline."""
-    if not TOGETHER_API_KEY:
-        print("  ❌ TOGETHER_API_KEY not set — AI features will be disabled")
+    if not GEMINI_API_KEY:
+        print("  ❌ GEMINI_API_KEY not set — AI features will be disabled")
+        print("  ℹ  Get a free key at: https://aistudio.google.com/app/apikey")
         return False
     result = call_groq("Reply with the single word: ok", max_tokens=5, retry=False)
     ok = "ok" in result.lower() and "error" not in result
     if ok:
-        print(f"  ✅ Together AI key valid (model: {TOGETHER_MODEL})")
+        print(f"  ✅ Gemini API key valid (model: {GEMINI_MODEL})")
     else:
-        print(f"  ❌ Together AI key test failed. Response: {result[:200]}")
+        print(f"  ❌ Gemini API key test failed. Response: {result[:200]}")
     return ok
 
 
@@ -522,10 +535,8 @@ def process_all(all_data: dict) -> dict:
         print(f"  🧠 Enriching {source} ({len(items)} items)...")
         # Process top items only to stay within free tier
         top_items = items[:15]  # enrich top 15 per source
-        for i, item in enumerate(top_items):
-            enricher(item)
-            if i % 5 == 4:
-                time.sleep(2)  # respect Groq free tier rate limits
+        for item in top_items:
+            enricher(item)  # rate limiting handled inside call_groq
 
     print("  🔗 Running cross-source intelligence...")
     cross_signals = extract_cross_signals(all_data)

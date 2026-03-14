@@ -34,7 +34,7 @@ jobs:
 
       - name: Run full pipeline
         env:
-          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py --full
 
       - name: Save data to repo

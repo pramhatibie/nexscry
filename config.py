@@ -7,9 +7,9 @@ import os
 # ─────────────────────────────────────────────
 # API Keys (set as GitHub Secrets)
 # ─────────────────────────────────────────────
-TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY", "")
-TOGETHER_MODEL = os.environ.get("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo")
-TOGETHER_FALLBACK_MODEL = "meta-llama/Llama-3.1-8B-Instruct-Turbo"  # if rate-limited
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_FALLBACK_MODEL = "gemini-1.5-flash"  # fallback if primary unavailable
 
 # ─────────────────────────────────────────────
 # Site Configuration
