@@ -11,6 +11,10 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 GEMINI_FALLBACK_MODEL = "gemini-1.5-flash"  # fallback if primary unavailable
 
+# Email subscribe — set BEEHIIV_PUB_ID as GitHub Secret to enable the form
+# Get your pub ID from app.beehiiv.com → Settings → Publication ID
+BEEHIIV_PUB_ID = os.environ.get("BEEHIIV_PUB_ID", "")
+
 # ─────────────────────────────────────────────
 # Site Configuration
 # ─────────────────────────────────────────────
@@ -18,9 +22,9 @@ SITE_NAME = "NexScry"
 SITE_TAGLINE = "AI-powered intelligence layer for builders"
 SITE_URL = os.environ.get("SITE_URL", "https://nexscry.xyz")
 SITE_DESCRIPTION = (
-    "NexScry scrapes the open internet, cross-references signals across "
-    "Reddit, Hacker News, GitHub, ArXiv, and Product Hunt, then distills "
-    "them into actionable intelligence — updated daily, powered by Groq."
+    "Every morning, NexScry scrapes 300+ signals from HN, GitHub, ArXiv, "
+    "Product Hunt, and DEV.to — then cross-references them with AI to surface "
+    "the best build opportunities for indie hackers and founders. Free, daily, open."
 )
 
 # ─────────────────────────────────────────────

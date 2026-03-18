@@ -47,8 +47,15 @@ def _parse_feed(xml: str, limit: int) -> list[dict]:
         description = re.sub(r"<[^>]+>", " ", description)
         description = re.sub(r"\s+", " ", description).strip()
 
-        # Link: try <link>, then <guid>
-        link = get_cdata("link") or get_tag("link") or get_tag("guid")
+        # Link: RSS <link>, Atom <link href="...">, then <guid>
+        link = (
+            get_cdata("link")
+            or get_tag("link")
+            or re.search(r'<link[^>]+href=["\']([^"\']+)["\']', raw, re.IGNORECASE) and
+               re.search(r'<link[^>]+href=["\']([^"\']+)["\']', raw, re.IGNORECASE).group(1)
+            or get_tag("guid")
+            or ""
+        )
         pub_date = get_tag("pubDate") or get_tag("published") or get_tag("updated")
 
         if not title:

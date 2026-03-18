@@ -11,7 +11,7 @@ import json
 import os
 import re
 from datetime import datetime, timezone
-from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR
+from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR, BEEHIIV_PUB_ID
 
 
 # ─────────────────────────────────────────────
@@ -1092,6 +1092,145 @@ body::after {
   .cta-links { width: 100%; }
   .cta-btn { justify-content: center; flex: 1; }
 }
+
+/* ─── HERO EXPLAINER ─── */
+.hero-explainer {
+  margin: 28px 0 0;
+  padding: 20px 24px;
+  background: rgba(0, 240, 255, 0.03);
+  border: 1px solid rgba(0, 240, 255, 0.12);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.hero-explainer-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.hero-explainer-text {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+.hero-explainer-text strong { color: var(--accent-cyan); }
+
+/* ─── EMAIL SUBSCRIBE ─── */
+.subscribe-section {
+  margin: 28px 0;
+  padding: 28px 32px;
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(0, 240, 255, 0.04) 100%);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+}
+.subscribe-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--accent-cyan);
+  margin-bottom: 8px;
+}
+.subscribe-title {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.subscribe-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 18px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+  max-width: 480px;
+}
+.subscribe-input {
+  flex: 1;
+  padding: 11px 16px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.subscribe-input::placeholder { color: var(--text-muted); }
+.subscribe-input:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.08);
+}
+.subscribe-btn {
+  padding: 11px 22px;
+  background: var(--accent-cyan);
+  color: #0a0a0f;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+.subscribe-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+.subscribe-coming-soon {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding: 11px 0;
+}
+
+/* ─── POST-CONTENT SHARE SECTION ─── */
+.share-section {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 24px 0 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+/* ─── ABOUT FOOTER LINE ─── */
+.footer-about {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+.footer-about a { color: var(--text-muted); text-decoration: none; }
+.footer-about a:hover { color: var(--accent-cyan); }
+
+/* ─── MOBILE IMPROVEMENTS ─── */
+@media (max-width: 640px) {
+  .brief-headline { font-size: 1.2rem; }
+  .opp-title { font-size: 1.05rem; }
+  .opp-body { grid-template-columns: 1fr; }
+  .subscribe-form { flex-direction: column; }
+  .subscribe-btn { width: 100%; }
+  .source-grid { grid-template-columns: 1fr; }
+  .stats-bar { gap: 12px; }
+  .stat-value { font-size: 0.95rem; }
+  .hero-explainer { padding: 16px; }
+  .subscribe-section { padding: 20px 16px; }
+  .share-section { gap: 8px; }
+  .share-btn { font-size: 0.7rem; padding: 8px 14px; }
+  .brief-cards { grid-template-columns: 1fr; }
+}
 """
 
 
@@ -1238,6 +1377,21 @@ def build_index_page(processed_data: dict) -> str:
         for item in items if item.get("has_pain")
     )
 
+    # Email subscribe form — enabled when BEEHIIV_PUB_ID is set
+    if BEEHIIV_PUB_ID:
+        subscribe_html = f"""
+    <section class="subscribe-section">
+      <div class="subscribe-label">Free Daily Brief</div>
+      <h3 class="subscribe-title">Get the brief in your inbox</h3>
+      <p class="subscribe-desc">Join builders getting daily AI-surfaced opportunities. Free. No spam. Unsubscribe anytime.</p>
+      <form class="subscribe-form" action="https://app.beehiiv.com/subscribe/{BEEHIIV_PUB_ID}" method="get" target="_blank" rel="noopener">
+        <input type="email" name="email" class="subscribe-input" placeholder="your@email.com" required autocomplete="email">
+        <button type="submit" class="subscribe-btn">Subscribe →</button>
+      </form>
+    </section>"""
+    else:
+        subscribe_html = ""  # hidden until BEEHIIV_PUB_ID is set
+
     # Build cross-signal cards
     cross_html = ""
     for sig in cross_signals[:8]:
@@ -1291,7 +1445,7 @@ def build_index_page(processed_data: dict) -> str:
     for i, (topic, count) in enumerate(trending_topics):
         size = "hot" if count >= 4 else ("warm" if count >= 2 else "cool")
         font_size = 1.0 if count >= 4 else (0.85 if count >= 2 else 0.75)
-        topics_html += f'<a href="javascript:void(0)" class="topic-pill {size}" style="font-size:{font_size}rem" onclick="document.getElementById(\'searchInput\').value=\'{_escape_html(topic)}\';handleSearch(\'{_escape_html(topic)}\');document.getElementById(\'searchInput\').scrollIntoView({{behavior:\'smooth\'}})">{_escape_html(topic)} <span style="opacity:0.5;font-size:0.7em">{count}</span></a>'
+        topics_html += f'<a href="javascript:void(0)" class="topic-pill {size}" style="font-size:{font_size}rem" data-topic="{_escape_html(topic)}">{_escape_html(topic)} <span style="opacity:0.5;font-size:0.7em">{count}</span></a>'
 
     # Build source item cards
     source_sections = ""
@@ -1329,7 +1483,7 @@ def build_index_page(processed_data: dict) -> str:
 
         for item in display_items[:10]:
             title = _escape_html(item.get("title", item.get("name", "Untitled")))
-            url = item.get("url", item.get("hn_url", "#"))
+            url = item.get("url") or item.get("hn_url") or "#"
             ai = item.get("ai", {})
 
             insight = _escape_html(
@@ -1486,6 +1640,17 @@ def build_index_page(processed_data: dict) -> str:
       </div>
     </header>
 
+    <!-- HERO EXPLAINER — first-time visitor context -->
+    <div class="hero-explainer">
+      <div class="hero-explainer-icon">📡</div>
+      <p class="hero-explainer-text">
+        Every morning, <strong>NexScry</strong> scrapes 300+ signals from HN, GitHub, ArXiv,
+        Product Hunt, and DEV.to — then cross-references them with AI to surface the
+        best <strong>build opportunities for indie hackers and founders</strong>.
+        Free, daily, open source.
+      </p>
+    </div>
+
     <!-- DAILY BRIEF -->
     <section class="daily-brief">
       <div class="brief-label">📡 Daily Intelligence Brief · {today_iso}</div>
@@ -1496,11 +1661,6 @@ def build_index_page(processed_data: dict) -> str:
         {"<div class='brief-card'><div class='brief-card-label trend'>📈 Emerging Trend</div><p class='brief-card-text'>" + trend + "</p></div>" if trend else ""}
         {"<div class='brief-card'><div class='brief-card-label contrarian'>🤔 Contrarian Take</div><p class='brief-card-text'>" + contrarian + "</p></div>" if contrarian else ""}
       </div>
-      <div class="brief-actions">
-        <button class="share-btn" onclick="shareBrief()">↗ Share Today's Brief</button>
-        <a href="/feed.xml" class="share-btn" title="Subscribe via RSS">⬡ RSS Feed</a>
-        <a href="/archive/" class="share-btn">🗂 Archive</a>
-      </div>
     </section>
 
     <!-- STATS BAR -->
@@ -1508,11 +1668,21 @@ def build_index_page(processed_data: dict) -> str:
       <div class="stat"><div class="stat-value">{total_items}</div><div class="stat-label">Items Scraped</div></div>
       <div class="stat"><div class="stat-value">{total_sources}</div><div class="stat-label">Sources</div></div>
       <div class="stat"><div class="stat-value">{len(cross_signals)}</div><div class="stat-label">Cross-Signals</div></div>
-      <div class="stat"><div class="stat-value">{pain_count}</div><div class="stat-label">Pain Points</div></div>
+      {"<div class='stat'><div class='stat-value'>" + str(pain_count) + "</div><div class='stat-label'>Pain Points</div></div>" if pain_count > 0 else ""}
     </div>
+
+    <!-- EMAIL SUBSCRIBE -->
+    {subscribe_html}
 
     <!-- BUILD OPPORTUNITIES (HERO) -->
     {build_opps_html}
+
+    <!-- SHARE (after content, not before) -->
+    <div class="share-section">
+      <button class="share-btn" onclick="shareBrief()">↗ Share Today's Brief</button>
+      <a href="/feed.xml" class="share-btn">⬡ RSS Feed</a>
+      <a href="/archive/" class="share-btn">🗂 Archive</a>
+    </div>
 
     <!-- CROSS-SOURCE INTELLIGENCE -->
     {cross_section_html}
@@ -1564,6 +1734,11 @@ def build_index_page(processed_data: dict) -> str:
         <a href="/archive/">Archive</a> ·
         <a href="/feed.xml">RSS</a> ·
         <a href="https://github.com/pramhatibie/nexscry">GitHub</a>
+      </p>
+      <p class="footer-about">
+        Built by <a href="https://github.com/pramhatibie" target="_blank" rel="noopener">@pramhatibie</a> ·
+        A solo dev experiment: one pipeline, zero infra, daily intel for builders ·
+        Open source — PRs welcome
       </p>
     </footer>
   </div>
@@ -1662,6 +1837,24 @@ def build_index_page(processed_data: dict) -> str:
         e.preventDefault();
         document.getElementById('searchInput').focus();
       }}
+    }});
+
+    // ── Topic pill click — reset source filter THEN search ──
+    document.addEventListener('click', function(e) {{
+      const pill = e.target.closest('.topic-pill[data-topic]');
+      if (!pill) return;
+      const topic = pill.dataset.topic;
+      if (!topic) return;
+      // Reset any active source tab filter so all sections are visible
+      document.querySelectorAll('.source-section').forEach(s => s.style.removeProperty('display'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      const allTab = document.querySelector('.tab');
+      if (allTab) allTab.classList.add('active');
+      // Set search and run
+      const input = document.getElementById('searchInput');
+      input.value = topic;
+      handleSearch(topic);
+      input.scrollIntoView({{behavior: 'smooth', block: 'center'}});
     }});
 
     function escHtml(s) {{
