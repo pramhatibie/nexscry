@@ -11,9 +11,10 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 GEMINI_FALLBACK_MODEL = "gemini-1.5-flash"  # fallback if primary unavailable
 
-# Email subscribe — set BEEHIIV_PUB_ID as GitHub Secret to enable the form
-# Get your pub ID from app.beehiiv.com → Settings → Publication ID
-BEEHIIV_PUB_ID = os.environ.get("BEEHIIV_PUB_ID", "")
+# Email subscribe via Resend + Cloudflare Worker
+# Deploy worker/subscribe.js to Cloudflare Workers, set env vars there,
+# then add RESEND_WORKER_URL as a GitHub Secret to activate the form.
+RESEND_WORKER_URL = os.environ.get("RESEND_WORKER_URL", "")
 
 # ─────────────────────────────────────────────
 # Site Configuration
