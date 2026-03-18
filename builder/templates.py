@@ -11,7 +11,7 @@ import json
 import os
 import re
 from datetime import datetime, timezone
-from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR, SUBSTACK_URL
+from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR
 
 
 # ─────────────────────────────────────────────
@@ -1377,22 +1377,7 @@ def build_index_page(processed_data: dict) -> str:
         for item in items if item.get("has_pain")
     )
 
-    # Email subscribe — opens Substack subscribe page with email pre-filled.
-    # Zero backend needed. Set SUBSTACK_URL as GitHub Secret to activate.
-    if SUBSTACK_URL:
-        sub_url = _escape_html(SUBSTACK_URL.rstrip("/"))
-        subscribe_html = f"""
-    <section class="subscribe-section">
-      <div class="subscribe-label">Free Daily Brief</div>
-      <h3 class="subscribe-title">Get the brief in your inbox</h3>
-      <p class="subscribe-desc">Join builders getting daily AI-surfaced opportunities. Free. No spam. Unsubscribe anytime.</p>
-      <form class="subscribe-form" onsubmit="openSubstack(event, this)">
-        <input type="email" name="email" class="subscribe-input" placeholder="your@email.com" required autocomplete="email" data-sub="{sub_url}">
-        <button type="submit" class="subscribe-btn">Subscribe &#8594;</button>
-      </form>
-    </section>"""
-    else:
-        subscribe_html = ""  # hidden until SUBSTACK_URL is set
+    subscribe_html = ""  # placeholder — add email later when there's traction
 
     # Build cross-signal cards
     cross_html = ""
@@ -1840,14 +1825,6 @@ def build_index_page(processed_data: dict) -> str:
         document.getElementById('searchInput').focus();
       }}
     }});
-
-    // ── Substack subscribe ──
-    function openSubstack(e, form) {{
-      e.preventDefault();
-      var email = form.querySelector('input[type="email"]').value.trim();
-      var base = form.querySelector('input[type="email"]').dataset.sub || '';
-      window.open(base + '/subscribe?email=' + encodeURIComponent(email), '_blank', 'noopener');
-    }}
 
     // ── Topic pill click — reset source filter THEN search ──
     document.addEventListener('click', function(e) {{
