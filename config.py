@@ -11,10 +11,10 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 GEMINI_FALLBACK_MODEL = "gemini-1.5-flash"  # fallback if primary unavailable
 
-# Email subscribe via Resend + Cloudflare Worker
-# Deploy worker/subscribe.js to Cloudflare Workers, set env vars there,
-# then add RESEND_WORKER_URL as a GitHub Secret to activate the form.
-RESEND_WORKER_URL = os.environ.get("RESEND_WORKER_URL", "")
+# Email subscribe via Substack — zero backend needed
+# Create a free publication at substack.com, then add your publication URL
+# as a GitHub Secret: SUBSTACK_URL = https://yourname.substack.com
+SUBSTACK_URL = os.environ.get("SUBSTACK_URL", "")
 
 # ─────────────────────────────────────────────
 # Site Configuration

@@ -11,7 +11,7 @@ import json
 import os
 import re
 from datetime import datetime, timezone
-from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR, RESEND_WORKER_URL
+from config import SITE_NAME, SITE_TAGLINE, SITE_URL, SITE_DESCRIPTION, BUILD_DIR, SUBSTACK_URL
 
 
 # ─────────────────────────────────────────────
@@ -1377,51 +1377,22 @@ def build_index_page(processed_data: dict) -> str:
         for item in items if item.get("has_pain")
     )
 
-    # Email subscribe form — enabled when RESEND_WORKER_URL is set as GitHub Secret
-    if RESEND_WORKER_URL:
+    # Email subscribe — opens Substack subscribe page with email pre-filled.
+    # Zero backend needed. Set SUBSTACK_URL as GitHub Secret to activate.
+    if SUBSTACK_URL:
+        sub_url = _escape_html(SUBSTACK_URL.rstrip("/"))
         subscribe_html = f"""
     <section class="subscribe-section">
       <div class="subscribe-label">Free Daily Brief</div>
       <h3 class="subscribe-title">Get the brief in your inbox</h3>
       <p class="subscribe-desc">Join builders getting daily AI-surfaced opportunities. Free. No spam. Unsubscribe anytime.</p>
-      <form class="subscribe-form" id="subscribeForm" onsubmit="handleSubscribe(event)">
-        <input type="email" id="subscribeEmail" class="subscribe-input" placeholder="your@email.com" required autocomplete="email">
-        <button type="submit" class="subscribe-btn" id="subscribeBtn">Subscribe &#8594;</button>
+      <form class="subscribe-form" onsubmit="openSubstack(event, this)">
+        <input type="email" name="email" class="subscribe-input" placeholder="your@email.com" required autocomplete="email" data-sub="{sub_url}">
+        <button type="submit" class="subscribe-btn">Subscribe &#8594;</button>
       </form>
-      <div id="subscribeMsg" style="font-family:var(--font-mono);font-size:0.8rem;margin-top:10px;min-height:1.2em;"></div>
-      <script>
-        var _workerUrl = {json.dumps(RESEND_WORKER_URL)};
-        function handleSubscribe(e) {{
-          e.preventDefault();
-          var email = document.getElementById('subscribeEmail').value.trim();
-          var btn = document.getElementById('subscribeBtn');
-          var msg = document.getElementById('subscribeMsg');
-          btn.textContent = 'Subscribing...'; btn.disabled = true;
-          fetch(_workerUrl, {{
-            method: 'POST',
-            headers: {{'Content-Type': 'application/json'}},
-            body: JSON.stringify({{email: email}})
-          }})
-          .then(function(r) {{ return r.json(); }})
-          .then(function(data) {{
-            if (data.success) {{
-              msg.textContent = "You're in! Check your inbox.";
-              msg.style.color = 'var(--accent-green)';
-              document.getElementById('subscribeForm').style.display = 'none';
-            }} else {{
-              throw new Error(data.error || 'error');
-            }}
-          }})
-          .catch(function() {{
-            msg.textContent = 'Something went wrong — try again.';
-            msg.style.color = 'var(--accent-orange)';
-            btn.disabled = false; btn.textContent = 'Subscribe \u2192';
-          }});
-        }}
-      </script>
     </section>"""
     else:
-        subscribe_html = ""  # hidden until RESEND_WORKER_URL is set
+        subscribe_html = ""  # hidden until SUBSTACK_URL is set
 
     # Build cross-signal cards
     cross_html = ""
@@ -1869,6 +1840,14 @@ def build_index_page(processed_data: dict) -> str:
         document.getElementById('searchInput').focus();
       }}
     }});
+
+    // ── Substack subscribe ──
+    function openSubstack(e, form) {{
+      e.preventDefault();
+      var email = form.querySelector('input[type="email"]').value.trim();
+      var base = form.querySelector('input[type="email"]').dataset.sub || '';
+      window.open(base + '/subscribe?email=' + encodeURIComponent(email), '_blank', 'noopener');
+    }}
 
     // ── Topic pill click — reset source filter THEN search ──
     document.addEventListener('click', function(e) {{
