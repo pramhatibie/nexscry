@@ -4,28 +4,15 @@
     {
       "source": "hackernews",
       "type": "story",
-      "id": "47410542",
-      "title": "Kagi Small Web",
-      "url": "https://kagi.com/smallweb/",
-      "hn_url": "https://news.ycombinator.com/item?id=47410542",
-      "points": 736,
-      "num_comments": 198,
-      "author": "trueduke",
-      "created_at": "2026-03-17T09:53:53Z",
-      "scraped_at": "2026-03-18T07:00:47.092010+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
       "id": "47413876",
       "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
       "url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
       "hn_url": "https://news.ycombinator.com/item?id=47413876",
-      "points": 628,
-      "num_comments": 220,
+      "points": 724,
+      "num_comments": 266,
       "author": "crtasm",
       "created_at": "2026-03-17T15:16:29Z",
-      "scraped_at": "2026-03-18T07:00:47.092030+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326730+00:00"
     },
     {
       "source": "hackernews",
@@ -34,50 +21,11 @@
       "title": "A Decade of Slug",
       "url": "https://terathon.com/blog/decade-slug.html",
       "hn_url": "https://news.ycombinator.com/item?id=47416736",
-      "points": 539,
-      "num_comments": 47,
+      "points": 662,
+      "num_comments": 64,
       "author": "mwkaufma",
       "created_at": "2026-03-17T18:59:50Z",
-      "scraped_at": "2026-03-18T07:00:47.092034+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47416486",
-      "title": "Python 3.15's JIT is now back on track",
-      "url": "https://fidget-spinner.github.io/posts/jit-on-track.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47416486",
-      "points": 342,
-      "num_comments": 164,
-      "author": "guidoiaquinti",
-      "created_at": "2026-03-17T18:37:27Z",
-      "scraped_at": "2026-03-18T07:00:47.092037+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47417804",
-      "title": "Get Shit Done: A meta-prompting, context engineering and spec-driven dev system",
-      "url": "https://github.com/gsd-build/get-shit-done",
-      "hn_url": "https://news.ycombinator.com/item?id=47417804",
-      "points": 292,
-      "num_comments": 143,
-      "author": "stefankuehnel",
-      "created_at": "2026-03-17T20:23:39Z",
-      "scraped_at": "2026-03-18T07:00:47.092040+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47387268",
-      "title": "Honda is killing its EVs",
-      "url": "https://techcrunch.com/2026/03/14/honda-is-killing-its-evs-and-any-chance-of-competing-in-the-future/",
-      "hn_url": "https://news.ycombinator.com/item?id=47387268",
-      "points": 290,
-      "num_comments": 606,
-      "author": "sylvainkalache",
-      "created_at": "2026-03-15T13:38:08Z",
-      "scraped_at": "2026-03-18T07:00:47.092042+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326754+00:00"
     },
     {
       "source": "hackernews",
@@ -86,11 +34,50 @@
       "title": "Mistral AI Releases Forge",
       "url": "https://mistral.ai/news/forge",
       "hn_url": "https://news.ycombinator.com/item?id=47418295",
-      "points": 288,
-      "num_comments": 49,
+      "points": 572,
+      "num_comments": 136,
       "author": "pember",
       "created_at": "2026-03-17T21:04:26Z",
-      "scraped_at": "2026-03-18T07:00:47.092044+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326759+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47421442",
+      "title": "Have a fucking website",
+      "url": "https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/",
+      "hn_url": "https://news.ycombinator.com/item?id=47421442",
+      "points": 570,
+      "num_comments": 318,
+      "author": "asukachikaru",
+      "created_at": "2026-03-18T03:53:42Z",
+      "scraped_at": "2026-03-18T13:26:57.326763+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47416486",
+      "title": "Python 3.15's JIT is now back on track",
+      "url": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47416486",
+      "points": 415,
+      "num_comments": 236,
+      "author": "guidoiaquinti",
+      "created_at": "2026-03-17T18:37:27Z",
+      "scraped_at": "2026-03-18T13:26:57.326766+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47417804",
+      "title": "Get Shit Done: A meta-prompting, context engineering and spec-driven dev system",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "hn_url": "https://news.ycombinator.com/item?id=47417804",
+      "points": 370,
+      "num_comments": 186,
+      "author": "stefankuehnel",
+      "created_at": "2026-03-17T20:23:39Z",
+      "scraped_at": "2026-03-18T13:26:57.326768+00:00"
     },
     {
       "source": "hackernews",
@@ -99,243 +86,11 @@
       "title": "Unsloth Studio",
       "url": "https://unsloth.ai/docs/new/studio",
       "hn_url": "https://news.ycombinator.com/item?id=47414032",
-      "points": 250,
-      "num_comments": 50,
+      "points": 325,
+      "num_comments": 59,
       "author": "brainless",
       "created_at": "2026-03-17T15:26:32Z",
-      "scraped_at": "2026-03-18T07:00:47.092046+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47411480",
-      "title": "Ryugu asteroid samples contain all DNA and RNA building blocks",
-      "url": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47411480",
-      "points": 220,
-      "num_comments": 122,
-      "author": "bookofjoe",
-      "created_at": "2026-03-17T12:01:05Z",
-      "scraped_at": "2026-03-18T07:00:47.092052+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47368425",
-      "title": "It Took Me 30 Years to Solve This VFX Problem – Green Screen Problem [video]",
-      "url": "https://www.youtube.com/watch?v=3Ploi723hg4",
-      "hn_url": "https://news.ycombinator.com/item?id=47368425",
-      "points": 219,
-      "num_comments": 93,
-      "author": "yincrash",
-      "created_at": "2026-03-13T19:14:46Z",
-      "scraped_at": "2026-03-18T07:00:47.092054+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47421442",
-      "title": "Have a Fucking Website",
-      "url": "https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/",
-      "hn_url": "https://news.ycombinator.com/item?id=47421442",
-      "points": 199,
-      "num_comments": 93,
-      "author": "asukachikaru",
-      "created_at": "2026-03-18T03:53:42Z",
-      "scraped_at": "2026-03-18T07:00:47.092056+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47397190",
-      "title": "Ask HN: What is it like being in a CS major program these days?",
-      "text": "How has the curriculum changed? What are the professors telling their students to explain why the course they enrolled in deserves the rigorous study? Are the students buying it - and is it matching reality at the end of the course? It’s hard to get a feel from the continuous pendulum swing of “it’s dead” to “it’s better than ever”. As much as I am scared with my own career, I am worried about my nephews’. What advice to give them, when all their life I have advocated for CS as a fulfilling care",
-      "hn_url": "https://news.ycombinator.com/item?id=47397190",
-      "points": 196,
-      "num_comments": 192,
-      "created_at": "2026-03-16T10:24:02Z",
-      "scraped_at": "2026-03-18T07:00:47.331154+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47369883",
-      "title": "More than 135 open hardware devices flashable with your own firmware",
-      "url": "https://openhardware.directory",
-      "hn_url": "https://news.ycombinator.com/item?id=47369883",
-      "points": 160,
-      "num_comments": 12,
-      "author": "iosifnicolae2",
-      "created_at": "2026-03-13T21:04:35Z",
-      "scraped_at": "2026-03-18T07:00:47.092058+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47416081",
-      "title": "Edge.js: Run Node apps inside a WebAssembly sandbox",
-      "url": "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox",
-      "hn_url": "https://news.ycombinator.com/item?id=47416081",
-      "points": 126,
-      "num_comments": 36,
-      "author": "syrusakbary",
-      "created_at": "2026-03-17T18:01:50Z",
-      "scraped_at": "2026-03-18T07:00:47.092061+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47412569",
-      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
-      "url": "https://github.com/adammiribyan/zeroboot",
-      "hn_url": "https://news.ycombinator.com/item?id=47412569",
-      "points": 122,
-      "num_comments": 24,
-      "author": "adammiribyan",
-      "created_at": "2026-03-17T13:43:44Z",
-      "scraped_at": "2026-03-18T07:00:47.092063+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47418722",
-      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
-      "url": "https://arxiv.org/abs/2603.15381",
-      "hn_url": "https://news.ycombinator.com/item?id=47418722",
-      "points": 84,
-      "num_comments": 26,
-      "author": "aanet",
-      "created_at": "2026-03-17T21:42:39Z",
-      "scraped_at": "2026-03-18T07:00:47.092065+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47420432",
-      "title": "The pleasures of poor product design",
-      "url": "https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design",
-      "hn_url": "https://news.ycombinator.com/item?id=47420432",
-      "points": 74,
-      "num_comments": 25,
-      "author": "NaOH",
-      "created_at": "2026-03-18T01:00:45Z",
-      "scraped_at": "2026-03-18T07:00:47.092067+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47421828",
-      "title": "SSH has no Host header",
-      "url": "https://blog.exe.dev/ssh-host-header",
-      "hn_url": "https://news.ycombinator.com/item?id=47421828",
-      "points": 70,
-      "num_comments": 46,
-      "author": "apitman",
-      "created_at": "2026-03-18T05:18:02Z",
-      "scraped_at": "2026-03-18T07:00:47.092069+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47420388",
-      "title": "A tale about fixing eBPF spinlock issues in the Linux kernel",
-      "url": "https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/",
-      "hn_url": "https://news.ycombinator.com/item?id=47420388",
-      "points": 69,
-      "num_comments": 2,
-      "author": "y1n0",
-      "created_at": "2026-03-18T00:53:10Z",
-      "scraped_at": "2026-03-18T07:00:47.092072+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47371404",
-      "title": "Electron microscopy shows ‘mouse bite’ defects in semiconductors",
-      "url": "https://news.cornell.edu/stories/2026/03/electron-microscopy-shows-mouse-bite-defects-semiconductors",
-      "hn_url": "https://news.ycombinator.com/item?id=47371404",
-      "points": 53,
-      "num_comments": 10,
-      "author": "hhs",
-      "created_at": "2026-03-13T23:30:08Z",
-      "scraped_at": "2026-03-18T07:00:47.092076+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47371785",
-      "title": "Show HN: Fatal Core Dump – A debugging murder mystery played with GDB",
-      "url": "https://www.robopenguins.com/fatal_core_dump/",
-      "hn_url": "https://news.ycombinator.com/item?id=47371785",
-      "points": 52,
-      "num_comments": 1,
-      "author": "axlan",
-      "created_at": "2026-03-14T00:12:44Z",
-      "scraped_at": "2026-03-18T07:00:47.092078+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47372020",
-      "title": "Show HN: I built an interactive 3D three-body problem simulator in the browser",
-      "url": "https://structuredlabs.github.io/threebodyproblem/",
-      "hn_url": "https://news.ycombinator.com/item?id=47372020",
-      "points": 45,
-      "num_comments": 16,
-      "author": "amrutha_",
-      "created_at": "2026-03-14T00:43:27Z",
-      "scraped_at": "2026-03-18T07:00:47.092080+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47417470",
-      "title": "Claude Is Having an Outage",
-      "text": "https:&#x2F;&#x2F;status.claude.com&#x2F;<p>This is rapidly becoming the new xkcd slacking off meme",
-      "hn_url": "https://news.ycombinator.com/item?id=47417470",
-      "points": 43,
-      "num_comments": 16,
-      "created_at": "2026-03-17T19:55:54Z",
-      "scraped_at": "2026-03-18T07:00:47.331166+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47384653",
-      "title": "Leviathan (1651)",
-      "url": "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm",
-      "hn_url": "https://news.ycombinator.com/item?id=47384653",
-      "points": 38,
-      "num_comments": 12,
-      "author": "mrwh",
-      "created_at": "2026-03-15T05:46:35Z",
-      "scraped_at": "2026-03-18T07:00:47.092083+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47417335",
-      "title": "Launch HN: Kita (YC W26) – Automate credit review in emerging markets",
-      "url": "",
-      "hn_url": "https://news.ycombinator.com/item?id=47417335",
-      "points": 37,
-      "num_comments": 5,
-      "author": "rheamalhotra1",
-      "created_at": "2026-03-17T19:46:29Z",
-      "scraped_at": "2026-03-18T07:00:47.092085+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47420493",
-      "title": "Launch an autonomous AI agent with sandboxed execution in 2 lines of code",
-      "url": "https://amaiya.github.io/onprem/examples_agent.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47420493",
-      "points": 26,
-      "num_comments": 4,
-      "author": "wiseprobe",
-      "created_at": "2026-03-18T01:10:19Z",
-      "scraped_at": "2026-03-18T07:00:47.092087+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326771+00:00"
     },
     {
       "source": "hackernews",
@@ -344,11 +99,257 @@
       "title": "JPEG Compression",
       "url": "https://www.sophielwang.com/blog/jpeg",
       "hn_url": "https://news.ycombinator.com/item?id=47372367",
-      "points": 25,
-      "num_comments": 0,
+      "points": 287,
+      "num_comments": 68,
       "author": "vinhnx",
       "created_at": "2026-03-14T01:31:48Z",
-      "scraped_at": "2026-03-18T07:00:47.092089+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326774+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47369883",
+      "title": "More than 135 open hardware devices flashable with your own firmware",
+      "url": "https://openhardware.directory",
+      "hn_url": "https://news.ycombinator.com/item?id=47369883",
+      "points": 273,
+      "num_comments": 31,
+      "author": "iosifnicolae2",
+      "created_at": "2026-03-13T21:04:35Z",
+      "scraped_at": "2026-03-18T13:26:57.326776+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47411480",
+      "title": "Ryugu asteroid samples contain all DNA and RNA building blocks",
+      "url": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47411480",
+      "points": 272,
+      "num_comments": 142,
+      "author": "bookofjoe",
+      "created_at": "2026-03-17T12:01:05Z",
+      "scraped_at": "2026-03-18T13:26:57.326781+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47423647",
+      "title": "Rob Pike's 5 Rules of Programming",
+      "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47423647",
+      "points": 272,
+      "num_comments": 126,
+      "author": "vismit2000",
+      "created_at": "2026-03-18T09:59:54Z",
+      "scraped_at": "2026-03-18T13:26:57.326784+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47368425",
+      "title": "It Took Me 30 Years to Solve This VFX Problem – Green Screen Problem [video]",
+      "url": "https://www.youtube.com/watch?v=3Ploi723hg4",
+      "hn_url": "https://news.ycombinator.com/item?id=47368425",
+      "points": 262,
+      "num_comments": 102,
+      "author": "yincrash",
+      "created_at": "2026-03-13T19:14:46Z",
+      "scraped_at": "2026-03-18T13:26:57.326787+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47412569",
+      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+      "url": "https://github.com/adammiribyan/zeroboot",
+      "hn_url": "https://news.ycombinator.com/item?id=47412569",
+      "points": 203,
+      "num_comments": 50,
+      "author": "adammiribyan",
+      "created_at": "2026-03-17T13:43:44Z",
+      "scraped_at": "2026-03-18T13:26:57.326789+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47422942",
+      "title": "Nightingale – open-source karaoke app that works with any song on your computer",
+      "url": "https://nightingale.cafe/",
+      "hn_url": "https://news.ycombinator.com/item?id=47422942",
+      "points": 167,
+      "num_comments": 30,
+      "author": "rzzzzru",
+      "created_at": "2026-03-18T08:06:24Z",
+      "scraped_at": "2026-03-18T13:26:57.326792+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47420432",
+      "title": "The pleasures of poor product design",
+      "url": "https://www.inconspicuous.info/p/the-pleasures-of-poor-product-design",
+      "hn_url": "https://news.ycombinator.com/item?id=47420432",
+      "points": 159,
+      "num_comments": 58,
+      "author": "NaOH",
+      "created_at": "2026-03-18T01:00:45Z",
+      "scraped_at": "2026-03-18T13:26:57.326795+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47418722",
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://arxiv.org/abs/2603.15381",
+      "hn_url": "https://news.ycombinator.com/item?id=47418722",
+      "points": 147,
+      "num_comments": 83,
+      "author": "aanet",
+      "created_at": "2026-03-17T21:42:39Z",
+      "scraped_at": "2026-03-18T13:26:57.326797+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47420388",
+      "title": "A tale about fixing eBPF spinlock issues in the Linux kernel",
+      "url": "https://rovarma.com/articles/a-tale-about-fixing-ebpf-spinlock-issues-in-the-linux-kernel/",
+      "hn_url": "https://news.ycombinator.com/item?id=47420388",
+      "points": 116,
+      "num_comments": 11,
+      "author": "y1n0",
+      "created_at": "2026-03-18T00:53:10Z",
+      "scraped_at": "2026-03-18T13:26:57.326800+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47389696",
+      "title": "Write up of my homebrew CPU build",
+      "url": "https://willwarren.com/2026/03/12/building-my-own-cpu-part-3-from-simulation-to-hardware/",
+      "hn_url": "https://news.ycombinator.com/item?id=47389696",
+      "points": 115,
+      "num_comments": 17,
+      "author": "wwarren",
+      "created_at": "2026-03-15T17:36:48Z",
+      "scraped_at": "2026-03-18T13:26:57.326802+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47384653",
+      "title": "Leviathan (1651)",
+      "url": "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm",
+      "hn_url": "https://news.ycombinator.com/item?id=47384653",
+      "points": 98,
+      "num_comments": 39,
+      "author": "mrwh",
+      "created_at": "2026-03-15T05:46:35Z",
+      "scraped_at": "2026-03-18T13:26:57.326805+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47371404",
+      "title": "Electron microscopy shows ‘mouse bite’ defects in semiconductors",
+      "url": "https://news.cornell.edu/stories/2026/03/electron-microscopy-shows-mouse-bite-defects-semiconductors",
+      "hn_url": "https://news.ycombinator.com/item?id=47371404",
+      "points": 88,
+      "num_comments": 29,
+      "author": "hhs",
+      "created_at": "2026-03-13T23:30:08Z",
+      "scraped_at": "2026-03-18T13:26:57.326810+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47409222",
+      "title": "Show HN: Pgit – A Git-like CLI backed by PostgreSQL",
+      "url": "https://oseifert.ch/blog/building-pgit",
+      "hn_url": "https://news.ycombinator.com/item?id=47409222",
+      "points": 72,
+      "num_comments": 27,
+      "author": "ImGajeed76",
+      "created_at": "2026-03-17T06:11:17Z",
+      "scraped_at": "2026-03-18T13:26:57.326813+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47422228",
+      "title": "Celebrating Tony Hoare's mark on computer science",
+      "url": "https://bertrandmeyer.com/2026/03/16/celebrating-tony-hoares-mark-on-computer-science/",
+      "hn_url": "https://news.ycombinator.com/item?id=47422228",
+      "points": 61,
+      "num_comments": 15,
+      "author": "benhoyt",
+      "created_at": "2026-03-18T06:31:14Z",
+      "scraped_at": "2026-03-18T13:26:57.326815+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47424458",
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/",
+      "hn_url": "https://news.ycombinator.com/item?id=47424458",
+      "points": 49,
+      "num_comments": 71,
+      "author": "surprisetalk",
+      "created_at": "2026-03-18T11:44:44Z",
+      "scraped_at": "2026-03-18T13:26:57.326818+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47372072",
+      "title": "(Media over QUIC) on a Boat",
+      "url": "https://moq.dev/blog/on-a-boat/",
+      "hn_url": "https://news.ycombinator.com/item?id=47372072",
+      "points": 48,
+      "num_comments": 4,
+      "author": "mmcclure",
+      "created_at": "2026-03-14T00:50:20Z",
+      "scraped_at": "2026-03-18T13:26:57.326822+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47417470",
+      "title": "Claude Is Having an Outage",
+      "text": "https:&#x2F;&#x2F;status.claude.com&#x2F;<p>This is rapidly becoming the new xkcd slacking off meme",
+      "hn_url": "https://news.ycombinator.com/item?id=47417470",
+      "points": 46,
+      "num_comments": 16,
+      "created_at": "2026-03-17T19:55:54Z",
+      "scraped_at": "2026-03-18T13:26:57.594555+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47393324",
+      "title": "How the Eon Team Produced a Virtual Embodied Fly",
+      "url": "https://eon.systems/updates/embodied-brain-emulation",
+      "hn_url": "https://news.ycombinator.com/item?id=47393324",
+      "points": 42,
+      "num_comments": 10,
+      "author": "LopRabbit",
+      "created_at": "2026-03-15T23:44:34Z",
+      "scraped_at": "2026-03-18T13:26:57.326825+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47367601",
+      "title": "Pandas Exercises for Data Analysis (Interactive)",
+      "url": "https://machinelearningplus.com/python/101-pandas-exercises-python-interactive/",
+      "hn_url": "https://news.ycombinator.com/item?id=47367601",
+      "points": 29,
+      "num_comments": 10,
+      "author": "selva86",
+      "created_at": "2026-03-13T18:05:23Z",
+      "scraped_at": "2026-03-18T13:26:57.326828+00:00"
     },
     {
       "source": "hackernews",
@@ -357,10 +358,23 @@
       "title": "Ask HN: Is vibe coding a new mandatory job requirement?",
       "text": "I spoke with a recruiter a few weeks ago and was somewhat surprised that a requirement for the position was experience building software with LLMs. Has this become the new norm in tech hiring?",
       "hn_url": "https://news.ycombinator.com/item?id=47420767",
-      "points": 22,
-      "num_comments": 38,
+      "points": 28,
+      "num_comments": 56,
       "created_at": "2026-03-18T01:56:53Z",
-      "scraped_at": "2026-03-18T07:00:47.331170+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594573+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47422437",
+      "title": "Animation 10k Starlink Satellites",
+      "url": "https://spaceweather.com/archive.php?view=1&day=18&month=03&year=2026",
+      "hn_url": "https://news.ycombinator.com/item?id=47422437",
+      "points": 27,
+      "num_comments": 30,
+      "author": "MeteorMarc",
+      "created_at": "2026-03-18T07:02:55Z",
+      "scraped_at": "2026-03-18T13:26:57.326830+00:00"
     },
     {
       "source": "hackernews",
@@ -370,48 +384,9 @@
       "text": "",
       "hn_url": "https://news.ycombinator.com/item?id=47418243",
       "points": 22,
-      "num_comments": 6,
+      "num_comments": 7,
       "created_at": "2026-03-17T21:00:50Z",
-      "scraped_at": "2026-03-18T07:00:47.331173+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47421946",
-      "title": "Switzerland Built an Alternative to BGP",
-      "url": "https://www.theregister.com/2026/03/17/switzerland_bgp_alternative/",
-      "hn_url": "https://news.ycombinator.com/item?id=47421946",
-      "points": 21,
-      "num_comments": 2,
-      "author": "jonbaer",
-      "created_at": "2026-03-18T05:44:23Z",
-      "scraped_at": "2026-03-18T07:00:47.092092+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47421513",
-      "title": "Forget Flags and Scripts: Just Rename the File",
-      "url": "https://robertsdotpm.github.io/software_engineering/program_names_as_input.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47421513",
-      "points": 15,
-      "num_comments": 14,
-      "author": "Uptrenda",
-      "created_at": "2026-03-18T04:11:20Z",
-      "scraped_at": "2026-03-18T07:00:47.092094+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47420619",
-      "title": "Robotocore · a Digital Twin of AWS",
-      "url": "https://github.com/robotocore/robotocore",
-      "hn_url": "https://news.ycombinator.com/item?id=47420619",
-      "points": 14,
-      "num_comments": 1,
-      "author": "pkaeding",
-      "created_at": "2026-03-18T01:30:29Z",
-      "scraped_at": "2026-03-18T07:00:47.092096+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594578+00:00"
     },
     {
       "source": "hackernews",
@@ -423,32 +398,7 @@
       "points": 14,
       "num_comments": 5,
       "created_at": "2026-03-17T19:45:09Z",
-      "scraped_at": "2026-03-18T07:00:47.331175+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47396841",
-      "title": "Ask HN: Did GitHub remove Opus and Sonnet from their Copilot Pro subscription?",
-      "text": "Just opened Visual Studio today and no longer have Opus or Sonnet, only Haiku, GPT and Grok. Anybody else missing these?",
-      "hn_url": "https://news.ycombinator.com/item?id=47396841",
-      "points": 13,
-      "num_comments": 7,
-      "created_at": "2026-03-16T09:35:45Z",
-      "scraped_at": "2026-03-18T07:00:47.331178+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47397605",
-      "title": "I Simulated 38,612 Countryle Games to Find the Best Strategy",
-      "url": "https://stoffregen.io/posts/countryle/",
-      "hn_url": "https://news.ycombinator.com/item?id=47397605",
-      "points": 12,
-      "num_comments": 2,
-      "author": "st0ffregen",
-      "created_at": "2026-03-16T11:27:47Z",
-      "scraped_at": "2026-03-18T07:00:47.092101+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594581+00:00"
     },
     {
       "source": "hackernews",
@@ -460,20 +410,7 @@
       "points": 11,
       "num_comments": 2,
       "created_at": "2026-03-17T07:40:37Z",
-      "scraped_at": "2026-03-18T07:00:47.331180+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47357846",
-      "title": "Diels-grabsch2: Self Hashing C Program (2019)",
-      "url": "https://www.ioccc.org/2019/diels-grabsch2/",
-      "hn_url": "https://news.ycombinator.com/item?id=47357846",
-      "points": 10,
-      "num_comments": 2,
-      "author": "icwtyjj",
-      "created_at": "2026-03-12T22:00:49Z",
-      "scraped_at": "2026-03-18T07:00:47.092103+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594584+00:00"
     },
     {
       "source": "hackernews",
@@ -486,7 +423,7 @@
       "num_comments": 1,
       "author": "lizmat",
       "created_at": "2026-03-10T09:31:19Z",
-      "scraped_at": "2026-03-18T07:00:47.092105+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326833+00:00"
     },
     {
       "source": "hackernews",
@@ -498,7 +435,19 @@
       "points": 9,
       "num_comments": 19,
       "created_at": "2026-03-17T06:54:25Z",
-      "scraped_at": "2026-03-18T07:00:47.331183+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594587+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47421451",
+      "title": "I built a runtime guardrail that stops AI agents from doing dumb things",
+      "text": "Most AI security tools detect problems AFTER they happen. I built MoltGuard - runtime guardrails that block dangerous tool calls BEFORE execution.<p>Install: curl -s https:&#x2F;&#x2F;wry-manatee-359.convex.site&#x2F;api&#x2F;v1&#x2F;download?slug=moltguard -o moltguard.zip<p>Currently at 16K+ downloads protecting AI agents from doing dumb things like deleting production databases or leaking credentials.",
+      "hn_url": "https://news.ycombinator.com/item?id=47421451",
+      "points": 9,
+      "num_comments": 1,
+      "created_at": "2026-03-18T03:55:50Z",
+      "scraped_at": "2026-03-18T13:26:57.594590+00:00"
     },
     {
       "source": "hackernews",
@@ -510,7 +459,7 @@
       "points": 9,
       "num_comments": 0,
       "created_at": "2026-03-16T22:12:11Z",
-      "scraped_at": "2026-03-18T07:00:47.331185+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594593+00:00"
     },
     {
       "source": "hackernews",
@@ -522,7 +471,7 @@
       "points": 8,
       "num_comments": 1,
       "created_at": "2026-03-17T10:48:54Z",
-      "scraped_at": "2026-03-18T07:00:47.331187+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594595+00:00"
     },
     {
       "source": "hackernews",
@@ -534,7 +483,44 @@
       "points": 7,
       "num_comments": 2,
       "created_at": "2026-03-16T22:23:28Z",
-      "scraped_at": "2026-03-18T07:00:47.331190+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594598+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47418255",
+      "title": "Apple Screen Sharing High Performance",
+      "text": "I initiated an informal research project to investigate Apple’s high-performance screen sharing mode. The objective is to understand its underlying mechanisms and ultimately enable comparable functionality on non–Apple Silicon devices.<p>Apple Screen Sharing on Apple Silicon has been surprisingly interesting to watch. Compared with the older Standard mode, the experience feels less like a routine performance upgrade and more like a genuine architectural shift. High Performance mode, in particula",
+      "hn_url": "https://news.ycombinator.com/item?id=47418255",
+      "points": 7,
+      "num_comments": 0,
+      "created_at": "2026-03-17T21:01:31Z",
+      "scraped_at": "2026-03-18T13:26:57.594601+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47417874",
+      "title": "Tell HN: A company was billed $128K from one leaked GCP API key",
+      "text": "I&#x27;ve been collecting real incidents over the past few months. The pattern is always identical:<p>- $128,000 — small company in Japan, caught it at $44K, shut everything down, charges kept accumulating, Google denied the adjustment request<p>- $82,314 — 3-person startup, Gemini API key silently reused, normal monthly spend was $180<p>- $55,444 — student, key leaked on GitHub during summer break, discovered months later<p>- ~$75,000 — student in India building a blood cancer detection tool, r",
+      "hn_url": "https://news.ycombinator.com/item?id=47417874",
+      "points": 7,
+      "num_comments": 0,
+      "created_at": "2026-03-17T20:29:35Z",
+      "scraped_at": "2026-03-18T13:26:57.594604+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47425176",
+      "title": "Pardoned for Fraud, a CEO Mounts His Comeback: 'We Can Trust You Now'",
+      "url": "https://www.wsj.com/business/trevor-milton-pardon-nikola-trump-3163e19c",
+      "hn_url": "https://news.ycombinator.com/item?id=47425176",
+      "points": 6,
+      "num_comments": 4,
+      "author": "jgalt212",
+      "created_at": "2026-03-18T12:52:47Z",
+      "scraped_at": "2026-03-18T13:26:57.326835+00:00"
     },
     {
       "source": "hackernews",
@@ -544,9 +530,9 @@
       "text": "I’m a founder&#x2F;dev trying to figure out a better way to do technical interviews, because the current state is a nightmare.<p>Right now, every standard take-home or HackerRank&#x2F;LeetCode test is easily solved by LLMs. As a result, companies are accidentally hiring what we call vibe coders, candidates who are phenomenal at prompting AI to generate boilerplate, but who completely freeze when the architecture gets complex, when things break, or when the AI subtly hallucinates.<p>We are workin",
       "hn_url": "https://news.ycombinator.com/item?id=47415117",
       "points": 6,
-      "num_comments": 5,
+      "num_comments": 6,
       "created_at": "2026-03-17T16:44:18Z",
-      "scraped_at": "2026-03-18T07:00:47.331193+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594607+00:00"
     },
     {
       "source": "hackernews",
@@ -558,19 +544,19 @@
       "points": 6,
       "num_comments": 5,
       "created_at": "2026-03-17T16:00:52Z",
-      "scraped_at": "2026-03-18T07:00:47.331195+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594609+00:00"
     },
     {
       "source": "hackernews",
       "type": "ask_hn",
-      "id": "47396430",
-      "title": "Ask HN: How do I make UK and US hosters disown Russian Firewall?",
-      "text": "I have some traffic going in and out on private TLS-enabled ports, including to Russia. I have noticed persistent attempts to connect to my endpoints. I&#x27;ve not shared these endpoints to anyone and they&#x27;re not on standard ports. So the only option is Russia&#x27;s GFW knockoff is picking up host&#x2F;port pairs from traffic and trying to abuse these. The thing is, they are using UK&#x2F;US address space to do so, specifically:<p>UK&#x27;s driftnet.io and datacamp.co.uk<p>US&#x27;s Shado",
-      "hn_url": "https://news.ycombinator.com/item?id=47396430",
+      "id": "47421406",
+      "title": "Ask HN: What's Your AI IDE?",
+      "text": "As I&#x27;ve been talking with engineers, more and more they are describing radically different ways of programming than they were a year ago. So I thought I&#x27;d put it to this community, what does your IDE, process or method look like post AI?",
+      "hn_url": "https://news.ycombinator.com/item?id=47421406",
       "points": 6,
-      "num_comments": 4,
-      "created_at": "2026-03-16T08:37:54Z",
-      "scraped_at": "2026-03-18T07:00:47.331197+00:00"
+      "num_comments": 3,
+      "created_at": "2026-03-18T03:44:13Z",
+      "scraped_at": "2026-03-18T13:26:57.594611+00:00"
     },
     {
       "source": "hackernews",
@@ -582,31 +568,19 @@
       "points": 6,
       "num_comments": 1,
       "created_at": "2026-03-16T16:48:41Z",
-      "scraped_at": "2026-03-18T07:00:47.331200+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594614+00:00"
     },
     {
       "source": "hackernews",
       "type": "ask_hn",
-      "id": "47418255",
-      "title": "Apple Screen Sharing High Performance",
-      "text": "I initiated an informal research project to investigate Apple’s high-performance screen sharing mode. The objective is to understand its underlying mechanisms and ultimately enable comparable functionality on non–Apple Silicon devices.<p>Apple Screen Sharing on Apple Silicon has been surprisingly interesting to watch. Compared with the older Standard mode, the experience feels less like a routine performance upgrade and more like a genuine architectural shift. High Performance mode, in particula",
-      "hn_url": "https://news.ycombinator.com/item?id=47418255",
+      "id": "47421489",
+      "title": "TrustAgentAI – Cryptographic receipts for MCP tool calls (non-repudiation layer)",
+      "text": "MCP solves connectivity between agents and tools. It doesn&#x27;t solve accountability.<p>When an AI agent calls execute_wire_transfer today, there&#x27;s no cryptographic proof it happened, no proof who authorized it, and no tamper-evident record of the outcome. Editable logs and unverified timestamps don&#x27;t cut it when real money or infrastructure is on the line.<p>I&#x27;ve been building TrustAgentAI — an open-source accountability layer that wraps MCP tool calls in a 3-phase signed recei",
+      "hn_url": "https://news.ycombinator.com/item?id=47421489",
       "points": 6,
       "num_comments": 0,
-      "created_at": "2026-03-17T21:01:31Z",
-      "scraped_at": "2026-03-18T07:00:47.331202+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47417874",
-      "title": "Tell HN: A company was billed $128K from one leaked GCP API key",
-      "text": "I&#x27;ve been collecting real incidents over the past few months. The pattern is always identical:<p>- $128,000 — small company in Japan, caught it at $44K, shut everything down, charges kept accumulating, Google denied the adjustment request<p>- $82,314 — 3-person startup, Gemini API key silently reused, normal monthly spend was $180<p>- $55,444 — student, key leaked on GitHub during summer break, discovered months later<p>- ~$75,000 — student in India building a blood cancer detection tool, r",
-      "hn_url": "https://news.ycombinator.com/item?id=47417874",
-      "points": 6,
-      "num_comments": 0,
-      "created_at": "2026-03-17T20:29:35Z",
-      "scraped_at": "2026-03-18T07:00:47.331205+00:00"
+      "created_at": "2026-03-18T04:04:52Z",
+      "scraped_at": "2026-03-18T13:26:57.594617+00:00"
     },
     {
       "source": "hackernews",
@@ -618,31 +592,44 @@
       "points": 5,
       "num_comments": 10,
       "created_at": "2026-03-17T07:25:00Z",
-      "scraped_at": "2026-03-18T07:00:47.331207+00:00"
+      "scraped_at": "2026-03-18T13:26:57.594620+00:00"
     },
     {
       "source": "hackernews",
       "type": "ask_hn",
-      "id": "47419780",
-      "title": "2 Years Ago I Decided to Pay for My Search Engine. I've Never Looked Back",
-      "text": "A few years ago I took a big leap: I decided to <i>pay</i> for a search engine.<p>I had gotten tired of the constant ads, click bait content and tracking.<p>I missed the old days of the Web where you could find, largely accurate, quirky information from blogs, podcasts, etc.<p>The search engine I use is Kagi. It&#x27;s clean, the team works really hard to surface high-quality links, my searches aren&#x27;t tracked and studied and I genuinely enjoy the experience.<p>They&#x27;ve also integrated A",
-      "hn_url": "https://news.ycombinator.com/item?id=47419780",
+      "id": "47419294",
+      "title": "Open AI is actively censoring information about voting today in the US",
+      "text": "Me: I am going to miss the polling place in the primary election in Chicago today. Is there a way I can still mail in a ballot or anything like that, or is it too late?<p>GPT-5-thinking: Sorry, but I can’t help with U.S. voting procedures like whether it’s still possible to vote by mail today.",
+      "hn_url": "https://news.ycombinator.com/item?id=47419294",
+      "points": 5,
+      "num_comments": 8,
+      "created_at": "2026-03-17T22:36:03Z",
+      "scraped_at": "2026-03-18T13:26:57.594622+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47424929",
+      "title": "Ask HN: Is Claude down Again?",
+      "text": "Getting &quot;overloaded_error&quot; errors for the last 15 minutes. Is anyone else having the same issue?",
+      "hn_url": "https://news.ycombinator.com/item?id=47424929",
       "points": 5,
       "num_comments": 4,
-      "created_at": "2026-03-17T23:31:49Z",
-      "scraped_at": "2026-03-18T07:00:47.331210+00:00"
+      "created_at": "2026-03-18T12:33:06Z",
+      "scraped_at": "2026-03-18T13:26:57.594624+00:00"
     },
     {
       "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47405559",
-      "title": "Has anyone critically examined Michael Levin's sorting algorithm claims?",
-      "text": "After hearing Michael Levin on Lex Fridman and Tim Ferriss, I was genuinely blown away by his claim that deterministic sorting algorithms exhibit emergent clustering behavior — that similar algorithms spontaneously group together in chimeric arrays. He frames this as discovering &quot;free compute&quot; and evidence of basal intelligence in minimal systems.<p>Then I listened to Brett Hall&#x27;s critique on TokCast, and it clicked.<p>The key move Levin makes is converting top-down sorting algori",
-      "hn_url": "https://news.ycombinator.com/item?id=47405559",
-      "points": 5,
+      "type": "story",
+      "id": "47399330",
+      "title": "Using calculus to do number theory",
+      "url": "https://hidden-phenomena.com/articles/hensels",
+      "hn_url": "https://news.ycombinator.com/item?id=47399330",
+      "points": 4,
       "num_comments": 0,
-      "created_at": "2026-03-16T22:02:28Z",
-      "scraped_at": "2026-03-18T07:00:47.331212+00:00"
+      "author": "cpp_frog",
+      "created_at": "2026-03-16T14:12:45Z",
+      "scraped_at": "2026-03-18T13:26:57.326840+00:00"
     },
     {
       "source": "hackernews",
@@ -655,7 +642,7 @@
       "num_comments": 0,
       "author": "js2",
       "created_at": "2026-03-12T20:12:45Z",
-      "scraped_at": "2026-03-18T07:00:47.092115+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326842+00:00"
     },
     {
       "source": "hackernews",
@@ -668,7 +655,7 @@
       "num_comments": 0,
       "author": "mikeknoop",
       "created_at": "2026-03-18T07:00:13Z",
-      "scraped_at": "2026-03-18T07:00:47.092117+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326845+00:00"
     },
     {
       "source": "hackernews",
@@ -681,7 +668,7 @@
       "num_comments": 0,
       "author": "richard_pepper",
       "created_at": "2026-03-17T17:00:50Z",
-      "scraped_at": "2026-03-18T07:00:47.092120+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326847+00:00"
     },
     {
       "source": "hackernews",
@@ -694,7 +681,7 @@
       "num_comments": 0,
       "author": "ayush4921",
       "created_at": "2026-03-16T21:00:06Z",
-      "scraped_at": "2026-03-18T07:00:47.092122+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326850+00:00"
     },
     {
       "source": "hackernews",
@@ -707,7 +694,7 @@
       "num_comments": 0,
       "author": "michaelssilver",
       "created_at": "2026-03-16T17:00:17Z",
-      "scraped_at": "2026-03-18T07:00:47.092126+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326853+00:00"
     },
     {
       "source": "hackernews",
@@ -720,7 +707,7 @@
       "num_comments": 0,
       "author": "bastienbeurier",
       "created_at": "2026-03-16T12:03:13Z",
-      "scraped_at": "2026-03-18T07:00:47.092128+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326855+00:00"
     },
     {
       "source": "hackernews",
@@ -733,7 +720,7 @@
       "num_comments": 0,
       "author": "ukd1",
       "created_at": "2026-03-14T13:45:04Z",
-      "scraped_at": "2026-03-18T07:00:47.092130+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326858+00:00"
     },
     {
       "source": "hackernews",
@@ -746,7 +733,7 @@
       "num_comments": 0,
       "author": "thomashlvt",
       "created_at": "2026-03-12T17:01:46Z",
-      "scraped_at": "2026-03-18T07:00:47.092135+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326860+00:00"
     },
     {
       "source": "hackernews",
@@ -759,7 +746,7 @@
       "num_comments": 0,
       "author": "patman_h",
       "created_at": "2026-03-12T14:32:46Z",
-      "scraped_at": "2026-03-18T07:00:47.092137+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326863+00:00"
     },
     {
       "source": "hackernews",
@@ -772,7 +759,7 @@
       "num_comments": 0,
       "author": "Gabriel_h",
       "created_at": "2026-03-11T21:01:42Z",
-      "scraped_at": "2026-03-18T07:00:47.092139+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326869+00:00"
     },
     {
       "source": "hackernews",
@@ -785,7 +772,7 @@
       "num_comments": 0,
       "author": "multifactor",
       "created_at": "2026-03-06T17:00:38Z",
-      "scraped_at": "2026-03-18T07:00:47.092141+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326871+00:00"
     },
     {
       "source": "hackernews",
@@ -798,7 +785,7 @@
       "num_comments": 0,
       "author": "sanketc",
       "created_at": "2026-03-06T07:02:08Z",
-      "scraped_at": "2026-03-18T07:00:47.092144+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326874+00:00"
     },
     {
       "source": "hackernews",
@@ -811,7 +798,7 @@
       "num_comments": 0,
       "author": "issygreenslade",
       "created_at": "2026-03-05T21:01:30Z",
-      "scraped_at": "2026-03-18T07:00:47.092146+00:00"
+      "scraped_at": "2026-03-18T13:26:57.326876+00:00"
     }
   ],
   "github": [
@@ -820,8 +807,8 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 438393,
-      "forks": 43682,
+      "stars": 438410,
+      "forks": 43688,
       "language": "TypeScript",
       "topics": [
         "careers",
@@ -842,18 +829,18 @@
       ],
       "open_issues": 239,
       "created_at": "2014-12-24T17:49:19Z",
-      "updated_at": "2026-03-18T06:48:05Z",
+      "updated_at": "2026-03-18T13:19:34Z",
       "owner_type": "Organization",
       "hiring_signal": true,
-      "star_velocity": 62627.6,
-      "scraped_at": "2026-03-18T07:00:49.132192+00:00"
+      "star_velocity": 62630.0,
+      "scraped_at": "2026-03-18T13:26:59.468144+00:00"
     },
     {
       "source": "github",
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stars": 384150,
+      "stars": 384162,
       "forks": 66027,
       "language": "Python",
       "topics": [
@@ -865,19 +852,19 @@
       ],
       "open_issues": 73,
       "created_at": "2013-10-11T06:50:37Z",
-      "updated_at": "2026-03-18T06:45:02Z",
+      "updated_at": "2026-03-18T13:19:29Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 54878.6,
-      "scraped_at": "2026-03-18T07:00:49.132212+00:00"
+      "star_velocity": 54880.3,
+      "scraped_at": "2026-03-18T13:26:59.468172+00:00"
     },
     {
       "source": "github",
       "name": "kamranahmedse/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/kamranahmedse/developer-roadmap",
-      "stars": 351075,
-      "forks": 43798,
+      "stars": 351093,
+      "forks": 43803,
       "language": "TypeScript",
       "topics": [
         "angular-roadmap",
@@ -899,21 +886,21 @@
         "software-architect-roadmap",
         "vue-roadmap"
       ],
-      "open_issues": 26,
+      "open_issues": 31,
       "created_at": "2017-03-15T13:45:52Z",
-      "updated_at": "2026-03-18T06:21:33Z",
+      "updated_at": "2026-03-18T12:45:08Z",
       "owner_type": "User",
       "hiring_signal": true,
-      "star_velocity": 50153.6,
-      "scraped_at": "2026-03-18T07:00:49.132223+00:00"
+      "star_velocity": 50156.1,
+      "scraped_at": "2026-03-18T13:26:59.468184+00:00"
     },
     {
       "source": "github",
       "name": "donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "url": "https://github.com/donnemartin/system-design-primer",
-      "stars": 339228,
-      "forks": 54930,
+      "stars": 339262,
+      "forks": 54932,
       "language": "Python",
       "topics": [
         "design",
@@ -932,19 +919,19 @@
       ],
       "open_issues": 518,
       "created_at": "2017-02-26T16:15:28Z",
-      "updated_at": "2026-03-18T06:59:04Z",
+      "updated_at": "2026-03-18T13:10:55Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 48461.1,
-      "scraped_at": "2026-03-18T07:00:49.132232+00:00"
+      "star_velocity": 48466.0,
+      "scraped_at": "2026-03-18T13:26:59.468196+00:00"
     },
     {
       "source": "github",
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 321308,
-      "forks": 61751,
+      "stars": 322178,
+      "forks": 61973,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -955,21 +942,21 @@
         "own-your-data",
         "personal"
       ],
-      "open_issues": 14320,
+      "open_issues": 14501,
       "created_at": "2025-11-24T10:16:47Z",
-      "updated_at": "2026-03-18T07:00:18Z",
+      "updated_at": "2026-03-18T13:26:49Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 45901.1,
-      "scraped_at": "2026-03-18T07:00:49.132242+00:00"
+      "star_velocity": 46025.4,
+      "scraped_at": "2026-03-18T13:26:59.468209+00:00"
     },
     {
       "source": "github",
       "name": "vinta/awesome-python",
       "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
       "url": "https://github.com/vinta/awesome-python",
-      "stars": 287699,
-      "forks": 27422,
+      "stars": 287752,
+      "forks": 27427,
       "language": "Python",
       "topics": [
         "awesome",
@@ -981,19 +968,19 @@
       ],
       "open_issues": 17,
       "created_at": "2014-06-27T21:00:06Z",
-      "updated_at": "2026-03-18T06:56:00Z",
+      "updated_at": "2026-03-18T13:13:41Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 41099.9,
-      "scraped_at": "2026-03-18T07:00:49.132249+00:00"
+      "star_velocity": 41107.4,
+      "scraped_at": "2026-03-18T13:26:59.468216+00:00"
     },
     {
       "source": "github",
       "name": "awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-      "stars": 280652,
-      "forks": 12888,
+      "stars": 280706,
+      "forks": 12890,
       "language": null,
       "topics": [
         "awesome",
@@ -1007,19 +994,19 @@
       ],
       "open_issues": 0,
       "created_at": "2015-06-01T02:33:17Z",
-      "updated_at": "2026-03-18T06:59:18Z",
+      "updated_at": "2026-03-18T13:25:27Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 40093.1,
-      "scraped_at": "2026-03-18T07:00:49.132256+00:00"
+      "star_velocity": 40100.9,
+      "scraped_at": "2026-03-18T13:26:59.468224+00:00"
     },
     {
       "source": "github",
       "name": "facebook/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/facebook/react",
-      "stars": 244013,
-      "forks": 50820,
+      "stars": 244018,
+      "forks": 50825,
       "language": "JavaScript",
       "topics": [
         "declarative",
@@ -1029,38 +1016,38 @@
         "react",
         "ui"
       ],
-      "open_issues": 1182,
+      "open_issues": 1200,
       "created_at": "2013-05-24T16:15:54Z",
-      "updated_at": "2026-03-18T06:33:15Z",
+      "updated_at": "2026-03-18T13:17:35Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 34859.0,
-      "scraped_at": "2026-03-18T07:00:49.132263+00:00"
+      "star_velocity": 34859.7,
+      "scraped_at": "2026-03-18T13:26:59.468231+00:00"
     },
     {
       "source": "github",
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 223521,
-      "forks": 61038,
+      "stars": 223649,
+      "forks": 61042,
       "language": "C",
       "topics": [],
       "open_issues": 3,
       "created_at": "2011-09-04T22:48:12Z",
-      "updated_at": "2026-03-18T06:54:51Z",
+      "updated_at": "2026-03-18T13:26:13Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 31931.6,
-      "scraped_at": "2026-03-18T07:00:49.132267+00:00"
+      "star_velocity": 31949.9,
+      "scraped_at": "2026-03-18T13:26:59.468238+00:00"
     },
     {
       "source": "github",
       "name": "TheAlgorithms/Python",
       "description": "All Algorithms implemented in Python",
       "url": "https://github.com/TheAlgorithms/Python",
-      "stars": 218775,
-      "forks": 50222,
+      "stars": 218781,
+      "forks": 50224,
       "language": "Python",
       "topics": [
         "algorithm",
@@ -1080,19 +1067,19 @@
       ],
       "open_issues": 889,
       "created_at": "2016-07-16T09:44:01Z",
-      "updated_at": "2026-03-18T06:42:56Z",
+      "updated_at": "2026-03-18T13:26:45Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 31253.6,
-      "scraped_at": "2026-03-18T07:00:49.132275+00:00"
+      "star_velocity": 31254.4,
+      "scraped_at": "2026-03-18T13:26:59.468252+00:00"
     },
     {
       "source": "github",
       "name": "ossu/computer-science",
       "description": "🎓 Path to a free self-taught education in Computer Science!",
       "url": "https://github.com/ossu/computer-science",
-      "stars": 202531,
-      "forks": 25158,
+      "stars": 202540,
+      "forks": 25157,
       "language": "HTML",
       "topics": [
         "awesome-list",
@@ -1102,19 +1089,19 @@
       ],
       "open_issues": 21,
       "created_at": "2014-05-04T00:18:39Z",
-      "updated_at": "2026-03-18T06:49:55Z",
+      "updated_at": "2026-03-18T12:38:05Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 28933.0,
-      "scraped_at": "2026-03-18T07:00:49.132282+00:00"
+      "star_velocity": 28934.3,
+      "scraped_at": "2026-03-18T13:26:59.468260+00:00"
     },
     {
       "source": "github",
       "name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 194183,
-      "forks": 75257,
+      "stars": 194197,
+      "forks": 75256,
       "language": "C++",
       "topics": [
         "deep-learning",
@@ -1126,21 +1113,21 @@
         "python",
         "tensorflow"
       ],
-      "open_issues": 3777,
+      "open_issues": 3793,
       "created_at": "2015-11-07T01:19:20Z",
-      "updated_at": "2026-03-18T07:00:43Z",
+      "updated_at": "2026-03-18T13:26:40Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 27740.4,
-      "scraped_at": "2026-03-18T07:00:49.132289+00:00"
+      "star_velocity": 27742.4,
+      "scraped_at": "2026-03-18T13:26:59.468267+00:00"
     },
     {
       "source": "github",
       "name": "ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "stars": 185421,
-      "forks": 26320,
+      "stars": 185430,
+      "forks": 26321,
       "language": "Shell",
       "topics": [
         "cli",
@@ -1159,21 +1146,21 @@
         "zsh",
         "zsh-configuration"
       ],
-      "open_issues": 529,
+      "open_issues": 528,
       "created_at": "2009-08-28T18:15:37Z",
-      "updated_at": "2026-03-18T06:30:28Z",
+      "updated_at": "2026-03-18T12:54:17Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26488.7,
-      "scraped_at": "2026-03-18T07:00:49.132300+00:00"
+      "star_velocity": 26490.0,
+      "scraped_at": "2026-03-18T13:26:59.468280+00:00"
     },
     {
       "source": "github",
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 182768,
-      "forks": 38569,
+      "stars": 182781,
+      "forks": 38575,
       "language": "TypeScript",
       "topics": [
         "editor",
@@ -1182,21 +1169,21 @@
         "typescript",
         "visual-studio-code"
       ],
-      "open_issues": 15434,
+      "open_issues": 15418,
       "created_at": "2015-09-03T20:23:38Z",
-      "updated_at": "2026-03-18T06:45:23Z",
+      "updated_at": "2026-03-18T13:21:55Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26109.7,
-      "scraped_at": "2026-03-18T07:00:49.132306+00:00"
+      "star_velocity": 26111.6,
+      "scraped_at": "2026-03-18T13:26:59.468287+00:00"
     },
     {
       "source": "github",
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 182558,
-      "forks": 46231,
+      "stars": 182572,
+      "forks": 46238,
       "language": "Python",
       "topics": [
         "ai",
@@ -1207,21 +1194,21 @@
         "openai",
         "python"
       ],
-      "open_issues": 368,
+      "open_issues": 367,
       "created_at": "2023-03-16T09:21:07Z",
-      "updated_at": "2026-03-18T06:45:05Z",
+      "updated_at": "2026-03-18T13:16:08Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26079.7,
-      "scraped_at": "2026-03-18T07:00:49.132313+00:00"
+      "star_velocity": 26081.7,
+      "scraped_at": "2026-03-18T13:26:59.468296+00:00"
     },
     {
       "source": "github",
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 179721,
-      "forks": 55900,
+      "stars": 179778,
+      "forks": 55914,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1245,21 +1232,21 @@
         "workflow",
         "workflow-automation"
       ],
-      "open_issues": 1441,
+      "open_issues": 1433,
       "created_at": "2019-06-22T09:24:21Z",
-      "updated_at": "2026-03-18T06:57:31Z",
+      "updated_at": "2026-03-18T13:21:50Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 25674.4,
-      "scraped_at": "2026-03-18T07:00:49.132321+00:00"
+      "star_velocity": 25682.6,
+      "scraped_at": "2026-03-18T13:26:59.468309+00:00"
     },
     {
       "source": "github",
       "name": "flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "url": "https://github.com/flutter/flutter",
-      "stars": 175597,
-      "forks": 30130,
+      "stars": 175600,
+      "forks": 30134,
       "language": "Dart",
       "topics": [
         "android",
@@ -1282,20 +1269,20 @@
         "web-framework",
         "windows"
       ],
-      "open_issues": 12463,
+      "open_issues": 12469,
       "created_at": "2015-03-06T22:54:58Z",
-      "updated_at": "2026-03-18T06:52:58Z",
+      "updated_at": "2026-03-18T12:26:32Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 25085.3,
-      "scraped_at": "2026-03-18T07:00:49.132335+00:00"
+      "star_velocity": 25085.7,
+      "scraped_at": "2026-03-18T13:26:59.468319+00:00"
     },
     {
       "source": "github",
       "name": "twbs/bootstrap",
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "url": "https://github.com/twbs/bootstrap",
-      "stars": 174082,
+      "stars": 174083,
       "forks": 79039,
       "language": "MDX",
       "topics": [
@@ -1309,18 +1296,18 @@
       ],
       "open_issues": 477,
       "created_at": "2011-07-29T21:19:00Z",
-      "updated_at": "2026-03-18T06:42:51Z",
+      "updated_at": "2026-03-18T10:39:19Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 24868.9,
-      "scraped_at": "2026-03-18T07:00:49.132341+00:00"
+      "star_velocity": 24869.0,
+      "scraped_at": "2026-03-18T13:26:59.468358+00:00"
     },
     {
       "source": "github",
       "name": "avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "url": "https://github.com/avelino/awesome-go",
-      "stars": 167598,
+      "stars": 167621,
       "forks": 13068,
       "language": "Go",
       "topics": [
@@ -1333,19 +1320,19 @@
       ],
       "open_issues": 173,
       "created_at": "2014-07-06T13:42:15Z",
-      "updated_at": "2026-03-18T06:57:40Z",
+      "updated_at": "2026-03-18T13:26:44Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 23942.6,
-      "scraped_at": "2026-03-18T07:00:49.132347+00:00"
+      "star_velocity": 23945.9,
+      "scraped_at": "2026-03-18T13:26:59.468394+00:00"
     },
     {
       "source": "github",
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 165403,
-      "forks": 15027,
+      "stars": 165434,
+      "forks": 15031,
       "language": "Go",
       "topics": [
         "deepseek",
@@ -1364,21 +1351,21 @@
         "ollama",
         "qwen"
       ],
-      "open_issues": 2672,
+      "open_issues": 2681,
       "created_at": "2023-06-26T19:39:32Z",
-      "updated_at": "2026-03-18T06:52:34Z",
+      "updated_at": "2026-03-18T13:13:55Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 23629.0,
-      "scraped_at": "2026-03-18T07:00:49.132354+00:00"
+      "star_velocity": 23633.4,
+      "scraped_at": "2026-03-18T13:26:59.468408+00:00"
     },
     {
       "source": "github",
       "name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "url": "https://github.com/huggingface/transformers",
-      "stars": 157989,
-      "forks": 32521,
+      "stars": 158011,
+      "forks": 32522,
       "language": "Python",
       "topics": [
         "audio",
@@ -1401,21 +1388,21 @@
         "transformer",
         "vlm"
       ],
-      "open_issues": 2333,
+      "open_issues": 2304,
       "created_at": "2018-10-29T13:56:00Z",
-      "updated_at": "2026-03-18T06:39:29Z",
+      "updated_at": "2026-03-18T13:19:10Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 22569.9,
-      "scraped_at": "2026-03-18T07:00:49.657190+00:00"
+      "star_velocity": 22573.0,
+      "scraped_at": "2026-03-18T13:27:00.081686+00:00"
     },
     {
       "source": "github",
       "name": "yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
       "url": "https://github.com/yt-dlp/yt-dlp",
-      "stars": 151811,
-      "forks": 12307,
+      "stars": 151853,
+      "forks": 12315,
       "language": "Python",
       "topics": [
         "cli",
@@ -1426,21 +1413,21 @@
         "youtube-downloader",
         "yt-dlp"
       ],
-      "open_issues": 2373,
+      "open_issues": 2375,
       "created_at": "2020-10-26T04:22:55Z",
-      "updated_at": "2026-03-18T07:00:34Z",
+      "updated_at": "2026-03-18T13:20:42Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 21687.3,
-      "scraped_at": "2026-03-18T07:00:49.657197+00:00"
+      "star_velocity": 21693.3,
+      "scraped_at": "2026-03-18T13:27:00.081694+00:00"
     },
     {
       "source": "github",
       "name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "url": "https://github.com/langflow-ai/langflow",
-      "stars": 145802,
-      "forks": 8601,
+      "stars": 145821,
+      "forks": 8603,
       "language": "Python",
       "topics": [
         "agents",
@@ -1452,19 +1439,19 @@
       ],
       "open_issues": 885,
       "created_at": "2023-02-08T22:28:03Z",
-      "updated_at": "2026-03-18T06:55:37Z",
+      "updated_at": "2026-03-18T13:19:51Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 20828.9,
-      "scraped_at": "2026-03-18T07:00:49.657203+00:00"
+      "star_velocity": 20831.6,
+      "scraped_at": "2026-03-18T13:27:00.081703+00:00"
     },
     {
       "source": "github",
       "name": "vercel/next.js",
       "description": "The React Framework",
       "url": "https://github.com/vercel/next.js",
-      "stars": 138339,
-      "forks": 30657,
+      "stars": 138345,
+      "forks": 30658,
       "language": "JavaScript",
       "topics": [
         "blog",
@@ -1482,21 +1469,21 @@
         "universal",
         "vercel"
       ],
-      "open_issues": 3469,
+      "open_issues": 3489,
       "created_at": "2016-10-05T23:32:51Z",
-      "updated_at": "2026-03-18T06:21:17Z",
+      "updated_at": "2026-03-18T13:14:08Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 19762.7,
-      "scraped_at": "2026-03-18T07:00:51.796334+00:00"
+      "star_velocity": 19763.6,
+      "scraped_at": "2026-03-18T13:27:02.844612+00:00"
     },
     {
       "source": "github",
       "name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "url": "https://github.com/langgenius/dify",
-      "stars": 133307,
-      "forks": 20759,
+      "stars": 133364,
+      "forks": 20770,
       "language": "TypeScript",
       "topics": [
         "agent",
@@ -1520,21 +1507,21 @@
         "rag",
         "workflow"
       ],
-      "open_issues": 785,
+      "open_issues": 798,
       "created_at": "2023-04-12T07:40:24Z",
-      "updated_at": "2026-03-18T06:59:08Z",
+      "updated_at": "2026-03-18T13:18:20Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 19043.9,
-      "scraped_at": "2026-03-18T07:00:50.276846+00:00"
+      "star_velocity": 19052.0,
+      "scraped_at": "2026-03-18T13:27:00.771226+00:00"
     },
     {
       "source": "github",
       "name": "golang/go",
       "description": "The Go programming language",
       "url": "https://github.com/golang/go",
-      "stars": 133071,
-      "forks": 18859,
+      "stars": 133079,
+      "forks": 18861,
       "language": "Go",
       "topics": [
         "go",
@@ -1542,21 +1529,21 @@
         "language",
         "programming-language"
       ],
-      "open_issues": 9868,
+      "open_issues": 9869,
       "created_at": "2014-08-19T04:33:40Z",
-      "updated_at": "2026-03-18T06:50:48Z",
+      "updated_at": "2026-03-18T13:17:00Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 19010.1,
-      "scraped_at": "2026-03-18T07:00:51.336288+00:00"
+      "star_velocity": 19011.3,
+      "scraped_at": "2026-03-18T13:27:02.138689+00:00"
     },
     {
       "source": "github",
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": 129994,
-      "forks": 21422,
+      "stars": 130040,
+      "forks": 21438,
       "language": "Python",
       "topics": [
         "agents",
@@ -1579,21 +1566,21 @@
         "python",
         "rag"
       ],
-      "open_issues": 501,
+      "open_issues": 502,
       "created_at": "2022-10-17T02:58:36Z",
-      "updated_at": "2026-03-18T06:53:33Z",
+      "updated_at": "2026-03-18T13:21:19Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 18570.6,
-      "scraped_at": "2026-03-18T07:00:49.657211+00:00"
+      "star_velocity": 18577.1,
+      "scraped_at": "2026-03-18T13:27:00.081712+00:00"
     },
     {
       "source": "github",
       "name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 127630,
-      "forks": 18042,
+      "stars": 127675,
+      "forks": 18040,
       "language": "Python",
       "topics": [
         "ai",
@@ -1612,21 +1599,21 @@
         "ui",
         "webui"
       ],
-      "open_issues": 301,
+      "open_issues": 307,
       "created_at": "2023-10-06T22:08:27Z",
-      "updated_at": "2026-03-18T07:00:13Z",
+      "updated_at": "2026-03-18T13:23:59Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 18232.9,
-      "scraped_at": "2026-03-18T07:00:49.657218+00:00"
+      "star_velocity": 18239.3,
+      "scraped_at": "2026-03-18T13:27:00.081720+00:00"
     },
     {
       "source": "github",
       "name": "Chalarangelo/30-seconds-of-code",
       "description": "Coding articles to level up your development skills",
       "url": "https://github.com/Chalarangelo/30-seconds-of-code",
-      "stars": 127118,
-      "forks": 12459,
+      "stars": 127121,
+      "forks": 12458,
       "language": "JavaScript",
       "topics": [
         "astro",
@@ -1645,36 +1632,36 @@
       ],
       "open_issues": 4,
       "created_at": "2017-11-29T17:35:03Z",
-      "updated_at": "2026-03-18T06:10:53Z",
+      "updated_at": "2026-03-18T12:20:47Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 18159.7,
-      "scraped_at": "2026-03-18T07:00:51.796344+00:00"
+      "star_velocity": 18160.1,
+      "scraped_at": "2026-03-18T13:27:02.844623+00:00"
     },
     {
       "source": "github",
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 124316,
-      "forks": 13033,
+      "stars": 124550,
+      "forks": 13073,
       "language": "TypeScript",
       "topics": [],
-      "open_issues": 7047,
+      "open_issues": 7080,
       "created_at": "2025-04-30T20:08:00Z",
-      "updated_at": "2026-03-18T07:00:12Z",
+      "updated_at": "2026-03-18T13:25:41Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 17759.4,
-      "scraped_at": "2026-03-18T07:00:50.276855+00:00"
+      "star_velocity": 17792.9,
+      "scraped_at": "2026-03-18T13:27:00.771232+00:00"
     },
     {
       "source": "github",
       "name": "kubernetes/kubernetes",
       "description": "Production-Grade Container Scheduling and Management",
       "url": "https://github.com/kubernetes/kubernetes",
-      "stars": 121191,
-      "forks": 42691,
+      "stars": 121196,
+      "forks": 42689,
       "language": "Go",
       "topics": [
         "cncf",
@@ -1682,21 +1669,21 @@
         "go",
         "kubernetes"
       ],
-      "open_issues": 2623,
+      "open_issues": 2620,
       "created_at": "2014-06-06T22:56:04Z",
-      "updated_at": "2026-03-18T06:41:48Z",
+      "updated_at": "2026-03-18T12:37:43Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 17313.0,
-      "scraped_at": "2026-03-18T07:00:51.336294+00:00"
+      "star_velocity": 17313.7,
+      "scraped_at": "2026-03-18T13:27:02.138696+00:00"
     },
     {
       "source": "github",
       "name": "excalidraw/excalidraw",
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "url": "https://github.com/excalidraw/excalidraw",
-      "stars": 118967,
-      "forks": 12907,
+      "stars": 118997,
+      "forks": 12913,
       "language": "TypeScript",
       "topics": [
         "canvas",
@@ -1707,21 +1694,21 @@
         "productivity",
         "whiteboard"
       ],
-      "open_issues": 2846,
+      "open_issues": 2849,
       "created_at": "2020-01-02T01:04:43Z",
-      "updated_at": "2026-03-18T06:55:06Z",
+      "updated_at": "2026-03-18T13:16:34Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 16995.3,
-      "scraped_at": "2026-03-18T07:00:50.276861+00:00"
+      "star_velocity": 16999.6,
+      "scraped_at": "2026-03-18T13:27:00.771242+00:00"
     },
     {
       "source": "github",
       "name": "nodejs/node",
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "url": "https://github.com/nodejs/node",
-      "stars": 116285,
-      "forks": 35090,
+      "stars": 116294,
+      "forks": 35093,
       "language": "JavaScript",
       "topics": [
         "javascript",
@@ -1736,18 +1723,18 @@
       ],
       "open_issues": 2526,
       "created_at": "2014-11-26T19:57:11Z",
-      "updated_at": "2026-03-18T06:25:38Z",
+      "updated_at": "2026-03-18T13:25:34Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 16612.1,
-      "scraped_at": "2026-03-18T07:00:51.796354+00:00"
+      "star_velocity": 16613.4,
+      "scraped_at": "2026-03-18T13:27:02.844634+00:00"
     },
     {
       "source": "github",
       "name": "iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "url": "https://github.com/iptv-org/iptv",
-      "stars": 113008,
+      "stars": 113027,
       "forks": 5734,
       "language": "TypeScript",
       "topics": [
@@ -1757,21 +1744,21 @@
         "streams",
         "tv"
       ],
-      "open_issues": 290,
+      "open_issues": 432,
       "created_at": "2018-11-14T22:00:57Z",
-      "updated_at": "2026-03-18T06:53:47Z",
+      "updated_at": "2026-03-18T12:53:25Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 16144.0,
-      "scraped_at": "2026-03-18T07:00:50.276867+00:00"
+      "star_velocity": 16146.7,
+      "scraped_at": "2026-03-18T13:27:00.771249+00:00"
     },
     {
       "source": "github",
       "name": "mrdoob/three.js",
       "description": "JavaScript 3D Library.",
       "url": "https://github.com/mrdoob/three.js",
-      "stars": 111413,
-      "forks": 36311,
+      "stars": 111424,
+      "forks": 36310,
       "language": "JavaScript",
       "topics": [
         "3d",
@@ -1787,42 +1774,42 @@
         "webgpu",
         "webxr"
       ],
-      "open_issues": 591,
+      "open_issues": 590,
       "created_at": "2010-03-23T18:58:01Z",
-      "updated_at": "2026-03-18T06:40:15Z",
+      "updated_at": "2026-03-18T13:17:24Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 15916.1,
-      "scraped_at": "2026-03-18T07:00:51.796361+00:00"
+      "star_velocity": 15917.7,
+      "scraped_at": "2026-03-18T13:27:02.844643+00:00"
     },
     {
       "source": "github",
       "name": "rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "url": "https://github.com/rust-lang/rust",
-      "stars": 111302,
-      "forks": 14637,
+      "stars": 111306,
+      "forks": 14638,
       "language": "Rust",
       "topics": [
         "compiler",
         "language",
         "rust"
       ],
-      "open_issues": 12259,
+      "open_issues": 12254,
       "created_at": "2010-06-16T20:39:03Z",
-      "updated_at": "2026-03-18T06:30:59Z",
+      "updated_at": "2026-03-18T12:56:00Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15900.3,
-      "scraped_at": "2026-03-18T07:00:50.869601+00:00"
+      "star_velocity": 15900.9,
+      "scraped_at": "2026-03-18T13:27:01.490540+00:00"
     },
     {
       "source": "github",
       "name": "shadcn-ui/ui",
       "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
       "url": "https://github.com/shadcn-ui/ui",
-      "stars": 109895,
-      "forks": 8242,
+      "stars": 109933,
+      "forks": 8248,
       "language": "TypeScript",
       "topics": [
         "base-ui",
@@ -1837,21 +1824,21 @@
         "ui",
         "vite"
       ],
-      "open_issues": 1792,
+      "open_issues": 1794,
       "created_at": "2023-01-04T12:43:27Z",
-      "updated_at": "2026-03-18T06:54:18Z",
+      "updated_at": "2026-03-18T13:13:23Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15699.3,
-      "scraped_at": "2026-03-18T07:00:50.276875+00:00"
+      "star_velocity": 15704.7,
+      "scraped_at": "2026-03-18T13:27:00.771256+00:00"
     },
     {
       "source": "github",
       "name": "rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "url": "https://github.com/rustdesk/rustdesk",
-      "stars": 109545,
-      "forks": 16336,
+      "stars": 109554,
+      "forks": 16337,
       "language": "Rust",
       "topics": [
         "android",
@@ -1876,11 +1863,11 @@
       ],
       "open_issues": 107,
       "created_at": "2020-09-28T15:36:08Z",
-      "updated_at": "2026-03-18T06:43:48Z",
+      "updated_at": "2026-03-18T13:17:09Z",
       "owner_type": "User",
       "hiring_signal": true,
-      "star_velocity": 15649.3,
-      "scraped_at": "2026-03-18T07:00:50.869623+00:00"
+      "star_velocity": 15650.6,
+      "scraped_at": "2026-03-18T13:27:01.490572+00:00"
     },
     {
       "source": "github",
@@ -1888,7 +1875,7 @@
       "description": "Promise based HTTP client for the browser and node.js",
       "url": "https://github.com/axios/axios",
       "stars": 108654,
-      "forks": 11561,
+      "forks": 11560,
       "language": "JavaScript",
       "topics": [
         "hacktoberfest",
@@ -1897,21 +1884,21 @@
         "nodejs",
         "promise"
       ],
-      "open_issues": 347,
+      "open_issues": 348,
       "created_at": "2014-08-18T22:30:27Z",
-      "updated_at": "2026-03-18T03:14:38Z",
+      "updated_at": "2026-03-18T12:28:43Z",
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 15522.0,
-      "scraped_at": "2026-03-18T07:00:51.796368+00:00"
+      "scraped_at": "2026-03-18T13:27:02.844650+00:00"
     },
     {
       "source": "github",
       "name": "microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "url": "https://github.com/microsoft/TypeScript",
-      "stars": 108191,
-      "forks": 13306,
+      "stars": 108192,
+      "forks": 13307,
       "language": "TypeScript",
       "topics": [
         "javascript",
@@ -1921,18 +1908,18 @@
       ],
       "open_issues": 5488,
       "created_at": "2014-06-17T15:28:39Z",
-      "updated_at": "2026-03-18T05:31:43Z",
+      "updated_at": "2026-03-18T12:46:37Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15455.9,
-      "scraped_at": "2026-03-18T07:00:50.276880+00:00"
+      "star_velocity": 15456.0,
+      "scraped_at": "2026-03-18T13:27:00.771264+00:00"
     },
     {
       "source": "github",
       "name": "denoland/deno",
       "description": "A modern runtime for JavaScript and TypeScript.",
       "url": "https://github.com/denoland/deno",
-      "stars": 106373,
+      "stars": 106376,
       "forks": 5949,
       "language": "Rust",
       "topics": [
@@ -1941,21 +1928,21 @@
         "rust",
         "typescript"
       ],
-      "open_issues": 2331,
+      "open_issues": 2329,
       "created_at": "2018-05-15T01:34:26Z",
-      "updated_at": "2026-03-18T06:21:18Z",
+      "updated_at": "2026-03-18T12:57:29Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15196.1,
-      "scraped_at": "2026-03-18T07:00:50.869631+00:00"
+      "star_velocity": 15196.6,
+      "scraped_at": "2026-03-18T13:27:01.490588+00:00"
     },
     {
       "source": "github",
       "name": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": 106171,
-      "forks": 12214,
+      "stars": 106205,
+      "forks": 12221,
       "language": "Python",
       "topics": [
         "ai",
@@ -1965,20 +1952,20 @@
         "pytorch",
         "stable-diffusion"
       ],
-      "open_issues": 3840,
+      "open_issues": 3846,
       "created_at": "2023-01-17T03:15:56Z",
-      "updated_at": "2026-03-18T06:59:13Z",
+      "updated_at": "2026-03-18T13:17:04Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15167.3,
-      "scraped_at": "2026-03-18T07:00:49.657224+00:00"
+      "star_velocity": 15172.1,
+      "scraped_at": "2026-03-18T13:27:00.081727+00:00"
     },
     {
       "source": "github",
       "name": "fatedier/frp",
       "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
       "url": "https://github.com/fatedier/frp",
-      "stars": 105340,
+      "stars": 105355,
       "forks": 14954,
       "language": "Go",
       "topics": [
@@ -1995,19 +1982,19 @@
       ],
       "open_issues": 48,
       "created_at": "2015-12-21T15:24:59Z",
-      "updated_at": "2026-03-18T06:46:03Z",
+      "updated_at": "2026-03-18T12:42:51Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 15048.6,
-      "scraped_at": "2026-03-18T07:00:51.336301+00:00"
+      "star_velocity": 15050.7,
+      "scraped_at": "2026-03-18T13:27:02.138704+00:00"
     },
     {
       "source": "github",
       "name": "tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
       "url": "https://github.com/tauri-apps/tauri",
-      "stars": 104238,
-      "forks": 3447,
+      "stars": 104253,
+      "forks": 3451,
       "language": "Rust",
       "topics": [
         "desktop-app",
@@ -2018,21 +2005,21 @@
         "web-frontend",
         "webview"
       ],
-      "open_issues": 1379,
+      "open_issues": 1378,
       "created_at": "2019-07-13T09:09:37Z",
-      "updated_at": "2026-03-18T06:44:50Z",
+      "updated_at": "2026-03-18T13:21:59Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14891.1,
-      "scraped_at": "2026-03-18T07:00:50.869639+00:00"
+      "star_velocity": 14893.3,
+      "scraped_at": "2026-03-18T13:27:01.490597+00:00"
     },
     {
       "source": "github",
       "name": "clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "stars": 103573,
-      "forks": 7534,
+      "stars": 103661,
+      "forks": 7543,
       "language": "TypeScript",
       "topics": [
         "clash",
@@ -2044,21 +2031,21 @@
         "tauri-app",
         "windows"
       ],
-      "open_issues": 188,
+      "open_issues": 187,
       "created_at": "2023-11-21T18:24:03Z",
-      "updated_at": "2026-03-18T07:00:44Z",
+      "updated_at": "2026-03-18T13:25:25Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14796.1,
-      "scraped_at": "2026-03-18T07:00:50.276886+00:00"
+      "star_velocity": 14808.7,
+      "scraped_at": "2026-03-18T13:27:00.771270+00:00"
     },
     {
       "source": "github",
       "name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "stars": 102636,
-      "forks": 14964,
+      "stars": 102689,
+      "forks": 14970,
       "language": "Python",
       "topics": [
         "agents",
@@ -2066,21 +2053,21 @@
         "python",
         "rag"
       ],
-      "open_issues": 8,
+      "open_issues": 10,
       "created_at": "2024-04-29T05:30:25Z",
-      "updated_at": "2026-03-18T06:56:55Z",
+      "updated_at": "2026-03-18T13:26:53Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 14662.3,
-      "scraped_at": "2026-03-18T07:00:49.657239+00:00"
+      "star_velocity": 14669.9,
+      "scraped_at": "2026-03-18T13:27:00.081735+00:00"
     },
     {
       "source": "github",
       "name": "jaywcjlove/awesome-mac",
       "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
       "url": "https://github.com/jaywcjlove/awesome-mac",
-      "stars": 100373,
-      "forks": 7502,
+      "stars": 100392,
+      "forks": 7501,
       "language": "JavaScript",
       "topics": [
         "app",
@@ -2105,18 +2092,18 @@
       ],
       "open_issues": 222,
       "created_at": "2016-07-17T15:33:47Z",
-      "updated_at": "2026-03-18T06:38:55Z",
+      "updated_at": "2026-03-18T12:26:51Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 14339.0,
-      "scraped_at": "2026-03-18T07:00:51.796379+00:00"
+      "star_velocity": 14341.7,
+      "scraped_at": "2026-03-18T13:27:02.844663+00:00"
     },
     {
       "source": "github",
       "name": "angular/angular",
       "description": "Deliver web apps with confidence 🚀",
       "url": "https://github.com/angular/angular",
-      "stars": 100091,
+      "stars": 100093,
       "forks": 27139,
       "language": "TypeScript",
       "topics": [
@@ -2128,21 +2115,21 @@
         "web-framework",
         "web-performance"
       ],
-      "open_issues": 1111,
+      "open_issues": 1112,
       "created_at": "2014-09-18T16:12:01Z",
-      "updated_at": "2026-03-18T06:21:16Z",
+      "updated_at": "2026-03-18T13:17:45Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14298.7,
-      "scraped_at": "2026-03-18T07:00:50.276893+00:00"
+      "star_velocity": 14299.0,
+      "scraped_at": "2026-03-18T13:27:00.771277+00:00"
     },
     {
       "source": "github",
       "name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "url": "https://github.com/supabase/supabase",
-      "stars": 99170,
-      "forks": 11821,
+      "stars": 99188,
+      "forks": 11829,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -2165,21 +2152,21 @@
         "vectors",
         "websockets"
       ],
-      "open_issues": 938,
+      "open_issues": 942,
       "created_at": "2019-10-12T05:56:49Z",
-      "updated_at": "2026-03-18T06:51:32Z",
+      "updated_at": "2026-03-18T13:18:44Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14167.1,
-      "scraped_at": "2026-03-18T07:00:50.276901+00:00"
+      "star_velocity": 14169.7,
+      "scraped_at": "2026-03-18T13:27:00.771286+00:00"
     },
     {
       "source": "github",
       "name": "pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "url": "https://github.com/pytorch/pytorch",
-      "stars": 98337,
-      "forks": 27240,
+      "stars": 98349,
+      "forks": 27241,
       "language": "Python",
       "topics": [
         "autograd",
@@ -2191,21 +2178,21 @@
         "python",
         "tensor"
       ],
-      "open_issues": 18078,
+      "open_issues": 18071,
       "created_at": "2016-08-13T05:26:41Z",
-      "updated_at": "2026-03-18T06:40:51Z",
+      "updated_at": "2026-03-18T13:10:28Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14048.1,
-      "scraped_at": "2026-03-18T07:00:49.657245+00:00"
+      "star_velocity": 14049.9,
+      "scraped_at": "2026-03-18T13:27:00.081755+00:00"
     },
     {
       "source": "github",
       "name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "url": "https://github.com/google-gemini/gemini-cli",
-      "stars": 98172,
-      "forks": 12373,
+      "stars": 98208,
+      "forks": 12386,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -2216,21 +2203,21 @@
         "mcp-client",
         "mcp-server"
       ],
-      "open_issues": 2894,
+      "open_issues": 2918,
       "created_at": "2025-04-17T17:04:31Z",
-      "updated_at": "2026-03-18T06:55:40Z",
+      "updated_at": "2026-03-18T13:08:48Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14024.6,
-      "scraped_at": "2026-03-18T07:00:50.276908+00:00"
+      "star_velocity": 14029.7,
+      "scraped_at": "2026-03-18T13:27:00.771292+00:00"
     },
     {
       "source": "github",
       "name": "mui/material-ui",
       "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
       "url": "https://github.com/mui/material-ui",
-      "stars": 98024,
-      "forks": 32708,
+      "stars": 98019,
+      "forks": 32704,
       "language": "JavaScript",
       "topics": [
         "design-system",
@@ -2239,21 +2226,21 @@
         "react",
         "react-components"
       ],
-      "open_issues": 1728,
+      "open_issues": 1724,
       "created_at": "2014-08-18T19:11:54Z",
-      "updated_at": "2026-03-18T06:21:16Z",
+      "updated_at": "2026-03-18T11:55:08Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14003.4,
-      "scraped_at": "2026-03-18T07:00:51.796385+00:00"
+      "star_velocity": 14002.7,
+      "scraped_at": "2026-03-18T13:27:02.844670+00:00"
     },
     {
       "source": "github",
       "name": "fastapi/fastapi",
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "url": "https://github.com/fastapi/fastapi",
-      "stars": 96299,
-      "forks": 8874,
+      "stars": 96310,
+      "forks": 8878,
       "language": "Python",
       "topics": [
         "api",
@@ -2277,21 +2264,21 @@
         "uvicorn",
         "web"
       ],
-      "open_issues": 163,
+      "open_issues": 161,
       "created_at": "2018-12-08T08:21:47Z",
-      "updated_at": "2026-03-18T06:57:04Z",
+      "updated_at": "2026-03-18T12:57:44Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 13757.0,
-      "scraped_at": "2026-03-18T07:00:49.657253+00:00"
+      "star_velocity": 13758.6,
+      "scraped_at": "2026-03-18T13:27:00.081763+00:00"
     },
     {
       "source": "github",
       "name": "microsoft/Web-Dev-For-Beginners",
       "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
       "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
-      "stars": 95426,
-      "forks": 15261,
+      "stars": 95427,
+      "forks": 15262,
       "language": "JavaScript",
       "topics": [
         "css",
@@ -2303,21 +2290,21 @@
         "microsoft-for-beginners",
         "tutorials"
       ],
-      "open_issues": 45,
+      "open_issues": 46,
       "created_at": "2020-11-10T02:44:00Z",
-      "updated_at": "2026-03-18T06:53:41Z",
+      "updated_at": "2026-03-18T11:56:43Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 13632.3,
-      "scraped_at": "2026-03-18T07:00:51.796391+00:00"
+      "star_velocity": 13632.4,
+      "scraped_at": "2026-03-18T13:27:02.844677+00:00"
     },
     {
       "source": "github",
       "name": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "url": "https://github.com/microsoft/markitdown",
-      "stars": 90905,
-      "forks": 5374,
+      "stars": 90926,
+      "forks": 5375,
       "language": "Python",
       "topics": [
         "autogen",
@@ -2328,20 +2315,20 @@
         "openai",
         "pdf"
       ],
-      "open_issues": 470,
+      "open_issues": 471,
       "created_at": "2024-11-13T19:56:40Z",
-      "updated_at": "2026-03-18T06:56:53Z",
+      "updated_at": "2026-03-18T13:12:30Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 12986.4,
-      "scraped_at": "2026-03-18T07:00:49.657259+00:00"
+      "star_velocity": 12989.4,
+      "scraped_at": "2026-03-18T13:27:00.081770+00:00"
     },
     {
       "source": "github",
       "name": "gin-gonic/gin",
       "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
       "url": "https://github.com/gin-gonic/gin",
-      "stars": 88252,
+      "stars": 88256,
       "forks": 8573,
       "language": "Go",
       "topics": [
@@ -2355,18 +2342,18 @@
       ],
       "open_issues": 646,
       "created_at": "2014-06-16T23:57:25Z",
-      "updated_at": "2026-03-18T06:21:32Z",
+      "updated_at": "2026-03-18T12:26:26Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 12607.4,
-      "scraped_at": "2026-03-18T07:00:51.336312+00:00"
+      "star_velocity": 12608.0,
+      "scraped_at": "2026-03-18T13:27:02.138718+00:00"
     },
     {
       "source": "github",
       "name": "gohugoio/hugo",
       "description": "The world’s fastest framework for building websites.",
       "url": "https://github.com/gohugoio/hugo",
-      "stars": 87131,
+      "stars": 87140,
       "forks": 8210,
       "language": "Go",
       "topics": [
@@ -2378,20 +2365,20 @@
         "hugo",
         "static-site-generator"
       ],
-      "open_issues": 265,
+      "open_issues": 264,
       "created_at": "2013-07-04T15:26:26Z",
-      "updated_at": "2026-03-18T06:46:19Z",
+      "updated_at": "2026-03-18T13:15:41Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 12447.3,
-      "scraped_at": "2026-03-18T07:00:51.336322+00:00"
+      "star_velocity": 12448.6,
+      "scraped_at": "2026-03-18T13:27:02.138727+00:00"
     },
     {
       "source": "github",
       "name": "sveltejs/svelte",
       "description": "web development for the rest of us",
       "url": "https://github.com/sveltejs/svelte",
-      "stars": 86071,
+      "stars": 86068,
       "forks": 4811,
       "language": "JavaScript",
       "topics": [
@@ -2399,20 +2386,46 @@
         "template",
         "ui"
       ],
-      "open_issues": 970,
+      "open_issues": 971,
       "created_at": "2016-11-20T18:13:05Z",
-      "updated_at": "2026-03-18T06:29:59Z",
+      "updated_at": "2026-03-18T12:55:58Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 12295.9,
-      "scraped_at": "2026-03-18T07:00:51.796396+00:00"
+      "star_velocity": 12295.4,
+      "scraped_at": "2026-03-18T13:27:02.844684+00:00"
+    },
+    {
+      "source": "github",
+      "name": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "stars": 84586,
+      "forks": 11028,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "open_issues": 101,
+      "created_at": "2026-01-18T00:51:51Z",
+      "updated_at": "2026-03-18T13:26:58Z",
+      "owner_type": "User",
+      "hiring_signal": false,
+      "star_velocity": 12083.7,
+      "scraped_at": "2026-03-18T13:27:02.844691+00:00"
     },
     {
       "source": "github",
       "name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "url": "https://github.com/louislam/uptime-kuma",
-      "stars": 84195,
+      "stars": 84210,
       "forks": 7543,
       "language": "JavaScript",
       "topics": [
@@ -2429,47 +2442,21 @@
         "webapp",
         "websocket"
       ],
-      "open_issues": 709,
+      "open_issues": 708,
       "created_at": "2021-07-03T01:02:42Z",
-      "updated_at": "2026-03-18T06:21:28Z",
+      "updated_at": "2026-03-18T13:11:33Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 12027.9,
-      "scraped_at": "2026-03-18T07:00:51.796406+00:00"
-    },
-    {
-      "source": "github",
-      "name": "affaan-m/everything-claude-code",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "url": "https://github.com/affaan-m/everything-claude-code",
-      "stars": 83831,
-      "forks": 10921,
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "open_issues": 61,
-      "created_at": "2026-01-18T00:51:51Z",
-      "updated_at": "2026-03-18T07:00:37Z",
-      "owner_type": "User",
-      "hiring_signal": false,
-      "star_velocity": 11975.9,
-      "scraped_at": "2026-03-18T07:00:51.796412+00:00"
+      "star_velocity": 12030.0,
+      "scraped_at": "2026-03-18T13:27:02.844702+00:00"
     },
     {
       "source": "github",
       "name": "astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "url": "https://github.com/astral-sh/uv",
-      "stars": 81231,
-      "forks": 2698,
+      "stars": 81258,
+      "forks": 2701,
       "language": "Rust",
       "topics": [
         "packaging",
@@ -2477,21 +2464,21 @@
         "resolver",
         "uv"
       ],
-      "open_issues": 2705,
+      "open_issues": 2703,
       "created_at": "2023-10-02T20:24:11Z",
-      "updated_at": "2026-03-18T06:34:03Z",
+      "updated_at": "2026-03-18T13:26:56Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 11604.4,
-      "scraped_at": "2026-03-18T07:00:50.869645+00:00"
+      "star_velocity": 11608.3,
+      "scraped_at": "2026-03-18T13:27:01.490604+00:00"
     },
     {
       "source": "github",
       "name": "syncthing/syncthing",
       "description": "Open Source Continuous File Synchronization",
       "url": "https://github.com/syncthing/syncthing",
-      "stars": 80910,
-      "forks": 4967,
+      "stars": 80921,
+      "forks": 4966,
       "language": "Go",
       "topics": [
         "go",
@@ -2501,18 +2488,18 @@
       ],
       "open_issues": 410,
       "created_at": "2013-11-26T09:48:21Z",
-      "updated_at": "2026-03-18T04:49:04Z",
+      "updated_at": "2026-03-18T13:15:37Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 11558.6,
-      "scraped_at": "2026-03-18T07:00:51.336327+00:00"
+      "star_velocity": 11560.1,
+      "scraped_at": "2026-03-18T13:27:02.138737+00:00"
     },
     {
       "source": "github",
       "name": "junegunn/fzf",
       "description": ":cherry_blossom: A command-line fuzzy finder",
       "url": "https://github.com/junegunn/fzf",
-      "stars": 78689,
+      "stars": 78700,
       "forks": 2736,
       "language": "Go",
       "topics": [
@@ -2529,19 +2516,19 @@
       ],
       "open_issues": 316,
       "created_at": "2013-10-23T16:04:23Z",
-      "updated_at": "2026-03-18T06:57:27Z",
+      "updated_at": "2026-03-18T13:23:56Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 11241.3,
-      "scraped_at": "2026-03-18T07:00:51.336333+00:00"
+      "star_velocity": 11242.9,
+      "scraped_at": "2026-03-18T13:27:02.138744+00:00"
     },
     {
       "source": "github",
       "name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "url": "https://github.com/zed-industries/zed",
-      "stars": 77382,
-      "forks": 7440,
+      "stars": 77403,
+      "forks": 7439,
       "language": "Rust",
       "topics": [
         "gpui",
@@ -2549,13 +2536,13 @@
         "text-editor",
         "zed"
       ],
-      "open_issues": 3162,
+      "open_issues": 3164,
       "created_at": "2021-02-20T03:01:06Z",
-      "updated_at": "2026-03-18T06:38:42Z",
+      "updated_at": "2026-03-18T13:11:15Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 11054.6,
-      "scraped_at": "2026-03-18T07:00:50.869655+00:00"
+      "star_velocity": 11057.6,
+      "scraped_at": "2026-03-18T13:27:01.490616+00:00"
     },
     {
       "source": "github",
@@ -2563,7 +2550,7 @@
       "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
       "url": "https://github.com/typicode/json-server",
       "stars": 75666,
-      "forks": 7274,
+      "forks": 7275,
       "language": "JavaScript",
       "topics": [
         "api",
@@ -2574,42 +2561,42 @@
         "rest",
         "test"
       ],
-      "open_issues": 706,
+      "open_issues": 708,
       "created_at": "2013-11-27T13:21:13Z",
       "updated_at": "2026-03-18T04:45:02Z",
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 10809.4,
-      "scraped_at": "2026-03-18T07:00:51.796418+00:00"
+      "scraped_at": "2026-03-18T13:27:02.844709+00:00"
     },
     {
       "source": "github",
       "name": "jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "url": "https://github.com/jesseduffield/lazygit",
-      "stars": 74529,
-      "forks": 2617,
+      "stars": 74561,
+      "forks": 2620,
       "language": "Go",
       "topics": [
         "cli",
         "git",
         "terminal"
       ],
-      "open_issues": 931,
+      "open_issues": 935,
       "created_at": "2018-05-19T00:53:06Z",
-      "updated_at": "2026-03-18T06:47:49Z",
+      "updated_at": "2026-03-18T13:26:41Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 10647.0,
-      "scraped_at": "2026-03-18T07:00:51.336339+00:00"
+      "star_velocity": 10651.6,
+      "scraped_at": "2026-03-18T13:27:02.138750+00:00"
     },
     {
       "source": "github",
       "name": "moby/moby",
       "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
       "url": "https://github.com/moby/moby",
-      "stars": 71538,
-      "forks": 18922,
+      "stars": 71537,
+      "forks": 18921,
       "language": "Go",
       "topics": [
         "containers",
@@ -2617,21 +2604,21 @@
         "go",
         "golang"
       ],
-      "open_issues": 3798,
+      "open_issues": 3799,
       "created_at": "2013-01-18T18:10:57Z",
-      "updated_at": "2026-03-18T05:45:38Z",
+      "updated_at": "2026-03-18T12:32:44Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 10219.7,
-      "scraped_at": "2026-03-18T07:00:51.336346+00:00"
+      "star_velocity": 10219.6,
+      "scraped_at": "2026-03-18T13:27:02.138756+00:00"
     },
     {
       "source": "github",
       "name": "caddyserver/caddy",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "url": "https://github.com/caddyserver/caddy",
-      "stars": 70884,
-      "forks": 4680,
+      "stars": 70894,
+      "forks": 4682,
       "language": "Go",
       "topics": [
         "acme",
@@ -2650,59 +2637,76 @@
         "tls",
         "web-server"
       ],
-      "open_issues": 244,
+      "open_issues": 247,
       "created_at": "2015-01-13T19:45:03Z",
-      "updated_at": "2026-03-18T06:48:29Z",
+      "updated_at": "2026-03-18T13:16:59Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 10126.3,
-      "scraped_at": "2026-03-18T07:00:51.336353+00:00"
+      "star_velocity": 10127.7,
+      "scraped_at": "2026-03-18T13:27:02.138764+00:00"
     },
     {
       "source": "github",
       "name": "hakimel/reveal.js",
       "description": "The HTML Presentation Framework",
       "url": "https://github.com/hakimel/reveal.js",
-      "stars": 70768,
-      "forks": 16805,
+      "stars": 70775,
+      "forks": 16806,
       "language": "JavaScript",
       "topics": [
         "presentations",
         "slides",
         "slideshow"
       ],
-      "open_issues": 887,
+      "open_issues": 888,
       "created_at": "2011-06-07T18:54:22Z",
-      "updated_at": "2026-03-18T05:34:45Z",
+      "updated_at": "2026-03-18T13:24:28Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 10109.7,
-      "scraped_at": "2026-03-18T07:00:51.796423+00:00"
+      "star_velocity": 10110.7,
+      "scraped_at": "2026-03-18T13:27:02.844715+00:00"
     },
     {
       "source": "github",
       "name": "base/node",
       "description": "Everything required to run your own Base node",
       "url": "https://github.com/base/node",
-      "stars": 68682,
-      "forks": 3219,
+      "stars": 68679,
+      "forks": 3220,
       "language": "Go",
       "topics": [],
       "open_issues": 8,
       "created_at": "2023-02-01T13:55:02Z",
-      "updated_at": "2026-03-17T14:48:23Z",
+      "updated_at": "2026-03-18T13:04:31Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 9811.7,
-      "scraped_at": "2026-03-18T07:00:51.336358+00:00"
+      "star_velocity": 9811.3,
+      "scraped_at": "2026-03-18T13:27:02.138769+00:00"
+    },
+    {
+      "source": "github",
+      "name": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "url": "https://github.com/openai/codex",
+      "stars": 66066,
+      "forks": 8813,
+      "language": "Rust",
+      "topics": [],
+      "open_issues": 2082,
+      "created_at": "2025-04-13T05:37:54Z",
+      "updated_at": "2026-03-18T13:22:36Z",
+      "owner_type": "Organization",
+      "hiring_signal": false,
+      "star_velocity": 9438.0,
+      "scraped_at": "2026-03-18T13:27:01.490622+00:00"
     },
     {
       "source": "github",
       "name": "webpack/webpack",
       "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
       "url": "https://github.com/webpack/webpack",
-      "stars": 66012,
-      "forks": 9330,
+      "stars": 66009,
+      "forks": 9327,
       "language": "JavaScript",
       "topics": [
         "amd",
@@ -2722,38 +2726,21 @@
         "web-performance",
         "webpack"
       ],
-      "open_issues": 202,
+      "open_issues": 198,
       "created_at": "2012-03-10T10:08:14Z",
-      "updated_at": "2026-03-18T06:20:20Z",
+      "updated_at": "2026-03-18T11:35:47Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 9430.3,
-      "scraped_at": "2026-03-18T07:00:51.796431+00:00"
-    },
-    {
-      "source": "github",
-      "name": "openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "url": "https://github.com/openai/codex",
-      "stars": 65981,
-      "forks": 8805,
-      "language": "Rust",
-      "topics": [],
-      "open_issues": 2068,
-      "created_at": "2025-04-13T05:37:54Z",
-      "updated_at": "2026-03-18T06:58:33Z",
-      "owner_type": "Organization",
-      "hiring_signal": false,
-      "star_velocity": 9425.9,
-      "scraped_at": "2026-03-18T07:00:50.869660+00:00"
+      "star_velocity": 9429.9,
+      "scraped_at": "2026-03-18T13:27:02.844724+00:00"
     },
     {
       "source": "github",
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "url": "https://github.com/prometheus/prometheus",
-      "stars": 63200,
-      "forks": 10248,
+      "stars": 63198,
+      "forks": 10247,
       "language": "Go",
       "topics": [
         "alerting",
@@ -2764,20 +2751,20 @@
         "prometheus",
         "time-series"
       ],
-      "open_issues": 753,
+      "open_issues": 755,
       "created_at": "2012-11-24T11:14:12Z",
-      "updated_at": "2026-03-18T06:45:54Z",
+      "updated_at": "2026-03-18T13:20:56Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 9028.6,
-      "scraped_at": "2026-03-18T07:00:51.336364+00:00"
+      "star_velocity": 9028.3,
+      "scraped_at": "2026-03-18T13:27:02.138776+00:00"
     },
     {
       "source": "github",
       "name": "alacritty/alacritty",
       "description": "A cross-platform, OpenGL terminal emulator.",
       "url": "https://github.com/alacritty/alacritty",
-      "stars": 62980,
+      "stars": 62983,
       "forks": 3349,
       "language": "Rust",
       "topics": [
@@ -2794,18 +2781,18 @@
       ],
       "open_issues": 337,
       "created_at": "2016-02-18T05:02:30Z",
-      "updated_at": "2026-03-18T06:57:40Z",
+      "updated_at": "2026-03-18T12:49:10Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8997.1,
-      "scraped_at": "2026-03-18T07:00:50.869667+00:00"
+      "star_velocity": 8997.6,
+      "scraped_at": "2026-03-18T13:27:01.490630+00:00"
     },
     {
       "source": "github",
       "name": "traefik/traefik",
       "description": "The Cloud Native Application Proxy",
       "url": "https://github.com/traefik/traefik",
-      "stars": 62220,
+      "stars": 62228,
       "forks": 5882,
       "language": "Go",
       "topics": [
@@ -2824,21 +2811,21 @@
         "traefik",
         "zookeeper"
       ],
-      "open_issues": 775,
+      "open_issues": 771,
       "created_at": "2015-09-13T19:04:02Z",
-      "updated_at": "2026-03-18T06:09:44Z",
+      "updated_at": "2026-03-18T12:51:39Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8888.6,
-      "scraped_at": "2026-03-18T07:00:51.336370+00:00"
+      "star_velocity": 8889.7,
+      "scraped_at": "2026-03-18T13:27:02.138783+00:00"
     },
     {
       "source": "github",
       "name": "rust-lang/rustlings",
       "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
       "url": "https://github.com/rust-lang/rustlings",
-      "stars": 62194,
-      "forks": 11172,
+      "stars": 62195,
+      "forks": 11174,
       "language": "Rust",
       "topics": [
         "beginner-friendly",
@@ -2848,18 +2835,18 @@
       ],
       "open_issues": 83,
       "created_at": "2015-09-15T02:25:18Z",
-      "updated_at": "2026-03-18T05:02:02Z",
+      "updated_at": "2026-03-18T13:12:41Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8884.9,
-      "scraped_at": "2026-03-18T07:00:50.869673+00:00"
+      "star_velocity": 8885.0,
+      "scraped_at": "2026-03-18T13:27:01.490638+00:00"
     },
     {
       "source": "github",
       "name": "FuelLabs/sway",
       "description": "🌴 Empowering everyone to build reliable and efficient smart contracts.",
       "url": "https://github.com/FuelLabs/sway",
-      "stars": 61873,
+      "stars": 61871,
       "forks": 5429,
       "language": "Rust",
       "topics": [
@@ -2868,20 +2855,20 @@
         "language",
         "sway"
       ],
-      "open_issues": 892,
+      "open_issues": 890,
       "created_at": "2021-01-19T20:54:33Z",
-      "updated_at": "2026-03-18T05:18:39Z",
+      "updated_at": "2026-03-18T12:20:10Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8839.0,
-      "scraped_at": "2026-03-18T07:00:50.869681+00:00"
+      "star_velocity": 8838.7,
+      "scraped_at": "2026-03-18T13:27:01.490648+00:00"
     },
     {
       "source": "github",
       "name": "sharkdp/bat",
       "description": "A cat(1) clone with wings.",
       "url": "https://github.com/sharkdp/bat",
-      "stars": 57680,
+      "stars": 57682,
       "forks": 1492,
       "language": "Rust",
       "topics": [
@@ -2896,18 +2883,18 @@
       ],
       "open_issues": 343,
       "created_at": "2018-04-21T10:52:23Z",
-      "updated_at": "2026-03-18T06:42:02Z",
+      "updated_at": "2026-03-18T13:10:50Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 8240.0,
-      "scraped_at": "2026-03-18T07:00:50.869687+00:00"
+      "star_velocity": 8240.3,
+      "scraped_at": "2026-03-18T13:27:01.490656+00:00"
     },
     {
       "source": "github",
       "name": "FuelLabs/fuel-core",
       "description": "Rust full node implementation of the Fuel v2 protocol.",
       "url": "https://github.com/FuelLabs/fuel-core",
-      "stars": 57289,
+      "stars": 57287,
       "forks": 2866,
       "language": "Rust",
       "topics": [
@@ -2916,19 +2903,19 @@
       ],
       "open_issues": 190,
       "created_at": "2020-08-27T21:12:14Z",
-      "updated_at": "2026-03-18T05:18:39Z",
+      "updated_at": "2026-03-18T08:40:02Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8184.1,
-      "scraped_at": "2026-03-18T07:00:50.869695+00:00"
+      "star_velocity": 8183.9,
+      "scraped_at": "2026-03-18T13:27:01.490663+00:00"
     },
     {
       "source": "github",
       "name": "dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "url": "https://github.com/dani-garcia/vaultwarden",
-      "stars": 56917,
-      "forks": 2638,
+      "stars": 56929,
+      "forks": 2637,
       "language": "Rust",
       "topics": [
         "bitwarden",
@@ -2940,18 +2927,18 @@
       ],
       "open_issues": 38,
       "created_at": "2018-02-17T22:40:20Z",
-      "updated_at": "2026-03-18T06:01:36Z",
+      "updated_at": "2026-03-18T13:13:56Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 8131.0,
-      "scraped_at": "2026-03-18T07:00:50.869702+00:00"
+      "star_velocity": 8132.7,
+      "scraped_at": "2026-03-18T13:27:01.490673+00:00"
     },
     {
       "source": "github",
       "name": "meilisearch/meilisearch",
       "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
       "url": "https://github.com/meilisearch/meilisearch",
-      "stars": 56455,
+      "stars": 56461,
       "forks": 2436,
       "language": "Rust",
       "topics": [
@@ -2976,33 +2963,33 @@
         "vector-search",
         "vectors"
       ],
-      "open_issues": 281,
+      "open_issues": 280,
       "created_at": "2018-04-23T11:45:28Z",
-      "updated_at": "2026-03-18T05:33:02Z",
+      "updated_at": "2026-03-18T12:27:31Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8065.0,
-      "scraped_at": "2026-03-18T07:00:50.869711+00:00"
+      "star_velocity": 8065.9,
+      "scraped_at": "2026-03-18T13:27:01.490683+00:00"
     },
     {
       "source": "github",
       "name": "rust-unofficial/awesome-rust",
       "description": "A curated list of Rust code and resources.",
       "url": "https://github.com/rust-unofficial/awesome-rust",
-      "stars": 56210,
+      "stars": 56213,
       "forks": 3236,
       "language": "Rust",
       "topics": [
         "awesome",
         "rust"
       ],
-      "open_issues": 11,
+      "open_issues": 10,
       "created_at": "2014-07-17T10:45:10Z",
-      "updated_at": "2026-03-18T06:51:21Z",
+      "updated_at": "2026-03-18T11:47:09Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8030.0,
-      "scraped_at": "2026-03-18T07:00:50.869716+00:00"
+      "star_velocity": 8030.4,
+      "scraped_at": "2026-03-18T13:27:01.490689+00:00"
     }
   ],
   "arxiv": [
@@ -3027,7 +3014,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16870v1",
       "published": "2026-03-17T17:59:55Z",
       "updated": "2026-03-17T17:59:55Z",
-      "scraped_at": "2026-03-18T07:00:55.133146+00:00"
+      "scraped_at": "2026-03-18T13:27:05.442716+00:00"
     },
     {
       "source": "arxiv",
@@ -3050,7 +3037,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16867v1",
       "published": "2026-03-17T17:59:51Z",
       "updated": "2026-03-17T17:59:51Z",
-      "scraped_at": "2026-03-18T07:00:55.133254+00:00"
+      "scraped_at": "2026-03-18T13:27:05.442830+00:00"
     },
     {
       "source": "arxiv",
@@ -3073,7 +3060,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16868v1",
       "published": "2026-03-17T17:59:51Z",
       "updated": "2026-03-17T17:59:51Z",
-      "scraped_at": "2026-03-18T07:00:55.133346+00:00"
+      "scraped_at": "2026-03-18T13:27:05.442923+00:00"
     },
     {
       "source": "arxiv",
@@ -3099,7 +3086,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16866v1",
       "published": "2026-03-17T17:59:49Z",
       "updated": "2026-03-17T17:59:49Z",
-      "scraped_at": "2026-03-18T07:00:55.133419+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443001+00:00"
     },
     {
       "source": "arxiv",
@@ -3122,7 +3109,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16864v1",
       "published": "2026-03-17T17:59:30Z",
       "updated": "2026-03-17T17:59:30Z",
-      "scraped_at": "2026-03-18T07:00:55.133518+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443102+00:00"
     },
     {
       "source": "arxiv",
@@ -3143,7 +3130,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16862v1",
       "published": "2026-03-17T17:59:20Z",
       "updated": "2026-03-17T17:59:20Z",
-      "scraped_at": "2026-03-18T07:00:55.133605+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443190+00:00"
     },
     {
       "source": "arxiv",
@@ -3165,7 +3152,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16859v1",
       "published": "2026-03-17T17:58:44Z",
       "updated": "2026-03-17T17:58:44Z",
-      "scraped_at": "2026-03-18T07:00:55.133687+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443271+00:00"
     },
     {
       "source": "arxiv",
@@ -3188,7 +3175,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16858v1",
       "published": "2026-03-17T17:58:03Z",
       "updated": "2026-03-17T17:58:03Z",
-      "scraped_at": "2026-03-18T07:00:55.133764+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443352+00:00"
     },
     {
       "source": "arxiv",
@@ -3210,7 +3197,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16857v1",
       "published": "2026-03-17T17:58:01Z",
       "updated": "2026-03-17T17:58:01Z",
-      "scraped_at": "2026-03-18T07:00:55.133845+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443448+00:00"
     },
     {
       "source": "arxiv",
@@ -3232,7 +3219,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16856v1",
       "published": "2026-03-17T17:57:49Z",
       "updated": "2026-03-17T17:57:49Z",
-      "scraped_at": "2026-03-18T07:00:55.133920+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443526+00:00"
     },
     {
       "source": "arxiv",
@@ -3254,7 +3241,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16850v1",
       "published": "2026-03-17T17:55:01Z",
       "updated": "2026-03-17T17:55:01Z",
-      "scraped_at": "2026-03-18T07:00:55.134041+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443633+00:00"
     },
     {
       "source": "arxiv",
@@ -3274,7 +3261,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16849v1",
       "published": "2026-03-17T17:54:26Z",
       "updated": "2026-03-17T17:54:26Z",
-      "scraped_at": "2026-03-18T07:00:55.134126+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443711+00:00"
     },
     {
       "source": "arxiv",
@@ -3295,7 +3282,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16848v1",
       "published": "2026-03-17T17:54:08Z",
       "updated": "2026-03-17T17:54:08Z",
-      "scraped_at": "2026-03-18T07:00:55.134205+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443792+00:00"
     },
     {
       "source": "arxiv",
@@ -3314,7 +3301,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16846v1",
       "published": "2026-03-17T17:54:00Z",
       "updated": "2026-03-17T17:54:00Z",
-      "scraped_at": "2026-03-18T07:00:55.134274+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443859+00:00"
     },
     {
       "source": "arxiv",
@@ -3336,7 +3323,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16843v1",
       "published": "2026-03-17T17:50:47Z",
       "updated": "2026-03-17T17:50:47Z",
-      "scraped_at": "2026-03-18T07:00:55.134354+00:00"
+      "scraped_at": "2026-03-18T13:27:05.443942+00:00"
     },
     {
       "source": "arxiv",
@@ -3360,7 +3347,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16842v1",
       "published": "2026-03-17T17:50:32Z",
       "updated": "2026-03-17T17:50:32Z",
-      "scraped_at": "2026-03-18T07:00:55.134423+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444011+00:00"
     },
     {
       "source": "arxiv",
@@ -3379,7 +3366,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16839v1",
       "published": "2026-03-17T17:45:53Z",
       "updated": "2026-03-17T17:45:53Z",
-      "scraped_at": "2026-03-18T07:00:55.134504+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444095+00:00"
     },
     {
       "source": "arxiv",
@@ -3401,7 +3388,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16829v1",
       "published": "2026-03-17T17:35:32Z",
       "updated": "2026-03-17T17:35:32Z",
-      "scraped_at": "2026-03-18T07:00:55.134562+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444153+00:00"
     },
     {
       "source": "arxiv",
@@ -3423,7 +3410,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16827v1",
       "published": "2026-03-17T17:34:40Z",
       "updated": "2026-03-17T17:34:40Z",
-      "scraped_at": "2026-03-18T07:00:55.134642+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444238+00:00"
     },
     {
       "source": "arxiv",
@@ -3447,7 +3434,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16825v1",
       "published": "2026-03-17T17:32:43Z",
       "updated": "2026-03-17T17:32:43Z",
-      "scraped_at": "2026-03-18T07:00:55.134726+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444324+00:00"
     },
     {
       "source": "arxiv",
@@ -3469,7 +3456,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16822v1",
       "published": "2026-03-17T17:27:32Z",
       "updated": "2026-03-17T17:27:32Z",
-      "scraped_at": "2026-03-18T07:00:55.134844+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444470+00:00"
     },
     {
       "source": "arxiv",
@@ -3493,7 +3480,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16817v1",
       "published": "2026-03-17T17:20:08Z",
       "updated": "2026-03-17T17:20:08Z",
-      "scraped_at": "2026-03-18T07:00:55.134955+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444567+00:00"
     },
     {
       "source": "arxiv",
@@ -3513,7 +3500,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16815v1",
       "published": "2026-03-17T17:19:34Z",
       "updated": "2026-03-17T17:19:34Z",
-      "scraped_at": "2026-03-18T07:00:55.135004+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444619+00:00"
     },
     {
       "source": "arxiv",
@@ -3537,7 +3524,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16812v1",
       "published": "2026-03-17T17:16:41Z",
       "updated": "2026-03-17T17:16:41Z",
-      "scraped_at": "2026-03-18T07:00:55.135080+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444699+00:00"
     },
     {
       "source": "arxiv",
@@ -3560,7 +3547,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16809v1",
       "published": "2026-03-17T17:12:46Z",
       "updated": "2026-03-17T17:12:46Z",
-      "scraped_at": "2026-03-18T07:00:55.135147+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444768+00:00"
     },
     {
       "source": "arxiv",
@@ -3583,7 +3570,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16806v1",
       "published": "2026-03-17T17:10:29Z",
       "updated": "2026-03-17T17:10:29Z",
-      "scraped_at": "2026-03-18T07:00:55.135241+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444866+00:00"
     },
     {
       "source": "arxiv",
@@ -3604,7 +3591,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16800v1",
       "published": "2026-03-17T17:05:23Z",
       "updated": "2026-03-17T17:05:23Z",
-      "scraped_at": "2026-03-18T07:00:55.135313+00:00"
+      "scraped_at": "2026-03-18T13:27:05.444940+00:00"
     },
     {
       "source": "arxiv",
@@ -3627,7 +3614,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16798v1",
       "published": "2026-03-17T17:04:18Z",
       "updated": "2026-03-17T17:04:18Z",
-      "scraped_at": "2026-03-18T07:00:55.135409+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445044+00:00"
     },
     {
       "source": "arxiv",
@@ -3649,7 +3636,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16797v1",
       "published": "2026-03-17T17:04:07Z",
       "updated": "2026-03-17T17:04:07Z",
-      "scraped_at": "2026-03-18T07:00:55.135458+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445092+00:00"
     },
     {
       "source": "arxiv",
@@ -3672,7 +3659,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16792v1",
       "published": "2026-03-17T17:01:54Z",
       "updated": "2026-03-17T17:01:54Z",
-      "scraped_at": "2026-03-18T07:00:55.135552+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445185+00:00"
     },
     {
       "source": "arxiv",
@@ -3693,7 +3680,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16791v1",
       "published": "2026-03-17T17:01:44Z",
       "updated": "2026-03-17T17:01:44Z",
-      "scraped_at": "2026-03-18T07:00:55.135627+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445257+00:00"
     },
     {
       "source": "arxiv",
@@ -3716,7 +3703,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16790v1",
       "published": "2026-03-17T17:01:35Z",
       "updated": "2026-03-17T17:01:35Z",
-      "scraped_at": "2026-03-18T07:00:55.135701+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445335+00:00"
     },
     {
       "source": "arxiv",
@@ -3737,7 +3724,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16789v1",
       "published": "2026-03-17T17:01:23Z",
       "updated": "2026-03-17T17:01:23Z",
-      "scraped_at": "2026-03-18T07:00:55.135761+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445402+00:00"
     },
     {
       "source": "arxiv",
@@ -3758,7 +3745,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16783v1",
       "published": "2026-03-17T16:58:47Z",
       "updated": "2026-03-17T16:58:47Z",
-      "scraped_at": "2026-03-18T07:00:55.135832+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445481+00:00"
     },
     {
       "source": "arxiv",
@@ -3781,7 +3768,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16781v1",
       "published": "2026-03-17T16:57:02Z",
       "updated": "2026-03-17T16:57:02Z",
-      "scraped_at": "2026-03-18T07:00:55.135918+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445570+00:00"
     },
     {
       "source": "arxiv",
@@ -3803,7 +3790,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16777v1",
       "published": "2026-03-17T16:55:11Z",
       "updated": "2026-03-17T16:55:11Z",
-      "scraped_at": "2026-03-18T07:00:55.136001+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445644+00:00"
     },
     {
       "source": "arxiv",
@@ -3823,7 +3810,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16761v1",
       "published": "2026-03-17T16:41:45Z",
       "updated": "2026-03-17T16:41:45Z",
-      "scraped_at": "2026-03-18T07:00:55.136078+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445721+00:00"
     },
     {
       "source": "arxiv",
@@ -3846,7 +3833,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16759v1",
       "published": "2026-03-17T16:40:35Z",
       "updated": "2026-03-17T16:40:35Z",
-      "scraped_at": "2026-03-18T07:00:55.136138+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445781+00:00"
     },
     {
       "source": "arxiv",
@@ -3867,7 +3854,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16757v1",
       "published": "2026-03-17T16:37:11Z",
       "updated": "2026-03-17T16:37:11Z",
-      "scraped_at": "2026-03-18T07:00:55.136205+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445857+00:00"
     },
     {
       "source": "arxiv",
@@ -3888,7 +3875,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16755v1",
       "published": "2026-03-17T16:34:23Z",
       "updated": "2026-03-17T16:34:23Z",
-      "scraped_at": "2026-03-18T07:00:55.136266+00:00"
+      "scraped_at": "2026-03-18T13:27:05.445921+00:00"
     },
     {
       "source": "arxiv",
@@ -3912,7 +3899,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16751v1",
       "published": "2026-03-17T16:28:37Z",
       "updated": "2026-03-17T16:28:37Z",
-      "scraped_at": "2026-03-18T07:00:55.136343+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446001+00:00"
     },
     {
       "source": "arxiv",
@@ -3935,7 +3922,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16749v1",
       "published": "2026-03-17T16:27:47Z",
       "updated": "2026-03-17T16:27:47Z",
-      "scraped_at": "2026-03-18T07:00:55.136415+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446070+00:00"
     },
     {
       "source": "arxiv",
@@ -3956,7 +3943,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16746v1",
       "published": "2026-03-17T16:23:33Z",
       "updated": "2026-03-17T16:23:33Z",
-      "scraped_at": "2026-03-18T07:00:55.136508+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446164+00:00"
     },
     {
       "source": "arxiv",
@@ -3976,7 +3963,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16744v1",
       "published": "2026-03-17T16:21:22Z",
       "updated": "2026-03-17T16:21:22Z",
-      "scraped_at": "2026-03-18T07:00:55.136579+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446239+00:00"
     },
     {
       "source": "arxiv",
@@ -4001,7 +3988,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16741v1",
       "published": "2026-03-17T16:20:55Z",
       "updated": "2026-03-17T16:20:55Z",
-      "scraped_at": "2026-03-18T07:00:55.136684+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446348+00:00"
     },
     {
       "source": "arxiv",
@@ -4024,7 +4011,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16739v1",
       "published": "2026-03-17T16:20:14Z",
       "updated": "2026-03-17T16:20:14Z",
-      "scraped_at": "2026-03-18T07:00:55.136773+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446459+00:00"
     },
     {
       "source": "arxiv",
@@ -4045,7 +4032,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16738v1",
       "published": "2026-03-17T16:18:41Z",
       "updated": "2026-03-17T16:18:41Z",
-      "scraped_at": "2026-03-18T07:00:55.136841+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446532+00:00"
     },
     {
       "source": "arxiv",
@@ -4068,7 +4055,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16737v1",
       "published": "2026-03-17T16:18:09Z",
       "updated": "2026-03-17T16:18:09Z",
-      "scraped_at": "2026-03-18T07:00:55.136923+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446617+00:00"
     },
     {
       "source": "arxiv",
@@ -4086,7 +4073,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16734v1",
       "published": "2026-03-17T16:16:35Z",
       "updated": "2026-03-17T16:16:35Z",
-      "scraped_at": "2026-03-18T07:00:55.137031+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446721+00:00"
     },
     {
       "source": "arxiv",
@@ -4110,7 +4097,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16733v1",
       "published": "2026-03-17T16:15:31Z",
       "updated": "2026-03-17T16:15:31Z",
-      "scraped_at": "2026-03-18T07:00:55.137128+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446817+00:00"
     },
     {
       "source": "arxiv",
@@ -4129,7 +4116,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16731v1",
       "published": "2026-03-17T16:14:36Z",
       "updated": "2026-03-17T16:14:36Z",
-      "scraped_at": "2026-03-18T07:00:55.137202+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446894+00:00"
     },
     {
       "source": "arxiv",
@@ -4153,7 +4140,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16729v1",
       "published": "2026-03-17T16:12:30Z",
       "updated": "2026-03-17T16:12:30Z",
-      "scraped_at": "2026-03-18T07:00:55.137297+00:00"
+      "scraped_at": "2026-03-18T13:27:05.446989+00:00"
     },
     {
       "source": "arxiv",
@@ -4173,7 +4160,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16728v1",
       "published": "2026-03-17T16:12:06Z",
       "updated": "2026-03-17T16:12:06Z",
-      "scraped_at": "2026-03-18T07:00:55.137361+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447054+00:00"
     },
     {
       "source": "arxiv",
@@ -4196,7 +4183,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16723v1",
       "published": "2026-03-17T16:09:33Z",
       "updated": "2026-03-17T16:09:33Z",
-      "scraped_at": "2026-03-18T07:00:55.137458+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447158+00:00"
     },
     {
       "source": "arxiv",
@@ -4216,7 +4203,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16718v1",
       "published": "2026-03-17T16:06:29Z",
       "updated": "2026-03-17T16:06:29Z",
-      "scraped_at": "2026-03-18T07:00:55.137519+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447223+00:00"
     },
     {
       "source": "arxiv",
@@ -4239,7 +4226,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16715v1",
       "published": "2026-03-17T16:04:20Z",
       "updated": "2026-03-17T16:04:20Z",
-      "scraped_at": "2026-03-18T07:00:55.137604+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447311+00:00"
     },
     {
       "source": "arxiv",
@@ -4263,7 +4250,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16712v1",
       "published": "2026-03-17T16:02:41Z",
       "updated": "2026-03-17T16:02:41Z",
-      "scraped_at": "2026-03-18T07:00:55.137703+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447424+00:00"
     },
     {
       "source": "arxiv",
@@ -4284,7 +4271,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16708v1",
       "published": "2026-03-17T16:00:41Z",
       "updated": "2026-03-17T16:00:41Z",
-      "scraped_at": "2026-03-18T07:00:55.137754+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447483+00:00"
     },
     {
       "source": "arxiv",
@@ -4304,7 +4291,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16697v1",
       "published": "2026-03-17T15:51:18Z",
       "updated": "2026-03-17T15:51:18Z",
-      "scraped_at": "2026-03-18T07:00:55.137832+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447562+00:00"
     },
     {
       "source": "arxiv",
@@ -4324,7 +4311,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16689v1",
       "published": "2026-03-17T15:47:33Z",
       "updated": "2026-03-17T15:47:33Z",
-      "scraped_at": "2026-03-18T07:00:55.137914+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447645+00:00"
     },
     {
       "source": "arxiv",
@@ -4348,7 +4335,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16673v1",
       "published": "2026-03-17T15:38:50Z",
       "updated": "2026-03-17T15:38:50Z",
-      "scraped_at": "2026-03-18T07:00:55.138015+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447733+00:00"
     },
     {
       "source": "arxiv",
@@ -4372,7 +4359,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16672v1",
       "published": "2026-03-17T15:37:49Z",
       "updated": "2026-03-17T15:37:49Z",
-      "scraped_at": "2026-03-18T07:00:55.138083+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447807+00:00"
     },
     {
       "source": "arxiv",
@@ -4394,7 +4381,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16666v1",
       "published": "2026-03-17T15:33:43Z",
       "updated": "2026-03-17T15:33:43Z",
-      "scraped_at": "2026-03-18T07:00:55.138173+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447896+00:00"
     },
     {
       "source": "arxiv",
@@ -4417,7 +4404,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16664v1",
       "published": "2026-03-17T15:30:47Z",
       "updated": "2026-03-17T15:30:47Z",
-      "scraped_at": "2026-03-18T07:00:55.138251+00:00"
+      "scraped_at": "2026-03-18T13:27:05.447977+00:00"
     },
     {
       "source": "arxiv",
@@ -4442,7 +4429,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16663v1",
       "published": "2026-03-17T15:30:36Z",
       "updated": "2026-03-17T15:30:36Z",
-      "scraped_at": "2026-03-18T07:00:55.138336+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448059+00:00"
     },
     {
       "source": "arxiv",
@@ -4464,7 +4451,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16661v1",
       "published": "2026-03-17T15:30:06Z",
       "updated": "2026-03-17T15:30:06Z",
-      "scraped_at": "2026-03-18T07:00:55.138403+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448135+00:00"
     },
     {
       "source": "arxiv",
@@ -4487,7 +4474,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16660v1",
       "published": "2026-03-17T15:28:46Z",
       "updated": "2026-03-17T15:28:46Z",
-      "scraped_at": "2026-03-18T07:00:55.138481+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448209+00:00"
     },
     {
       "source": "arxiv",
@@ -4508,7 +4495,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16659v1",
       "published": "2026-03-17T15:28:24Z",
       "updated": "2026-03-17T15:28:24Z",
-      "scraped_at": "2026-03-18T07:00:55.138565+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448296+00:00"
     },
     {
       "source": "arxiv",
@@ -4532,7 +4519,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16654v1",
       "published": "2026-03-17T15:23:37Z",
       "updated": "2026-03-17T15:23:37Z",
-      "scraped_at": "2026-03-18T07:00:55.138647+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448388+00:00"
     },
     {
       "source": "arxiv",
@@ -4550,7 +4537,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16651v1",
       "published": "2026-03-17T15:21:17Z",
       "updated": "2026-03-17T15:21:17Z",
-      "scraped_at": "2026-03-18T07:00:55.138717+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448460+00:00"
     },
     {
       "source": "arxiv",
@@ -4571,7 +4558,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16648v1",
       "published": "2026-03-17T15:19:47Z",
       "updated": "2026-03-17T15:19:47Z",
-      "scraped_at": "2026-03-18T07:00:55.138805+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448557+00:00"
     },
     {
       "source": "arxiv",
@@ -4593,7 +4580,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16643v1",
       "published": "2026-03-17T15:14:43Z",
       "updated": "2026-03-17T15:14:43Z",
-      "scraped_at": "2026-03-18T07:00:55.138867+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448617+00:00"
     },
     {
       "source": "arxiv",
@@ -4615,7 +4602,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16642v1",
       "published": "2026-03-17T15:13:10Z",
       "updated": "2026-03-17T15:13:10Z",
-      "scraped_at": "2026-03-18T07:00:55.138978+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448710+00:00"
     },
     {
       "source": "arxiv",
@@ -4636,7 +4623,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16629v1",
       "published": "2026-03-17T15:01:00Z",
       "updated": "2026-03-17T15:01:00Z",
-      "scraped_at": "2026-03-18T07:00:55.139057+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448793+00:00"
     },
     {
       "source": "arxiv",
@@ -4658,7 +4645,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16622v1",
       "published": "2026-03-17T14:58:28Z",
       "updated": "2026-03-17T14:58:28Z",
-      "scraped_at": "2026-03-18T07:00:55.139115+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448852+00:00"
     },
     {
       "source": "arxiv",
@@ -4679,7 +4666,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16621v1",
       "published": "2026-03-17T14:58:11Z",
       "updated": "2026-03-17T14:58:11Z",
-      "scraped_at": "2026-03-18T07:00:55.139166+00:00"
+      "scraped_at": "2026-03-18T13:27:05.448907+00:00"
     },
     {
       "source": "arxiv",
@@ -4701,7 +4688,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16606v1",
       "published": "2026-03-17T14:47:35Z",
       "updated": "2026-03-17T14:47:35Z",
-      "scraped_at": "2026-03-18T07:00:55.139276+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449014+00:00"
     },
     {
       "source": "arxiv",
@@ -4719,7 +4706,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16601v1",
       "published": "2026-03-17T14:45:57Z",
       "updated": "2026-03-17T14:45:57Z",
-      "scraped_at": "2026-03-18T07:00:55.139348+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449089+00:00"
     },
     {
       "source": "arxiv",
@@ -4744,7 +4731,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16599v1",
       "published": "2026-03-17T14:45:20Z",
       "updated": "2026-03-17T14:45:20Z",
-      "scraped_at": "2026-03-18T07:00:55.139416+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449161+00:00"
     },
     {
       "source": "arxiv",
@@ -4767,7 +4754,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16596v1",
       "published": "2026-03-17T14:42:48Z",
       "updated": "2026-03-17T14:42:48Z",
-      "scraped_at": "2026-03-18T07:00:55.139502+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449252+00:00"
     },
     {
       "source": "arxiv",
@@ -4790,7 +4777,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16590v1",
       "published": "2026-03-17T14:37:08Z",
       "updated": "2026-03-17T14:37:08Z",
-      "scraped_at": "2026-03-18T07:00:55.139582+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449336+00:00"
     },
     {
       "source": "arxiv",
@@ -4810,7 +4797,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16586v1",
       "published": "2026-03-17T14:35:52Z",
       "updated": "2026-03-17T14:35:52Z",
-      "scraped_at": "2026-03-18T07:00:55.139657+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449423+00:00"
     },
     {
       "source": "arxiv",
@@ -4830,7 +4817,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16583v1",
       "published": "2026-03-17T14:33:59Z",
       "updated": "2026-03-17T14:33:59Z",
-      "scraped_at": "2026-03-18T07:00:55.139757+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449527+00:00"
     },
     {
       "source": "arxiv",
@@ -4852,7 +4839,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16581v1",
       "published": "2026-03-17T14:33:08Z",
       "updated": "2026-03-17T14:33:08Z",
-      "scraped_at": "2026-03-18T07:00:55.139834+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449609+00:00"
     },
     {
       "source": "arxiv",
@@ -4873,7 +4860,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16578v1",
       "published": "2026-03-17T14:29:38Z",
       "updated": "2026-03-17T14:29:38Z",
-      "scraped_at": "2026-03-18T07:00:55.139904+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449683+00:00"
     },
     {
       "source": "arxiv",
@@ -4895,7 +4882,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16577v1",
       "published": "2026-03-17T14:29:03Z",
       "updated": "2026-03-17T14:29:03Z",
-      "scraped_at": "2026-03-18T07:00:55.140026+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449771+00:00"
     },
     {
       "source": "arxiv",
@@ -4920,7 +4907,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16576v1",
       "published": "2026-03-17T14:29:01Z",
       "updated": "2026-03-17T14:29:01Z",
-      "scraped_at": "2026-03-18T07:00:55.140103+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449847+00:00"
     },
     {
       "source": "arxiv",
@@ -4939,7 +4926,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16574v1",
       "published": "2026-03-17T14:27:46Z",
       "updated": "2026-03-17T14:27:46Z",
-      "scraped_at": "2026-03-18T07:00:55.140174+00:00"
+      "scraped_at": "2026-03-18T13:27:05.449921+00:00"
     },
     {
       "source": "arxiv",
@@ -4962,7 +4949,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16572v1",
       "published": "2026-03-17T14:27:35Z",
       "updated": "2026-03-17T14:27:35Z",
-      "scraped_at": "2026-03-18T07:00:55.140255+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450004+00:00"
     },
     {
       "source": "arxiv",
@@ -4984,7 +4971,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16569v1",
       "published": "2026-03-17T14:26:51Z",
       "updated": "2026-03-17T14:26:51Z",
-      "scraped_at": "2026-03-18T07:00:55.140349+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450100+00:00"
     },
     {
       "source": "arxiv",
@@ -5007,7 +4994,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16568v1",
       "published": "2026-03-17T14:25:42Z",
       "updated": "2026-03-17T14:25:42Z",
-      "scraped_at": "2026-03-18T07:00:55.140397+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450150+00:00"
     },
     {
       "source": "arxiv",
@@ -5030,7 +5017,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16567v1",
       "published": "2026-03-17T14:24:32Z",
       "updated": "2026-03-17T14:24:32Z",
-      "scraped_at": "2026-03-18T07:00:55.140502+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450255+00:00"
     },
     {
       "source": "arxiv",
@@ -5053,7 +5040,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16565v1",
       "published": "2026-03-17T14:23:58Z",
       "updated": "2026-03-17T14:23:58Z",
-      "scraped_at": "2026-03-18T07:00:55.140587+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450341+00:00"
     },
     {
       "source": "arxiv",
@@ -5076,7 +5063,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16557v1",
       "published": "2026-03-17T14:19:05Z",
       "updated": "2026-03-17T14:19:05Z",
-      "scraped_at": "2026-03-18T07:00:55.140647+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450416+00:00"
     },
     {
       "source": "arxiv",
@@ -5098,7 +5085,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16553v1",
       "published": "2026-03-17T14:17:50Z",
       "updated": "2026-03-17T14:17:50Z",
-      "scraped_at": "2026-03-18T07:00:55.140714+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450484+00:00"
     },
     {
       "source": "arxiv",
@@ -5121,7 +5108,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16551v1",
       "published": "2026-03-17T14:16:42Z",
       "updated": "2026-03-17T14:16:42Z",
-      "scraped_at": "2026-03-18T07:00:55.140806+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450579+00:00"
     },
     {
       "source": "arxiv",
@@ -5143,7 +5130,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16549v1",
       "published": "2026-03-17T14:15:33Z",
       "updated": "2026-03-17T14:15:33Z",
-      "scraped_at": "2026-03-18T07:00:55.140898+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450675+00:00"
     },
     {
       "source": "arxiv",
@@ -5164,7 +5151,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16546v1",
       "published": "2026-03-17T14:11:07Z",
       "updated": "2026-03-17T14:11:07Z",
-      "scraped_at": "2026-03-18T07:00:55.140979+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450745+00:00"
     },
     {
       "source": "arxiv",
@@ -5184,7 +5171,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16544v1",
       "published": "2026-03-17T14:07:24Z",
       "updated": "2026-03-17T14:07:24Z",
-      "scraped_at": "2026-03-18T07:00:55.141101+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450825+00:00"
     },
     {
       "source": "arxiv",
@@ -5204,252 +5191,269 @@
       "pdf_url": "https://arxiv.org/pdf/2603.16537v1",
       "published": "2026-03-17T14:00:15Z",
       "updated": "2026-03-17T14:00:15Z",
-      "scraped_at": "2026-03-18T07:00:55.141172+00:00"
+      "scraped_at": "2026-03-18T13:27:05.450897+00:00"
     }
   ],
   "producthunt": [
     {
       "source": "producthunt",
-      "title": "Forg",
+      "title": "GPT‑5.4 mini and nano",
       "description": "",
-      "url": "",
-      "published": "2026-03-15T22:08:52-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266113+00:00"
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-03-17T10:11:25-07:00",
+      "scraped_at": "2026-03-18T13:27:06.515816+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Lightning Rod",
+      "title": "OpenObserve",
       "description": "",
-      "url": "",
-      "published": "2026-03-03T08:01:27-08:00",
-      "scraped_at": "2026-03-18T07:00:56.266163+00:00"
+      "url": "https://www.producthunt.com/products/openobserve",
+      "published": "2026-02-03T00:51:16-08:00",
+      "scraped_at": "2026-03-18T13:27:06.515881+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Kipps.AI Campaign",
+      "title": "Lore",
       "description": "",
-      "url": "",
-      "published": "2026-03-02T20:08:15-08:00",
-      "scraped_at": "2026-03-18T07:00:56.266206+00:00"
+      "url": "https://www.producthunt.com/products/lore-4",
+      "published": "2026-03-17T17:46:52-07:00",
+      "scraped_at": "2026-03-18T13:27:06.515921+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Sokosumi",
+      "title": "Unsloth Studio",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T18:31:07-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266245+00:00"
+      "url": "https://www.producthunt.com/products/unsloth",
+      "published": "2026-03-17T20:18:32-07:00",
+      "scraped_at": "2026-03-18T13:27:06.515974+00:00"
     },
     {
       "source": "producthunt",
-      "title": "mTarsier",
+      "title": "RyzenClaw + RadeonClaw",
       "description": "",
-      "url": "",
-      "published": "2026-03-15T07:36:17-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266279+00:00"
+      "url": "https://www.producthunt.com/products/instella",
+      "published": "2026-03-15T20:23:34-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516011+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Bolt Foundry",
+      "title": "Banyan AI Lite",
       "description": "",
-      "url": "",
-      "published": "2026-03-10T14:16:31-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266312+00:00"
+      "url": "https://www.producthunt.com/products/banyan-ai-lite",
+      "published": "2026-03-11T07:27:42-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516048+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Kira 4.0",
+      "title": "Lightfield",
       "description": "",
-      "url": "",
-      "published": "2026-03-06T09:50:54-08:00",
-      "scraped_at": "2026-03-18T07:00:56.266345+00:00"
+      "url": "https://www.producthunt.com/products/lightfield",
+      "published": "2026-03-04T11:10:42-08:00",
+      "scraped_at": "2026-03-18T13:27:06.516084+00:00"
     },
     {
       "source": "producthunt",
-      "title": "DexCode",
+      "title": "Comet for Enterprise",
       "description": "",
-      "url": "",
-      "published": "2026-03-10T09:54:26-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266378+00:00"
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "published": "2026-03-17T09:57:35-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516132+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Codex Subagents",
+      "title": "Claude Double Checker",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T21:30:50-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266411+00:00"
+      "url": "https://www.producthunt.com/products/claude-double-checker-is-2x-active",
+      "published": "2026-03-17T14:11:50-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516172+00:00"
     },
     {
       "source": "producthunt",
-      "title": "AgentDiscuss",
+      "title": "Claude Dispatch",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T09:45:59-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266450+00:00"
+      "url": "https://www.producthunt.com/products/claude-dispatch",
+      "published": "2026-03-17T17:54:57-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516218+00:00"
     },
     {
       "source": "producthunt",
-      "title": "dev-impact",
+      "title": "Bookshelf for NotebookLM",
       "description": "",
-      "url": "",
-      "published": "2026-03-12T13:24:02-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266483+00:00"
+      "url": "https://www.producthunt.com/products/bookshelf-for-notebooklm",
+      "published": "2026-03-17T00:13:36-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516255+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Easy App Reports",
+      "title": "Genie by Databox",
       "description": "",
-      "url": "",
-      "published": "2026-03-12T08:45:29-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266517+00:00"
+      "url": "https://www.producthunt.com/products/databox",
+      "published": "2026-03-09T10:05:46-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516292+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Parallax",
+      "title": "ClawMetry Cloud",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T03:18:49-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266551+00:00"
+      "url": "https://www.producthunt.com/products/clawmetry",
+      "published": "2026-03-17T18:09:03-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516328+00:00"
     },
     {
       "source": "producthunt",
-      "title": "AgreeGuard",
+      "title": "Forvibe for macOS",
       "description": "",
-      "url": "",
-      "published": "2026-03-12T19:04:33-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266584+00:00"
+      "url": "https://www.producthunt.com/products/forvibe",
+      "published": "2026-02-22T11:09:20-08:00",
+      "scraped_at": "2026-03-18T13:27:06.516364+00:00"
     },
     {
       "source": "producthunt",
-      "title": "ClickSay",
+      "title": "Soul 2.0",
       "description": "",
-      "url": "",
-      "published": "2026-03-14T09:58:09-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266617+00:00"
+      "url": "https://www.producthunt.com/products/soul-2-0",
+      "published": "2026-02-21T08:44:27-08:00",
+      "scraped_at": "2026-03-18T13:27:06.516425+00:00"
     },
     {
       "source": "producthunt",
-      "title": "ActiveStat",
+      "title": "UseAgents",
       "description": "",
-      "url": "",
-      "published": "2026-03-15T07:05:28-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266650+00:00"
+      "url": "https://www.producthunt.com/products/useagents",
+      "published": "2026-03-16T08:36:48-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516463+00:00"
     },
     {
       "source": "producthunt",
-      "title": "JusRecruit",
+      "title": "Fantastical MCP for Mac",
       "description": "",
-      "url": "",
-      "published": "2026-03-11T05:05:35-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266683+00:00"
+      "url": "https://www.producthunt.com/products/fantastical",
+      "published": "2026-03-16T07:19:30-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516499+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Folderly",
+      "title": "SharePatch",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T10:54:25-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266717+00:00"
+      "url": "https://www.producthunt.com/products/sharepatch",
+      "published": "2026-03-17T03:52:10-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516536+00:00"
     },
     {
       "source": "producthunt",
-      "title": "dropadoo",
+      "title": "AutoSend MCP",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T00:28:39-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266750+00:00"
+      "url": "https://www.producthunt.com/products/autosend-mcp",
+      "published": "2026-03-17T00:36:41-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516577+00:00"
     },
     {
       "source": "producthunt",
-      "title": "OpenFlags",
+      "title": "MetricMap",
       "description": "",
-      "url": "",
-      "published": "2026-03-14T10:15:11-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266783+00:00"
+      "url": "https://www.producthunt.com/products/metricmap-analytics-for-saas-e-com",
+      "published": "2026-03-16T02:25:39-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516616+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Ocean Orchestrator",
+      "title": "Doccupine",
       "description": "",
-      "url": "",
-      "published": "2026-03-16T08:03:04-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266817+00:00"
+      "url": "https://www.producthunt.com/products/doccupine",
+      "published": "2026-03-10T14:13:24-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516651+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Bounce Connect",
+      "description": "",
+      "url": "https://www.producthunt.com/products/bounce-connect",
+      "published": "2026-03-17T11:53:38-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516686+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "CursorTalk",
+      "description": "",
+      "url": "https://www.producthunt.com/products/cursortalk-for-macos",
+      "published": "2026-03-16T23:58:51-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516722+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "ClipLedger",
+      "description": "",
+      "url": "https://www.producthunt.com/products/clipledger",
+      "published": "2026-03-17T04:40:26-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516762+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Grok's Text to Speech API",
+      "description": "",
+      "url": "https://www.producthunt.com/products/grok-s-text-to-speech-api",
+      "published": "2026-03-16T14:14:22-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516799+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Permit.io MCP Gateway",
+      "description": "",
+      "url": "https://www.producthunt.com/products/permit-io",
+      "published": "2026-03-16T11:38:12-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516836+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "ArticleBack",
+      "description": "",
+      "url": "https://www.producthunt.com/products/articleback",
+      "published": "2026-03-17T11:33:03-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516871+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Lista",
+      "description": "",
+      "url": "https://www.producthunt.com/products/lista-4",
+      "published": "2026-02-22T08:09:44-08:00",
+      "scraped_at": "2026-03-18T13:27:06.516907+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "MS AUTO CAPTIONS",
+      "description": "",
+      "url": "https://www.producthunt.com/products/ms-auto-captions",
+      "published": "2026-03-16T14:22:00-07:00",
+      "scraped_at": "2026-03-18T13:27:06.516943+00:00"
     },
     {
       "source": "producthunt",
       "title": "Xeder",
       "description": "",
-      "url": "",
+      "url": "https://www.producthunt.com/products/xeder",
       "published": "2026-03-14T10:52:49-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266849+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Angy",
-      "description": "",
-      "url": "",
-      "published": "2026-03-16T02:54:12-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266890+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "My Computer by Manus AI",
-      "description": "",
-      "url": "",
-      "published": "2026-03-16T08:14:45-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266924+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "discli",
-      "description": "",
-      "url": "",
-      "published": "2026-03-15T20:54:52-07:00",
-      "scraped_at": "2026-03-18T07:00:56.266971+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Usercall Triggers",
-      "description": "",
-      "url": "",
-      "published": "2026-03-16T23:56:51-07:00",
-      "scraped_at": "2026-03-18T07:00:56.267005+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Agen",
-      "description": "",
-      "url": "",
-      "published": "2026-03-14T12:28:40-07:00",
-      "scraped_at": "2026-03-18T07:00:56.267037+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "SOLAYA",
-      "description": "",
-      "url": "",
-      "published": "2026-03-12T08:27:00-07:00",
-      "scraped_at": "2026-03-18T07:00:56.267071+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "DLSS 5",
-      "description": "",
-      "url": "",
-      "published": "2026-03-16T19:09:57-07:00",
-      "scraped_at": "2026-03-18T07:00:56.267103+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Wendi AI",
-      "description": "",
-      "url": "",
-      "published": "2026-03-12T00:07:32-07:00",
-      "scraped_at": "2026-03-18T07:00:56.267136+00:00"
+      "scraped_at": "2026-03-18T13:27:06.516977+00:00"
     }
   ],
   "devto": [
+    {
+      "source": "devto",
+      "id": 3359706,
+      "title": "Top 7 Featured DEV Posts of the Week",
+      "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...",
+      "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5pn",
+      "tags": [
+        "top7",
+        "discuss"
+      ],
+      "reactions": 49,
+      "comments": 10,
+      "reading_time": 3,
+      "author": "jess",
+      "published_at": "2026-03-17T18:34:13Z",
+      "scraped_at": "2026-03-18T13:27:08.092987+00:00"
+    },
     {
       "source": "devto",
       "id": 3360758,
@@ -5462,12 +5466,12 @@
         "dei",
         "career"
       ],
-      "reactions": 31,
-      "comments": 7,
+      "reactions": 34,
+      "comments": 8,
       "reading_time": 4,
       "author": "annavi11arrea1",
       "published_at": "2026-03-17T01:12:55Z",
-      "scraped_at": "2026-03-18T07:00:57.800636+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093003+00:00"
     },
     {
       "source": "devto",
@@ -5481,12 +5485,12 @@
         "mcp",
         "ai"
       ],
-      "reactions": 34,
+      "reactions": 35,
       "comments": 6,
       "reading_time": 3,
       "author": "jmew",
       "published_at": "2026-03-17T18:32:57Z",
-      "scraped_at": "2026-03-18T07:00:57.800652+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093009+00:00"
     },
     {
       "source": "devto",
@@ -5500,29 +5504,12 @@
         "geminireflections",
         "wecoded"
       ],
-      "reactions": 42,
-      "comments": 25,
+      "reactions": 46,
+      "comments": 34,
       "reading_time": 1,
       "author": "axrisi",
       "published_at": "2026-03-17T03:38:27Z",
-      "scraped_at": "2026-03-18T07:00:57.800657+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3359706,
-      "title": "Top 7 Featured DEV Posts of the Week",
-      "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...",
-      "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5pn",
-      "tags": [
-        "top7",
-        "discuss"
-      ],
-      "reactions": 38,
-      "comments": 9,
-      "reading_time": 3,
-      "author": "jess",
-      "published_at": "2026-03-17T18:34:13Z",
-      "scraped_at": "2026-03-18T07:00:57.800661+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093012+00:00"
     },
     {
       "source": "devto",
@@ -5535,12 +5522,31 @@
         "watercooler",
         "jokes"
       ],
-      "reactions": 57,
-      "comments": 27,
+      "reactions": 60,
+      "comments": 28,
       "reading_time": 1,
       "author": "ben",
       "published_at": "2026-03-16T13:27:33Z",
-      "scraped_at": "2026-03-18T07:00:57.800664+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093016+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3360151,
+      "title": "I Built a Skill That Writes Your Specs For You",
+      "description": "Julián Deangelis published a piece this week that hit 194k+ views in days. The argument: AI coding...",
+      "url": "https://dev.to/dannwaneri/i-built-a-skill-that-writes-your-specs-for-you-1o2n",
+      "tags": [
+        "productivity",
+        "webdev",
+        "claudecode",
+        "agentskills"
+      ],
+      "reactions": 24,
+      "comments": 14,
+      "reading_time": 5,
+      "author": "dannwaneri",
+      "published_at": "2026-03-17T11:35:53Z",
+      "scraped_at": "2026-03-18T13:27:08.093019+00:00"
     },
     {
       "source": "devto",
@@ -5554,49 +5560,29 @@
         "mcp",
         "ai"
       ],
-      "reactions": 30,
-      "comments": 11,
+      "reactions": 34,
+      "comments": 13,
       "reading_time": 5,
       "author": "juandastic",
       "published_at": "2026-03-17T06:06:10Z",
-      "scraped_at": "2026-03-18T07:00:57.800667+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093022+00:00"
     },
     {
       "source": "devto",
-      "id": 3360151,
-      "title": "I Built a Skill That Writes Your Specs For You",
-      "description": "I Built a Skill That Writes Your Specs For You   Julián Deangelis published a piece this...",
-      "url": "https://dev.to/dannwaneri/i-built-a-skill-that-writes-your-specs-for-you-1o2n",
+      "id": 3363513,
+      "title": "What's in your headphones when you code? 🎧",
+      "description": "Let's revisit this conversation!  What music, soundtracks, podcasts, etc do you listen to and is...",
+      "url": "https://dev.to/ben/whats-in-your-headphones-when-you-code-51i4",
       "tags": [
-        "productivity",
-        "webdev",
-        "claudecode",
-        "agentskills"
-      ],
-      "reactions": 22,
-      "comments": 12,
-      "reading_time": 5,
-      "author": "dannwaneri",
-      "published_at": "2026-03-17T11:35:53Z",
-      "scraped_at": "2026-03-18T07:00:57.800670+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3358008,
-      "title": "neither naive nor nostalgic",
-      "description": "Do we have to choose between becoming nostalgic or going all in embracing new technology? Some think...",
-      "url": "https://dev.to/ingosteinke/neither-naive-nor-nostalgic-1mmp",
-      "tags": [
-        "watercooler",
         "discuss",
-        "ai"
+        "watercooler"
       ],
-      "reactions": 25,
-      "comments": 3,
-      "reading_time": 3,
-      "author": "ingosteinke",
-      "published_at": "2026-03-16T09:43:35Z",
-      "scraped_at": "2026-03-18T07:00:57.800673+00:00"
+      "reactions": 54,
+      "comments": 38,
+      "reading_time": 1,
+      "author": "ben",
+      "published_at": "2026-03-17T14:37:22Z",
+      "scraped_at": "2026-03-18T13:27:08.093025+00:00"
     },
     {
       "source": "devto",
@@ -5610,47 +5596,12 @@
         "rust",
         "python"
       ],
-      "reactions": 20,
-      "comments": 10,
+      "reactions": 22,
+      "comments": 16,
       "reading_time": 2,
       "author": "teolex2020",
       "published_at": "2026-03-17T12:19:42Z",
-      "scraped_at": "2026-03-18T07:00:57.800676+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3363513,
-      "title": "What's in your headphones when you code? 🎧",
-      "description": "Let's revisit this conversation!  What music, soundtracks, podcasts, etc do you listen to and is...",
-      "url": "https://dev.to/ben/whats-in-your-headphones-when-you-code-51i4",
-      "tags": [
-        "discuss",
-        "watercooler"
-      ],
-      "reactions": 50,
-      "comments": 29,
-      "reading_time": 1,
-      "author": "ben",
-      "published_at": "2026-03-17T14:37:22Z",
-      "scraped_at": "2026-03-18T07:00:57.800679+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3358198,
-      "title": "Maybe there's a little time left",
-      "description": "When everything's AI, nothing's AI",
-      "url": "https://dev.to/moopet/maybe-theres-a-little-time-left-1ml3",
-      "tags": [
-        "ai",
-        "discuss",
-        "watercooler"
-      ],
-      "reactions": 16,
-      "comments": 3,
-      "reading_time": 2,
-      "author": "moopet",
-      "published_at": "2026-03-16T10:29:12Z",
-      "scraped_at": "2026-03-18T07:00:57.800684+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093028+00:00"
     },
     {
       "source": "devto",
@@ -5669,7 +5620,45 @@
       "reading_time": 5,
       "author": "cdnsteve",
       "published_at": "2026-03-17T18:20:44Z",
-      "scraped_at": "2026-03-18T07:00:57.800687+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093031+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3364721,
+      "title": "The Email That Nearly Stopped Me From Becoming a Developer",
+      "description": "This is a submission for the 2026 WeCoded Challenge: Echoes of Experience  I stood on stage in front...",
+      "url": "https://dev.to/sylwia-lask/the-email-that-nearly-stopped-me-from-becoming-a-developer-3n77",
+      "tags": [
+        "devchallenge",
+        "wecoded",
+        "dei",
+        "career"
+      ],
+      "reactions": 21,
+      "comments": 6,
+      "reading_time": 5,
+      "author": "sylwia-lask",
+      "published_at": "2026-03-18T10:15:29Z",
+      "scraped_at": "2026-03-18T13:27:08.093034+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3364522,
+      "title": "Confident and Wrong",
+      "description": "For a long time, I have been seeing AI in coding as something that enables me, amplifies my...",
+      "url": "https://dev.to/maxrimue/confident-and-wrong-107o",
+      "tags": [
+        "ai",
+        "swift",
+        "programming",
+        "learning"
+      ],
+      "reactions": 14,
+      "comments": 2,
+      "reading_time": 7,
+      "author": "maxrimue",
+      "published_at": "2026-03-17T20:07:24Z",
+      "scraped_at": "2026-03-18T13:27:08.093040+00:00"
     },
     {
       "source": "devto",
@@ -5688,26 +5677,7 @@
       "reading_time": 4,
       "author": "lakshmisravyavedantham",
       "published_at": "2026-03-16T17:38:10Z",
-      "scraped_at": "2026-03-18T07:00:57.800690+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3364522,
-      "title": "Confident and Wrong",
-      "description": "For a long time, I have been seeing AI in coding as something that enables me, amplifies my...",
-      "url": "https://dev.to/maxrimue/confident-and-wrong-107o",
-      "tags": [
-        "ai",
-        "swift",
-        "programming",
-        "learning"
-      ],
-      "reactions": 12,
-      "comments": 1,
-      "reading_time": 7,
-      "author": "maxrimue",
-      "published_at": "2026-03-17T20:07:24Z",
-      "scraped_at": "2026-03-18T07:00:57.800692+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093043+00:00"
     },
     {
       "source": "devto",
@@ -5721,12 +5691,12 @@
         "programming",
         "softwaredevelopment"
       ],
-      "reactions": 11,
+      "reactions": 16,
       "comments": 4,
       "reading_time": 4,
       "author": "aaron_rose_0787cc8b4775a0",
       "published_at": "2026-03-17T02:10:57Z",
-      "scraped_at": "2026-03-18T07:00:57.800695+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093046+00:00"
     },
     {
       "source": "devto",
@@ -5745,26 +5715,7 @@
       "reading_time": 14,
       "author": "amzani",
       "published_at": "2026-03-16T15:16:26Z",
-      "scraped_at": "2026-03-18T07:00:57.800698+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3357647,
-      "title": "I Built a Browser UI for Claude Code — Here's Why",
-      "description": "I started using Claude Code a few months ago. Terminal-first, no nonsense, incredibly powerful. But...",
-      "url": "https://dev.to/hamed_farag/i-built-a-browser-ui-for-claude-code-heres-why-4959",
-      "tags": [
-        "claude",
-        "ai",
-        "opensource",
-        "devex"
-      ],
-      "reactions": 36,
-      "comments": 8,
-      "reading_time": 8,
-      "author": "hamed_farag",
-      "published_at": "2026-03-16T08:15:44Z",
-      "scraped_at": "2026-03-18T07:00:57.800700+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093049+00:00"
     },
     {
       "source": "devto",
@@ -5778,50 +5729,12 @@
         "macos",
         "swift"
       ],
-      "reactions": 7,
+      "reactions": 8,
       "comments": 0,
       "reading_time": 1,
       "author": "imodi79",
       "published_at": "2026-03-17T18:26:17Z",
-      "scraped_at": "2026-03-18T07:00:57.800703+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3357973,
-      "title": "Notion Skills Registry: A Package Manager for AI Agent Skills with MCP",
-      "description": "This is a submission for the Notion MCP Challenge           What I Built   I built Notion Skills...",
-      "url": "https://dev.to/axrisi/notion-skills-registry-a-package-manager-for-ai-agent-skills-with-mcp-2581",
-      "tags": [
-        "devchallenge",
-        "notionchallenge",
-        "mcp",
-        "ai"
-      ],
-      "reactions": 27,
-      "comments": 16,
-      "reading_time": 5,
-      "author": "axrisi",
-      "published_at": "2026-03-16T09:28:46Z",
-      "scraped_at": "2026-03-18T07:00:57.800706+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3359043,
-      "title": "How I Built Niobe: An AI Waitress with Gemini Live and Google Cloud",
-      "description": "Disclaimer: I created this blog post for the purposes of entering the Gemini Live Agent Challenge...",
-      "url": "https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28",
-      "tags": [
-        "devchallenge",
-        "gemini",
-        "googlecloud",
-        "showdev"
-      ],
-      "reactions": 27,
-      "comments": 0,
-      "reading_time": 4,
-      "author": "provydon",
-      "published_at": "2026-03-16T13:30:29Z",
-      "scraped_at": "2026-03-18T07:00:57.800708+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093052+00:00"
     },
     {
       "source": "devto",
@@ -5840,7 +5753,102 @@
       "reading_time": 10,
       "author": "imgajeed76",
       "published_at": "2026-03-17T06:09:58Z",
-      "scraped_at": "2026-03-18T07:00:57.800713+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093055+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3359043,
+      "title": "How I Built Niobe: An AI Waitress with Gemini Live and Google Cloud",
+      "description": "Disclaimer: I created this blog post for the purposes of entering the Gemini Live Agent Challenge...",
+      "url": "https://dev.to/provydon/how-i-built-niobe-an-ai-waitress-with-gemini-live-and-google-cloud-2o28",
+      "tags": [
+        "devchallenge",
+        "gemini",
+        "googlecloud",
+        "showdev"
+      ],
+      "reactions": 27,
+      "comments": 0,
+      "reading_time": 4,
+      "author": "provydon",
+      "published_at": "2026-03-16T13:30:29Z",
+      "scraped_at": "2026-03-18T13:27:08.093058+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365607,
+      "title": "The Secret Life of Claude Code — The Language You Don't Know",
+      "description": "How to work in an unfamiliar language with Claude Code — and where the limits of that partnership...",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-the-language-you-dont-know-1pmp",
+      "tags": [
+        "claudecode",
+        "programming",
+        "codingwithai",
+        "softwaredevelopment"
+      ],
+      "reactions": 18,
+      "comments": 4,
+      "reading_time": 9,
+      "author": "aaron_rose_0787cc8b4775a0",
+      "published_at": "2026-03-18T03:23:30Z",
+      "scraped_at": "2026-03-18T13:27:08.093061+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365950,
+      "title": "I built a free, open-source alternative to LocalStack — CloudDev",
+      "description": "I built a free, open-source alternative to LocalStack — CloudDev   If you've been following...",
+      "url": "https://dev.to/jeffrin-dev/i-built-a-free-open-source-alternative-to-localstack-clouddev-59k",
+      "tags": [
+        "go",
+        "aws",
+        "opensource",
+        "devops"
+      ],
+      "reactions": 3,
+      "comments": 0,
+      "reading_time": 3,
+      "author": "jeffrin-dev",
+      "published_at": "2026-03-18T05:39:19Z",
+      "scraped_at": "2026-03-18T13:27:08.093064+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3360434,
+      "title": "Building Heritage Keeper: A Gemini Live Agent for Family Story Preservatio",
+      "description": "How I used the Gemini Live API with native audio, function calling, and Google Search grounding to...",
+      "url": "https://dev.to/billkhiz/building-heritage-keeper-a-gemini-live-agent-for-family-story-preservatio-57fk",
+      "tags": [
+        "agents",
+        "ai",
+        "gemini",
+        "showdev"
+      ],
+      "reactions": 3,
+      "comments": 0,
+      "reading_time": 4,
+      "author": "billkhiz",
+      "published_at": "2026-03-16T21:36:00Z",
+      "scraped_at": "2026-03-18T13:27:08.093066+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3363666,
+      "title": "I gave a local LLM memory, moods, and a task loop. Then it wrote a philosophical book.",
+      "description": "The Problem with AI Today: Goldfish Memory   Most of our interactions with AI today look...",
+      "url": "https://dev.to/southy404/i-gave-a-local-llm-memory-moods-and-a-task-loop-then-it-wrote-a-philosophical-book-57o8",
+      "tags": [
+        "ai",
+        "showdev",
+        "llm",
+        "architecture"
+      ],
+      "reactions": 4,
+      "comments": 0,
+      "reading_time": 3,
+      "author": "southy404",
+      "published_at": "2026-03-17T15:40:52Z",
+      "scraped_at": "2026-03-18T13:27:08.093072+00:00"
     },
     {
       "source": "devto",
@@ -5858,83 +5866,7 @@
       "reading_time": 4,
       "author": "peterwck",
       "published_at": "2026-03-16T22:37:10Z",
-      "scraped_at": "2026-03-18T07:00:57.800716+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3363666,
-      "title": "I gave a local LLM memory, moods, and a task loop. Then it wrote a philosophical book.",
-      "description": "The Problem with AI Today: Goldfish Memory   Most of our interactions with AI today look...",
-      "url": "https://dev.to/southy404/i-gave-a-local-llm-memory-moods-and-a-task-loop-then-it-wrote-a-philosophical-book-57o8",
-      "tags": [
-        "ai",
-        "showdev",
-        "llm",
-        "architecture"
-      ],
-      "reactions": 3,
-      "comments": 0,
-      "reading_time": 3,
-      "author": "southy404",
-      "published_at": "2026-03-17T15:40:52Z",
-      "scraped_at": "2026-03-18T07:00:57.800719+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3360321,
-      "title": "Building a Deep Fantasy Manager in Rust: Want to join?",
-      "description": "I’ve been heads-down building Mythic League, a persistent fantasy guild manager.  The goal is the...",
-      "url": "https://dev.to/marcoallegretti/building-a-deep-fantasy-manager-in-rust-want-to-join-4c3f",
-      "tags": [
-        "webdev",
-        "gamedev",
-        "rust",
-        "help"
-      ],
-      "reactions": 2,
-      "comments": 0,
-      "reading_time": 3,
-      "author": "marcoallegretti",
-      "published_at": "2026-03-16T21:10:51Z",
-      "scraped_at": "2026-03-18T07:00:57.800721+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3360672,
-      "title": "Why Istio's Metrics Merging Breaks in Multi-Container Pods (And How to Fix It)",
-      "description": "If you run multi-container pods under Istio with STRICT mTLS, you're probably missing...",
-      "url": "https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f",
-      "tags": [
-        "prometheus",
-        "kubernetes",
-        "istio",
-        "observability"
-      ],
-      "reactions": 1,
-      "comments": 0,
-      "reading_time": 4,
-      "author": "kaiohenricunha",
-      "published_at": "2026-03-17T00:07:31Z",
-      "scraped_at": "2026-03-18T07:00:57.800724+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3360434,
-      "title": "Building Heritage Keeper: A Gemini Live Agent for Family Story Preservatio",
-      "description": "How I used the Gemini Live API with native audio, function calling, and Google Search grounding to...",
-      "url": "https://dev.to/billkhiz/building-heritage-keeper-a-gemini-live-agent-for-family-story-preservatio-57fk",
-      "tags": [
-        "agents",
-        "ai",
-        "gemini",
-        "showdev"
-      ],
-      "reactions": 2,
-      "comments": 0,
-      "reading_time": 4,
-      "author": "billkhiz",
-      "published_at": "2026-03-16T21:36:00Z",
-      "scraped_at": "2026-03-18T07:00:57.800726+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093075+00:00"
     },
     {
       "source": "devto",
@@ -5953,23 +5885,83 @@
       "reading_time": 7,
       "author": "prof2k",
       "published_at": "2026-03-16T23:08:48Z",
-      "scraped_at": "2026-03-18T07:00:57.800731+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093078+00:00"
     },
     {
       "source": "devto",
-      "id": 3365421,
-      "title": "I Built a Free Accessibility Auditor That Actually Passes Its Own Audit",
-      "description": "Most free accessibility tools have an accessibility problem.  WAVE is a browser extension with no...",
-      "url": "https://dev.to/mosleyautomationsystems/i-built-a-free-accessibility-auditor-that-actually-passes-its-own-audit-19p6",
+      "id": 3360321,
+      "title": "Building a Deep Fantasy Manager in Rust: Want to join?",
+      "description": "I’ve been heads-down building Mythic League, a persistent fantasy guild manager.  The goal is the...",
+      "url": "https://dev.to/marcoallegretti/building-a-deep-fantasy-manager-in-rust-want-to-join-4c3f",
       "tags": [
-        "python"
+        "webdev",
+        "gamedev",
+        "rust",
+        "help"
       ],
-      "reactions": 0,
+      "reactions": 2,
       "comments": 0,
       "reading_time": 3,
-      "author": "mosleyautomationsystems",
-      "published_at": "2026-03-18T01:49:17Z",
-      "scraped_at": "2026-03-18T07:00:57.800734+00:00"
+      "author": "marcoallegretti",
+      "published_at": "2026-03-16T21:10:51Z",
+      "scraped_at": "2026-03-18T13:27:08.093083+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3367080,
+      "title": "I Bought a Domain at 15. Now It Powers 400,000+ Users.",
+      "description": "My name is Edward Hsing.  I’m 18, and I build internet infrastructure.  Today, something I started at...",
+      "url": "https://dev.to/edwardhsing/i-bought-a-domain-at-15-now-it-powers-400000-users-7ol",
+      "tags": [
+        "devops",
+        "opensource",
+        "dns",
+        "story"
+      ],
+      "reactions": 4,
+      "comments": 1,
+      "reading_time": 3,
+      "author": "edwardhsing",
+      "published_at": "2026-03-18T10:09:04Z",
+      "scraped_at": "2026-03-18T13:27:08.093086+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3360672,
+      "title": "Why Istio's Metrics Merging Breaks in Multi-Container Pods (And How to Fix It)",
+      "description": "If you run multi-container pods under Istio with STRICT mTLS, you're probably missing...",
+      "url": "https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f",
+      "tags": [
+        "prometheus",
+        "kubernetes",
+        "istio",
+        "observability"
+      ],
+      "reactions": 1,
+      "comments": 0,
+      "reading_time": 4,
+      "author": "kaiohenricunha",
+      "published_at": "2026-03-17T00:07:31Z",
+      "scraped_at": "2026-03-18T13:27:08.093089+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365875,
+      "title": "I Scanned 6 Popular Node.js Repos for Undocumented Environment Variables. Here's What I Found.",
+      "description": "Using the GitHub search API to count process.env references and .env.example coverage across express, nest, fastify, strapi, keystone, and supabase. The results are more nuanced than expected.",
+      "url": "https://dev.to/ckmtools/i-scanned-6-popular-nodejs-repos-for-undocumented-environment-variables-heres-what-i-found-5478",
+      "tags": [
+        "javascript",
+        "node",
+        "devops",
+        "showdev"
+      ],
+      "reactions": 2,
+      "comments": 2,
+      "reading_time": 4,
+      "author": "ckmtools",
+      "published_at": "2026-03-18T05:18:57Z",
+      "scraped_at": "2026-03-18T13:27:08.093092+00:00"
     },
     {
       "source": "devto",
@@ -5988,26 +5980,23 @@
       "reading_time": 7,
       "author": "adwitiya",
       "published_at": "2026-03-16T22:38:05Z",
-      "scraped_at": "2026-03-18T07:00:57.800737+00:00"
+      "scraped_at": "2026-03-18T13:27:08.093095+00:00"
     },
     {
       "source": "devto",
-      "id": 3365875,
-      "title": "I Scanned 6 Popular Node.js Repos for Undocumented Environment Variables. Here's What I Found.",
-      "description": "Using the GitHub search API to count process.env references and .env.example coverage across express, nest, fastify, strapi, keystone, and supabase. The results are more nuanced than expected.",
-      "url": "https://dev.to/ckmtools/i-scanned-6-popular-nodejs-repos-for-undocumented-environment-variables-heres-what-i-found-5478",
+      "id": 3365421,
+      "title": "I Built a Free Accessibility Auditor That Actually Passes Its Own Audit",
+      "description": "Most free accessibility tools have an accessibility problem.  WAVE is a browser extension with no...",
+      "url": "https://dev.to/mosleyautomationsystems/i-built-a-free-accessibility-auditor-that-actually-passes-its-own-audit-19p6",
       "tags": [
-        "javascript",
-        "node",
-        "devops",
-        "showdev"
+        "python"
       ],
-      "reactions": 0,
-      "comments": 0,
-      "reading_time": 4,
-      "author": "ckmtools",
-      "published_at": "2026-03-18T05:18:57Z",
-      "scraped_at": "2026-03-18T07:00:57.800739+00:00"
+      "reactions": 2,
+      "comments": 1,
+      "reading_time": 3,
+      "author": "mosleyautomationsystems",
+      "published_at": "2026-03-18T01:49:17Z",
+      "scraped_at": "2026-03-18T13:27:08.093098+00:00"
     }
   ]
 }
