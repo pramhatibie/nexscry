@@ -1361,7 +1361,7 @@ def _build_opportunities_html(opportunities: list, total_items: int) -> str:
 </section>"""
 
 
-def build_index_page(processed_data: dict) -> str:
+def build_index_page(processed_data: dict, canonical_url: str = SITE_URL) -> str:
     """Build the main index.html page."""
     all_data = processed_data.get("data", {})
     cross_signals = processed_data.get("cross_signals", [])
@@ -1557,12 +1557,13 @@ def build_index_page(processed_data: dict) -> str:
     contrarian = _escape_html(summary.get("contrarian_take", ""))
 
     today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    json_ld = json.dumps({
+    is_homepage = canonical_url == SITE_URL
+    article_ld = json.dumps({
         "@context": "https://schema.org",
-        "@type": "NewsArticle",
+        "@type": "BlogPosting",
         "headline": summary.get("headline", "Daily Intelligence Brief"),
         "description": summary.get("tldr", SITE_DESCRIPTION),
-        "url": SITE_URL,
+        "url": canonical_url,
         "datePublished": today_iso,
         "dateModified": today_iso,
         "publisher": {
@@ -1573,6 +1574,19 @@ def build_index_page(processed_data: dict) -> str:
         },
         "image": f"{SITE_URL}/og-image.svg",
     }, ensure_ascii=False)
+    website_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": SITE_NAME,
+        "url": SITE_URL,
+        "description": SITE_DESCRIPTION,
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {"@type": "EntryPoint", "urlTemplate": f"{SITE_URL}/archive/"},
+            "query-input": "required name=search_term_string",
+        },
+    }, ensure_ascii=False)
+    json_ld = article_ld
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1588,7 +1602,7 @@ def build_index_page(processed_data: dict) -> str:
   <meta property="og:title" content="{SITE_NAME} — {headline}">
   <meta property="og:description" content="{tldr}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE_URL}">
+  <meta property="og:url" content="{canonical_url}">
   <meta property="og:image" content="{SITE_URL}/og-image.svg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -1602,7 +1616,7 @@ def build_index_page(processed_data: dict) -> str:
   <meta name="twitter:image" content="{SITE_URL}/og-image.svg">
 
   <!-- Canonical + RSS -->
-  <link rel="canonical" href="{SITE_URL}">
+  <link rel="canonical" href="{canonical_url}">
   <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} Daily Brief" href="{SITE_URL}/feed.xml">
 
   <!-- Favicon -->
@@ -1610,6 +1624,7 @@ def build_index_page(processed_data: dict) -> str:
 
   <!-- Structured Data -->
   <script type="application/ld+json">{json_ld}</script>
+  {"<script type='application/ld+json'>" + website_ld + "</script>" if is_homepage else ""}
 
   <style>{SITE_CSS}</style>
 </head>
@@ -1880,6 +1895,15 @@ def build_archive_page(entries: list[dict]) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{SITE_NAME} — Archive</title>
   <meta name="description" content="Daily intelligence briefs archive — {SITE_NAME}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{SITE_URL}/archive/">
+  <meta property="og:title" content="{SITE_NAME} — Archive">
+  <meta property="og:description" content="Daily intelligence briefs archive — {SITE_NAME}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{SITE_URL}/archive/">
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <link rel="alternate" type="application/rss+xml" title="{SITE_NAME} Daily Brief" href="{SITE_URL}/feed.xml">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <style>
   {SITE_CSS}
   .archive-row {{ margin-bottom: 12px; }}
@@ -2108,12 +2132,14 @@ def build_site(processed_data: dict):
         f.write(rss_content)
     print(f"  ✅ Built {BUILD_DIR}/feed.xml")
 
-    # Archive: save today's brief as standalone page
+    # Archive: save today's brief as standalone page with correct canonical URL
     archive_dir = os.path.join(BUILD_DIR, "archive")
     os.makedirs(archive_dir, exist_ok=True)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    archive_canonical = f"{SITE_URL}/archive/{today}.html"
+    archive_html = build_index_page(processed_data, canonical_url=archive_canonical)
     with open(os.path.join(archive_dir, f"{today}.html"), "w", encoding="utf-8") as f:
-        f.write(index_html)
+        f.write(archive_html)
 
     # Update archive index + build archive listing page
     entries = _update_archive_index(processed_data)
