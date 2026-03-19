@@ -8,11 +8,11 @@
       "title": "Rob Pike’s Rules of Programming (1989)",
       "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
       "hn_url": "https://news.ycombinator.com/item?id=47423647",
-      "points": 910,
-      "num_comments": 427,
+      "points": 913,
+      "num_comments": 430,
       "author": "vismit2000",
       "created_at": "2026-03-18T09:59:54Z",
-      "scraped_at": "2026-03-19T06:40:33.294576+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780191+00:00"
     },
     {
       "source": "hackernews",
@@ -21,11 +21,11 @@
       "title": "OpenRocket",
       "url": "https://openrocket.info/",
       "hn_url": "https://news.ycombinator.com/item?id=47386703",
-      "points": 487,
+      "points": 493,
       "num_comments": 89,
       "author": "zeristor",
       "created_at": "2026-03-15T12:20:14Z",
-      "scraped_at": "2026-03-19T06:40:33.294598+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780207+00:00"
     },
     {
       "source": "hackernews",
@@ -34,11 +34,24 @@
       "title": "Austin’s surge of new housing construction drove down rents",
       "url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents",
       "hn_url": "https://news.ycombinator.com/item?id=47433058",
-      "points": 465,
-      "num_comments": 506,
+      "points": 471,
+      "num_comments": 517,
       "author": "matthest",
       "created_at": "2026-03-19T00:15:39Z",
-      "scraped_at": "2026-03-19T06:40:33.294602+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780211+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47378781",
+      "title": "Show HN: Hacker News archive (47M+ items, 11.6GB) as Parquet, updated every 5m",
+      "url": "https://huggingface.co/datasets/open-index/hacker-news",
+      "hn_url": "https://news.ycombinator.com/item?id=47378781",
+      "points": 357,
+      "num_comments": 144,
+      "author": "tamnd",
+      "created_at": "2026-03-14T17:12:03Z",
+      "scraped_at": "2026-03-19T06:56:50.780214+00:00"
     },
     {
       "source": "hackernews",
@@ -47,11 +60,11 @@
       "title": "Nvidia NemoClaw",
       "url": "https://github.com/NVIDIA/NemoClaw",
       "hn_url": "https://news.ycombinator.com/item?id=47427027",
-      "points": 284,
+      "points": 285,
       "num_comments": 203,
       "author": "hmokiguess",
       "created_at": "2026-03-18T15:31:07Z",
-      "scraped_at": "2026-03-19T06:40:33.294605+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780216+00:00"
     },
     {
       "source": "hackernews",
@@ -60,24 +73,11 @@
       "title": "Warranty Void If Regenerated",
       "url": "https://nearzero.software/p/warranty-void-if-regenerated",
       "hn_url": "https://news.ycombinator.com/item?id=47431237",
-      "points": 277,
-      "num_comments": 157,
+      "points": 283,
+      "num_comments": 158,
       "author": "Stwerner",
       "created_at": "2026-03-18T20:45:54Z",
-      "scraped_at": "2026-03-19T06:40:33.294607+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47422759",
-      "title": "Wander – A tiny, decentralised tool to explore the small web",
-      "url": "https://susam.net/wander/",
-      "hn_url": "https://news.ycombinator.com/item?id=47422759",
-      "points": 248,
-      "num_comments": 65,
-      "author": "susam",
-      "created_at": "2026-03-18T07:43:13Z",
-      "scraped_at": "2026-03-19T06:40:33.294609+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780219+00:00"
     },
     {
       "source": "hackernews",
@@ -86,11 +86,24 @@
       "title": "Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe",
       "url": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
       "hn_url": "https://news.ycombinator.com/item?id=47388658",
-      "points": 248,
-      "num_comments": 48,
+      "points": 255,
+      "num_comments": 51,
       "author": "mmastrac",
       "created_at": "2026-03-15T15:59:09Z",
-      "scraped_at": "2026-03-19T06:40:33.294612+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780221+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47422759",
+      "title": "Wander – A tiny, decentralised tool to explore the small web",
+      "url": "https://susam.net/wander/",
+      "hn_url": "https://news.ycombinator.com/item?id=47422759",
+      "points": 251,
+      "num_comments": 65,
+      "author": "susam",
+      "created_at": "2026-03-18T07:43:13Z",
+      "scraped_at": "2026-03-19T06:56:50.780226+00:00"
     },
     {
       "source": "hackernews",
@@ -99,11 +112,11 @@
       "title": "Show HN: I built 48 lightweight SVG backgrounds you can copy/paste",
       "url": "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
       "hn_url": "https://news.ycombinator.com/item?id=47427299",
-      "points": 228,
+      "points": 231,
       "num_comments": 49,
       "author": "visiwig",
       "created_at": "2026-03-18T15:50:44Z",
-      "scraped_at": "2026-03-19T06:40:33.294614+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780228+00:00"
     },
     {
       "source": "hackernews",
@@ -116,7 +129,7 @@
       "num_comments": 274,
       "author": "bblcla",
       "created_at": "2026-03-18T17:29:21Z",
-      "scraped_at": "2026-03-19T06:40:33.294624+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780230+00:00"
     },
     {
       "source": "hackernews",
@@ -125,11 +138,11 @@
       "title": "OpenAI Has New Focus (on the IPO)",
       "url": "https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/",
       "hn_url": "https://news.ycombinator.com/item?id=47423976",
-      "points": 203,
-      "num_comments": 171,
+      "points": 208,
+      "num_comments": 175,
       "author": "aamederen",
       "created_at": "2026-03-18T10:49:19Z",
-      "scraped_at": "2026-03-19T06:40:33.294627+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780233+00:00"
     },
     {
       "source": "hackernews",
@@ -138,24 +151,24 @@
       "title": "A sufficiently detailed spec is code",
       "url": "https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code",
       "hn_url": "https://news.ycombinator.com/item?id=47434047",
-      "points": 173,
-      "num_comments": 70,
+      "points": 195,
+      "num_comments": 80,
       "author": "signa11",
       "created_at": "2026-03-19T02:23:17Z",
-      "scraped_at": "2026-03-19T06:40:33.294629+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780235+00:00"
     },
     {
       "source": "hackernews",
       "type": "story",
-      "id": "47372072",
-      "title": "On a Boat",
-      "url": "https://moq.dev/blog/on-a-boat/",
-      "hn_url": "https://news.ycombinator.com/item?id=47372072",
-      "points": 146,
-      "num_comments": 24,
-      "author": "mmcclure",
-      "created_at": "2026-03-14T00:50:20Z",
-      "scraped_at": "2026-03-19T06:40:33.294631+00:00"
+      "id": "47426936",
+      "title": "Machine Payments Protocol (MPP)",
+      "url": "https://stripe.com/blog/machine-payments-protocol",
+      "hn_url": "https://news.ycombinator.com/item?id=47426936",
+      "points": 169,
+      "num_comments": 71,
+      "author": "bpierre",
+      "created_at": "2026-03-18T15:24:12Z",
+      "scraped_at": "2026-03-19T06:56:50.780237+00:00"
     },
     {
       "source": "hackernews",
@@ -164,11 +177,11 @@
       "title": "Cook: A simple CLI for orchestrating Claude Code",
       "url": "https://rjcorwin.github.io/cook/",
       "hn_url": "https://news.ycombinator.com/item?id=47434024",
-      "points": 126,
-      "num_comments": 28,
+      "points": 135,
+      "num_comments": 27,
       "author": "staticvar",
       "created_at": "2026-03-19T02:20:34Z",
-      "scraped_at": "2026-03-19T06:40:33.294633+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780239+00:00"
     },
     {
       "source": "hackernews",
@@ -177,24 +190,11 @@
       "title": "CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root",
       "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
       "hn_url": "https://news.ycombinator.com/item?id=47427208",
-      "points": 119,
-      "num_comments": 68,
+      "points": 121,
+      "num_comments": 69,
       "author": "askl",
       "created_at": "2026-03-18T15:43:19Z",
-      "scraped_at": "2026-03-19T06:40:33.294635+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47380714",
-      "title": "Book: The Emerging Science of Machine Learning Benchmarks",
-      "url": "https://mlbenchmarks.org/00-preface.html",
-      "hn_url": "https://news.ycombinator.com/item?id=47380714",
-      "points": 109,
-      "num_comments": 6,
-      "author": "jxmorris12",
-      "created_at": "2026-03-14T20:15:03Z",
-      "scraped_at": "2026-03-19T06:40:33.294637+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780241+00:00"
     },
     {
       "source": "hackernews",
@@ -203,10 +203,23 @@
       "title": "Ask HN: How do you deal with people who trust LLMs?",
       "text": "A lot of people use LLMs as the source of their objective truth. They have a question that would be very well answered with a search leading to a reputable source, but instead they ask some LLM chat bot and just blindly trust whatever it says.<p>How do you deal with that? Do you try to tell them about hallucinations and that LLMs have no concept of true or false? Or do you just let them be? What do you do when they do that in a conversation with you or encounter LLMs being used as a source for s",
       "hn_url": "https://news.ycombinator.com/item?id=47433702",
-      "points": 108,
-      "num_comments": 111,
+      "points": 112,
+      "num_comments": 112,
       "created_at": "2026-03-19T01:37:35Z",
-      "scraped_at": "2026-03-19T06:40:33.937484+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114953+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47380714",
+      "title": "Book: The Emerging Science of Machine Learning Benchmarks",
+      "url": "https://mlbenchmarks.org/00-preface.html",
+      "hn_url": "https://news.ycombinator.com/item?id=47380714",
+      "points": 111,
+      "num_comments": 6,
+      "author": "jxmorris12",
+      "created_at": "2026-03-14T20:15:03Z",
+      "scraped_at": "2026-03-19T06:56:50.780243+00:00"
     },
     {
       "source": "hackernews",
@@ -218,7 +231,7 @@
       "points": 104,
       "num_comments": 84,
       "created_at": "2026-03-18T17:11:30Z",
-      "scraped_at": "2026-03-19T06:40:33.937503+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114962+00:00"
     },
     {
       "source": "hackernews",
@@ -227,11 +240,11 @@
       "title": "The math that explains why bell curves are everywhere",
       "url": "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/",
       "hn_url": "https://news.ycombinator.com/item?id=47401489",
-      "points": 97,
+      "points": 102,
       "num_comments": 60,
       "author": "ibobev",
       "created_at": "2026-03-16T16:51:32Z",
-      "scraped_at": "2026-03-19T06:40:33.294639+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780245+00:00"
     },
     {
       "source": "hackernews",
@@ -240,11 +253,11 @@
       "title": "Autoresearch for SAT Solvers",
       "url": "https://github.com/iliazintchenko/agent-sat",
       "hn_url": "https://news.ycombinator.com/item?id=47433265",
-      "points": 89,
-      "num_comments": 15,
+      "points": 96,
+      "num_comments": 20,
       "author": "chaisan",
       "created_at": "2026-03-19T00:40:32Z",
-      "scraped_at": "2026-03-19T06:40:33.294641+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780253+00:00"
     },
     {
       "source": "hackernews",
@@ -253,37 +266,11 @@
       "title": "Show HN: Playing LongTurn FreeCiv with Friends",
       "url": "https://github.com/ndroo/freeciv.andrewmcgrath.info",
       "hn_url": "https://news.ycombinator.com/item?id=47429988",
-      "points": 69,
+      "points": 70,
       "num_comments": 29,
       "author": "verelo",
       "created_at": "2026-03-18T19:01:54Z",
-      "scraped_at": "2026-03-19T06:40:33.294643+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47434567",
-      "title": "Mozilla to launch free built-in VPN in upcoming Firefox 149",
-      "url": "https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/",
-      "hn_url": "https://news.ycombinator.com/item?id=47434567",
-      "points": 63,
-      "num_comments": 31,
-      "author": "adrianwaj",
-      "created_at": "2026-03-19T03:31:01Z",
-      "scraped_at": "2026-03-19T06:40:33.294647+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47432915",
-      "title": "RX – a new random-access JSON alternative",
-      "url": "https://github.com/creationix/rx",
-      "hn_url": "https://news.ycombinator.com/item?id=47432915",
-      "points": 58,
-      "num_comments": 20,
-      "author": "creationix",
-      "created_at": "2026-03-18T23:58:05Z",
-      "scraped_at": "2026-03-19T06:40:33.294649+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780255+00:00"
     },
     {
       "source": "hackernews",
@@ -292,11 +279,37 @@
       "title": "What 81,000 people want from AI",
       "url": "https://www.anthropic.com/features/81k-interviews",
       "hn_url": "https://news.ycombinator.com/item?id=47435156",
-      "points": 56,
-      "num_comments": 37,
+      "points": 69,
+      "num_comments": 48,
       "author": "dsr12",
       "created_at": "2026-03-19T05:00:56Z",
-      "scraped_at": "2026-03-19T06:40:33.294651+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780257+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47434567",
+      "title": "Mozilla to launch free built-in VPN in upcoming Firefox 149",
+      "url": "https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/",
+      "hn_url": "https://news.ycombinator.com/item?id=47434567",
+      "points": 68,
+      "num_comments": 37,
+      "author": "adrianwaj",
+      "created_at": "2026-03-19T03:31:01Z",
+      "scraped_at": "2026-03-19T06:56:50.780259+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47432915",
+      "title": "RX – a new random-access JSON alternative",
+      "url": "https://github.com/creationix/rx",
+      "hn_url": "https://news.ycombinator.com/item?id=47432915",
+      "points": 61,
+      "num_comments": 20,
+      "author": "creationix",
+      "created_at": "2026-03-18T23:58:05Z",
+      "scraped_at": "2026-03-19T06:56:50.780261+00:00"
     },
     {
       "source": "hackernews",
@@ -305,11 +318,11 @@
       "title": "What’s on HTTP?",
       "url": "https://whatsonhttp.com/",
       "hn_url": "https://news.ycombinator.com/item?id=47431930",
-      "points": 51,
+      "points": 52,
       "num_comments": 24,
       "author": "elixx",
       "created_at": "2026-03-18T21:57:58Z",
-      "scraped_at": "2026-03-19T06:40:33.294653+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780263+00:00"
     },
     {
       "source": "hackernews",
@@ -321,7 +334,7 @@
       "points": 49,
       "num_comments": 17,
       "created_at": "2026-03-17T19:55:54Z",
-      "scraped_at": "2026-03-19T06:40:33.937507+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114966+00:00"
     },
     {
       "source": "hackernews",
@@ -330,11 +343,11 @@
       "title": "LotusNotes",
       "url": "https://computer.rip/2026-03-14-lotusnotes.html",
       "hn_url": "https://news.ycombinator.com/item?id=47385439",
-      "points": 40,
-      "num_comments": 15,
+      "points": 44,
+      "num_comments": 18,
       "author": "TMWNN",
       "created_at": "2026-03-15T08:40:59Z",
-      "scraped_at": "2026-03-19T06:40:33.294655+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780265+00:00"
     },
     {
       "source": "hackernews",
@@ -343,11 +356,37 @@
       "title": "Czech Man's Stone in Barn's Foundations Is Rare Bronze Age Spearhead Mold",
       "url": "https://www.smithsonianmag.com/smart-news/a-czech-man-used-this-stone-in-his-barns-foundations-it-turned-out-to-be-rare-bronze-age-spearhead-mold-180988339/",
       "hn_url": "https://news.ycombinator.com/item?id=47397862",
-      "points": 34,
+      "points": 36,
       "num_comments": 4,
       "author": "bookofjoe",
       "created_at": "2026-03-16T12:06:32Z",
-      "scraped_at": "2026-03-19T06:40:33.294657+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780267+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47434311",
+      "title": "We Have Learned Nothing",
+      "url": "https://colossus.com/article/we-have-learned-nothing-startup-pundits/",
+      "hn_url": "https://news.ycombinator.com/item?id=47434311",
+      "points": 31,
+      "num_comments": 8,
+      "author": "lukestevens",
+      "created_at": "2026-03-19T02:53:37Z",
+      "scraped_at": "2026-03-19T06:56:50.780269+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "story",
+      "id": "47434732",
+      "title": "Conway's Game of Life, in real life",
+      "url": "https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life",
+      "hn_url": "https://news.ycombinator.com/item?id=47434732",
+      "points": 31,
+      "num_comments": 4,
+      "author": "surprisetalk",
+      "created_at": "2026-03-19T03:55:03Z",
+      "scraped_at": "2026-03-19T06:56:50.780271+00:00"
     },
     {
       "source": "hackernews",
@@ -359,33 +398,20 @@
       "points": 30,
       "num_comments": 66,
       "created_at": "2026-03-18T01:56:53Z",
-      "scraped_at": "2026-03-19T06:40:33.937510+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114968+00:00"
     },
     {
       "source": "hackernews",
       "type": "story",
-      "id": "47434311",
-      "title": "We Have Learned Nothing",
-      "url": "https://colossus.com/article/we-have-learned-nothing-startup-pundits/",
-      "hn_url": "https://news.ycombinator.com/item?id=47434311",
-      "points": 29,
-      "num_comments": 7,
-      "author": "lukestevens",
-      "created_at": "2026-03-19T02:53:37Z",
-      "scraped_at": "2026-03-19T06:40:33.294659+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47434732",
-      "title": "Conway's Game of Life, in real life",
-      "url": "https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life",
-      "hn_url": "https://news.ycombinator.com/item?id=47434732",
-      "points": 28,
-      "num_comments": 2,
-      "author": "surprisetalk",
-      "created_at": "2026-03-19T03:55:03Z",
-      "scraped_at": "2026-03-19T06:40:33.294662+00:00"
+      "id": "47387431",
+      "title": "An x86-64 back end for raven-uxn",
+      "url": "https://www.mattkeeter.com/blog/2026-03-15-uxn/",
+      "hn_url": "https://news.ycombinator.com/item?id=47387431",
+      "points": 27,
+      "num_comments": 5,
+      "author": "dcre",
+      "created_at": "2026-03-15T13:57:24Z",
+      "scraped_at": "2026-03-19T06:56:50.780276+00:00"
     },
     {
       "source": "hackernews",
@@ -397,20 +423,20 @@
       "points": 27,
       "num_comments": 7,
       "created_at": "2026-03-17T21:00:50Z",
-      "scraped_at": "2026-03-19T06:40:33.937513+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114971+00:00"
     },
     {
       "source": "hackernews",
       "type": "story",
-      "id": "47387431",
-      "title": "An x86-64 back end for raven-uxn",
-      "url": "https://www.mattkeeter.com/blog/2026-03-15-uxn/",
-      "hn_url": "https://news.ycombinator.com/item?id=47387431",
-      "points": 26,
-      "num_comments": 5,
-      "author": "dcre",
-      "created_at": "2026-03-15T13:57:24Z",
-      "scraped_at": "2026-03-19T06:40:33.294664+00:00"
+      "id": "47396496",
+      "title": "Show HN: Browser grand strategy game for hundreds of players on huge maps",
+      "url": "https://borderhold.io/play",
+      "hn_url": "https://news.ycombinator.com/item?id=47396496",
+      "points": 16,
+      "num_comments": 10,
+      "author": "sgolem",
+      "created_at": "2026-03-16T08:51:10Z",
+      "scraped_at": "2026-03-19T06:56:50.780278+00:00"
     },
     {
       "source": "hackernews",
@@ -422,20 +448,32 @@
       "points": 16,
       "num_comments": 5,
       "created_at": "2026-03-17T19:45:09Z",
-      "scraped_at": "2026-03-19T06:40:33.937516+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114974+00:00"
     },
     {
       "source": "hackernews",
       "type": "story",
-      "id": "47396496",
-      "title": "Show HN: Browser grand strategy game for hundreds of players on huge maps",
-      "url": "https://borderhold.io/play",
-      "hn_url": "https://news.ycombinator.com/item?id=47396496",
-      "points": 14,
-      "num_comments": 10,
-      "author": "sgolem",
-      "created_at": "2026-03-16T08:51:10Z",
-      "scraped_at": "2026-03-19T06:40:33.294666+00:00"
+      "id": "47381834",
+      "title": "Framework doesn't matter",
+      "url": "https://cemrehancavdar.com/2026/02/19/your-framework-may-not-matter/",
+      "hn_url": "https://news.ycombinator.com/item?id=47381834",
+      "points": 13,
+      "num_comments": 1,
+      "author": "zdw",
+      "created_at": "2026-03-14T22:14:26Z",
+      "scraped_at": "2026-03-19T06:56:50.780280+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47432641",
+      "title": "Ask HN: Why is everyone on HN obsessed with Rust?",
+      "text": "",
+      "hn_url": "https://news.ycombinator.com/item?id=47432641",
+      "points": 11,
+      "num_comments": 8,
+      "created_at": "2026-03-18T23:23:49Z",
+      "scraped_at": "2026-03-19T06:56:51.114976+00:00"
     },
     {
       "source": "hackernews",
@@ -447,32 +485,7 @@
       "points": 11,
       "num_comments": 2,
       "created_at": "2026-03-17T07:40:37Z",
-      "scraped_at": "2026-03-19T06:40:33.937519+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "story",
-      "id": "47381834",
-      "title": "Framework doesn't matter",
-      "url": "https://cemrehancavdar.com/2026/02/19/your-framework-may-not-matter/",
-      "hn_url": "https://news.ycombinator.com/item?id=47381834",
-      "points": 10,
-      "num_comments": 0,
-      "author": "zdw",
-      "created_at": "2026-03-14T22:14:26Z",
-      "scraped_at": "2026-03-19T06:40:33.294670+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47409463",
-      "title": "Ask HN: What signals do you look for when hiring?",
-      "text": "There is good drama out there about ATS score, resumes keywords matching, AI resumes generator, formatter.<p>I dont know how people are coming up with such juicy and vanity metrics but mostly are noise.<p>• How you think\n• How you solve problems\n• How you execute ideas\n• The results you’ve achieved<p>These are the real hiring signals that actually matter,\nsomething we consistently hear from many startup founders and recruiters.<p>That’s why more people are showcasing their work through portfolio",
-      "hn_url": "https://news.ycombinator.com/item?id=47409463",
-      "points": 10,
-      "num_comments": 19,
-      "created_at": "2026-03-17T06:54:25Z",
-      "scraped_at": "2026-03-19T06:40:33.937522+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114978+00:00"
     },
     {
       "source": "hackernews",
@@ -484,19 +497,7 @@
       "points": 10,
       "num_comments": 14,
       "created_at": "2026-03-17T22:36:03Z",
-      "scraped_at": "2026-03-19T06:40:33.937524+00:00"
-    },
-    {
-      "source": "hackernews",
-      "type": "ask_hn",
-      "id": "47432641",
-      "title": "Ask HN: Why is everyone on HN obsessed with Rust?",
-      "text": "",
-      "hn_url": "https://news.ycombinator.com/item?id=47432641",
-      "points": 10,
-      "num_comments": 8,
-      "created_at": "2026-03-18T23:23:49Z",
-      "scraped_at": "2026-03-19T06:40:33.937526+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114980+00:00"
     },
     {
       "source": "hackernews",
@@ -509,7 +510,7 @@
       "num_comments": 1,
       "author": "lizmat",
       "created_at": "2026-03-10T09:31:19Z",
-      "scraped_at": "2026-03-19T06:40:33.294672+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780282+00:00"
     },
     {
       "source": "hackernews",
@@ -521,7 +522,7 @@
       "points": 9,
       "num_comments": 3,
       "created_at": "2026-03-18T03:55:50Z",
-      "scraped_at": "2026-03-19T06:40:33.937528+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114983+00:00"
     },
     {
       "source": "hackernews",
@@ -533,7 +534,7 @@
       "points": 9,
       "num_comments": 1,
       "created_at": "2026-03-17T10:48:54Z",
-      "scraped_at": "2026-03-19T06:40:33.937531+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114984+00:00"
     },
     {
       "source": "hackernews",
@@ -546,7 +547,7 @@
       "num_comments": 1,
       "author": "mooreds",
       "created_at": "2026-03-16T13:51:59Z",
-      "scraped_at": "2026-03-19T06:40:33.294674+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780286+00:00"
     },
     {
       "source": "hackernews",
@@ -558,7 +559,7 @@
       "points": 8,
       "num_comments": 14,
       "created_at": "2026-03-18T13:20:04Z",
-      "scraped_at": "2026-03-19T06:40:33.937533+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114987+00:00"
     },
     {
       "source": "hackernews",
@@ -570,7 +571,7 @@
       "points": 8,
       "num_comments": 0,
       "created_at": "2026-03-17T20:29:35Z",
-      "scraped_at": "2026-03-19T06:40:33.937535+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114989+00:00"
     },
     {
       "source": "hackernews",
@@ -580,9 +581,9 @@
       "text": "",
       "hn_url": "https://news.ycombinator.com/item?id=47432535",
       "points": 7,
-      "num_comments": 5,
+      "num_comments": 6,
       "created_at": "2026-03-18T23:09:40Z",
-      "scraped_at": "2026-03-19T06:40:33.937538+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114991+00:00"
     },
     {
       "source": "hackernews",
@@ -594,7 +595,7 @@
       "points": 7,
       "num_comments": 5,
       "created_at": "2026-03-18T12:33:06Z",
-      "scraped_at": "2026-03-19T06:40:33.937540+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114993+00:00"
     },
     {
       "source": "hackernews",
@@ -606,7 +607,7 @@
       "points": 7,
       "num_comments": 0,
       "created_at": "2026-03-17T21:01:31Z",
-      "scraped_at": "2026-03-19T06:40:33.937542+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114995+00:00"
     },
     {
       "source": "hackernews",
@@ -618,7 +619,7 @@
       "points": 6,
       "num_comments": 6,
       "created_at": "2026-03-17T16:44:18Z",
-      "scraped_at": "2026-03-19T06:40:33.937545+00:00"
+      "scraped_at": "2026-03-19T06:56:51.114998+00:00"
     },
     {
       "source": "hackernews",
@@ -630,7 +631,7 @@
       "points": 6,
       "num_comments": 6,
       "created_at": "2026-03-17T16:00:52Z",
-      "scraped_at": "2026-03-19T06:40:33.937547+00:00"
+      "scraped_at": "2026-03-19T06:56:51.115000+00:00"
     },
     {
       "source": "hackernews",
@@ -642,7 +643,19 @@
       "points": 6,
       "num_comments": 4,
       "created_at": "2026-03-17T23:31:49Z",
-      "scraped_at": "2026-03-19T06:40:33.937549+00:00"
+      "scraped_at": "2026-03-19T06:56:51.115002+00:00"
+    },
+    {
+      "source": "hackernews",
+      "type": "ask_hn",
+      "id": "47421784",
+      "title": "Knowledge workers managing AI show collapsed productivity, not just a plateau",
+      "text": "I spent a few weeks pulling together what the longitudinal workplace studies are actually finding about AI adoption, as opposed to the productivity optimism in most coverage.<p>https:&#x2F;&#x2F;medium.com&#x2F;@dilpreetgrover2&#x2F;the-ai-productivity-paradox-why-efficiency-is-skyrocketing-while-employees-are-burning-out-3747c44910d3?postPublishedType=initial",
+      "hn_url": "https://news.ycombinator.com/item?id=47421784",
+      "points": 6,
+      "num_comments": 2,
+      "created_at": "2026-03-18T05:05:59Z",
+      "scraped_at": "2026-03-19T06:56:51.115004+00:00"
     },
     {
       "source": "hackernews",
@@ -655,7 +668,7 @@
       "num_comments": 0,
       "author": "js2",
       "created_at": "2026-03-12T20:12:45Z",
-      "scraped_at": "2026-03-19T06:40:33.294678+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780288+00:00"
     },
     {
       "source": "hackernews",
@@ -668,7 +681,7 @@
       "num_comments": 0,
       "author": "mikeknoop",
       "created_at": "2026-03-18T07:00:13Z",
-      "scraped_at": "2026-03-19T06:40:33.294681+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780291+00:00"
     },
     {
       "source": "hackernews",
@@ -681,7 +694,7 @@
       "num_comments": 0,
       "author": "richard_pepper",
       "created_at": "2026-03-17T17:00:50Z",
-      "scraped_at": "2026-03-19T06:40:33.294683+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780293+00:00"
     },
     {
       "source": "hackernews",
@@ -694,7 +707,7 @@
       "num_comments": 0,
       "author": "ayush4921",
       "created_at": "2026-03-16T21:00:06Z",
-      "scraped_at": "2026-03-19T06:40:33.294685+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780297+00:00"
     },
     {
       "source": "hackernews",
@@ -707,7 +720,7 @@
       "num_comments": 0,
       "author": "michaelssilver",
       "created_at": "2026-03-16T17:00:17Z",
-      "scraped_at": "2026-03-19T06:40:33.294687+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780299+00:00"
     },
     {
       "source": "hackernews",
@@ -720,7 +733,7 @@
       "num_comments": 0,
       "author": "bastienbeurier",
       "created_at": "2026-03-16T12:03:13Z",
-      "scraped_at": "2026-03-19T06:40:33.294689+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780303+00:00"
     },
     {
       "source": "hackernews",
@@ -733,7 +746,7 @@
       "num_comments": 0,
       "author": "ukd1",
       "created_at": "2026-03-14T13:45:04Z",
-      "scraped_at": "2026-03-19T06:40:33.294691+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780305+00:00"
     },
     {
       "source": "hackernews",
@@ -746,7 +759,7 @@
       "num_comments": 0,
       "author": "thomashlvt",
       "created_at": "2026-03-12T17:01:46Z",
-      "scraped_at": "2026-03-19T06:40:33.294695+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780307+00:00"
     },
     {
       "source": "hackernews",
@@ -759,7 +772,7 @@
       "num_comments": 0,
       "author": "patman_h",
       "created_at": "2026-03-12T14:32:46Z",
-      "scraped_at": "2026-03-19T06:40:33.294700+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780309+00:00"
     },
     {
       "source": "hackernews",
@@ -772,7 +785,7 @@
       "num_comments": 0,
       "author": "Gabriel_h",
       "created_at": "2026-03-11T21:01:42Z",
-      "scraped_at": "2026-03-19T06:40:33.294702+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780311+00:00"
     },
     {
       "source": "hackernews",
@@ -785,7 +798,7 @@
       "num_comments": 0,
       "author": "multifactor",
       "created_at": "2026-03-06T17:00:38Z",
-      "scraped_at": "2026-03-19T06:40:33.294704+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780314+00:00"
     },
     {
       "source": "hackernews",
@@ -798,7 +811,7 @@
       "num_comments": 0,
       "author": "sanketc",
       "created_at": "2026-03-06T07:02:08Z",
-      "scraped_at": "2026-03-19T06:40:33.294706+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780316+00:00"
     },
     {
       "source": "hackernews",
@@ -811,7 +824,7 @@
       "num_comments": 0,
       "author": "issygreenslade",
       "created_at": "2026-03-05T21:01:30Z",
-      "scraped_at": "2026-03-19T06:40:33.294709+00:00"
+      "scraped_at": "2026-03-19T06:56:50.780318+00:00"
     }
   ],
   "github": [
@@ -820,7 +833,7 @@
       "name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 438453,
+      "stars": 438455,
       "forks": 43692,
       "language": "TypeScript",
       "topics": [
@@ -842,18 +855,18 @@
       ],
       "open_issues": 236,
       "created_at": "2014-12-24T17:49:19Z",
-      "updated_at": "2026-03-19T06:28:31Z",
+      "updated_at": "2026-03-19T06:54:51Z",
       "owner_type": "Organization",
       "hiring_signal": true,
-      "star_velocity": 62636.1,
-      "scraped_at": "2026-03-19T06:40:35.506926+00:00"
+      "star_velocity": 62636.4,
+      "scraped_at": "2026-03-19T06:56:52.853170+00:00"
     },
     {
       "source": "github",
       "name": "public-apis/public-apis",
       "description": "A collective list of free APIs",
       "url": "https://github.com/public-apis/public-apis",
-      "stars": 412035,
+      "stars": 412040,
       "forks": 44562,
       "language": "Python",
       "topics": [
@@ -873,18 +886,18 @@
       ],
       "open_issues": 1018,
       "created_at": "2016-03-20T23:49:42Z",
-      "updated_at": "2026-03-19T06:37:07Z",
+      "updated_at": "2026-03-19T06:56:24Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 58862.1,
-      "scraped_at": "2026-03-19T06:40:35.506948+00:00"
+      "star_velocity": 58862.9,
+      "scraped_at": "2026-03-19T06:56:52.853187+00:00"
     },
     {
       "source": "github",
       "name": "EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
-      "stars": 384186,
+      "stars": 384185,
       "forks": 66025,
       "language": "Python",
       "topics": [
@@ -896,18 +909,18 @@
       ],
       "open_issues": 72,
       "created_at": "2013-10-11T06:50:37Z",
-      "updated_at": "2026-03-19T06:28:47Z",
+      "updated_at": "2026-03-19T06:47:55Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 54883.7,
-      "scraped_at": "2026-03-19T06:40:35.506957+00:00"
+      "star_velocity": 54883.6,
+      "scraped_at": "2026-03-19T06:56:52.853196+00:00"
     },
     {
       "source": "github",
       "name": "kamranahmedse/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "url": "https://github.com/kamranahmedse/developer-roadmap",
-      "stars": 351132,
+      "stars": 351134,
       "forks": 43807,
       "language": "TypeScript",
       "topics": [
@@ -932,18 +945,18 @@
       ],
       "open_issues": 29,
       "created_at": "2017-03-15T13:45:52Z",
-      "updated_at": "2026-03-19T06:36:23Z",
+      "updated_at": "2026-03-19T06:46:37Z",
       "owner_type": "User",
       "hiring_signal": true,
-      "star_velocity": 50161.7,
-      "scraped_at": "2026-03-19T06:40:35.506966+00:00"
+      "star_velocity": 50162.0,
+      "scraped_at": "2026-03-19T06:56:52.853205+00:00"
     },
     {
       "source": "github",
       "name": "donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "url": "https://github.com/donnemartin/system-design-primer",
-      "stars": 339347,
+      "stars": 339349,
       "forks": 54943,
       "language": "Python",
       "topics": [
@@ -963,19 +976,19 @@
       ],
       "open_issues": 518,
       "created_at": "2017-02-26T16:15:28Z",
-      "updated_at": "2026-03-19T06:40:05Z",
+      "updated_at": "2026-03-19T06:56:44Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 48478.1,
-      "scraped_at": "2026-03-19T06:40:35.506975+00:00"
+      "star_velocity": 48478.4,
+      "scraped_at": "2026-03-19T06:56:52.853214+00:00"
     },
     {
       "source": "github",
       "name": "openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "url": "https://github.com/openclaw/openclaw",
-      "stars": 323704,
-      "forks": 62394,
+      "stars": 323742,
+      "forks": 62403,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -986,13 +999,13 @@
         "own-your-data",
         "personal"
       ],
-      "open_issues": 14549,
+      "open_issues": 14556,
       "created_at": "2025-11-24T10:16:47Z",
-      "updated_at": "2026-03-19T06:40:16Z",
+      "updated_at": "2026-03-19T06:56:44Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 46243.4,
-      "scraped_at": "2026-03-19T06:40:35.506985+00:00"
+      "star_velocity": 46248.9,
+      "scraped_at": "2026-03-19T06:56:52.853223+00:00"
     },
     {
       "source": "github",
@@ -1012,11 +1025,11 @@
       ],
       "open_issues": 18,
       "created_at": "2014-06-27T21:00:06Z",
-      "updated_at": "2026-03-19T06:20:32Z",
+      "updated_at": "2026-03-19T06:56:05Z",
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 41125.3,
-      "scraped_at": "2026-03-19T06:40:35.506991+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853230+00:00"
     },
     {
       "source": "github",
@@ -1024,7 +1037,7 @@
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "stars": 280864,
-      "forks": 12899,
+      "forks": 12900,
       "language": null,
       "topics": [
         "awesome",
@@ -1042,7 +1055,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 40123.4,
-      "scraped_at": "2026-03-19T06:40:35.506998+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853237+00:00"
     },
     {
       "source": "github",
@@ -1066,24 +1079,24 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 34862.7,
-      "scraped_at": "2026-03-19T06:40:35.507004+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853243+00:00"
     },
     {
       "source": "github",
       "name": "torvalds/linux",
       "description": "Linux kernel source tree",
       "url": "https://github.com/torvalds/linux",
-      "stars": 223897,
+      "stars": 223903,
       "forks": 61048,
       "language": "C",
       "topics": [],
       "open_issues": 3,
       "created_at": "2011-09-04T22:48:12Z",
-      "updated_at": "2026-03-19T06:28:31Z",
+      "updated_at": "2026-03-19T06:55:50Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 31985.3,
-      "scraped_at": "2026-03-19T06:40:35.507009+00:00"
+      "star_velocity": 31986.1,
+      "scraped_at": "2026-03-19T06:56:52.853248+00:00"
     },
     {
       "source": "github",
@@ -1115,7 +1128,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 31258.3,
-      "scraped_at": "2026-03-19T06:40:35.507016+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853255+00:00"
     },
     {
       "source": "github",
@@ -1137,7 +1150,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 28937.6,
-      "scraped_at": "2026-03-19T06:40:35.507023+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853262+00:00"
     },
     {
       "source": "github",
@@ -1157,20 +1170,20 @@
         "python",
         "tensorflow"
       ],
-      "open_issues": 3781,
+      "open_issues": 3783,
       "created_at": "2015-11-07T01:19:20Z",
       "updated_at": "2026-03-19T06:34:03Z",
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 27744.4,
-      "scraped_at": "2026-03-19T06:40:35.507030+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853268+00:00"
     },
     {
       "source": "github",
       "name": "ohmyzsh/ohmyzsh",
       "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
-      "stars": 185456,
+      "stars": 185457,
       "forks": 26321,
       "language": "Shell",
       "topics": [
@@ -1192,18 +1205,18 @@
       ],
       "open_issues": 527,
       "created_at": "2009-08-28T18:15:37Z",
-      "updated_at": "2026-03-19T06:15:22Z",
+      "updated_at": "2026-03-19T06:44:53Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26493.7,
-      "scraped_at": "2026-03-19T06:40:35.507041+00:00"
+      "star_velocity": 26493.9,
+      "scraped_at": "2026-03-19T06:56:52.853279+00:00"
     },
     {
       "source": "github",
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 182814,
+      "stars": 182812,
       "forks": 38605,
       "language": "TypeScript",
       "topics": [
@@ -1213,21 +1226,21 @@
         "typescript",
         "visual-studio-code"
       ],
-      "open_issues": 15454,
+      "open_issues": 15457,
       "created_at": "2015-09-03T20:23:38Z",
-      "updated_at": "2026-03-19T06:09:03Z",
+      "updated_at": "2026-03-19T06:53:54Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26116.3,
-      "scraped_at": "2026-03-19T06:40:35.507047+00:00"
+      "star_velocity": 26116.0,
+      "scraped_at": "2026-03-19T06:56:52.853285+00:00"
     },
     {
       "source": "github",
       "name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": 182592,
-      "forks": 46233,
+      "stars": 182594,
+      "forks": 46234,
       "language": "Python",
       "topics": [
         "ai",
@@ -1240,18 +1253,18 @@
       ],
       "open_issues": 365,
       "created_at": "2023-03-16T09:21:07Z",
-      "updated_at": "2026-03-19T06:03:45Z",
+      "updated_at": "2026-03-19T06:53:47Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 26084.6,
-      "scraped_at": "2026-03-19T06:40:35.507053+00:00"
+      "star_velocity": 26084.9,
+      "scraped_at": "2026-03-19T06:56:52.853291+00:00"
     },
     {
       "source": "github",
       "name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 179918,
+      "stars": 179921,
       "forks": 55947,
       "language": "TypeScript",
       "topics": [
@@ -1278,18 +1291,18 @@
       ],
       "open_issues": 1429,
       "created_at": "2019-06-22T09:24:21Z",
-      "updated_at": "2026-03-19T06:29:12Z",
+      "updated_at": "2026-03-19T06:54:08Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 25702.6,
-      "scraped_at": "2026-03-19T06:40:35.507064+00:00"
+      "star_velocity": 25703.0,
+      "scraped_at": "2026-03-19T06:56:52.853313+00:00"
     },
     {
       "source": "github",
       "name": "flutter/flutter",
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "url": "https://github.com/flutter/flutter",
-      "stars": 175609,
+      "stars": 175610,
       "forks": 30134,
       "language": "Dart",
       "topics": [
@@ -1315,11 +1328,11 @@
       ],
       "open_issues": 12468,
       "created_at": "2015-03-06T22:54:58Z",
-      "updated_at": "2026-03-19T05:48:20Z",
+      "updated_at": "2026-03-19T06:47:38Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 25087.0,
-      "scraped_at": "2026-03-19T06:40:35.507072+00:00"
+      "star_velocity": 25087.1,
+      "scraped_at": "2026-03-19T06:56:52.853321+00:00"
     },
     {
       "source": "github",
@@ -1344,7 +1357,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 24870.6,
-      "scraped_at": "2026-03-19T06:40:35.507078+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853327+00:00"
     },
     {
       "source": "github",
@@ -1364,18 +1377,18 @@
       ],
       "open_issues": 173,
       "created_at": "2014-07-06T13:42:15Z",
-      "updated_at": "2026-03-19T06:38:17Z",
+      "updated_at": "2026-03-19T06:56:07Z",
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 23955.0,
-      "scraped_at": "2026-03-19T06:40:35.507084+00:00"
+      "scraped_at": "2026-03-19T06:56:52.853333+00:00"
     },
     {
       "source": "github",
       "name": "ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "url": "https://github.com/ollama/ollama",
-      "stars": 165529,
+      "stars": 165531,
       "forks": 15051,
       "language": "Go",
       "topics": [
@@ -1395,20 +1408,20 @@
         "ollama",
         "qwen"
       ],
-      "open_issues": 2678,
+      "open_issues": 2679,
       "created_at": "2023-06-26T19:39:32Z",
-      "updated_at": "2026-03-19T06:40:37Z",
+      "updated_at": "2026-03-19T06:56:02Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 23647.0,
-      "scraped_at": "2026-03-19T06:40:37.641446+00:00"
+      "star_velocity": 23647.3,
+      "scraped_at": "2026-03-19T06:56:55.084312+00:00"
     },
     {
       "source": "github",
       "name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "url": "https://github.com/huggingface/transformers",
-      "stars": 158059,
+      "stars": 158060,
       "forks": 32539,
       "language": "Python",
       "topics": [
@@ -1434,18 +1447,18 @@
       ],
       "open_issues": 2290,
       "created_at": "2018-10-29T13:56:00Z",
-      "updated_at": "2026-03-19T06:28:05Z",
+      "updated_at": "2026-03-19T06:42:57Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 22579.9,
-      "scraped_at": "2026-03-19T06:40:36.052970+00:00"
+      "star_velocity": 22580.0,
+      "scraped_at": "2026-03-19T06:56:53.361731+00:00"
     },
     {
       "source": "github",
       "name": "yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
       "url": "https://github.com/yt-dlp/yt-dlp",
-      "stars": 151989,
+      "stars": 151990,
       "forks": 12331,
       "language": "Python",
       "topics": [
@@ -1459,18 +1472,18 @@
       ],
       "open_issues": 2370,
       "created_at": "2020-10-26T04:22:55Z",
-      "updated_at": "2026-03-19T06:38:37Z",
+      "updated_at": "2026-03-19T06:56:36Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 21712.7,
-      "scraped_at": "2026-03-19T06:40:36.052978+00:00"
+      "star_velocity": 21712.9,
+      "scraped_at": "2026-03-19T06:56:53.361737+00:00"
     },
     {
       "source": "github",
       "name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "url": "https://github.com/langflow-ai/langflow",
-      "stars": 145870,
+      "stars": 145871,
       "forks": 8608,
       "language": "Python",
       "topics": [
@@ -1483,11 +1496,11 @@
       ],
       "open_issues": 900,
       "created_at": "2023-02-08T22:28:03Z",
-      "updated_at": "2026-03-19T06:28:54Z",
+      "updated_at": "2026-03-19T06:49:38Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 20838.6,
-      "scraped_at": "2026-03-19T06:40:36.052984+00:00"
+      "star_velocity": 20838.7,
+      "scraped_at": "2026-03-19T06:56:53.361743+00:00"
     },
     {
       "source": "github",
@@ -1519,14 +1532,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 19765.3,
-      "scraped_at": "2026-03-19T06:40:38.213311+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734427+00:00"
     },
     {
       "source": "github",
       "name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "url": "https://github.com/langgenius/dify",
-      "stars": 133488,
+      "stars": 133489,
       "forks": 20788,
       "language": "TypeScript",
       "topics": [
@@ -1553,11 +1566,11 @@
       ],
       "open_issues": 799,
       "created_at": "2023-04-12T07:40:24Z",
-      "updated_at": "2026-03-19T06:36:54Z",
+      "updated_at": "2026-03-19T06:49:02Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 19069.7,
-      "scraped_at": "2026-03-19T06:40:36.566027+00:00"
+      "star_velocity": 19069.9,
+      "scraped_at": "2026-03-19T06:56:53.894218+00:00"
     },
     {
       "source": "github",
@@ -1573,20 +1586,20 @@
         "language",
         "programming-language"
       ],
-      "open_issues": 9871,
+      "open_issues": 9872,
       "created_at": "2014-08-19T04:33:40Z",
       "updated_at": "2026-03-19T06:35:29Z",
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 19011.7,
-      "scraped_at": "2026-03-19T06:40:37.641454+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084320+00:00"
     },
     {
       "source": "github",
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform",
       "url": "https://github.com/langchain-ai/langchain",
-      "stars": 130137,
+      "stars": 130140,
       "forks": 21460,
       "language": "Python",
       "topics": [
@@ -1612,18 +1625,18 @@
       ],
       "open_issues": 502,
       "created_at": "2022-10-17T02:58:36Z",
-      "updated_at": "2026-03-19T06:38:47Z",
+      "updated_at": "2026-03-19T06:50:08Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 18591.0,
-      "scraped_at": "2026-03-19T06:40:36.052993+00:00"
+      "star_velocity": 18591.4,
+      "scraped_at": "2026-03-19T06:56:53.361751+00:00"
     },
     {
       "source": "github",
       "name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "url": "https://github.com/open-webui/open-webui",
-      "stars": 127784,
+      "stars": 127783,
       "forks": 18054,
       "language": "Python",
       "topics": [
@@ -1645,11 +1658,11 @@
       ],
       "open_issues": 307,
       "created_at": "2023-10-06T22:08:27Z",
-      "updated_at": "2026-03-19T06:37:00Z",
+      "updated_at": "2026-03-19T06:47:34Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 18254.9,
-      "scraped_at": "2026-03-19T06:40:36.053001+00:00"
+      "star_velocity": 18254.7,
+      "scraped_at": "2026-03-19T06:56:53.361764+00:00"
     },
     {
       "source": "github",
@@ -1680,24 +1693,24 @@
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 18161.3,
-      "scraped_at": "2026-03-19T06:40:38.213320+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734439+00:00"
     },
     {
       "source": "github",
       "name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 125002,
-      "forks": 13140,
+      "stars": 125013,
+      "forks": 13143,
       "language": "TypeScript",
       "topics": [],
-      "open_issues": 7115,
+      "open_issues": 7116,
       "created_at": "2025-04-30T20:08:00Z",
-      "updated_at": "2026-03-19T06:37:35Z",
+      "updated_at": "2026-03-19T06:55:11Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 17857.4,
-      "scraped_at": "2026-03-19T06:40:36.566036+00:00"
+      "star_velocity": 17859.0,
+      "scraped_at": "2026-03-19T06:56:53.894224+00:00"
     },
     {
       "source": "github",
@@ -1719,14 +1732,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 17316.0,
-      "scraped_at": "2026-03-19T06:40:37.641462+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084327+00:00"
     },
     {
       "source": "github",
       "name": "excalidraw/excalidraw",
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "url": "https://github.com/excalidraw/excalidraw",
-      "stars": 119066,
+      "stars": 119067,
       "forks": 12919,
       "language": "TypeScript",
       "topics": [
@@ -1740,11 +1753,11 @@
       ],
       "open_issues": 2849,
       "created_at": "2020-01-02T01:04:43Z",
-      "updated_at": "2026-03-19T06:36:57Z",
+      "updated_at": "2026-03-19T06:43:27Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 17009.4,
-      "scraped_at": "2026-03-19T06:40:36.566042+00:00"
+      "star_velocity": 17009.6,
+      "scraped_at": "2026-03-19T06:56:53.894230+00:00"
     },
     {
       "source": "github",
@@ -1771,14 +1784,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 16615.7,
-      "scraped_at": "2026-03-19T06:40:38.213330+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734451+00:00"
     },
     {
       "source": "github",
       "name": "iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "url": "https://github.com/iptv-org/iptv",
-      "stars": 113044,
+      "stars": 113045,
       "forks": 5737,
       "language": "TypeScript",
       "topics": [
@@ -1790,11 +1803,11 @@
       ],
       "open_issues": 294,
       "created_at": "2018-11-14T22:00:57Z",
-      "updated_at": "2026-03-19T06:40:18Z",
+      "updated_at": "2026-03-19T06:53:15Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 16149.1,
-      "scraped_at": "2026-03-19T06:40:36.566047+00:00"
+      "star_velocity": 16149.3,
+      "scraped_at": "2026-03-19T06:56:53.894236+00:00"
     },
     {
       "source": "github",
@@ -1824,14 +1837,14 @@
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 15921.4,
-      "scraped_at": "2026-03-19T06:40:38.213338+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734460+00:00"
     },
     {
       "source": "github",
       "name": "rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "url": "https://github.com/rust-lang/rust",
-      "stars": 111322,
+      "stars": 111321,
       "forks": 14642,
       "language": "Rust",
       "topics": [
@@ -1841,18 +1854,18 @@
       ],
       "open_issues": 12278,
       "created_at": "2010-06-16T20:39:03Z",
-      "updated_at": "2026-03-19T06:32:27Z",
+      "updated_at": "2026-03-19T06:41:26Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15903.1,
-      "scraped_at": "2026-03-19T06:40:37.145563+00:00"
+      "star_velocity": 15903.0,
+      "scraped_at": "2026-03-19T06:56:54.497304+00:00"
     },
     {
       "source": "github",
       "name": "shadcn-ui/ui",
       "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
       "url": "https://github.com/shadcn-ui/ui",
-      "stars": 110025,
+      "stars": 110029,
       "forks": 8254,
       "language": "TypeScript",
       "topics": [
@@ -1870,11 +1883,11 @@
       ],
       "open_issues": 1793,
       "created_at": "2023-01-04T12:43:27Z",
-      "updated_at": "2026-03-19T06:38:23Z",
+      "updated_at": "2026-03-19T06:56:06Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15717.9,
-      "scraped_at": "2026-03-19T06:40:36.566054+00:00"
+      "star_velocity": 15718.4,
+      "scraped_at": "2026-03-19T06:56:53.894243+00:00"
     },
     {
       "source": "github",
@@ -1911,7 +1924,7 @@
       "owner_type": "User",
       "hiring_signal": true,
       "star_velocity": 15657.4,
-      "scraped_at": "2026-03-19T06:40:37.145587+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497321+00:00"
     },
     {
       "source": "github",
@@ -1934,7 +1947,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 15522.3,
-      "scraped_at": "2026-03-19T06:40:38.213344+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734468+00:00"
     },
     {
       "source": "github",
@@ -1956,7 +1969,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 15457.4,
-      "scraped_at": "2026-03-19T06:40:36.566060+00:00"
+      "scraped_at": "2026-03-19T06:56:53.894248+00:00"
     },
     {
       "source": "github",
@@ -1972,20 +1985,20 @@
         "rust",
         "typescript"
       ],
-      "open_issues": 2328,
+      "open_issues": 2326,
       "created_at": "2018-05-15T01:34:26Z",
-      "updated_at": "2026-03-19T03:24:49Z",
+      "updated_at": "2026-03-19T06:51:43Z",
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 15198.3,
-      "scraped_at": "2026-03-19T06:40:37.145595+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497329+00:00"
     },
     {
       "source": "github",
       "name": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": 106298,
+      "stars": 106299,
       "forks": 12236,
       "language": "Python",
       "topics": [
@@ -1998,18 +2011,18 @@
       ],
       "open_issues": 3856,
       "created_at": "2023-01-17T03:15:56Z",
-      "updated_at": "2026-03-19T06:34:13Z",
+      "updated_at": "2026-03-19T06:52:17Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 15185.4,
-      "scraped_at": "2026-03-19T06:40:36.053018+00:00"
+      "star_velocity": 15185.6,
+      "scraped_at": "2026-03-19T06:56:53.361770+00:00"
     },
     {
       "source": "github",
       "name": "fatedier/frp",
       "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
       "url": "https://github.com/fatedier/frp",
-      "stars": 105394,
+      "stars": 105393,
       "forks": 14958,
       "language": "Go",
       "topics": [
@@ -2026,18 +2039,18 @@
       ],
       "open_issues": 48,
       "created_at": "2015-12-21T15:24:59Z",
-      "updated_at": "2026-03-19T06:29:29Z",
+      "updated_at": "2026-03-19T06:46:00Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 15056.3,
-      "scraped_at": "2026-03-19T06:40:37.641469+00:00"
+      "star_velocity": 15056.1,
+      "scraped_at": "2026-03-19T06:56:55.084334+00:00"
     },
     {
       "source": "github",
       "name": "tauri-apps/tauri",
       "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
       "url": "https://github.com/tauri-apps/tauri",
-      "stars": 104289,
+      "stars": 104291,
       "forks": 3455,
       "language": "Rust",
       "topics": [
@@ -2051,18 +2064,18 @@
       ],
       "open_issues": 1378,
       "created_at": "2019-07-13T09:09:37Z",
-      "updated_at": "2026-03-19T05:50:44Z",
+      "updated_at": "2026-03-19T06:54:17Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14898.4,
-      "scraped_at": "2026-03-19T06:40:37.145602+00:00"
+      "star_velocity": 14898.7,
+      "scraped_at": "2026-03-19T06:56:54.497337+00:00"
     },
     {
       "source": "github",
       "name": "clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "stars": 103796,
+      "stars": 103802,
       "forks": 7552,
       "language": "TypeScript",
       "topics": [
@@ -2077,11 +2090,11 @@
       ],
       "open_issues": 192,
       "created_at": "2023-11-21T18:24:03Z",
-      "updated_at": "2026-03-19T06:40:13Z",
+      "updated_at": "2026-03-19T06:55:38Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14828.0,
-      "scraped_at": "2026-03-19T06:40:36.566066+00:00"
+      "star_velocity": 14828.9,
+      "scraped_at": "2026-03-19T06:56:53.894254+00:00"
     },
     {
       "source": "github",
@@ -2089,7 +2102,7 @@
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "stars": 102782,
-      "forks": 14986,
+      "forks": 14987,
       "language": "Python",
       "topics": [
         "agents",
@@ -2099,18 +2112,18 @@
       ],
       "open_issues": 13,
       "created_at": "2024-04-29T05:30:25Z",
-      "updated_at": "2026-03-19T06:38:13Z",
+      "updated_at": "2026-03-19T06:50:00Z",
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 14683.1,
-      "scraped_at": "2026-03-19T06:40:36.053024+00:00"
+      "scraped_at": "2026-03-19T06:56:53.361776+00:00"
     },
     {
       "source": "github",
       "name": "jaywcjlove/awesome-mac",
       "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
       "url": "https://github.com/jaywcjlove/awesome-mac",
-      "stars": 100429,
+      "stars": 100430,
       "forks": 7501,
       "language": "JavaScript",
       "topics": [
@@ -2136,11 +2149,11 @@
       ],
       "open_issues": 222,
       "created_at": "2016-07-17T15:33:47Z",
-      "updated_at": "2026-03-19T06:26:02Z",
+      "updated_at": "2026-03-19T06:53:00Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 14347.0,
-      "scraped_at": "2026-03-19T06:40:38.213355+00:00"
+      "star_velocity": 14347.1,
+      "scraped_at": "2026-03-19T06:56:55.734481+00:00"
     },
     {
       "source": "github",
@@ -2165,7 +2178,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 14300.4,
-      "scraped_at": "2026-03-19T06:40:36.566073+00:00"
+      "scraped_at": "2026-03-19T06:56:53.894261+00:00"
     },
     {
       "source": "github",
@@ -2202,14 +2215,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 14174.9,
-      "scraped_at": "2026-03-19T06:40:36.566081+00:00"
+      "scraped_at": "2026-03-19T06:56:53.894268+00:00"
     },
     {
       "source": "github",
       "name": "pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "url": "https://github.com/pytorch/pytorch",
-      "stars": 98374,
+      "stars": 98375,
       "forks": 27249,
       "language": "Python",
       "topics": [
@@ -2224,19 +2237,19 @@
       ],
       "open_issues": 18022,
       "created_at": "2016-08-13T05:26:41Z",
-      "updated_at": "2026-03-19T05:29:06Z",
+      "updated_at": "2026-03-19T06:48:21Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14053.4,
-      "scraped_at": "2026-03-19T06:40:36.053030+00:00"
+      "star_velocity": 14053.6,
+      "scraped_at": "2026-03-19T06:56:53.361782+00:00"
     },
     {
       "source": "github",
       "name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "url": "https://github.com/google-gemini/gemini-cli",
-      "stars": 98311,
-      "forks": 12407,
+      "stars": 98314,
+      "forks": 12408,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -2247,13 +2260,13 @@
         "mcp-client",
         "mcp-server"
       ],
-      "open_issues": 2982,
+      "open_issues": 2986,
       "created_at": "2025-04-17T17:04:31Z",
-      "updated_at": "2026-03-19T06:40:02Z",
+      "updated_at": "2026-03-19T06:49:16Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 14044.4,
-      "scraped_at": "2026-03-19T06:40:36.566087+00:00"
+      "star_velocity": 14044.9,
+      "scraped_at": "2026-03-19T06:56:53.894274+00:00"
     },
     {
       "source": "github",
@@ -2270,20 +2283,20 @@
         "react",
         "react-components"
       ],
-      "open_issues": 1726,
+      "open_issues": 1725,
       "created_at": "2014-08-18T19:11:54Z",
-      "updated_at": "2026-03-19T06:17:07Z",
+      "updated_at": "2026-03-19T06:47:10Z",
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 14003.1,
-      "scraped_at": "2026-03-19T06:40:38.213362+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734490+00:00"
     },
     {
       "source": "github",
       "name": "fastapi/fastapi",
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "url": "https://github.com/fastapi/fastapi",
-      "stars": 96327,
+      "stars": 96329,
       "forks": 8881,
       "language": "Python",
       "topics": [
@@ -2310,11 +2323,11 @@
       ],
       "open_issues": 172,
       "created_at": "2018-12-08T08:21:47Z",
-      "updated_at": "2026-03-19T06:15:47Z",
+      "updated_at": "2026-03-19T06:54:23Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 13761.0,
-      "scraped_at": "2026-03-19T06:40:36.053038+00:00"
+      "star_velocity": 13761.3,
+      "scraped_at": "2026-03-19T06:56:53.361790+00:00"
     },
     {
       "source": "github",
@@ -2340,7 +2353,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 13633.1,
-      "scraped_at": "2026-03-19T06:40:38.213368+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734498+00:00"
     },
     {
       "source": "github",
@@ -2365,7 +2378,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 12609.4,
-      "scraped_at": "2026-03-19T06:40:37.641480+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084347+00:00"
     },
     {
       "source": "github",
@@ -2390,15 +2403,15 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 12449.6,
-      "scraped_at": "2026-03-19T06:40:37.641490+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084356+00:00"
     },
     {
       "source": "github",
       "name": "affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/everything-claude-code",
-      "stars": 86273,
-      "forks": 11287,
+      "stars": 86304,
+      "forks": 11293,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -2412,11 +2425,11 @@
       ],
       "open_issues": 64,
       "created_at": "2026-01-18T00:51:51Z",
-      "updated_at": "2026-03-19T06:40:31Z",
+      "updated_at": "2026-03-19T06:56:34Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 12324.7,
-      "scraped_at": "2026-03-19T06:40:38.213375+00:00"
+      "star_velocity": 12329.1,
+      "scraped_at": "2026-03-19T06:56:55.734510+00:00"
     },
     {
       "source": "github",
@@ -2437,14 +2450,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 12296.6,
-      "scraped_at": "2026-03-19T06:40:38.213383+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734517+00:00"
     },
     {
       "source": "github",
       "name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "url": "https://github.com/louislam/uptime-kuma",
-      "stars": 84239,
+      "stars": 84241,
       "forks": 7545,
       "language": "JavaScript",
       "topics": [
@@ -2463,11 +2476,11 @@
       ],
       "open_issues": 702,
       "created_at": "2021-07-03T01:02:42Z",
-      "updated_at": "2026-03-19T05:49:45Z",
+      "updated_at": "2026-03-19T06:46:06Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 12034.1,
-      "scraped_at": "2026-03-19T06:40:38.213390+00:00"
+      "star_velocity": 12034.4,
+      "scraped_at": "2026-03-19T06:56:55.734526+00:00"
     },
     {
       "source": "github",
@@ -2489,7 +2502,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 11616.0,
-      "scraped_at": "2026-03-19T06:40:37.145609+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497343+00:00"
     },
     {
       "source": "github",
@@ -2511,7 +2524,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 11562.7,
-      "scraped_at": "2026-03-19T06:40:37.641498+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084362+00:00"
     },
     {
       "source": "github",
@@ -2539,15 +2552,15 @@
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 11244.7,
-      "scraped_at": "2026-03-19T06:40:37.641504+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084368+00:00"
     },
     {
       "source": "github",
       "name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "url": "https://github.com/zed-industries/zed",
-      "stars": 77435,
-      "forks": 7455,
+      "stars": 77436,
+      "forks": 7456,
       "language": "Rust",
       "topics": [
         "gpui",
@@ -2557,11 +2570,11 @@
       ],
       "open_issues": 3159,
       "created_at": "2021-02-20T03:01:06Z",
-      "updated_at": "2026-03-19T06:36:51Z",
+      "updated_at": "2026-03-19T06:49:05Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 11062.1,
-      "scraped_at": "2026-03-19T06:40:37.145620+00:00"
+      "star_velocity": 11062.3,
+      "scraped_at": "2026-03-19T06:56:54.497351+00:00"
     },
     {
       "source": "github",
@@ -2586,14 +2599,14 @@
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 10810.0,
-      "scraped_at": "2026-03-19T06:40:38.213397+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734534+00:00"
     },
     {
       "source": "github",
       "name": "jesseduffield/lazygit",
       "description": "simple terminal UI for git commands",
       "url": "https://github.com/jesseduffield/lazygit",
-      "stars": 74605,
+      "stars": 74606,
       "forks": 2621,
       "language": "Go",
       "topics": [
@@ -2603,11 +2616,11 @@
       ],
       "open_issues": 939,
       "created_at": "2018-05-19T00:53:06Z",
-      "updated_at": "2026-03-19T06:10:10Z",
+      "updated_at": "2026-03-19T06:43:38Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 10657.9,
-      "scraped_at": "2026-03-19T06:40:37.641510+00:00"
+      "star_velocity": 10658.0,
+      "scraped_at": "2026-03-19T06:56:55.084373+00:00"
     },
     {
       "source": "github",
@@ -2629,7 +2642,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 10220.3,
-      "scraped_at": "2026-03-19T06:40:37.641516+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084379+00:00"
     },
     {
       "source": "github",
@@ -2662,7 +2675,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 10130.4,
-      "scraped_at": "2026-03-19T06:40:37.641523+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084386+00:00"
     },
     {
       "source": "github",
@@ -2683,7 +2696,7 @@
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 10112.7,
-      "scraped_at": "2026-03-19T06:40:38.213402+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734541+00:00"
     },
     {
       "source": "github",
@@ -2700,24 +2713,24 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 9811.1,
-      "scraped_at": "2026-03-19T06:40:37.641528+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084391+00:00"
     },
     {
       "source": "github",
       "name": "openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "url": "https://github.com/openai/codex",
-      "stars": 66220,
-      "forks": 8837,
+      "stars": 66223,
+      "forks": 8838,
       "language": "Rust",
       "topics": [],
       "open_issues": 2097,
       "created_at": "2025-04-13T05:37:54Z",
-      "updated_at": "2026-03-19T06:40:35Z",
+      "updated_at": "2026-03-19T06:50:19Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 9460.0,
-      "scraped_at": "2026-03-19T06:40:37.145625+00:00"
+      "star_velocity": 9460.4,
+      "scraped_at": "2026-03-19T06:56:54.497356+00:00"
     },
     {
       "source": "github",
@@ -2751,14 +2764,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 9429.9,
-      "scraped_at": "2026-03-19T06:40:38.213410+00:00"
+      "scraped_at": "2026-03-19T06:56:55.734552+00:00"
     },
     {
       "source": "github",
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "url": "https://github.com/prometheus/prometheus",
-      "stars": 63207,
+      "stars": 63208,
       "forks": 10248,
       "language": "Go",
       "topics": [
@@ -2772,11 +2785,11 @@
       ],
       "open_issues": 758,
       "created_at": "2012-11-24T11:14:12Z",
-      "updated_at": "2026-03-19T06:21:36Z",
+      "updated_at": "2026-03-19T06:42:04Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 9029.6,
-      "scraped_at": "2026-03-19T06:40:37.641534+00:00"
+      "star_velocity": 9029.7,
+      "scraped_at": "2026-03-19T06:56:55.084397+00:00"
     },
     {
       "source": "github",
@@ -2804,7 +2817,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8999.0,
-      "scraped_at": "2026-03-19T06:40:37.145632+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497363+00:00"
     },
     {
       "source": "github",
@@ -2836,7 +2849,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8891.4,
-      "scraped_at": "2026-03-19T06:40:37.641543+00:00"
+      "scraped_at": "2026-03-19T06:56:55.084404+00:00"
     },
     {
       "source": "github",
@@ -2858,7 +2871,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8886.1,
-      "scraped_at": "2026-03-19T06:40:37.145638+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497369+00:00"
     },
     {
       "source": "github",
@@ -2880,14 +2893,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8838.6,
-      "scraped_at": "2026-03-19T06:40:37.145645+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497376+00:00"
     },
     {
       "source": "github",
       "name": "sharkdp/bat",
       "description": "A cat(1) clone with wings.",
       "url": "https://github.com/sharkdp/bat",
-      "stars": 57699,
+      "stars": 57700,
       "forks": 1492,
       "language": "Rust",
       "topics": [
@@ -2902,11 +2915,11 @@
       ],
       "open_issues": 342,
       "created_at": "2018-04-21T10:52:23Z",
-      "updated_at": "2026-03-19T05:52:02Z",
+      "updated_at": "2026-03-19T06:42:45Z",
       "owner_type": "User",
       "hiring_signal": false,
-      "star_velocity": 8242.7,
-      "scraped_at": "2026-03-19T06:40:37.145651+00:00"
+      "star_velocity": 8242.9,
+      "scraped_at": "2026-03-19T06:56:54.497386+00:00"
     },
     {
       "source": "github",
@@ -2926,7 +2939,7 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8183.6,
-      "scraped_at": "2026-03-19T06:40:37.145682+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497391+00:00"
     },
     {
       "source": "github",
@@ -2946,11 +2959,11 @@
       ],
       "open_issues": 39,
       "created_at": "2018-02-17T22:40:20Z",
-      "updated_at": "2026-03-19T06:40:14Z",
+      "updated_at": "2026-03-19T06:51:28Z",
       "owner_type": "User",
       "hiring_signal": false,
       "star_velocity": 8140.4,
-      "scraped_at": "2026-03-19T06:40:37.145689+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497397+00:00"
     },
     {
       "source": "github",
@@ -2988,14 +3001,14 @@
       "owner_type": "Organization",
       "hiring_signal": false,
       "star_velocity": 8066.9,
-      "scraped_at": "2026-03-19T06:40:37.145700+00:00"
+      "scraped_at": "2026-03-19T06:56:54.497405+00:00"
     },
     {
       "source": "github",
       "name": "rust-unofficial/awesome-rust",
       "description": "A curated list of Rust code and resources.",
       "url": "https://github.com/rust-unofficial/awesome-rust",
-      "stars": 56229,
+      "stars": 56230,
       "forks": 3239,
       "language": "Rust",
       "topics": [
@@ -3004,11 +3017,11 @@
       ],
       "open_issues": 10,
       "created_at": "2014-07-17T10:45:10Z",
-      "updated_at": "2026-03-19T06:36:39Z",
+      "updated_at": "2026-03-19T06:53:10Z",
       "owner_type": "Organization",
       "hiring_signal": false,
-      "star_velocity": 8032.7,
-      "scraped_at": "2026-03-19T06:40:37.145706+00:00"
+      "star_velocity": 8032.9,
+      "scraped_at": "2026-03-19T06:56:54.497410+00:00"
     }
   ],
   "arxiv": [
@@ -3034,7 +3047,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.18004v1",
       "published": "2026-03-18T17:59:56Z",
       "updated": "2026-03-18T17:59:56Z",
-      "scraped_at": "2026-03-19T06:40:40.916414+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889208+00:00"
     },
     {
       "source": "arxiv",
@@ -3058,7 +3071,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.18002v1",
       "published": "2026-03-18T17:59:10Z",
       "updated": "2026-03-18T17:59:10Z",
-      "scraped_at": "2026-03-19T06:40:40.916509+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889300+00:00"
     },
     {
       "source": "arxiv",
@@ -3080,7 +3093,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.18000v1",
       "published": "2026-03-18T17:58:25Z",
       "updated": "2026-03-18T17:58:25Z",
-      "scraped_at": "2026-03-19T06:40:40.916576+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889368+00:00"
     },
     {
       "source": "arxiv",
@@ -3104,7 +3117,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17995v1",
       "published": "2026-03-18T17:56:06Z",
       "updated": "2026-03-18T17:56:06Z",
-      "scraped_at": "2026-03-19T06:40:40.916656+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889448+00:00"
     },
     {
       "source": "arxiv",
@@ -3123,7 +3136,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17974v1",
       "published": "2026-03-18T17:38:35Z",
       "updated": "2026-03-18T17:38:35Z",
-      "scraped_at": "2026-03-19T06:40:40.916710+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889501+00:00"
     },
     {
       "source": "arxiv",
@@ -3142,7 +3155,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17973v1",
       "published": "2026-03-18T17:38:22Z",
       "updated": "2026-03-18T17:38:22Z",
-      "scraped_at": "2026-03-19T06:40:40.916787+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889577+00:00"
     },
     {
       "source": "arxiv",
@@ -3163,7 +3176,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17970v1",
       "published": "2026-03-18T17:37:31Z",
       "updated": "2026-03-18T17:37:31Z",
-      "scraped_at": "2026-03-19T06:40:40.916859+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889651+00:00"
     },
     {
       "source": "arxiv",
@@ -3183,7 +3196,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17969v1",
       "published": "2026-03-18T17:36:46Z",
       "updated": "2026-03-18T17:36:46Z",
-      "scraped_at": "2026-03-19T06:40:40.916930+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889721+00:00"
     },
     {
       "source": "arxiv",
@@ -3203,7 +3216,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17962v1",
       "published": "2026-03-18T17:31:47Z",
       "updated": "2026-03-18T17:31:47Z",
-      "scraped_at": "2026-03-19T06:40:40.917005+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889795+00:00"
     },
     {
       "source": "arxiv",
@@ -3225,7 +3238,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17952v1",
       "published": "2026-03-18T17:26:36Z",
       "updated": "2026-03-18T17:26:36Z",
-      "scraped_at": "2026-03-19T06:40:40.917070+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889876+00:00"
     },
     {
       "source": "arxiv",
@@ -3248,7 +3261,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17948v1",
       "published": "2026-03-18T17:20:19Z",
       "updated": "2026-03-18T17:20:19Z",
-      "scraped_at": "2026-03-19T06:40:40.917164+00:00"
+      "scraped_at": "2026-03-19T06:56:57.889972+00:00"
     },
     {
       "source": "arxiv",
@@ -3270,7 +3283,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17947v1",
       "published": "2026-03-18T17:19:56Z",
       "updated": "2026-03-18T17:19:56Z",
-      "scraped_at": "2026-03-19T06:40:40.917300+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890068+00:00"
     },
     {
       "source": "arxiv",
@@ -3293,7 +3306,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17946v1",
       "published": "2026-03-18T17:18:35Z",
       "updated": "2026-03-18T17:18:35Z",
-      "scraped_at": "2026-03-19T06:40:40.917388+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890151+00:00"
     },
     {
       "source": "arxiv",
@@ -3315,7 +3328,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17945v1",
       "published": "2026-03-18T17:17:18Z",
       "updated": "2026-03-18T17:17:18Z",
-      "scraped_at": "2026-03-19T06:40:40.917455+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890217+00:00"
     },
     {
       "source": "arxiv",
@@ -3336,7 +3349,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17942v1",
       "published": "2026-03-18T17:14:01Z",
       "updated": "2026-03-18T17:14:01Z",
-      "scraped_at": "2026-03-19T06:40:40.917523+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890286+00:00"
     },
     {
       "source": "arxiv",
@@ -3358,7 +3371,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17925v1",
       "published": "2026-03-18T17:01:34Z",
       "updated": "2026-03-18T17:01:34Z",
-      "scraped_at": "2026-03-19T06:40:40.917597+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890361+00:00"
     },
     {
       "source": "arxiv",
@@ -3377,7 +3390,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17924v1",
       "published": "2026-03-18T17:01:12Z",
       "updated": "2026-03-18T17:01:12Z",
-      "scraped_at": "2026-03-19T06:40:40.917667+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890431+00:00"
     },
     {
       "source": "arxiv",
@@ -3398,7 +3411,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17917v1",
       "published": "2026-03-18T16:55:13Z",
       "updated": "2026-03-18T16:55:13Z",
-      "scraped_at": "2026-03-19T06:40:40.917750+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890515+00:00"
     },
     {
       "source": "arxiv",
@@ -3418,7 +3431,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17915v1",
       "published": "2026-03-18T16:54:07Z",
       "updated": "2026-03-18T16:54:07Z",
-      "scraped_at": "2026-03-19T06:40:40.917820+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890585+00:00"
     },
     {
       "source": "arxiv",
@@ -3440,7 +3453,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17912v1",
       "published": "2026-03-18T16:50:23Z",
       "updated": "2026-03-18T16:50:23Z",
-      "scraped_at": "2026-03-19T06:40:40.917904+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890670+00:00"
     },
     {
       "source": "arxiv",
@@ -3461,7 +3474,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17909v1",
       "published": "2026-03-18T16:47:25Z",
       "updated": "2026-03-18T16:47:25Z",
-      "scraped_at": "2026-03-19T06:40:40.917981+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890748+00:00"
     },
     {
       "source": "arxiv",
@@ -3481,7 +3494,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17902v1",
       "published": "2026-03-18T16:35:12Z",
       "updated": "2026-03-18T16:35:12Z",
-      "scraped_at": "2026-03-19T06:40:40.918041+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890808+00:00"
     },
     {
       "source": "arxiv",
@@ -3503,7 +3516,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17896v1",
       "published": "2026-03-18T16:26:41Z",
       "updated": "2026-03-18T16:26:41Z",
-      "scraped_at": "2026-03-19T06:40:40.918115+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890904+00:00"
     },
     {
       "source": "arxiv",
@@ -3523,7 +3536,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17893v1",
       "published": "2026-03-18T16:23:02Z",
       "updated": "2026-03-18T16:23:02Z",
-      "scraped_at": "2026-03-19T06:40:40.918186+00:00"
+      "scraped_at": "2026-03-19T06:56:57.890986+00:00"
     },
     {
       "source": "arxiv",
@@ -3543,7 +3556,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17891v1",
       "published": "2026-03-18T16:16:28Z",
       "updated": "2026-03-18T16:16:28Z",
-      "scraped_at": "2026-03-19T06:40:40.918280+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891068+00:00"
     },
     {
       "source": "arxiv",
@@ -3564,7 +3577,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17887v1",
       "published": "2026-03-18T16:12:25Z",
       "updated": "2026-03-18T16:12:25Z",
-      "scraped_at": "2026-03-19T06:40:40.918355+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891144+00:00"
     },
     {
       "source": "arxiv",
@@ -3586,7 +3599,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17884v1",
       "published": "2026-03-18T16:06:21Z",
       "updated": "2026-03-18T16:06:21Z",
-      "scraped_at": "2026-03-19T06:40:40.918422+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891213+00:00"
     },
     {
       "source": "arxiv",
@@ -3606,7 +3619,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17879v1",
       "published": "2026-03-18T16:04:50Z",
       "updated": "2026-03-18T16:04:50Z",
-      "scraped_at": "2026-03-19T06:40:40.918489+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891281+00:00"
     },
     {
       "source": "arxiv",
@@ -3626,7 +3639,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17875v1",
       "published": "2026-03-18T16:01:49Z",
       "updated": "2026-03-18T16:01:49Z",
-      "scraped_at": "2026-03-19T06:40:40.918541+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891333+00:00"
     },
     {
       "source": "arxiv",
@@ -3648,7 +3661,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17872v1",
       "published": "2026-03-18T15:59:30Z",
       "updated": "2026-03-18T15:59:30Z",
-      "scraped_at": "2026-03-19T06:40:40.918629+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891421+00:00"
     },
     {
       "source": "arxiv",
@@ -3672,7 +3685,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17867v1",
       "published": "2026-03-18T15:55:26Z",
       "updated": "2026-03-18T15:55:26Z",
-      "scraped_at": "2026-03-19T06:40:40.918687+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891480+00:00"
     },
     {
       "source": "arxiv",
@@ -3695,7 +3708,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17863v1",
       "published": "2026-03-18T15:49:32Z",
       "updated": "2026-03-18T15:49:32Z",
-      "scraped_at": "2026-03-19T06:40:40.918764+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891564+00:00"
     },
     {
       "source": "arxiv",
@@ -3713,7 +3726,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17855v1",
       "published": "2026-03-18T15:43:22Z",
       "updated": "2026-03-18T15:43:22Z",
-      "scraped_at": "2026-03-19T06:40:40.918838+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891628+00:00"
     },
     {
       "source": "arxiv",
@@ -3737,7 +3750,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17839v1",
       "published": "2026-03-18T15:31:43Z",
       "updated": "2026-03-18T15:31:43Z",
-      "scraped_at": "2026-03-19T06:40:40.918914+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891703+00:00"
     },
     {
       "source": "arxiv",
@@ -3759,7 +3772,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17838v1",
       "published": "2026-03-18T15:31:33Z",
       "updated": "2026-03-18T15:31:33Z",
-      "scraped_at": "2026-03-19T06:40:40.918995+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891785+00:00"
     },
     {
       "source": "arxiv",
@@ -3782,7 +3795,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17837v1",
       "published": "2026-03-18T15:30:29Z",
       "updated": "2026-03-18T15:30:29Z",
-      "scraped_at": "2026-03-19T06:40:40.919068+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891870+00:00"
     },
     {
       "source": "arxiv",
@@ -3804,7 +3817,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17836v1",
       "published": "2026-03-18T15:28:18Z",
       "updated": "2026-03-18T15:28:18Z",
-      "scraped_at": "2026-03-19T06:40:40.919143+00:00"
+      "scraped_at": "2026-03-19T06:56:57.891947+00:00"
     },
     {
       "source": "arxiv",
@@ -3827,7 +3840,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17834v1",
       "published": "2026-03-18T15:27:17Z",
       "updated": "2026-03-18T15:27:17Z",
-      "scraped_at": "2026-03-19T06:40:40.919234+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892028+00:00"
     },
     {
       "source": "arxiv",
@@ -3848,7 +3861,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17833v1",
       "published": "2026-03-18T15:26:46Z",
       "updated": "2026-03-18T15:26:46Z",
-      "scraped_at": "2026-03-19T06:40:40.919302+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892096+00:00"
     },
     {
       "source": "arxiv",
@@ -3872,7 +3885,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17832v1",
       "published": "2026-03-18T15:26:27Z",
       "updated": "2026-03-18T15:26:27Z",
-      "scraped_at": "2026-03-19T06:40:40.919360+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892155+00:00"
     },
     {
       "source": "arxiv",
@@ -3892,7 +3905,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17831v1",
       "published": "2026-03-18T15:26:00Z",
       "updated": "2026-03-18T15:26:00Z",
-      "scraped_at": "2026-03-19T06:40:40.919433+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892230+00:00"
     },
     {
       "source": "arxiv",
@@ -3916,7 +3929,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17829v1",
       "published": "2026-03-18T15:25:42Z",
       "updated": "2026-03-18T15:25:42Z",
-      "scraped_at": "2026-03-19T06:40:40.919512+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892309+00:00"
     },
     {
       "source": "arxiv",
@@ -3939,7 +3952,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17826v1",
       "published": "2026-03-18T15:24:22Z",
       "updated": "2026-03-18T15:24:22Z",
-      "scraped_at": "2026-03-19T06:40:40.919582+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892376+00:00"
     },
     {
       "source": "arxiv",
@@ -3958,7 +3971,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17824v1",
       "published": "2026-03-18T15:23:23Z",
       "updated": "2026-03-18T15:23:23Z",
-      "scraped_at": "2026-03-19T06:40:40.919667+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892460+00:00"
     },
     {
       "source": "arxiv",
@@ -3981,7 +3994,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17823v1",
       "published": "2026-03-18T15:13:02Z",
       "updated": "2026-03-18T15:13:02Z",
-      "scraped_at": "2026-03-19T06:40:40.919734+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892528+00:00"
     },
     {
       "source": "arxiv",
@@ -4001,7 +4014,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17822v1",
       "published": "2026-03-18T15:12:42Z",
       "updated": "2026-03-18T15:12:42Z",
-      "scraped_at": "2026-03-19T06:40:40.919790+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892585+00:00"
     },
     {
       "source": "arxiv",
@@ -4023,7 +4036,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17821v1",
       "published": "2026-03-18T15:12:33Z",
       "updated": "2026-03-18T15:12:33Z",
-      "scraped_at": "2026-03-19T06:40:40.919873+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892668+00:00"
     },
     {
       "source": "arxiv",
@@ -4045,7 +4058,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17820v1",
       "published": "2026-03-18T15:12:21Z",
       "updated": "2026-03-18T15:12:21Z",
-      "scraped_at": "2026-03-19T06:40:40.919938+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892735+00:00"
     },
     {
       "source": "arxiv",
@@ -4067,7 +4080,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17815v1",
       "published": "2026-03-18T15:08:01Z",
       "updated": "2026-03-18T15:08:01Z",
-      "scraped_at": "2026-03-19T06:40:40.920002+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892800+00:00"
     },
     {
       "source": "arxiv",
@@ -4091,7 +4104,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17812v1",
       "published": "2026-03-18T15:04:57Z",
       "updated": "2026-03-18T15:04:57Z",
-      "scraped_at": "2026-03-19T06:40:40.920071+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892884+00:00"
     },
     {
       "source": "arxiv",
@@ -4111,7 +4124,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17811v1",
       "published": "2026-03-18T15:04:26Z",
       "updated": "2026-03-18T15:04:26Z",
-      "scraped_at": "2026-03-19T06:40:40.920165+00:00"
+      "scraped_at": "2026-03-19T06:56:57.892977+00:00"
     },
     {
       "source": "arxiv",
@@ -4134,7 +4147,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17809v1",
       "published": "2026-03-18T15:03:43Z",
       "updated": "2026-03-18T15:03:43Z",
-      "scraped_at": "2026-03-19T06:40:40.920260+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893062+00:00"
     },
     {
       "source": "arxiv",
@@ -4157,7 +4170,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17808v1",
       "published": "2026-03-18T15:02:19Z",
       "updated": "2026-03-18T15:02:19Z",
-      "scraped_at": "2026-03-19T06:40:40.920352+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893152+00:00"
     },
     {
       "source": "arxiv",
@@ -4178,7 +4191,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17795v1",
       "published": "2026-03-18T14:52:49Z",
       "updated": "2026-03-18T14:52:49Z",
-      "scraped_at": "2026-03-19T06:40:40.920406+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893207+00:00"
     },
     {
       "source": "arxiv",
@@ -4202,7 +4215,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17790v1",
       "published": "2026-03-18T14:51:15Z",
       "updated": "2026-03-18T14:51:15Z",
-      "scraped_at": "2026-03-19T06:40:40.920483+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893284+00:00"
     },
     {
       "source": "arxiv",
@@ -4222,7 +4235,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17787v1",
       "published": "2026-03-18T14:49:31Z",
       "updated": "2026-03-18T14:49:31Z",
-      "scraped_at": "2026-03-19T06:40:40.920561+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893363+00:00"
     },
     {
       "source": "arxiv",
@@ -4243,7 +4256,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17785v1",
       "published": "2026-03-18T14:46:55Z",
       "updated": "2026-03-18T14:46:55Z",
-      "scraped_at": "2026-03-19T06:40:40.920652+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893454+00:00"
     },
     {
       "source": "arxiv",
@@ -4263,7 +4276,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17784v1",
       "published": "2026-03-18T14:46:40Z",
       "updated": "2026-03-18T14:46:40Z",
-      "scraped_at": "2026-03-19T06:40:40.920712+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893515+00:00"
     },
     {
       "source": "arxiv",
@@ -4282,7 +4295,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17781v1",
       "published": "2026-03-18T14:45:54Z",
       "updated": "2026-03-18T14:45:54Z",
-      "scraped_at": "2026-03-19T06:40:40.920780+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893583+00:00"
     },
     {
       "source": "arxiv",
@@ -4306,7 +4319,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17775v1",
       "published": "2026-03-18T14:38:55Z",
       "updated": "2026-03-18T14:38:55Z",
-      "scraped_at": "2026-03-19T06:40:40.920847+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893651+00:00"
     },
     {
       "source": "arxiv",
@@ -4326,7 +4339,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17771v1",
       "published": "2026-03-18T14:31:21Z",
       "updated": "2026-03-18T14:31:21Z",
-      "scraped_at": "2026-03-19T06:40:40.920905+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893709+00:00"
     },
     {
       "source": "arxiv",
@@ -4350,7 +4363,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17769v1",
       "published": "2026-03-18T14:28:58Z",
       "updated": "2026-03-18T14:28:58Z",
-      "scraped_at": "2026-03-19T06:40:40.920966+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893772+00:00"
     },
     {
       "source": "arxiv",
@@ -4373,7 +4386,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17759v1",
       "published": "2026-03-18T14:21:10Z",
       "updated": "2026-03-18T14:21:10Z",
-      "scraped_at": "2026-03-19T06:40:40.921038+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893853+00:00"
     },
     {
       "source": "arxiv",
@@ -4393,7 +4406,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17750v1",
       "published": "2026-03-18T14:14:40Z",
       "updated": "2026-03-18T14:14:40Z",
-      "scraped_at": "2026-03-19T06:40:40.921107+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893923+00:00"
     },
     {
       "source": "arxiv",
@@ -4413,7 +4426,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17737v1",
       "published": "2026-03-18T14:04:57Z",
       "updated": "2026-03-18T14:04:57Z",
-      "scraped_at": "2026-03-19T06:40:40.921168+00:00"
+      "scraped_at": "2026-03-19T06:56:57.893986+00:00"
     },
     {
       "source": "arxiv",
@@ -4436,7 +4449,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17729v1",
       "published": "2026-03-18T13:49:27Z",
       "updated": "2026-03-18T13:49:27Z",
-      "scraped_at": "2026-03-19T06:40:40.921281+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894061+00:00"
     },
     {
       "source": "arxiv",
@@ -4459,7 +4472,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17722v1",
       "published": "2026-03-18T13:42:25Z",
       "updated": "2026-03-18T13:42:25Z",
-      "scraped_at": "2026-03-19T06:40:40.921349+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894125+00:00"
     },
     {
       "source": "arxiv",
@@ -4481,7 +4494,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17717v1",
       "published": "2026-03-18T13:35:02Z",
       "updated": "2026-03-18T13:35:02Z",
-      "scraped_at": "2026-03-19T06:40:40.921431+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894208+00:00"
     },
     {
       "source": "arxiv",
@@ -4501,7 +4514,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17715v1",
       "published": "2026-03-18T13:33:46Z",
       "updated": "2026-03-18T13:33:46Z",
-      "scraped_at": "2026-03-19T06:40:40.921491+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894269+00:00"
     },
     {
       "source": "arxiv",
@@ -4523,7 +4536,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17714v1",
       "published": "2026-03-18T13:32:26Z",
       "updated": "2026-03-18T13:32:26Z",
-      "scraped_at": "2026-03-19T06:40:40.921568+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894345+00:00"
     },
     {
       "source": "arxiv",
@@ -4543,7 +4556,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17694v1",
       "published": "2026-03-18T13:11:09Z",
       "updated": "2026-03-18T13:11:09Z",
-      "scraped_at": "2026-03-19T06:40:40.921659+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894437+00:00"
     },
     {
       "source": "arxiv",
@@ -4565,7 +4578,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17692v1",
       "published": "2026-03-18T13:09:11Z",
       "updated": "2026-03-18T13:09:11Z",
-      "scraped_at": "2026-03-19T06:40:40.921724+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894531+00:00"
     },
     {
       "source": "arxiv",
@@ -4586,7 +4599,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17691v1",
       "published": "2026-03-18T13:07:53Z",
       "updated": "2026-03-18T13:07:53Z",
-      "scraped_at": "2026-03-19T06:40:40.921802+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894606+00:00"
     },
     {
       "source": "arxiv",
@@ -4607,7 +4620,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17687v1",
       "published": "2026-03-18T13:03:23Z",
       "updated": "2026-03-18T13:03:23Z",
-      "scraped_at": "2026-03-19T06:40:40.921876+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894680+00:00"
     },
     {
       "source": "arxiv",
@@ -4629,7 +4642,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17685v1",
       "published": "2026-03-18T13:00:20Z",
       "updated": "2026-03-18T13:00:20Z",
-      "scraped_at": "2026-03-19T06:40:40.921946+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894750+00:00"
     },
     {
       "source": "arxiv",
@@ -4648,7 +4661,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17683v1",
       "published": "2026-03-18T12:59:26Z",
       "updated": "2026-03-18T12:59:26Z",
-      "scraped_at": "2026-03-19T06:40:40.922021+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894842+00:00"
     },
     {
       "source": "arxiv",
@@ -4671,7 +4684,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17681v1",
       "published": "2026-03-18T12:57:45Z",
       "updated": "2026-03-18T12:57:45Z",
-      "scraped_at": "2026-03-19T06:40:40.922078+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894902+00:00"
     },
     {
       "source": "arxiv",
@@ -4694,7 +4707,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17680v1",
       "published": "2026-03-18T12:57:18Z",
       "updated": "2026-03-18T12:57:18Z",
-      "scraped_at": "2026-03-19T06:40:40.922162+00:00"
+      "scraped_at": "2026-03-19T06:56:57.894989+00:00"
     },
     {
       "source": "arxiv",
@@ -4715,7 +4728,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17677v1",
       "published": "2026-03-18T12:54:50Z",
       "updated": "2026-03-18T12:54:50Z",
-      "scraped_at": "2026-03-19T06:40:40.922244+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895057+00:00"
     },
     {
       "source": "arxiv",
@@ -4739,7 +4752,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17676v1",
       "published": "2026-03-18T12:54:31Z",
       "updated": "2026-03-18T12:54:31Z",
-      "scraped_at": "2026-03-19T06:40:40.922308+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895120+00:00"
     },
     {
       "source": "arxiv",
@@ -4761,7 +4774,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17673v1",
       "published": "2026-03-18T12:52:54Z",
       "updated": "2026-03-18T12:52:54Z",
-      "scraped_at": "2026-03-19T06:40:40.922382+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895195+00:00"
     },
     {
       "source": "arxiv",
@@ -4784,7 +4797,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17662v1",
       "published": "2026-03-18T12:28:05Z",
       "updated": "2026-03-18T12:28:05Z",
-      "scraped_at": "2026-03-19T06:40:40.922445+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895262+00:00"
     },
     {
       "source": "arxiv",
@@ -4802,7 +4815,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17659v1",
       "published": "2026-03-18T12:26:57Z",
       "updated": "2026-03-18T12:26:57Z",
-      "scraped_at": "2026-03-19T06:40:40.922520+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895336+00:00"
     },
     {
       "source": "arxiv",
@@ -4824,7 +4837,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17655v1",
       "published": "2026-03-18T12:20:21Z",
       "updated": "2026-03-18T12:20:21Z",
-      "scraped_at": "2026-03-19T06:40:40.922621+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895440+00:00"
     },
     {
       "source": "arxiv",
@@ -4846,7 +4859,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17651v1",
       "published": "2026-03-18T12:11:02Z",
       "updated": "2026-03-18T12:11:02Z",
-      "scraped_at": "2026-03-19T06:40:40.922684+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895503+00:00"
     },
     {
       "source": "arxiv",
@@ -4868,7 +4881,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17648v1",
       "published": "2026-03-18T12:08:55Z",
       "updated": "2026-03-18T12:08:55Z",
-      "scraped_at": "2026-03-19T06:40:40.922763+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895584+00:00"
     },
     {
       "source": "arxiv",
@@ -4892,7 +4905,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17641v1",
       "published": "2026-03-18T12:02:26Z",
       "updated": "2026-03-18T12:02:26Z",
-      "scraped_at": "2026-03-19T06:40:40.922826+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895649+00:00"
     },
     {
       "source": "arxiv",
@@ -4914,7 +4927,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17639v1",
       "published": "2026-03-18T12:00:54Z",
       "updated": "2026-03-18T12:00:54Z",
-      "scraped_at": "2026-03-19T06:40:40.922926+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895745+00:00"
     },
     {
       "source": "arxiv",
@@ -4935,7 +4948,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17637v1",
       "published": "2026-03-18T11:58:47Z",
       "updated": "2026-03-18T11:58:47Z",
-      "scraped_at": "2026-03-19T06:40:40.922992+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895826+00:00"
     },
     {
       "source": "arxiv",
@@ -4958,7 +4971,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17633v1",
       "published": "2026-03-18T11:53:45Z",
       "updated": "2026-03-18T11:53:45Z",
-      "scraped_at": "2026-03-19T06:40:40.923064+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895905+00:00"
     },
     {
       "source": "arxiv",
@@ -4983,7 +4996,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17631v1",
       "published": "2026-03-18T11:52:21Z",
       "updated": "2026-03-18T11:52:21Z",
-      "scraped_at": "2026-03-19T06:40:40.923128+00:00"
+      "scraped_at": "2026-03-19T06:56:57.895971+00:00"
     },
     {
       "source": "arxiv",
@@ -5005,7 +5018,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17628v1",
       "published": "2026-03-18T11:47:46Z",
       "updated": "2026-03-18T11:47:46Z",
-      "scraped_at": "2026-03-19T06:40:40.923224+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896060+00:00"
     },
     {
       "source": "arxiv",
@@ -5024,7 +5037,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17624v1",
       "published": "2026-03-18T11:42:53Z",
       "updated": "2026-03-18T11:42:53Z",
-      "scraped_at": "2026-03-19T06:40:40.923300+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896134+00:00"
     },
     {
       "source": "arxiv",
@@ -5047,7 +5060,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17623v1",
       "published": "2026-03-18T11:40:44Z",
       "updated": "2026-03-18T11:40:44Z",
-      "scraped_at": "2026-03-19T06:40:40.923386+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896221+00:00"
     },
     {
       "source": "arxiv",
@@ -5070,7 +5083,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17621v1",
       "published": "2026-03-18T11:38:01Z",
       "updated": "2026-03-18T11:38:01Z",
-      "scraped_at": "2026-03-19T06:40:40.923468+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896304+00:00"
     },
     {
       "source": "arxiv",
@@ -5093,7 +5106,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17617v1",
       "published": "2026-03-18T11:30:17Z",
       "updated": "2026-03-18T11:30:17Z",
-      "scraped_at": "2026-03-19T06:40:40.923540+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896377+00:00"
     },
     {
       "source": "arxiv",
@@ -5116,7 +5129,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17613v1",
       "published": "2026-03-18T11:25:40Z",
       "updated": "2026-03-18T11:25:40Z",
-      "scraped_at": "2026-03-19T06:40:40.923616+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896455+00:00"
     },
     {
       "source": "arxiv",
@@ -5137,7 +5150,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17610v1",
       "published": "2026-03-18T11:22:47Z",
       "updated": "2026-03-18T11:22:47Z",
-      "scraped_at": "2026-03-19T06:40:40.923703+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896544+00:00"
     },
     {
       "source": "arxiv",
@@ -5158,7 +5171,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17606v1",
       "published": "2026-03-18T11:19:13Z",
       "updated": "2026-03-18T11:19:13Z",
-      "scraped_at": "2026-03-19T06:40:40.923786+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896628+00:00"
     },
     {
       "source": "arxiv",
@@ -5178,7 +5191,7 @@
       "pdf_url": "https://arxiv.org/pdf/2603.17594v1",
       "published": "2026-03-18T11:08:24Z",
       "updated": "2026-03-18T11:08:24Z",
-      "scraped_at": "2026-03-19T06:40:40.923838+00:00"
+      "scraped_at": "2026-03-19T06:56:57.896681+00:00"
     }
   ],
   "producthunt": [
@@ -5188,7 +5201,7 @@
       "description": "",
       "url": "https://www.producthunt.com/products/cursortalk-for-macos",
       "published": "2026-03-16T23:58:51-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962756+00:00"
+      "scraped_at": "2026-03-19T06:56:58.941989+00:00"
     },
     {
       "source": "producthunt",
@@ -5196,7 +5209,7 @@
       "description": "",
       "url": "https://www.producthunt.com/products/useagents",
       "published": "2026-03-16T08:36:48-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962809+00:00"
+      "scraped_at": "2026-03-19T06:56:58.942039+00:00"
     },
     {
       "source": "producthunt",
@@ -5204,111 +5217,7 @@
       "description": "",
       "url": "https://www.producthunt.com/products/articleback",
       "published": "2026-03-17T11:33:03-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962848+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Claude Dispatch",
-      "description": "",
-      "url": "https://www.producthunt.com/products/claude",
-      "published": "2026-03-17T17:54:57-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962893+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "ClawMetry Cloud",
-      "description": "",
-      "url": "https://www.producthunt.com/products/clawmetry",
-      "published": "2026-03-17T18:09:03-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962930+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Banyan AI Lite",
-      "description": "",
-      "url": "https://www.producthunt.com/products/banyan-ai-lite",
-      "published": "2026-03-11T07:27:42-07:00",
-      "scraped_at": "2026-03-19T06:40:41.962966+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Lightfield",
-      "description": "",
-      "url": "https://www.producthunt.com/products/lightfield",
-      "published": "2026-03-04T11:10:42-08:00",
-      "scraped_at": "2026-03-19T06:40:41.963001+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Soul 2.0",
-      "description": "",
-      "url": "https://www.producthunt.com/products/soul-2-0",
-      "published": "2026-02-21T08:44:27-08:00",
-      "scraped_at": "2026-03-19T06:40:41.963036+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "RyzenClaw + RadeonClaw",
-      "description": "",
-      "url": "https://www.producthunt.com/products/instella",
-      "published": "2026-03-15T20:23:34-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963071+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "OpenObserve",
-      "description": "",
-      "url": "https://www.producthunt.com/products/openobserve",
-      "published": "2026-02-03T00:51:16-08:00",
-      "scraped_at": "2026-03-19T06:40:41.963106+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Lista",
-      "description": "",
-      "url": "https://www.producthunt.com/products/lista-4",
-      "published": "2026-02-22T08:09:44-08:00",
-      "scraped_at": "2026-03-19T06:40:41.963141+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Bookshelf for NotebookLM",
-      "description": "",
-      "url": "https://www.producthunt.com/products/bookshelf-for-notebooklm",
-      "published": "2026-03-17T00:13:36-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963177+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Claude Double Checker",
-      "description": "",
-      "url": "https://www.producthunt.com/products/claude-double-checker-is-2x-active",
-      "published": "2026-03-17T14:11:50-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963232+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Lore",
-      "description": "",
-      "url": "https://www.producthunt.com/products/lore-4",
-      "published": "2026-03-17T17:46:52-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963268+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "MetricMap",
-      "description": "",
-      "url": "https://www.producthunt.com/products/metricmap-analytics-for-saas-e-com",
-      "published": "2026-03-16T02:25:39-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963305+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Permit.io MCP Gateway",
-      "description": "",
-      "url": "https://www.producthunt.com/products/permit-io",
-      "published": "2026-03-16T11:38:12-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963340+00:00"
+      "scraped_at": "2026-03-19T06:56:58.942079+00:00"
     },
     {
       "source": "producthunt",
@@ -5316,47 +5225,31 @@
       "description": "",
       "url": "https://www.producthunt.com/products/openai",
       "published": "2026-03-17T10:11:25-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963384+00:00"
+      "scraped_at": "2026-03-19T06:56:58.942124+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Unsloth Studio",
+      "title": "ClawMetry Cloud",
       "description": "",
-      "url": "https://www.producthunt.com/products/unsloth",
-      "published": "2026-03-17T20:18:32-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963419+00:00"
+      "url": "https://www.producthunt.com/products/clawmetry",
+      "published": "2026-03-17T18:09:03-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942161+00:00"
     },
     {
       "source": "producthunt",
-      "title": "MS AUTO CAPTIONS",
+      "title": "Claude Dispatch",
       "description": "",
-      "url": "https://www.producthunt.com/products/ms-auto-captions",
-      "published": "2026-03-16T14:22:00-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963455+00:00"
+      "url": "https://www.producthunt.com/products/claude",
+      "published": "2026-03-17T17:54:57-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942204+00:00"
     },
     {
       "source": "producthunt",
-      "title": "ClipLedger",
+      "title": "Banyan AI Lite",
       "description": "",
-      "url": "https://www.producthunt.com/products/clipledger",
-      "published": "2026-03-17T04:40:26-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963491+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Comet for Enterprise",
-      "description": "",
-      "url": "https://www.producthunt.com/products/perplexity-ai",
-      "published": "2026-03-17T09:57:35-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963541+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "AutoSend MCP",
-      "description": "",
-      "url": "https://www.producthunt.com/products/autosend-mcp",
-      "published": "2026-03-17T00:36:41-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963577+00:00"
+      "url": "https://www.producthunt.com/products/banyan-ai-lite",
+      "published": "2026-03-11T07:27:42-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942240+00:00"
     },
     {
       "source": "producthunt",
@@ -5364,39 +5257,31 @@
       "description": "",
       "url": "https://www.producthunt.com/products/databox",
       "published": "2026-03-09T10:05:46-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963612+00:00"
+      "scraped_at": "2026-03-19T06:56:58.942275+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Doccupine",
+      "title": "Lista",
       "description": "",
-      "url": "https://www.producthunt.com/products/doccupine",
-      "published": "2026-03-10T14:13:24-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963647+00:00"
+      "url": "https://www.producthunt.com/products/lista-4",
+      "published": "2026-02-22T08:09:44-08:00",
+      "scraped_at": "2026-03-19T06:56:58.942310+00:00"
     },
     {
       "source": "producthunt",
-      "title": "Forvibe for macOS",
+      "title": "Comet for Enterprise",
       "description": "",
-      "url": "https://www.producthunt.com/products/forvibe",
-      "published": "2026-02-22T11:09:20-08:00",
-      "scraped_at": "2026-03-19T06:40:41.963682+00:00"
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "published": "2026-03-17T09:57:35-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942353+00:00"
     },
     {
       "source": "producthunt",
-      "title": "SharePatch",
+      "title": "Lightfield",
       "description": "",
-      "url": "https://www.producthunt.com/products/sharepatch",
-      "published": "2026-03-17T03:52:10-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963717+00:00"
-    },
-    {
-      "source": "producthunt",
-      "title": "Fantastical MCP for Mac",
-      "description": "",
-      "url": "https://www.producthunt.com/products/fantastical",
-      "published": "2026-03-16T07:19:30-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963752+00:00"
+      "url": "https://www.producthunt.com/products/lightfield",
+      "published": "2026-03-04T11:10:42-08:00",
+      "scraped_at": "2026-03-19T06:56:58.942389+00:00"
     },
     {
       "source": "producthunt",
@@ -5404,7 +5289,135 @@
       "description": "",
       "url": "https://www.producthunt.com/products/bounce-connect",
       "published": "2026-03-17T11:53:38-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963787+00:00"
+      "scraped_at": "2026-03-19T06:56:58.942424+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "ClipLedger",
+      "description": "",
+      "url": "https://www.producthunt.com/products/clipledger",
+      "published": "2026-03-17T04:40:26-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942460+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "RyzenClaw + RadeonClaw",
+      "description": "",
+      "url": "https://www.producthunt.com/products/instella",
+      "published": "2026-03-15T20:23:34-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942495+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "MetricMap",
+      "description": "",
+      "url": "https://www.producthunt.com/products/metricmap-analytics-for-saas-e-com",
+      "published": "2026-03-16T02:25:39-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942533+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Forvibe for macOS",
+      "description": "",
+      "url": "https://www.producthunt.com/products/forvibe",
+      "published": "2026-02-22T11:09:20-08:00",
+      "scraped_at": "2026-03-19T06:56:58.942568+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Lore",
+      "description": "",
+      "url": "https://www.producthunt.com/products/lore-4",
+      "published": "2026-03-17T17:46:52-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942603+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Bookshelf for NotebookLM",
+      "description": "",
+      "url": "https://www.producthunt.com/products/bookshelf-for-notebooklm",
+      "published": "2026-03-17T00:13:36-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942639+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Soul 2.0",
+      "description": "",
+      "url": "https://www.producthunt.com/products/soul-2-0",
+      "published": "2026-02-21T08:44:27-08:00",
+      "scraped_at": "2026-03-19T06:56:58.942674+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "AutoSend MCP",
+      "description": "",
+      "url": "https://www.producthunt.com/products/autosend-mcp",
+      "published": "2026-03-17T00:36:41-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942710+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Unsloth Studio",
+      "description": "",
+      "url": "https://www.producthunt.com/products/unsloth",
+      "published": "2026-03-17T20:18:32-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942745+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "OpenObserve",
+      "description": "",
+      "url": "https://www.producthunt.com/products/openobserve",
+      "published": "2026-02-03T00:51:16-08:00",
+      "scraped_at": "2026-03-19T06:56:58.942780+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Claude Double Checker",
+      "description": "",
+      "url": "https://www.producthunt.com/products/claude-double-checker-is-2x-active",
+      "published": "2026-03-17T14:11:50-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942831+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Permit.io MCP Gateway",
+      "description": "",
+      "url": "https://www.producthunt.com/products/permit-io",
+      "published": "2026-03-16T11:38:12-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942868+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "MS AUTO CAPTIONS",
+      "description": "",
+      "url": "https://www.producthunt.com/products/ms-auto-captions",
+      "published": "2026-03-16T14:22:00-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942904+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Doccupine",
+      "description": "",
+      "url": "https://www.producthunt.com/products/doccupine",
+      "published": "2026-03-10T14:13:24-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942939+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "SharePatch",
+      "description": "",
+      "url": "https://www.producthunt.com/products/sharepatch",
+      "published": "2026-03-17T03:52:10-07:00",
+      "scraped_at": "2026-03-19T06:56:58.942975+00:00"
+    },
+    {
+      "source": "producthunt",
+      "title": "Fantastical MCP for Mac",
+      "description": "",
+      "url": "https://www.producthunt.com/products/fantastical",
+      "published": "2026-03-16T07:19:30-07:00",
+      "scraped_at": "2026-03-19T06:56:58.943010+00:00"
     },
     {
       "source": "producthunt",
@@ -5412,7 +5425,7 @@
       "description": "",
       "url": "https://www.producthunt.com/products/grok-s-text-to-speech-api",
       "published": "2026-03-16T14:14:22-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963824+00:00"
+      "scraped_at": "2026-03-19T06:56:58.943048+00:00"
     },
     {
       "source": "producthunt",
@@ -5420,7 +5433,7 @@
       "description": "",
       "url": "https://www.producthunt.com/products/solaya",
       "published": "2026-03-12T08:27:00-07:00",
-      "scraped_at": "2026-03-19T06:40:41.963859+00:00"
+      "scraped_at": "2026-03-19T06:56:58.943083+00:00"
     }
   ],
   "devto": [
@@ -5436,12 +5449,12 @@
         "dei",
         "career"
       ],
-      "reactions": 68,
+      "reactions": 73,
       "comments": 31,
       "reading_time": 5,
       "author": "sylwia-lask",
       "published_at": "2026-03-18T10:15:29Z",
-      "scraped_at": "2026-03-19T06:40:43.342980+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438623+00:00"
     },
     {
       "source": "devto",
@@ -5458,7 +5471,7 @@
       "reading_time": 3,
       "author": "jess",
       "published_at": "2026-03-17T18:34:13Z",
-      "scraped_at": "2026-03-19T06:40:43.342995+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438634+00:00"
     },
     {
       "source": "devto",
@@ -5475,7 +5488,7 @@
       "reading_time": 1,
       "author": "ben",
       "published_at": "2026-03-17T14:37:22Z",
-      "scraped_at": "2026-03-19T06:40:43.343000+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438639+00:00"
     },
     {
       "source": "devto",
@@ -5494,7 +5507,7 @@
       "reading_time": 3,
       "author": "jmew",
       "published_at": "2026-03-17T18:32:57Z",
-      "scraped_at": "2026-03-19T06:40:43.343004+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438642+00:00"
     },
     {
       "source": "devto",
@@ -5513,7 +5526,7 @@
       "reading_time": 3,
       "author": "jrswab",
       "published_at": "2026-03-18T13:50:00Z",
-      "scraped_at": "2026-03-19T06:40:43.343007+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438645+00:00"
     },
     {
       "source": "devto",
@@ -5532,7 +5545,7 @@
       "reading_time": 6,
       "author": "jonoherrington",
       "published_at": "2026-03-18T17:49:34Z",
-      "scraped_at": "2026-03-19T06:40:43.343010+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438648+00:00"
     },
     {
       "source": "devto",
@@ -5551,7 +5564,7 @@
       "reading_time": 9,
       "author": "harsh2644",
       "published_at": "2026-03-18T12:31:04Z",
-      "scraped_at": "2026-03-19T06:40:43.343013+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438651+00:00"
     },
     {
       "source": "devto",
@@ -5570,7 +5583,7 @@
       "reading_time": 5,
       "author": "dannwaneri",
       "published_at": "2026-03-17T11:35:53Z",
-      "scraped_at": "2026-03-19T06:40:43.343016+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438654+00:00"
     },
     {
       "source": "devto",
@@ -5589,7 +5602,7 @@
       "reading_time": 2,
       "author": "teolex2020",
       "published_at": "2026-03-17T12:19:42Z",
-      "scraped_at": "2026-03-19T06:40:43.343018+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438657+00:00"
     },
     {
       "source": "devto",
@@ -5608,7 +5621,7 @@
       "reading_time": 4,
       "author": "katcosgrove",
       "published_at": "2026-03-18T14:39:24Z",
-      "scraped_at": "2026-03-19T06:40:43.343021+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438660+00:00"
     },
     {
       "source": "devto",
@@ -5627,7 +5640,7 @@
       "reading_time": 7,
       "author": "maxrimue",
       "published_at": "2026-03-17T20:07:24Z",
-      "scraped_at": "2026-03-19T06:40:43.343027+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438662+00:00"
     },
     {
       "source": "devto",
@@ -5646,7 +5659,7 @@
       "reading_time": 5,
       "author": "cdnsteve",
       "published_at": "2026-03-17T18:20:44Z",
-      "scraped_at": "2026-03-19T06:40:43.343029+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438665+00:00"
     },
     {
       "source": "devto",
@@ -5665,7 +5678,7 @@
       "reading_time": 9,
       "author": "aaron_rose_0787cc8b4775a0",
       "published_at": "2026-03-18T03:23:30Z",
-      "scraped_at": "2026-03-19T06:40:43.343032+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438668+00:00"
     },
     {
       "source": "devto",
@@ -5684,7 +5697,7 @@
       "reading_time": 4,
       "author": "bohdanstupak1",
       "published_at": "2026-03-17T10:02:50Z",
-      "scraped_at": "2026-03-19T06:40:43.343035+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438670+00:00"
     },
     {
       "source": "devto",
@@ -5703,7 +5716,7 @@
       "reading_time": 6,
       "author": "scottcjn",
       "published_at": "2026-03-18T17:47:00Z",
-      "scraped_at": "2026-03-19T06:40:43.343037+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438673+00:00"
     },
     {
       "source": "devto",
@@ -5722,26 +5735,7 @@
       "reading_time": 3,
       "author": "edwardhsing",
       "published_at": "2026-03-18T10:09:04Z",
-      "scraped_at": "2026-03-19T06:40:43.343040+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3364128,
-      "title": "I Built a Claude Code Agent That Doesn't Need Me Anymore",
-      "description": "I gave my AI agent persistent memory and identity. Four months later, it had a life I knew nothing about.",
-      "url": "https://dev.to/jkheadley/i-built-a-claude-code-agent-that-doesnt-need-me-anymore-dfm",
-      "tags": [
-        "ai",
-        "opensource",
-        "claudecode",
-        "typescript"
-      ],
-      "reactions": 26,
-      "comments": 2,
-      "reading_time": 7,
-      "author": "jkheadley",
-      "published_at": "2026-03-17T17:43:25Z",
-      "scraped_at": "2026-03-19T06:40:43.343043+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438675+00:00"
     },
     {
       "source": "devto",
@@ -5760,7 +5754,26 @@
       "reading_time": 1,
       "author": "imodi79",
       "published_at": "2026-03-17T18:26:17Z",
-      "scraped_at": "2026-03-19T06:40:43.343045+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438678+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3364128,
+      "title": "I Built a Claude Code Agent That Doesn't Need Me Anymore",
+      "description": "I gave my AI agent persistent memory and identity. Four months later, it had a life I knew nothing about.",
+      "url": "https://dev.to/jkheadley/i-built-a-claude-code-agent-that-doesnt-need-me-anymore-dfm",
+      "tags": [
+        "ai",
+        "opensource",
+        "claudecode",
+        "typescript"
+      ],
+      "reactions": 26,
+      "comments": 2,
+      "reading_time": 7,
+      "author": "jkheadley",
+      "published_at": "2026-03-17T17:43:25Z",
+      "scraped_at": "2026-03-19T06:57:00.438680+00:00"
     },
     {
       "source": "devto",
@@ -5779,7 +5792,7 @@
       "reading_time": 3,
       "author": "jeffrin-dev",
       "published_at": "2026-03-18T05:39:19Z",
-      "scraped_at": "2026-03-19T06:40:43.343048+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438683+00:00"
     },
     {
       "source": "devto",
@@ -5798,7 +5811,7 @@
       "reading_time": 3,
       "author": "dean0x",
       "published_at": "2026-03-18T14:50:31Z",
-      "scraped_at": "2026-03-19T06:40:43.343050+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438688+00:00"
     },
     {
       "source": "devto",
@@ -5817,7 +5830,7 @@
       "reading_time": 3,
       "author": "southy404",
       "published_at": "2026-03-17T15:40:52Z",
-      "scraped_at": "2026-03-19T06:40:43.343055+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438691+00:00"
     },
     {
       "source": "devto",
@@ -5836,115 +5849,7 @@
       "reading_time": 7,
       "author": "francis_cidney_awuor",
       "published_at": "2026-03-18T19:20:41Z",
-      "scraped_at": "2026-03-19T06:40:43.343058+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3365875,
-      "title": "I Scanned 6 Popular Node.js Repos for Undocumented Environment Variables. Here's What I Found.",
-      "description": "Using the GitHub search API to count process.env references and .env.example coverage across express, nest, fastify, strapi, keystone, and supabase. The results are more nuanced than expected.",
-      "url": "https://dev.to/ckmtools/i-scanned-6-popular-nodejs-repos-for-undocumented-environment-variables-heres-what-i-found-5478",
-      "tags": [
-        "javascript",
-        "node",
-        "devops",
-        "showdev"
-      ],
-      "reactions": 3,
-      "comments": 2,
-      "reading_time": 4,
-      "author": "ckmtools",
-      "published_at": "2026-03-18T05:18:57Z",
-      "scraped_at": "2026-03-19T06:40:43.343061+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3369727,
-      "title": "The Mental Model I Use Before Touching Any Codebase",
-      "description": "After 25+ years in the IT industry, here's the structured thinking framework I use before writing a single line of code — and why skipping it is the most expensive mistake junior developers make.",
-      "url": "https://dev.to/lessonsfromproduction/the-mental-model-i-use-before-touching-any-codebase-10bj",
-      "tags": [
-        "webdev",
-        "beginners",
-        "career",
-        "programming"
-      ],
-      "reactions": 0,
-      "comments": 0,
-      "reading_time": 6,
-      "author": "lessonsfromproduction",
-      "published_at": "2026-03-19T02:43:00Z",
-      "scraped_at": "2026-03-19T06:40:43.343064+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3365421,
-      "title": "I Built a Free Accessibility Auditor That Actually Passes Its Own Audit",
-      "description": "Most free accessibility tools have an accessibility problem.  WAVE is a browser extension with no...",
-      "url": "https://dev.to/mosleyautomationsystems/i-built-a-free-accessibility-auditor-that-actually-passes-its-own-audit-19p6",
-      "tags": [
-        "python"
-      ],
-      "reactions": 7,
-      "comments": 2,
-      "reading_time": 3,
-      "author": "mosleyautomationsystems",
-      "published_at": "2026-03-18T01:49:17Z",
-      "scraped_at": "2026-03-19T06:40:43.343066+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3368635,
-      "title": "Building ShieldRide: Why We Chose Blinkit's Dark Store for Parametric Insurance Platform for Guidewire DevTrails Hackathon",
-      "description": "Team AutoLearn | Guidewire DEVTrails 2026 — Seed Phase Amrita Vishwa Vidyapeetham, Bengaluru | March...",
-      "url": "https://dev.to/nehaav77/building-shieldride-why-we-chose-blinkits-dark-store-for-parametric-insurance-platform-for-2121",
-      "tags": [
-        "guidewiredevtrails",
-        "guidewiresoftware",
-        "insurtech",
-        "seedscalesoar"
-      ],
-      "reactions": 1,
-      "comments": 0,
-      "reading_time": 7,
-      "author": "nehaav77",
-      "published_at": "2026-03-18T18:09:37Z",
-      "scraped_at": "2026-03-19T06:40:43.343069+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3365349,
-      "title": "I got tired of paywalled utilities, so I built a single site with 100+ free web tools (and a Site Builder)",
-      "description": "Hello Dev community! 👋  Like many of you, I constantly find myself needing quick utility tools during...",
-      "url": "https://dev.to/hazcomefast_816f58c52af3b/i-got-tired-of-paywalled-utilities-so-i-built-a-single-site-with-100-free-web-tools-and-a-site-35le",
-      "tags": [
-        "webdev",
-        "showdev",
-        "productivity",
-        "tools"
-      ],
-      "reactions": 11,
-      "comments": 3,
-      "reading_time": 2,
-      "author": "hazcomefast_816f58c52af3b",
-      "published_at": "2026-03-18T01:09:38Z",
-      "scraped_at": "2026-03-19T06:40:43.343072+00:00"
-    },
-    {
-      "source": "devto",
-      "id": 3367625,
-      "title": "Java Study Group: Motivation, Roadmap and Goals",
-      "description": "Hi there!  My name is Ehis Edemakhiota and I’m excited to see that you’ve come here. I am a Software...",
-      "url": "https://dev.to/ehizman/java-study-group-motivation-roadmap-and-goals-2k77",
-      "tags": [
-        "java"
-      ],
-      "reactions": 2,
-      "comments": 1,
-      "reading_time": 6,
-      "author": "ehizman",
-      "published_at": "2026-03-18T12:22:08Z",
-      "scraped_at": "2026-03-19T06:40:43.343075+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438693+00:00"
     },
     {
       "source": "devto",
@@ -5963,7 +5868,115 @@
       "reading_time": 4,
       "author": "matheusmaldaner",
       "published_at": "2026-03-18T23:28:43Z",
-      "scraped_at": "2026-03-19T06:40:43.343078+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438696+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365421,
+      "title": "I Built a Free Accessibility Auditor That Actually Passes Its Own Audit",
+      "description": "Most free accessibility tools have an accessibility problem.  WAVE is a browser extension with no...",
+      "url": "https://dev.to/mosleyautomationsystems/i-built-a-free-accessibility-auditor-that-actually-passes-its-own-audit-19p6",
+      "tags": [
+        "python"
+      ],
+      "reactions": 7,
+      "comments": 2,
+      "reading_time": 3,
+      "author": "mosleyautomationsystems",
+      "published_at": "2026-03-18T01:49:17Z",
+      "scraped_at": "2026-03-19T06:57:00.438698+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365875,
+      "title": "I Scanned 6 Popular Node.js Repos for Undocumented Environment Variables. Here's What I Found.",
+      "description": "Using the GitHub search API to count process.env references and .env.example coverage across express, nest, fastify, strapi, keystone, and supabase. The results are more nuanced than expected.",
+      "url": "https://dev.to/ckmtools/i-scanned-6-popular-nodejs-repos-for-undocumented-environment-variables-heres-what-i-found-5478",
+      "tags": [
+        "javascript",
+        "node",
+        "devops",
+        "showdev"
+      ],
+      "reactions": 3,
+      "comments": 2,
+      "reading_time": 4,
+      "author": "ckmtools",
+      "published_at": "2026-03-18T05:18:57Z",
+      "scraped_at": "2026-03-19T06:57:00.438701+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3369727,
+      "title": "The Mental Model I Use Before Touching Any Codebase",
+      "description": "After 25+ years in the IT industry, here's the structured thinking framework I use before writing a single line of code — and why skipping it is the most expensive mistake junior developers make.",
+      "url": "https://dev.to/lessonsfromproduction/the-mental-model-i-use-before-touching-any-codebase-10bj",
+      "tags": [
+        "webdev",
+        "beginners",
+        "career",
+        "programming"
+      ],
+      "reactions": 1,
+      "comments": 0,
+      "reading_time": 6,
+      "author": "lessonsfromproduction",
+      "published_at": "2026-03-19T02:43:00Z",
+      "scraped_at": "2026-03-19T06:57:00.438703+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3365349,
+      "title": "I got tired of paywalled utilities, so I built a single site with 100+ free web tools (and a Site Builder)",
+      "description": "Hello Dev community! 👋  Like many of you, I constantly find myself needing quick utility tools during...",
+      "url": "https://dev.to/hazcomefast_816f58c52af3b/i-got-tired-of-paywalled-utilities-so-i-built-a-single-site-with-100-free-web-tools-and-a-site-35le",
+      "tags": [
+        "webdev",
+        "showdev",
+        "productivity",
+        "tools"
+      ],
+      "reactions": 11,
+      "comments": 3,
+      "reading_time": 2,
+      "author": "hazcomefast_816f58c52af3b",
+      "published_at": "2026-03-18T01:09:38Z",
+      "scraped_at": "2026-03-19T06:57:00.438706+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3367625,
+      "title": "Java Study Group: Motivation, Roadmap and Goals",
+      "description": "Hi there!  My name is Ehis Edemakhiota and I’m excited to see that you’ve come here. I am a Software...",
+      "url": "https://dev.to/ehizman/java-study-group-motivation-roadmap-and-goals-2k77",
+      "tags": [
+        "java"
+      ],
+      "reactions": 2,
+      "comments": 1,
+      "reading_time": 6,
+      "author": "ehizman",
+      "published_at": "2026-03-18T12:22:08Z",
+      "scraped_at": "2026-03-19T06:57:00.438708+00:00"
+    },
+    {
+      "source": "devto",
+      "id": 3368635,
+      "title": "Building ShieldRide: Why We Chose Blinkit's Dark Store for Parametric Insurance Platform for Guidewire DevTrails Hackathon",
+      "description": "Team AutoLearn | Guidewire DEVTrails 2026 — Seed Phase Amrita Vishwa Vidyapeetham, Bengaluru | March...",
+      "url": "https://dev.to/nehaav77/building-shieldride-why-we-chose-blinkits-dark-store-for-parametric-insurance-platform-for-2121",
+      "tags": [
+        "guidewiredevtrails",
+        "guidewiresoftware",
+        "insurtech",
+        "seedscalesoar"
+      ],
+      "reactions": 1,
+      "comments": 0,
+      "reading_time": 7,
+      "author": "nehaav77",
+      "published_at": "2026-03-18T18:09:37Z",
+      "scraped_at": "2026-03-19T06:57:00.438711+00:00"
     },
     {
       "source": "devto",
@@ -5982,7 +5995,7 @@
       "reading_time": 5,
       "author": "jonathanmeltonfusional",
       "published_at": "2026-03-19T03:39:57Z",
-      "scraped_at": "2026-03-19T06:40:43.343080+00:00"
+      "scraped_at": "2026-03-19T06:57:00.438716+00:00"
     }
   ]
 }
